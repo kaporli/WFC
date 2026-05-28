@@ -11,6 +11,7 @@ const EXPORT_KEYS = [
   'ExportWarframes_en.json',
   'ExportUpgrades_en.json',
   'ExportWeapons_en.json',
+  'ExportCustoms_en.json',
 ] as const;
 
 type ExportKey = (typeof EXPORT_KEYS)[number];
