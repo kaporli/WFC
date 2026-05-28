@@ -1,0 +1,5822 @@
+[
+  {
+    "uniqueName": "/Lotus/Powersuits/Ninja/Ninja",
+    "name": "Ash",
+    "baseStats": {
+      "health": 455,
+      "shield": 270,
+      "armor": 105,
+      "energy": 100,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Shuriken",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Smoke Screen",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Teleport",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blade Storm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "<DT_SLASH_COLOR>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Ninja/AshPrime",
+    "name": "Ash Prime",
+    "baseStats": {
+      "health": 455,
+      "shield": 365,
+      "armor": 185,
+      "energy": 100,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Shuriken",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Smoke Screen",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Teleport",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blade Storm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "<DT_SLASH>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Brawler/Brawler",
+    "name": "Atlas",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 475,
+      "energy": 175,
+      "sprint": 0.89999998
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Landslide",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tectonics",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Petrify",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rumblers",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Brawler/AtlasPrime",
+    "name": "Atlas Prime",
+    "baseStats": {
+      "health": 550,
+      "shield": 455,
+      "armor": 500,
+      "energy": 215,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Landslide",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tectonics",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Petrify",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rumblers",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Banshee/Banshee",
+    "name": "Banshee",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Sonic Boom",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sonar",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Silence",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sound Quake",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Weapon noises are hushed so that enemies cannot hear them.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Banshee/BansheePrime",
+    "name": "Banshee Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 135,
+      "energy": 215,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Sonic Boom",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sonar",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Silence",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sound Quake",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Weapon noises are hushed so that enemies cannot hear them.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Pacifist/Pacifist",
+    "name": "Baruuk",
+    "baseStats": {
+      "health": 180,
+      "shield": 270,
+      "armor": 185,
+      "energy": 200,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Elude",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Lull",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Desolate Hands",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Serene Storm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to |PERCENT|% more resistant to damage.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+    "name": "Baruuk Prime",
+    "baseStats": {
+      "health": 180,
+      "shield": 365,
+      "armor": 240,
+      "energy": 200,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Elude",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Lull",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Desolate Hands",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Serene Storm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to |PERCENT|% more resistant to damage.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+    "name": "Bonewidow",
+    "baseStats": {
+      "health": 1880,
+      "shield": 430,
+      "armor": 480,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Meathook",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shield Maiden",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Firing Line",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Ironbride",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
+    "name": "Caliban",
+    "baseStats": {
+      "health": 270,
+      "shield": 550,
+      "armor": 290,
+      "energy": 140,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Razor Gyre",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sentient Wrath",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Lethal Progeny",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Fusion Strike",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Allies within Affinity range gain up to |PCT|% resistance to the types of damage they are currently taking.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Dragon/Dragon",
+    "name": "Chroma",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 370,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Spectral Scream",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Elemental Ward",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Vex Armor",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Effigy",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Wings sprout for an additional jump and bullet jump.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Dragon/ChromaPrime",
+    "name": "Chroma Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 450,
+      "energy": 200,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Spectral Scream",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Elemental Ward",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Vex Armor",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Effigy",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Wings sprout for an additional jump and bullet jump.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Geode/Geode",
+    "name": "Citrine",
+    "baseStats": {
+      "health": 400,
+      "shield": 270,
+      "armor": 265,
+      "energy": 130,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Fractured Blast",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Preserving Shell",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Prismatic Gem",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Crystallize",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Citrine grants nearby allies |BASE| health regeneration per second. Pick up a Health Orb to increase regeneration by |HPS|, up to a maximum of |MAX|.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+    "name": "Cyte-09",
+    "baseStats": {
+      "health": 225,
+      "shield": 135,
+      "armor": 150,
+      "energy": 180,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Seek",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Resupply",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Evade",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Neutralize",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Weak Point Kills increase Cyte-09's Weak Point Critical Chance by |INCREASE|% up to |CAP|% for the duration of the current mission.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
+    "name": "Dagath",
+    "baseStats": {
+      "health": 566,
+      "shield": 150,
+      "armor": 125,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Wyrd Scythes",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Doom",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Grave Spirit",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rakhali’S Cavalry",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "There is a |PERCENT|% chance that Energy and Health Orbs will be |ENERGY|% more effective on Dagath.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+    "name": "Dante",
+    "baseStats": {
+      "health": 300,
+      "shield": 150,
+      "armor": 145,
+      "energy": 200,
+      "sprint": 1.15
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Noctua",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Light Verse",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Dark Verse",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Final Verse",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Noctua scans targets, recording information for your Codex. Status Chance increases by |CHANCE|% on fully scanned targets.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Ember/Ember",
+    "name": "Ember",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Fireball",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Immolation",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Fire Blast",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Inferno",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within <AFFINITY_SHARE>Affinity Range affected by <DT_FIRE_COLOR>Heat.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Ember/EmberPrime",
+    "name": "Ember Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 365,
+      "armor": 160,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Fireball",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Immolation",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Fire Blast",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Inferno",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within <AFFINITY_SHARE>Affinity Range affected by <DT_FIRE_COLOR>Heat.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/YinYang/YinYang",
+    "name": "Equinox",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Metamorphosis",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rest & Rage",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Pacify & Provoke",
+        "slot": 3,
+        "strengthScaling": true,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Mend & Maim",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "|PERCENT|% of Health Orbs are converted into Energy, and |PERCENT|% of Energy Orbs are converted into Health.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+    "name": "Equinox Prime",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 160,
+      "energy": 200,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Metamorphosis",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rest & Rage",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Pacify & Provoke",
+        "slot": 3,
+        "strengthScaling": true,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Mend & Maim",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "|PERCENT|% of Health Orbs are converted into Energy, and |PERCENT|% of Energy Orbs are converted into Health.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Excalibur/Excalibur",
+    "name": "Excalibur",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 240,
+      "energy": 100,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Slash Dash",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Blind",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Javelin",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Blade",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Excalibur deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+    "name": "Excalibur Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 315,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Slash Dash",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Blind",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Javelin",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Blade",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Excalibur Prime deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+    "name": "Excalibur Umbra",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 315,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "umbra",
+      "umbra",
+      "umbra"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Slash Dash",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Howl",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Javelin",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Blade",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Umbra exhibits sentience in combat without Transference control. Attacks |SPEED|% faster and deals |DAMAGE|% more damage while wielding swords.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Frost/Frost",
+    "name": "Frost",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 315,
+      "energy": 100,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Freeze",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ice Wave",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Snow Globe",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Avalanche",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Cold Status Effects from Frost's Abilities last |DURATION|% longer. Frost gains |ARMOR| Armor for each enemy afflicted with <DT_FREEZE_COLOR>Cold within <AFFINITY_SHARE>Affinity Range.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Frost/FrostPrime",
+    "name": "Frost Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 550,
+      "armor": 315,
+      "energy": 100,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Freeze",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ice Wave",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Snow Globe",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Avalanche",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Cold Status Effects from Frost's Abilities last |DURATION|% longer. Frost gains |ARMOR| Armor for each enemy afflicted with <DT_FREEZE_COLOR>Cold within <AFFINITY_SHARE>Affinity Range.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Glass/Glass",
+    "name": "Gara",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 160,
+      "energy": 175,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Shattered Lash",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Splinter Storm",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Spectrorage",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Mass Vitrify",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Glass/GaraPrime",
+    "name": "Gara Prime",
+    "baseStats": {
+      "health": 345,
+      "shield": 270,
+      "armor": 200,
+      "energy": 175,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Shattered Lash",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Splinter Storm",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Spectrorage",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Mass Vitrify",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Garuda/Garuda",
+    "name": "Garuda",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 315,
+      "energy": 140,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Dread Mirror",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blood Altar",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Bloodletting",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Seeking Talons",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. \nSlashes with her talons if no melee weapon is equipped.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Garuda/GarudaPrime",
+    "name": "Garuda Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 420,
+      "energy": 220,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Dread Mirror",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blood Altar",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Bloodletting",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Seeking Talons",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. \nSlashes with her talons if no melee weapon is equipped.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Runner/Runner",
+    "name": "Gauss",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 185,
+      "energy": 175,
+      "sprint": 1.4
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Mach Rush",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Kinetic Plating",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Thermal Sunder",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Redline",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+    "name": "Gauss Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 550,
+      "armor": 185,
+      "energy": 175,
+      "sprint": 1.5
+    },
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Mach Rush",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Kinetic Plating",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Thermal Sunder",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Redline",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Devourer/Devourer",
+    "name": "Grendel",
+    "baseStats": {
+      "health": 1095,
+      "shield": 95,
+      "armor": 370,
+      "energy": 175,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Feast",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Nourish",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Pulverize",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Regurgitate",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Each enemy consumed grants |ARMOUR| bonus armor.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Devourer/GrendelPrime",
+    "name": "Grendel Prime",
+    "baseStats": {
+      "health": 1095,
+      "shield": 95,
+      "armor": 400,
+      "energy": 200,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Feast",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Nourish",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Pulverize",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Regurgitate",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Each enemy consumed grants |ARMOUR| bonus armor.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
+    "name": "Gyre",
+    "baseStats": {
+      "health": 270,
+      "shield": 550,
+      "armor": 105,
+      "energy": 190,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Arcsphere",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Coil Horizon",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Cathode Grace",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rotorswell",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Gyre's abilities have a 10% chance to deal critical damage for each Electrical status that affects the enemy.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Priest/Priest",
+    "name": "Harrow",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 185,
+      "energy": 100,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Condemn",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Penance",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Thurible",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Covenant",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Overshield capacity doubled.\nStart missions at maximum energy.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Priest/HarrowPrime",
+    "name": "Harrow Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 640,
+      "armor": 185,
+      "energy": 140,
+      "sprint": 1
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Condemn",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Penance",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Thurible",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Covenant",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Overshield capacity doubled.\nStart missions at maximum energy.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/Helminth",
+    "name": "Helminth",
+    "baseStats": {
+      "health": 0,
+      "shield": 0,
+      "armor": 0,
+      "energy": 0,
+      "sprint": 1
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Energized Munitions",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Master's Summons",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Voracious Metastasis",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Perspicacity",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sickening Pulse",
+        "slot": 5,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Hideous Resistance",
+        "slot": 6,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Parasitic Armor",
+        "slot": 7,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rebuild Shields",
+        "slot": 8,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Infested Mobility",
+        "slot": 9,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Expedite Suffering",
+        "slot": 10,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Empower",
+        "slot": 11,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Marked For Death",
+        "slot": 12,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Golden Instinct",
+        "slot": 13,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/IronFrame/IronFrame",
+    "name": "Hildryn",
+    "baseStats": {
+      "health": 180,
+      "shield": 1280,
+      "armor": 315,
+      "energy": 0,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Balefire",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Pillage",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Haven",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Aegis Storm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Hildryn's full Shield Gate is high. After her Shields are depleted, she is invulnerable to damage up to 3.5s.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+    "name": "Hildryn Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 1380,
+      "armor": 315,
+      "energy": 0,
+      "sprint": 1.05
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Balefire",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Pillage",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Haven",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Aegis Storm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Hildryn's full Shield Gate is high. After her Shields are depleted, she is invulnerable to damage up to 3.5s.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Pirate/Pirate",
+    "name": "Hydroid",
+    "baseStats": {
+      "health": 270,
+      "shield": 365,
+      "armor": 240,
+      "energy": 140,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Tempest Barrage",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tidal Surge",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Plunder",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tentacle Swarm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE_COLOR>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Pirate/HydroidPrime",
+    "name": "Hydroid Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 550,
+      "armor": 290,
+      "energy": 175,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Tempest Barrage",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tidal Surge",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Plunder",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tentacle Swarm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE_COLOR>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Sandman/Sandman",
+    "name": "Inaros",
+    "baseStats": {
+      "health": 2110,
+      "shield": 0,
+      "armor": 240,
+      "energy": 100,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Desiccation",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sandstorm",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Scarab Shell",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Scarab Swarm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Sandman/InarosPrime",
+    "name": "Inaros Prime",
+    "baseStats": {
+      "health": 2215,
+      "shield": 0,
+      "armor": 240,
+      "energy": 140,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Desiccation",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sandstorm",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Scarab Shell",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Scarab Swarm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Ranger/Ranger",
+    "name": "Ivara",
+    "baseStats": {
+      "health": 180,
+      "shield": 270,
+      "armor": 105,
+      "energy": 215,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Quiver",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Navigator",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Prowl",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Artemis Bow",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Senses nearby enemies within |RADIUS|m.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Ranger/IvaraPrime",
+    "name": "Ivara Prime",
+    "baseStats": {
+      "health": 180,
+      "shield": 455,
+      "armor": 135,
+      "energy": 250,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Quiver",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Navigator",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Prowl",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Artemis Bow",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Senses nearby enemies within |RADIUS|m.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Choir/Choir",
+    "name": "Jade",
+    "baseStats": {
+      "health": 365,
+      "shield": 450,
+      "armor": 135,
+      "energy": 150,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon"
+    ],
+    "aura": "aura",
+    "abilities": [
+      {
+        "name": "Light's Judgment",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Symphony Of Mercy",
+        "slot": 2,
+        "strengthScaling": true,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ophanim Eyes",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Glory On High",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Jade's profound understanding of the relationship between life and death grants her two Aura Mod Slots. Some of her Abilities apply Judgments, increasing enemy damage vulnerability by |CHANCE|% for |DURATION|s.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Khora/Khora",
+    "name": "Khora",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 290,
+      "energy": 140,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Whipclaw",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ensnare",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Venari",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Strangledome",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Khora/KhoraPrime",
+    "name": "Khora Prime",
+    "baseStats": {
+      "health": 365,
+      "shield": 365,
+      "armor": 345,
+      "energy": 175,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Whipclaw",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ensnare",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Venari",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Strangledome",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Koumei/Koumei",
+    "name": "Koumei",
+    "baseStats": {
+      "health": 344,
+      "shield": 122,
+      "armor": 444,
+      "energy": 122,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Kumihimo",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Omikuji",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Omamori",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Bunraku",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Every |DURATION| seconds, one of Koumei's weapons will inflict random Status Effects for |DURATION| seconds.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+    "name": "Kullervo",
+    "baseStats": {
+      "health": 1005,
+      "shield": 0,
+      "armor": 550,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Wrathful Advance",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Recompense",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Collective Curse",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Storm Of Ukko",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Kullervo boasts +|EFFICIENCY|% Heavy Attack Efficiency and +|WINDUP|% Heavy Attack Wind Up Speed on all melee weapons.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
+    "name": "Lavos",
+    "baseStats": {
+      "health": 540,
+      "shield": 270,
+      "armor": 575,
+      "energy": 0,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Ophidian Bite",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Vial Rush",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Transmutation Probe",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Catalyze",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.\n\nHold any ability to imbue the next cast with additional Elemental Damage and Status.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
+    "name": "Lavos Prime",
+    "baseStats": {
+      "health": 600,
+      "shield": 310,
+      "armor": 575,
+      "energy": 0,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Ophidian Bite",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Vial Rush",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Transmutation Probe",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Catalyze",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.\n\nHold any ability to imbue the next cast with additional Elemental Damage and Status.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Magician/Magician",
+    "name": "Limbo",
+    "baseStats": {
+      "health": 270,
+      "shield": 180,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Banish",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Stasis",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rift Surge",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Cataclysm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Magician/LimboPrime",
+    "name": "Limbo Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 135,
+      "energy": 215,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Banish",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Stasis",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rift Surge",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Cataclysm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Loki/Loki",
+    "name": "Loki",
+    "baseStats": {
+      "health": 180,
+      "shield": 180,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1.25
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Decoy",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Invisibility",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Switch Teleport",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Disarm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Able to hang from walls |MULT|x longer than normal.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Loki/LokiPrime",
+    "name": "Loki Prime",
+    "baseStats": {
+      "health": 180,
+      "shield": 180,
+      "armor": 135,
+      "energy": 215,
+      "sprint": 1.25
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Decoy",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Invisibility",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Switch Teleport",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Radial Disarm",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Able to hang from walls |MULT|x longer than normal.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Mag/Mag",
+    "name": "Mag",
+    "baseStats": {
+      "health": 180,
+      "shield": 455,
+      "armor": 105,
+      "energy": 140,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Pull",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Magnetize",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Polarize",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Crush",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Nearby items gravitate toward Mag for easy collection.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Mag/MagPrime",
+    "name": "Mag Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 135,
+      "energy": 215,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Pull",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Magnetize",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Polarize",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Crush",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Nearby items gravitate toward Mag for easy collection.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+    "name": "Mesa",
+    "baseStats": {
+      "health": 365,
+      "shield": 180,
+      "armor": 105,
+      "energy": 100,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Ballistic Battery",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shooting Gallery",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shatter Shield",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Peacemaker",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Shoot dual-wielded sidearms |SPEED|% faster and reload single-handed sidearms |RELOAD|% more rapidly. Gain |HEALTH| Bonus Health when not using Melee Weapons.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+    "name": "Mesa Prime",
+    "baseStats": {
+      "health": 400,
+      "shield": 180,
+      "armor": 135,
+      "energy": 140,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "naramon",
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Ballistic Battery",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shooting Gallery",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shatter Shield",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Peacemaker",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Shoot dual-wielded sidearms |SPEED|% faster and reload single-handed sidearms |RELOAD|% more rapidly. Gain |HEALTH| Bonus Health when not using Melee Weapons.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Harlequin/Harlequin",
+    "name": "Mirage",
+    "baseStats": {
+      "health": 200,
+      "shield": 200,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Hall Of Mirrors",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sleight Of Hand",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Eclipse",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Prism",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Sliding lasts |DURATION|% longer and acrobatic maneuvers are |SPEED|% faster.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Harlequin/MiragePrime",
+    "name": "Mirage Prime",
+    "baseStats": {
+      "health": 200,
+      "shield": 310,
+      "armor": 185,
+      "energy": 175,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Hall Of Mirrors",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sleight Of Hand",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Eclipse",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Prism",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Sliding lasts |DURATION|% longer and acrobatic maneuvers are |SPEED|% faster.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Necro/Necro",
+    "name": "Nekros",
+    "baseStats": {
+      "health": 270,
+      "shield": 235,
+      "armor": 105,
+      "energy": 100,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Soul Punch",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Terrify",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Desecrate",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shadows Of The Dead",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Restore |HEALTH| Health with every enemy death within |RADIUS|m.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Necro/NekrosPrime",
+    "name": "Nekros Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 135,
+      "energy": 140,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Soul Punch",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Terrify",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Desecrate",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Shadows Of The Dead",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Restore |HEALTH| Health with every enemy death within |RADIUS|m.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Nezha/Nezha",
+    "name": "Nezha",
+    "baseStats": {
+      "health": 365,
+      "shield": 135,
+      "armor": 200,
+      "energy": 175,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Fire Walker",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blazing Chakram",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Warding Halo",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Divine Spears",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Slide |SPEED|% faster and go |RANGE|% farther.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Nezha/NezhaPrime",
+    "name": "Nezha Prime",
+    "baseStats": {
+      "health": 365,
+      "shield": 135,
+      "armor": 265,
+      "energy": 175,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Fire Walker",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blazing Chakram",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Warding Halo",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Divine Spears",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Slide |SPEED|% faster and go |RANGE|% farther.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Infestation/Infestation",
+    "name": "Nidus",
+    "baseStats": {
+      "health": 455,
+      "shield": 0,
+      "armor": 350,
+      "energy": 100,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Virulence",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Larva",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Parasitic Link",
+        "slot": 3,
+        "strengthScaling": true,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ravenous",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Infestation/InfestationPrime",
+    "name": "Nidus Prime",
+    "baseStats": {
+      "health": 550,
+      "shield": 0,
+      "armor": 425,
+      "energy": 140,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Virulence",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Larva",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Parasitic Link",
+        "slot": 3,
+        "strengthScaling": true,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ravenous",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/AntiMatter/Anti",
+    "name": "Nova",
+    "baseStats": {
+      "health": 270,
+      "shield": 180,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Null Star",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Antimatter Drop",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Wormhole",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Molecular Prime",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Enemies killed while slowed down have |CHANCE|% to drop health orbs. Enemies killed while sped up have |CHANCE|% to drop energy orbs.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+    "name": "Nova Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 135,
+      "energy": 215,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Null Star",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Antimatter Drop",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Wormhole",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Molecular Prime",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Enemies killed while slowed down have |CHANCE|% to drop health orbs. Enemies killed while sped up have |CHANCE|% to drop energy orbs.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Jade/Jade",
+    "name": "Nyx",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Mind Control",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Psychic Bolts",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Chaos",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Absorb",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Nyx gains +|CRITICAL|% Critical Chance on Primary and Secondary weapons per Confused enemy within <AFFINITY_SHARE>Affinity Range, up to +|MAX|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Jade/NyxPrime",
+    "name": "Nyx Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 365,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.125
+    },
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Mind Control",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Psychic Bolts",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Chaos",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Absorb",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Nyx gains +|CRITICAL|% Critical Chance on Primary and Secondary weapons per Confused enemy within <AFFINITY_SHARE>Affinity Range, up to +|MAX|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Paladin/Paladin",
+    "name": "Oberon",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 185,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Smite",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Hallowed Ground",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Renewal",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Reckoning",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Paladin/PaladinPrime",
+    "name": "Oberon Prime",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 240,
+      "energy": 215,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Smite",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Hallowed Ground",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Renewal",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Reckoning",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Bard/Bard",
+    "name": "Octavia",
+    "baseStats": {
+      "health": 270,
+      "shield": 180,
+      "armor": 160,
+      "energy": 175,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Mallet",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Resonator",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Metronome",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Amp",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Bard/OctaviaPrime",
+    "name": "Octavia Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 160,
+      "energy": 215,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Mallet",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Resonator",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Metronome",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Amp",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
+    "name": "Protea",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "aura",
+    "abilities": [
+      {
+        "name": "Grenade Fan",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blaze Artillery",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Dispensary",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Temporal Anchor",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+    "name": "Protea Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 185,
+      "energy": 200,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "madurai",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "aura",
+    "abilities": [
+      {
+        "name": "Grenade Fan",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blaze Artillery",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Dispensary",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Temporal Anchor",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+    "name": "Qorvex",
+    "baseStats": {
+      "health": 600,
+      "shield": 200,
+      "armor": 875,
+      "energy": 150,
+      "sprint": 0.89999998
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Chyrinka Pillar",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Containment Wall",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Disometric Guard",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Crucible Blast",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Weapons wielded by Qorvex have an additional +|PUNCH_THROUGH| Punch Through.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Revenant/Revenant",
+    "name": "Revenant",
+    "baseStats": {
+      "health": 270,
+      "shield": 635,
+      "armor": 135,
+      "energy": 140,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Enthrall",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Mesmer Skin",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Reave",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Danse Macabre",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Revenant/RevenantPrime",
+    "name": "Revenant Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 825,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "naramon",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Enthrall",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Mesmer Skin",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Reave",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Danse Macabre",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Rhino/Rhino",
+    "name": "Rhino",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 240,
+      "energy": 100,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Rhino Charge",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Iron Skin",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Roar",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rhino Stomp",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Emit a shockwave dealing |DAMAGE| damage after landing from a great height.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
+    "name": "Rhino Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 290,
+      "energy": 100,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Rhino Charge",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Iron Skin",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Roar",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rhino Stomp",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Emit a shockwave dealing |DAMAGE| damage after landing from a great height.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Saryn/Saryn",
+    "name": "Saryn",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 240,
+      "energy": 175,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Spores",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Molt",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Toxic Lash",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Miasma",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Status Effects inflicted upon enemies last |DURATION|% longer.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
+    "name": "Saryn Prime",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 315,
+      "energy": 200,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Spores",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Molt",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Toxic Lash",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Miasma",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Status Effects inflicted upon enemies last |DURATION|% longer.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Wraith/Wraith",
+    "name": "Sevagoth",
+    "baseStats": {
+      "health": 270,
+      "shield": 235,
+      "armor": 160,
+      "energy": 140,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Reap",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sow",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Gloom",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Shadow",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone. ",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+    "name": "Sevagoth Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 185,
+      "energy": 175,
+      "sprint": 0.94999999
+    },
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "madurai"
+    ],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Reap",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sow",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Gloom",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Shadow",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone. ",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Hoplite/Hoplite",
+    "name": "Styanax",
+    "baseStats": {
+      "health": 270,
+      "shield": 825,
+      "armor": 265,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Axios Javelin",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tharros Strike",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Rally Point",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Final Stand",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Styanax's critical chance increases with his shields and doubles for spearguns.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+    "name": "Temple",
+    "baseStats": {
+      "health": 405,
+      "shield": 225,
+      "armor": 325,
+      "energy": 165,
+      "sprint": 1
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Pyrotechnics",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Overdrive",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ripper's Wail",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Exalted Solo",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Play abilities in sync with the Backbeat metronome to invigorate ability effects while increasing Ability Efficiency by |COST|%.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Fairy/Fairy",
+    "name": "Titania",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Spellbind",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tribute",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Lantern",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Razorwing",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+    "name": "Titania Prime",
+    "baseStats": {
+      "health": 365,
+      "shield": 270,
+      "armor": 135,
+      "energy": 215,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Spellbind",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tribute",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Lantern",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Razorwing",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Trinity/Trinity",
+    "name": "Trinity",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 105,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Well Of Life",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Energy Vampire",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Link",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blessing",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Allies in <AFFINITY_SHARE>Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Trinity/TrinityPrime",
+    "name": "Trinity Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Well Of Life",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Energy Vampire",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Link",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Blessing",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Allies in <AFFINITY_SHARE>Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Berserker/Berserker",
+    "name": "Valkyr",
+    "baseStats": {
+      "health": 270,
+      "shield": 135,
+      "armor": 630,
+      "energy": 100,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Rip Line",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Warcry",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Paralysis",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Hysteria",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Recover |PERCENT|% faster from being knocked down.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+    "name": "Valkyr Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 135,
+      "armor": 735,
+      "energy": 175,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Rip Line",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Warcry",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Paralysis",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Hysteria",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Recover |PERCENT|% faster from being knocked down.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Trapper/Trapper",
+    "name": "Vauban",
+    "baseStats": {
+      "health": 270,
+      "shield": 180,
+      "armor": 160,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Tesla Nervos",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Minelayer",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Photon Strike",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Bastille",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Deal |DAMAGE|% Extra Damage to incapacitated enemies.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Trapper/TrapperPrime",
+    "name": "Vauban Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 210,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Tesla Nervos",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Minelayer",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Photon Strike",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Bastille",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Deal |DAMAGE|% Extra Damage to incapacitated enemies.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/EntratiMech/NechroTech",
+    "name": "Voidrig",
+    "baseStats": {
+      "health": 1400,
+      "shield": 850,
+      "armor": 385,
+      "energy": 175,
+      "sprint": 1
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Necraweb",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Storm Shroud",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Gravemines",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Guard Mode",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Volt/Volt",
+    "name": "Volt",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 105,
+      "energy": 100,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Shock",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Speed",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Electric Shield",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Discharge",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Volt/VoltPrime",
+    "name": "Volt Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 135,
+      "energy": 200,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Shock",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Speed",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Electric Shield",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Discharge",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Werewolf/Werewolf",
+    "name": "Voruna",
+    "baseStats": {
+      "health": 455,
+      "shield": 270,
+      "armor": 200,
+      "energy": 100,
+      "sprint": 0.94999999
+    },
+    "polarities": [],
+    "aura": null,
+    "abilities": [
+      {
+        "name": "Shroud Of Dynar",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Fangs Of Raksh",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Lycath's Hunt",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Ulfrun's Descent",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Voruna never fights alone. In mission, hold Abilities to call upon each wolf’s unique Passive power.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Wisp/Wisp",
+    "name": "Wisp",
+    "baseStats": {
+      "health": 270,
+      "shield": 180,
+      "armor": 185,
+      "energy": 200,
+      "sprint": 1.2
+    },
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Reservoirs",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Wil-O-Wisp",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Breach Surge",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sol Gate",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Flowing between dimensions, Wisp becomes invisible to enemies while in the air. ",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
+    "name": "Wisp Prime",
+    "baseStats": {
+      "health": 270,
+      "shield": 270,
+      "armor": 210,
+      "energy": 200,
+      "sprint": 1.25
+    },
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Reservoirs",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Wil-O-Wisp",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Breach Surge",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Sol Gate",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Flowing between dimensions, Wisp becomes invisible to enemies while in the air. ",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+    "name": "Wukong",
+    "baseStats": {
+      "health": 455,
+      "shield": 270,
+      "armor": 265,
+      "energy": 130,
+      "sprint": 1
+    },
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Celestial Twin",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Cloud Walker",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Defy",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Primal Fury",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+    "name": "Wukong Prime",
+    "baseStats": {
+      "health": 455,
+      "shield": 345,
+      "armor": 290,
+      "energy": 145,
+      "sprint": 1.05
+    },
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Celestial Twin",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Cloud Walker",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Defy",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Primal Fury",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+    "name": "Xaku",
+    "baseStats": {
+      "health": 269,
+      "shield": 239,
+      "armor": 146,
+      "energy": 160,
+      "sprint": 1.02
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Xata's Whisper",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Grasp Of Lohk",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "The Lost",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "The Vast Untime",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "|CHANCE|% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+    "name": "Xaku Prime",
+    "baseStats": {
+      "health": 269,
+      "shield": 263,
+      "armor": 167,
+      "energy": 181,
+      "sprint": 1.0700001
+    },
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "abilities": [
+      {
+        "name": "Xata's Whisper",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Grasp Of Lohk",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "The Lost",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "The Vast Untime",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "|CHANCE|% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
+    "name": "Yareli",
+    "baseStats": {
+      "health": 270,
+      "shield": 455,
+      "armor": 105,
+      "energy": 200,
+      "sprint": 1
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai",
+    "abilities": [
+      {
+        "name": "Sea Snares",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Merulina",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Aquablades",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Riptide",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Yareli gains +|CHANCE|% Critical Chance for Secondary weapons when she has been moving for at least |TIME|s.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Tengu/Tengu",
+    "name": "Zephyr",
+    "baseStats": {
+      "health": 455,
+      "shield": 455,
+      "armor": 105,
+      "energy": 100,
+      "sprint": 1.1
+    },
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Tail Wind",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Airburst",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Turbulence",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tornado",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Zephyr moves faster and falls slower while airborne. Also gain |CRIT|% Critical Hit chance with weapons while airborne.",
+    "masteryRank": 0
+  },
+  {
+    "uniqueName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+    "name": "Zephyr Prime",
+    "baseStats": {
+      "health": 455,
+      "shield": 455,
+      "armor": 135,
+      "energy": 175,
+      "sprint": 1.15
+    },
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "abilities": [
+      {
+        "name": "Tail Wind",
+        "slot": 1,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Airburst",
+        "slot": 2,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Turbulence",
+        "slot": 3,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      },
+      {
+        "name": "Tornado",
+        "slot": 4,
+        "strengthScaling": false,
+        "durationScaling": false,
+        "rangeScaling": false,
+        "efficiencyScaling": false
+      }
+    ],
+    "passiveDescription": "Zephyr moves faster and falls slower while airborne. Also gain |CRIT|% Critical Hit chance with weapons while airborne.",
+    "masteryRank": 0
+  }
+]

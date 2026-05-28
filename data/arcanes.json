@@ -1,0 +1,2876 @@
+[
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnSliding",
+    "name": "Akimbo Slip Shot",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_sliding_or_aim_gliding_gain_ammo_efficiency_with_dual_pistols",
+        "value": 65,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/ModularWeaponCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/OperatorAmpCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/OperatorCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeAbilitiesCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeArmorCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeCompanionCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeEnergyCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeHealthCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeMovementCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeResistanceCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeShieldsCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeSpecialCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeWeapDmgCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Types/Game/WarframeWeapStatsCosmeticEnhancer",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnSummonAttackSub",
+    "name": "Arcane",
+    "maxRank": 0,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+    "name": "Arcane Acceleration",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_90_fire_rate_to_primary_weapons_excludes_shotguns_for_9sn1_arcane_revive",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+    "name": "Arcane Aegis",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_shield_damagednchance_for_30_shield_recharge_for_12sn1_arcane_revive",
+        "value": 3,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+    "name": "Arcane Agility",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_damagednchance_for_60_parkour_velocity_for_18sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+    "name": "Arcane Arachne",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_wall_latchndamage_for_30sn1_arcane_revive",
+        "value": 150,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+    "name": "Arcane Avenger",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_damagednchance_for_45_critical_chance_for_12sn1_arcane_revive",
+        "value": 21,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+    "name": "Arcane Awakening",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_reloadnchance_for_150_damage_to_pistols_for_24sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+    "name": "Arcane Barrier",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_shield_damagednchance_to_instantly_restore_all_shieldsn6s_cooldownn1_arcane_revive",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MaxEnergyForArmor",
+    "name": "Arcane Battery",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_maximum_energy_per_armor_point_up_to_1000_energyn1_arcane_revive",
+        "value": 0.3,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthForMaxHealth",
+    "name": "Arcane Bellicose",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_ability_strength_for_every_250_max_health_up_to_72n1_arcane_revive",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDmgOnRifleKill",
+    "name": "Arcane Blade Charger",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_primary_weapon_killnchance_for_300_melee_damage_for_12sn1_arcane_revive",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/IncreaseMaxHealthOnHealthPickup",
+    "name": "Arcane Blessing",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_health_pickupnmax_health_stacks_up_to_50xn1_arcane_revive",
+        "value": 24,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealCompanionOnSixMeleeKills",
+    "name": "Arcane Bodyguard",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_kills_within_30snheal_companion_for_900n1_arcane_revive",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnSummonAttack",
+    "name": "Arcane Camisado",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "attacks_from_summoned_minions_increase_ability_strength_by_up_to_60_on_the_next_ability_cast_summons_gain_20_movement_speedn1_arcane_revive",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneAimGlideOnHeadshot",
+    "name": "Arcane Consequence",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshotnparkour_velocity_for_18sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
+    "name": "Arcane Crepuscular",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_invisible_gain_ability_strength_and_3x_final_critical_multipliern1_arcane_revive",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/PunctureProcResist",
+    "name": "Arcane Defense",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_puncture_colorpuncture_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SlashProcResist",
+    "name": "Arcane Deflection",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_slash_colorslash_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/PoisonProcResist",
+    "name": "Arcane Detoxifier",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_poison_colortoxin_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/DamageResistanceStacksOverTime",
+    "name": "Arcane Double Back",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_damage_resistance_for_4s_per_dodge_double_jump_and_bullet_jump_stacks_up_to_3x",
+        "value": 25,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+    "name": "Arcane Energize",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_energy_pickupnchance_to_replenish_150_energy_to_self_and_allies_within_15mn15s_cooldownn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+    "name": "Arcane Eruption",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_energy_pickupnchance_to_knockdown_nearby_enemiesn1_arcane_revive",
+        "value": 100,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InvulnerabilityOnDeathOnMercyKill",
+    "name": "Arcane Escapist",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_mercy_kill_gain_a_stack_of_escapist_up_to_x_on_taking_fatal_damage_consume_3_stacks_to_avoid_death_and_become_invulnerable_for_12sn1_arcane_revive",
+        "value": 9,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
+    "name": "Arcane Fury",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_180_melee_damage_to_melee_weapons_for_18sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageOnCrit",
+    "name": "Arcane Fury",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_90_damage_to_pistols_for_24sn1_arcane_revive",
+        "value": 18,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+    "name": "Arcane Grace",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_health_damagednchance_for_6_health_regenerations_for_9sn1_arcane_revive",
+        "value": 9,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+    "name": "Arcane Guardian",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_damagednchance_for_900_armor_for_20sn1_arcane_revive",
+        "value": 15,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadiationProcResist",
+    "name": "Arcane Healing",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_radiation_colorradiation_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityHeatProcsGiveCritChance",
+    "name": "Arcane Hot Shot",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_weapon_critical_chance_for_10s_when_using_abilities_to_inflict_dt_fire_colorheat_status_effect_on_enemies_maximum_50x_stacks",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+    "name": "Arcane Ice",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_fire_colorheat_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityPowerOnFreeze",
+    "name": "Arcane Ice Storm",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_enemy_frozen_gain_ability_strength_and_2_ability_duration_for_15s_stacks_up_to_20xn1_arcane_revive",
+        "value": 2,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStatusProcsGiveAbilityStrengthAndEfficiency",
+    "name": "Arcane Impetus",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "unique_status_effects_from_abilities_grant_ability_strength_and_3_ability_efficiency_for_20sn1_arcane_revive",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealthWhileUsingChanneledAbilities",
+    "name": "Arcane Intention",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_max_health_per_active_channeled_ability",
+        "value": 250,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GasProcResist",
+    "name": "Arcane Liquid",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_gas_colorgas_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+    "name": "Arcane Momentum",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_150_reload_speed_to_sniper_rifles_for_12sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+    "name": "Arcane Nullifier",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_magnetic_colormagnetic_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+    "name": "Arcane Phantasm",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_blocknchance_for_60_speed_for_18sn1_arcane_revive",
+        "value": 45,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnPistolHeadshot",
+    "name": "Arcane Pistoleer",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_pistol_headshot_killnchance_for_102_ammo_efficiency_for_12sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnCast",
+    "name": "Arcane Power Ramp",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_ability_cast_next_ability_cast_gains_ability_strength_stacking_up_to_4x_resets_when_the_same_ability_is_recast_consecutively",
+        "value": 9,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+    "name": "Arcane Precision",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshotndamage_for_18s_on_secondary_weaponn1_arcane_revive",
+        "value": 300,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDmgOnMeleeKill",
+    "name": "Arcane Primary Charger",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_killnchance_for_300_primary_weapon_damage_for_12sn1_arcane_revive",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CorrosiveProcResist",
+    "name": "Arcane Protection",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_corrosive_colorcorrosive_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+    "name": "Arcane Pulse",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_health_pickupnchance_to_restore_500_health_to_allies_within_25mn15s_cooldownn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+    "name": "Arcane Rage",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshotnchance_for_180_damage_to_primary_weapons_for_24sn1_arcane_revive",
+        "value": 15,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthRegenAndArmorOnMeleeKill",
+    "name": "Arcane Reaper",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_killnhealth_regens_and_660_armor_for_10sn1_arcane_revive",
+        "value": 24,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+    "name": "Arcane Resistance",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_poison_colortoxin_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LongGunDamageOnReload",
+    "name": "Arcane Rise",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_reloadnchance_for_150_damage_to_primary_weapons_for_24sn1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ImpactProcResist",
+    "name": "Arcane Shield",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_an_dt_impact_colorimpact_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
+    "name": "Arcane Steadfast",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_ability_cast_chance_that_the_next_three_abilities_will_not_cost_energy",
+        "value": 20,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+    "name": "Arcane Strike",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_hitnchance_for_60_attack_speed_to_melee_weapons_for_18sn1_arcane_revive",
+        "value": 15,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/SlowerBleedOutOnPredeath",
+    "name": "Arcane Survival",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_predeathnchance_for_150_bleedout_raten1_arcane_revive",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnHeavyGunEquipped",
+    "name": "Arcane Tanker",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_archgun_equippedn200_armor_for_60sn1_arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/DamageReductionDuringRevive",
+    "name": "Arcane Temperance",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "damage_taken_during_reviven1_arcane_revive",
+        "value": -90,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+    "name": "Arcane Tempo",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_90_fire_rate_to_shotguns_for_12sn1_arcane_revive",
+        "value": 15,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+    "name": "Arcane Trickery",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_finisher_killnchance_to_become_invisible_for_30sn1_arcane_revive",
+        "value": 15,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
+    "name": "Arcane Truculence",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "when_gaining_000_or_more_overguard_threshold_release_a_30m_radial_attack_that_applies_max_dt_viral_colorviral_status_stacksn1_arcane_revive",
+        "value": 3,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+    "name": "Arcane Ultimatum",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_finisher_killn200_armor_for_45sn1_arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityRadiationProcsCreateUniversalOrbsOnKill",
+    "name": "Arcane Universal Fallout",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "each_dt_radiation_colorradiation_status_effect_inflicted_on_enemies_by_abilities_gives_a_chance_to_drop_a_universal_orb_on_enemy_deathn1_arcane_revive",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+    "name": "Arcane Velocity",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_120_fire_rate_to_pistols_for_9sn1_arcane_revive",
+        "value": 90,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+    "name": "Arcane Victory",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshot_killnchance_for_3_health_regenerations_for_9sn1_arcane_revive",
+        "value": 75,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+    "name": "Arcane Warmth",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "chance_to_resist_a_dt_freeze_colorcold_status_effect",
+        "value": 102,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnRollCritChanceOnHeadshot",
+    "name": "Cascadia Accuracy",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_rollncritical_chance_on_weakpoint_hits_for_4s",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnStatusProcBonusDamage",
+    "name": "Cascadia Empowered",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_status_effectndeals_damage_matching_the_damage_type_of_the_status_effect",
+        "value": 750,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnHeatProc",
+    "name": "Cascadia Flare",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_dt_fire_colorheat_status_effectndamage_for_10s_stacks_up_to_480",
+        "value": 12,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnOvershieldCritChance",
+    "name": "Cascadia Overcharge",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_overshields_active_critical_chance",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryReloadSpeedAndMultishotOnElectricProc",
+    "name": "Conjunction Voltage",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_dt_electricity_colorelectricity_status_effectnreload_speed_and_3_multishot_for_12s_stacks_up_to_40x",
+        "value": 1.5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/EnergyOnGhostDissipate",
+    "name": "Emergence Dissipate",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_in_void_sling_press_pre_attack_to_dissipate_the_endpoint_in_a_m_radius_enemies_hit_create_a_short_lived_void_mote_that_replenishes_10_energy_on_pick_up",
+        "value": 10,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnEnergyDepletedRegenEnergy",
+    "name": "Emergence Renewed",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_energy_depletednincrease_energy_regeneration_by_over_5s_cooldown_30s",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnDeathInvulnerability",
+    "name": "Emergence Savior",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_lethal_damagenbecome_invulnerable_for_s_and_recover_60_health_cooldown_90s",
+        "value": 5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnOperatorAbilityIncreaseDamage",
+    "name": "Eternal Eradicate",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_operator_abilityndamage_to_amps_for_8s",
+        "value": 60,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnVoidSlingAmpAmmoEfficiency",
+    "name": "Eternal Logistics",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnamp_ammo_efficiency_for_8s",
+        "value": 72,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnEnergyDepletedCritChance",
+    "name": "Eternal Onslaught",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_energy_depletedncritical_chance_for_8s",
+        "value": 180,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ChannelKillEnergyRate",
+    "name": "Exodia Brave",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_heavy_attack_killnenergy_rate_for_4s_stacks_up_to_3x",
+        "value": 5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeArcaneProjectileOnJump",
+    "name": "Exodia Contagion",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "after_a_bullet_jump_or_double_jumpnmelee_while_aim_gliding_launches_a_projectile_that_explodes_on_impact",
+        "value": 0,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeArcaneShockwaveOnJump",
+    "name": "Exodia Epidemic",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "after_a_bullet_jump_or_double_jumpnslam_emits_a_shockwave_forwards_that_suspends_enemies_in_the_air_for_a_short_period",
+        "value": 0,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusTriggerRadialDamage",
+    "name": "Exodia Force",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_status_effectnchance_to_deal_200_weapon_damage_to_enemies_within_6m",
+        "value": 50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GroundSlamPull",
+    "name": "Exodia Hunt",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_ground_slamnchance_to_pull_enemies_within_12m_into_melee_range",
+        "value": 50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/FinisherLifesteal",
+    "name": "Exodia Might",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_finisher_killnchance_for_30_life_steal_for_8s",
+        "value": 50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusChannelingDamage",
+    "name": "Exodia Triumph",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "additional_combo_count_chance",
+        "value": 50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritChannelingDamage",
+    "name": "Exodia Valor",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "additional_combo_count_chance_on_lifted_enemies",
+        "value": 200,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
+    "name": "Fractalized Reset",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_ability_castnreload_speed_for_5s",
+        "value": 240,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongbowDamageOnHeadshot",
+    "name": "Longbow Sharpshot",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshot_gain_damage_on_your_next_shot",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatResistOnBlast",
+    "name": "Magus Accelerant",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnreduce_enemy_resistance_to_dt_fire_colorheat_damage_by_",
+        "value": 65,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OperatorHeavyMeleeDamageOnTransference",
+    "name": "Magus Aggress",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_warframe_melee_transference_heavy_blades_deal_critical_damage_for_4_consecutive_attacks_cooldown_20s",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/PullOnTransferenceIn",
+    "name": "Magus Anomaly",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_transference_innenemies_within_m_are_pulled_towards_warframe",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/SpeedOnVoidDash",
+    "name": "Magus Cadence",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnsprint_speed_for_12s",
+        "value": 90,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ImmunityFallDamageOnVoidDash",
+    "name": "Magus Cloud",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_modenvoid_sling_radius_for_6s",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ProcResistOnBlast",
+    "name": "Magus Destruct",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnreduce_enemy_resistance_to_dt_puncture_colorpuncture_damage_by_",
+        "value": 65,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HoverboardSpeedOnTransferenceIn",
+    "name": "Magus Drive",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_transference_innincrease_kdrive_speed_by_for_30s",
+        "value": 150,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceIn",
+    "name": "Magus Elevate",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_transference_innchance_to_restore_300_health_to_warframe",
+        "value": 95,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/DamageReductionOnVoidMode",
+    "name": "Magus Firewall",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_modengenerate_void_particles_every_s_up_to_6_particles_each_granting_125_damage_reduction_for_60s_taking_damage_consumes_a_particle",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/NoPenaltyOnDeath",
+    "name": "Magus Glitch",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_transference_staticnchance_to_negate_transference_static",
+        "value": 102,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ArmourOnOperatorMode",
+    "name": "Magus Husk",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_transference_outnarmor",
+        "value": 300,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/TetherMineOnDash",
+    "name": "Magus Lockdown",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingndrop_a_mine_that_tethers_up_to_enemies_in_15m_for_4s",
+        "value": 10,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatDamageOnDash",
+    "name": "Magus Melt",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnincrease_dt_fire_colorheat_damage_in_operator_mode_by_for_15s_stacking_up_to_7x",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceOut",
+    "name": "Magus Nourish",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_an_operatornrestores_healths_to_warframe",
+        "value": 35,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/RobotStunOnBlast",
+    "name": "Magus Overload",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnstun_robotic_enemies_for_s_which_then_discharge_dt_electricity_colorelectricity_damage_dealing_80_of_their_max_health_to_anyone_within_25m",
+        "value": 3,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidMode",
+    "name": "Magus Repair",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_modenheal_warframes_within_m_by_25_healths",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidDash",
+    "name": "Magus Replenish",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnheal_health",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ReverseOnDash",
+    "name": "Magus Revert",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_void_slingnuse_again_within_s_to_return_the_operator_to_their_original_position_at_no_energy_cost_restores_60_health_3s_cooldown",
+        "value": 3,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthOnOperatorMode",
+    "name": "Magus Vigor",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_transference_outnhealth",
+        "value": 600,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/DuplicateStatusOnKnock",
+    "name": "Melee Afflictions",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "enemies_affected_by_status_effects_gain_additional_stacks_when_theyre_knocked_down_or_flung_by_melee_attacks",
+        "value": 6,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyCritOnRegularMelee",
+    "name": "Melee Animosity",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_hit_gain_critical_chance_on_your_next_heavy_attack_up_to_420",
+        "value": 42,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PermaComboOnFinisher",
+    "name": "Melee Crescendo",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_finisher_kill_gain_initial_combo_for_the_rest_of_your_mission",
+        "value": 6,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritDamageForPunctureStatus",
+    "name": "Melee Doughty",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_x_critical_multiplier_for_every_10_dt_puncture_colorpuncture_status_chance_on_your_melee_weapon",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ReplayLightCritHits",
+    "name": "Melee Duplicate",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_base_critical_hits_chance_for_your_attack_to_strike_a_second_time",
+        "value": 100,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CorrosiveMeleePerAbilityCast",
+    "name": "Melee Exposure",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_ability_cast_gain_corrosive_damage_on_melee_strikes_for_25s_stacks_up_to_240",
+        "value": 60,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill",
+    "name": "Melee Fortification",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_kill_armor_for_10s",
+        "value": 210,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeProcsSpread",
+    "name": "Melee Influence",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_dt_electricity_colorelectricity_status_chance_for_elemental_melee_status_effects_to_apply_to_enemies_within_20m_for_18s_cannot_refresh_while_active",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields",
+    "name": "Melee Retaliation",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_melee_damage_for_every_200_current_shields_up_to_420_bonus_halved_for_overshields",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PullEnemiesOnMeleeKill",
+    "name": "Melee Vortex",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "kill_an_enemy_affected_by_dt_magnetic_colormagnetic_status_for_a_chance_to_pull_in_enemies_within_18m_radius",
+        "value": 45,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PowerStrengthOnKill",
+    "name": "Molt Augmented",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_killnability_strength_stacks_up_to_250xn1_arcane_revive",
+        "value": 0.24,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
+    "name": "Molt Efficiency",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_shields_are_active_gain_ability_duration_per_second_up_to_a_maximum_of_36",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
+    "name": "Molt Reconstruct",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "heal_yourself_and_allies_within_affinity_range_health_for_each_energy_point_spent_on_the_initial_casting_cost_of_abilities",
+        "value": 6,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnOperatorAbilityPowerStrength",
+    "name": "Molt Vigor",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_operator_abilitynability_strength_on_next_warframe_ability_castn1_arcane_revive",
+        "value": 45,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/EnergyEfficiencyOnHeadshot",
+    "name": "Pax Bolt",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshot_killnability_efficiency_and_30_ability_strength_on_the_next_ability_used_within_4s",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BulletToBattery",
+    "name": "Pax Charge",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "battery_recharge_delay_is_reduced_by",
+        "value": 50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SeekerProjOnHeadshotKill",
+    "name": "Pax Seeker",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshot_killnprojectiles_burst_from_the_target_and_seek_the_heads_of_nearby_enemies",
+        "value": 4,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/EyeInTheSky",
+    "name": "Pax Soar",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "accuracy_while_airborne",
+        "value": 50,
+        "atMaxRank": true
+      },
+      {
+        "stat": "weapon_recoil_while_airborne",
+        "value": -50,
+        "atMaxRank": true
+      },
+      {
+        "stat": "s_aim_glidewall_latch_duration",
+        "value": 5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryHeadshotCritMultOnHeadshot",
+    "name": "Primary Blight",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_dt_poison_colortoxin_status_effectncritical_damage_and_18_multishot_for_12s_stacks_up_to_40x",
+        "value": 3.6,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusAndAmmoEfficiencyOnWeakpointHit",
+    "name": "Primary Crux",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_weak_point_hit_gain_status_chance_and_6_ammo_efficiency_for_10s_stacks_up_to_10x",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnNoMelee",
+    "name": "Primary Deadhead",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_precision_headshot_killndamage_for_24s_stacks_up_to_3xn30_to_headshot_multipliern50_weapon_recoil",
+        "value": 120,
+        "atMaxRank": true
+      },
+      {
+        "stat": "to_headshot_multiplier",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "weapon_recoil",
+        "value": -50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnMeleeKill",
+    "name": "Primary Dexterity",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_killndamage_for_20s_stacks_up_to_6xn75s_combo_duration",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "s_combo_duration",
+        "value": 7.5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryEnergyRegenOnImpactProc",
+    "name": "Primary Exhilarate",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_weapon_dt_impact_colorimpact_status_effectnenergy_regens_for_10s_stacks_up_to_3x",
+        "value": 1.2,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryCritDmgAndMultishotOnColdProc",
+    "name": "Primary Frostbite",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_dt_freeze_colorcold_status_effectncritical_damage_and_225_multishot_for_12s_stacks_up_to_40x",
+        "value": 3,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnKill",
+    "name": "Primary Merciless",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_killndamage_for_4s_stacks_up_to_12xn30_reload_speed",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "reload_speed",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryJamEnemyWeaponsOnMagneticProc",
+    "name": "Primary Obstruct",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_weapon_dt_magnetic_colormagnetic_status_effect_enemy_weapons_jam_within_m_of_target_cooldown_10s",
+        "value": 15,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamagePerAmmoOnReload",
+    "name": "Primary Plated Round",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_reload_deal_increased_damage_per_round_loaded_based_on_max_magazine_size_lasts_for_s",
+        "value": 10,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BurningCystOnKill",
+    "name": "Residual Boils",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_kitgun_killnchance_to_spawn_volatile_hives_for_12s_that_explode_when_enemies_approach_for_80_dt_fire_colorheat_damage_in_10m_standing_in_the_area_applies_dt_fire_colorheat_damage_type_to_theorem_arcanes",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/IceMistOnKill",
+    "name": "Residual Malodor",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_kitgun_killnchance_to_create_a_frigid_mist_for_12s_dealing_40_dt_freeze_colorcold_damages_standing_in_the_area_applies_dt_freeze_colorcold_damage_to_theorem_arcanes",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LightningStrikeOnKill",
+    "name": "Residual Shock",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_kitgun_killnchance_to_spawn_an_electrified_spike_for_12s_dealing_200_dt_electricity_colorelectricity_damage_to_enemies_within_10m_standing_in_the_area_applies_dt_electricity_colorelectricity_damage_to_theorem_arcanes",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ToxicBloodOnKill",
+    "name": "Residual Viremia",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_kitgun_killnchance_to_create_pool_of_toxic_blood_for_12s_dealing_40_dt_poison_colortoxin_damages_standing_in_the_area_applies_the_dt_poison_colortoxin_damage_to_theorem_arcanes",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnNoMelee",
+    "name": "Secondary Deadhead",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_precision_headshot_killndamage_for_24s_stacks_up_to_3xn30_to_headshot_multipliern50_weapon_recoil",
+        "value": 120,
+        "atMaxRank": true
+      },
+      {
+        "stat": "to_headshot_multiplier",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "weapon_recoil",
+        "value": -50,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnMeleeKill",
+    "name": "Secondary Dexterity",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_melee_killndamage_for_20s_stacks_up_to_6xn75s_combo_duration",
+        "value": 60,
+        "atMaxRank": true
+      },
+      {
+        "stat": "s_combo_duration",
+        "value": 7.5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+    "name": "Secondary Encumber",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_status_effect_chance_to_trigger_a_second_random_status_effect",
+        "value": 24,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritOnHit",
+    "name": "Secondary Enervate",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_hit_increase_critical_chance_by__resets_after_6_big_critical_hit",
+        "value": 10,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OverguardSteal",
+    "name": "Secondary Fortifier",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "gain_overguard_for_every_100_damage_dealt_to_an_enemys_overguardndeals_x8_extra_damage_to_overguard",
+        "value": 1,
+        "atMaxRank": true
+      },
+      {
+        "stat": "deals_xextra_damage_to_overguard",
+        "value": 8,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritChancePerBuff",
+    "name": "Secondary Kinship",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "while_buffing_ally_warframes_critical_chance_per_buff",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnKill",
+    "name": "Secondary Merciless",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_killndamage_for_4s_stacks_up_to_12xn30_reload_speed",
+        "value": 30,
+        "atMaxRank": true
+      },
+      {
+        "stat": "reload_speed",
+        "value": 30,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForCombo",
+    "name": "Secondary Outburst",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_swapping_to_secondary_weapon_consume_all_combo_multipliers_to_increase_secondary_weapon_critical_chance_and_critical_damage_by_per_combo_consumed_for_30s",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryExtraDamagePerFreezeStack",
+    "name": "Secondary Shiver",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "enemies_take_damage_per_dt_freeze_colorcold_status",
+        "value": 45,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageNextShotForCurEnergy",
+    "name": "Secondary Surge",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_ability_cast_next_shot_gains_a_damage_multiplier_for_every_current_energy_up_to_x8",
+        "value": 200,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ShotgunMultishotAndReloadSpeedOnCloseKill",
+    "name": "Shotgun Vendetta",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_shotgun_kill_within_m_of_targetn180_multishot_and_75_reload_speed_for_15s",
+        "value": 5,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OrbsOnResidualContact",
+    "name": "Theorem Contagion",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "standing_in_a_zone_created_by_a_residual_arcane_creates_a_globe_that_orbits_the_player_every_s_the_globes_will_strike_the_nearest_enemy_within_15m_dealing_150_damage_increasing_their_vulnerability_to_the_globes_damage_type_by_200_for_6s_globes_will_persist_for_30s_upon_leaving_the_zone",
+        "value": 2,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/WeaponDamageOnResidualContact",
+    "name": "Theorem Demulcent",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "standing_in_a_zone_created_by_a_residual_arcane_increases_weapon_damage_by_s_stacking_up_to_15x_effect_persists_for_20s_upon_leaving_the_zone",
+        "value": 12,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CompanionDamageOnResidualContact",
+    "name": "Theorem Infection",
+    "maxRank": 5,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "standing_in_a_zone_created_by_a_residual_arcane_increases_damage_of_companions_and_summoned_allies_within_m_by_24s_stacking_up_to_15x_effect_persists_for_20s_upon_leaving_the_zone",
+        "value": 90,
+        "atMaxRank": true
+      },
+      {
+        "stat": "arcane_revive",
+        "value": 1,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToHeatDamage",
+    "name": "Virtuos Forge",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_fire_colorheat_damage",
+        "value": 98,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedDamageOnStatusProc",
+    "name": "Virtuos Fury",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_status_effectnchance_for_30_damage_for_4s",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/StatusChanceOnHeadshot",
+    "name": "Virtuos Ghost",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshotnchance_for_60_status_chance_for_12s",
+        "value": 40,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/OperatorAmmoRegenOnKill",
+    "name": "Virtuos Null",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_killnamp_energy_regeneration_for_4s",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/CriticalChanceOnHeadshot",
+    "name": "Virtuos Shadow",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_headshotnchance_for_60_critical_chance_for_12s",
+        "value": 40,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToPunctureDamage",
+    "name": "Virtuos Spike",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_puncture_colorpuncture_damage",
+        "value": 98,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedCriticalDamageOnCriticalStrike",
+    "name": "Virtuos Strike",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_critical_hitnchance_for_80_critical_damage_for_4s",
+        "value": 20,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToElectricDamage",
+    "name": "Virtuos Surge",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_electricity_colorelectricity_damage",
+        "value": 98,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/AttackSpeedOnKill",
+    "name": "Virtuos Tempo",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_killnchance_for_60_fire_rate_for_8s",
+        "value": 60,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToViralDamage",
+    "name": "Virtuos Trojan",
+    "maxRank": 3,
+    "maxStacks": 1,
+    "trigger": "passive",
+    "effects": [
+      {
+        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_viral_colorviral_damage",
+        "value": 98,
+        "atMaxRank": true
+      }
+    ],
+    "rawDescription": ""
+  }
+]
