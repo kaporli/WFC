@@ -1,0 +1,20 @@
+{
+  "name": "@wfp/pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "tsx src/index.ts run",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "warframe-items": "^1.1269.0",
+    "lzma": "^2.3.2",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
