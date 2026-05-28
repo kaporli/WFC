@@ -2,6 +2,9 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Items from 'warframe-items';
+import { createRequire } from 'node:module';
+const _require = createRequire(import.meta.url);
+const WFCD_VERSION: string = (_require('warframe-items/package.json') as { version: string }).version;
 
 import { fetchWfcd } from './fetchers/wfcd.js';
 import { fetchPublicExport } from './fetchers/public-export.js';
@@ -144,7 +147,7 @@ async function run(fresh: boolean, skipWiki: boolean) {
   const newManifest: Manifest = {
     lastUpdated: new Date().toISOString(),
     sourceVersions: {
-      wfcd: '1.1269.x',
+      wfcd: WFCD_VERSION,
       publicExport: publicExport.indexHash,
       wiki: wikiLua.revIds as Record<string, number>,
       wikiPages: {
