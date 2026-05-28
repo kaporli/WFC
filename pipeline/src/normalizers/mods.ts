@@ -1,5 +1,21 @@
+import { readFileSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { WfcdMod, WfcdLevelStat } from '../schema/wfcd.js';
-import type { ModEntry, ModEffect, StackType } from '../schema/index.js';
+import type { ModEntry, ModEffect, StackType, EffectTarget } from '../schema/index.js';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const STAT_TARGETS_PATH = resolve(__dirname, '../data/stat-targets.json');
+
+function loadStatTargets(): Record<string, EffectTarget> {
+  try {
+    return JSON.parse(readFileSync(STAT_TARGETS_PATH, 'utf8')) as Record<string, EffectTarget>;
+  } catch {
+    return {};
+  }
+}
+
+const STAT_TARGETS = loadStatTargets();
 
 const STAT_MAP: Array<[RegExp, string]> = [
   [/ability strength|power strength/i, 'abilityStrength'],
@@ -21,28 +37,50 @@ function resolveStatName(fragment: string): string {
   return lower.replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
 }
 
+function resolveTarget(fragment: string): EffectTarget {
+  const lower = fragment.toLowerCase().trim();
+  for (const [key, target] of Object.entries(STAT_TARGETS)) {
+    if (lower.includes(key)) return target as EffectTarget;
+  }
+  return 'self';
+}
+
 function parseEffects(levelStats: WfcdLevelStat[] | undefined): ModEffect[] {
   if (!levelStats?.length) return [];
 
-  const maxStats = levelStats[levelStats.length - 1].stats ?? [];
-  const rankCount = levelStats.length;
+  const effectCount = levelStats[0].stats?.length ?? 0;
+  const results: ModEffect[] = [];
 
-  return maxStats
-    .map((desc: string): ModEffect | null => {
-      const match = desc.match(/([+-]?\d+(?:\.\d+)?)\s*%/);
-      if (!match) return null;
+  for (let effIdx = 0; effIdx < effectCount; effIdx++) {
+    const levelValues: number[] = [];
+    let stat = '';
+    let target: EffectTarget = 'self';
+    let hasValue = false;
 
-      const maxVal = parseFloat(match[1]) / 100;
-      const perRank = rankCount > 1 ? maxVal / rankCount : maxVal;
-      const statFrag = desc.replace(/[+-]?\d+(?:\.\d+)?\s*%\s*/, '');
+    for (let rankIdx = 0; rankIdx < levelStats.length; rankIdx++) {
+      // Strip formatting tags (e.g. <DT_FREEZE_COLOR>, <LINE_SEPARATOR>)
+      const raw = (levelStats[rankIdx].stats?.[effIdx] ?? '').replace(/<[^>]+>/g, '');
+      const match = raw.match(/([+-]?\d+(?:\.\d+)?)\s*%/);
+      if (match) {
+        const val = parseFloat(match[1]) / 100;
+        levelValues.push(val);
+        if (rankIdx === 0 && !hasValue) {
+          hasValue = true;
+          const frag = raw.replace(/[+-]?\d+(?:\.\d+)?\s*%\s*/, '');
+          stat = resolveStatName(frag);
+          target = resolveTarget(frag);
+        }
+      } else {
+        levelValues.push(0);
+      }
+    }
 
-      return {
-        stat: resolveStatName(statFrag),
-        stackType: 'additive_base' as StackType,
-        valuePerRank: perRank,
-      };
-    })
-    .filter((e): e is ModEffect => e !== null);
+    if (stat && levelValues.some(v => v !== 0)) {
+      results.push({ stat, stackType: 'additive_base' as StackType, levelValues, target });
+    }
+  }
+
+  return results;
 }
 
 function resolveModType(m: WfcdMod): string {
@@ -71,6 +109,8 @@ export function normalizeMods(wfcdMods: WfcdMod[]): ModEntry[] {
       type: resolveModType(m),
       modSet: m.modSet ?? null,
       tradable: m.tradable ?? false,
+      isAugment: m.isAugment ?? false,
+      compatName: m.compatName ?? null,
       effects: parseEffects(m.levelStats),
       rawDescription: m.description ?? '',
     }));
