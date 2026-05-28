@@ -1,15 +1,23 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import Items from 'warframe-items';
 
 import { fetchWfcd } from './fetchers/wfcd.js';
 import { fetchPublicExport } from './fetchers/public-export.js';
 import { fetchWikiLua, type WikiLuaRaw } from './fetchers/wiki-lua.js';
+import { fetchWikiPages, type WikiPagesRaw } from './fetchers/wiki-pages.js';
 import { normalizeWarframes } from './normalizers/warframes.js';
 import { normalizeMods } from './normalizers/mods.js';
 import { normalizeArcanes } from './normalizers/arcanes.js';
 import { normalizeWeapons } from './normalizers/weapons.js';
+import { normalizeHelmets } from './normalizers/helmets.js';
+import { normalizeModSets } from './normalizers/mod-sets.js';
+import { normalizeAbilityStats } from './normalizers/ability-stats.js';
+import { normalizeShards } from './normalizers/shards.js';
+import { buildAbilitiesData } from './normalizers/abilities.js';
 import type { Manifest } from './schema/index.js';
+import type { LuaObj } from './lua/eval.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '../../');
@@ -20,13 +28,15 @@ function readManifest(): Manifest {
   try {
     return JSON.parse(readFileSync(resolve(DATA_DIR, 'manifest.json'), 'utf8')) as Manifest;
   } catch {
-    return { lastUpdated: '', sourceVersions: { wfcd: '', publicExport: '', wiki: {} } };
+    return { lastUpdated: '', sourceVersions: { wfcd: '', publicExport: '', wiki: {}, wikiPages: {} } };
   }
 }
 
-function writeData<T>(filename: string, data: T[]) {
-  writeFileSync(resolve(DATA_DIR, filename), JSON.stringify(data, null, 2));
-  console.log(`  wrote ${data.length} entries → data/${filename}`);
+function writeData<T>(filename: string, data: T[] | object) {
+  const content = JSON.stringify(data, null, 2);
+  writeFileSync(resolve(DATA_DIR, filename), content);
+  const count = Array.isArray(data) ? `${(data as unknown[]).length} entries` : 'object';
+  console.log(`  wrote ${count} → data/${filename}`);
 }
 
 function writeCache(filename: string, data: unknown) {
@@ -37,7 +47,11 @@ function writeCache(filename: string, data: unknown) {
 function readCache<T>(filename: string): T | null {
   const path = resolve(CACHE_DIR, filename);
   if (!existsSync(path)) return null;
-  return JSON.parse(readFileSync(path, 'utf8')) as T;
+  try {
+    return JSON.parse(readFileSync(path, 'utf8')) as T;
+  } catch {
+    return null;
+  }
 }
 
 async function run(fresh: boolean, skipWiki: boolean) {
@@ -45,11 +59,13 @@ async function run(fresh: boolean, skipWiki: boolean) {
 
   const manifest = readManifest();
 
-  // WFCD is a local npm package — always fast, no network call
+  // ── WFCD (local npm, always fast) ─────────────────────────────────────────
   console.log('Loading WFCD...');
   const wfcd = fetchWfcd();
+  // Load ALL items for mod-sets (needs Mod Set Mod items)
+  const allItems = new Items({ category: ['All'] }) as unknown[];
 
-  // Public Export — network fetch, cached between runs
+  // ── Public Export ─────────────────────────────────────────────────────────
   console.log('Fetching Public Export...');
   type PECache = Awaited<ReturnType<typeof fetchPublicExport>>;
   let publicExport = fresh ? null : readCache<PECache>('public-export-raw.json');
@@ -58,42 +74,83 @@ async function run(fresh: boolean, skipWiki: boolean) {
     writeCache('public-export-raw.json', publicExport);
   }
 
-  // Skip remaining if upstream unchanged
   if (!fresh && publicExport.indexHash === manifest.sourceVersions.publicExport) {
     console.log('No upstream changes detected. Use --fresh to force update.\n');
     return;
   }
 
-  // Wiki Lua — optional; stores raw Lua source to cache, not parsed inline
-  let wikiRevIds: Record<string, number> = manifest.sourceVersions.wiki;
+  // ── Wiki Lua modules ──────────────────────────────────────────────────────
+  let wikiLua: WikiLuaRaw = { modules: {}, revIds: {} };
   if (!skipWiki) {
-    console.log('Fetching Wiki Lua modules (raw source)...');
+    console.log('Fetching Wiki Lua modules...');
     const cachedWiki = fresh ? null : readCache<WikiLuaRaw>('wiki-lua-raw.json');
-    if (cachedWiki) {
-      wikiRevIds = cachedWiki.revIds as Record<string, number>;
+    if (cachedWiki?.modules && Object.keys(cachedWiki.modules).length > 0) {
+      wikiLua = cachedWiki;
       console.log('  (using cache)');
     } else {
-      const wikiLua = await fetchWikiLua();
+      wikiLua = await fetchWikiLua();
       writeCache('wiki-lua-raw.json', wikiLua);
-      wikiRevIds = wikiLua.revIds as Record<string, number>;
     }
   } else {
     console.log('Skipping wiki (--skip-wiki).');
   }
 
-  // Normalize and write data/
+  // ── Wiki article pages (Arcane Helmet + Archon Shard) ─────────────────────
+  let wikiPages: WikiPagesRaw = { arcaneHelmet: '', archonShard: '' };
+  if (!skipWiki) {
+    console.log('Fetching Wiki pages...');
+    const cachedPages = fresh ? null : readCache<WikiPagesRaw>('wiki-pages-raw.json');
+    if (cachedPages?.archonShard) {
+      wikiPages = cachedPages;
+      console.log('  (using cache)');
+    } else {
+      wikiPages = await fetchWikiPages();
+      writeCache('wiki-pages-raw.json', wikiPages);
+    }
+  }
+
+  // ── Normalize ─────────────────────────────────────────────────────────────
   console.log('\nNormalizing...');
-  writeData('warframes.json', normalizeWarframes(wfcd.warframes));
+
+  const exports = publicExport.exports as Record<string, { [key: string]: unknown[] }>;
+  const exportCustoms = (exports['ExportCustoms_en.json']?.['ExportCustoms'] ?? []) as unknown[];
+
+  const wikiModData = {
+    warframes: wikiLua.modules['Module:Warframes/data'] as LuaObj | undefined,
+    abilityStats: wikiLua.modules['Module:Ability/data/stats'] as LuaObj | undefined,
+  };
+
+  writeData('warframes.json', normalizeWarframes(wfcd.warframes, wikiModData));
   writeData('mods.json', normalizeMods(wfcd.mods));
   writeData('arcanes.json', normalizeArcanes(wfcd.arcanes));
   writeData('weapons.json', normalizeWeapons(wfcd.guns, wfcd.melee));
+  writeData('helmets.json', normalizeHelmets(exportCustoms, wikiPages.arcaneHelmet));
+  writeData('mod-sets.json', normalizeModSets(allItems));
+  writeData('ability-stats.json',
+    normalizeAbilityStats((wikiLua.modules['Module:Ability/data/stats'] ?? {}) as LuaObj),
+  );
+  writeData('shard-bonuses.json', normalizeShards(wikiPages.archonShard));
 
+  const abilitiesData = buildAbilitiesData(
+    (wikiLua.modules['Module:Ability/data'] ?? {}) as LuaObj,
+  );
+  writeFileSync(
+    resolve(DATA_DIR, 'abilities.json'),
+    JSON.stringify(abilitiesData, null, 2),
+  );
+  console.log(`  wrote abilities.json (${abilitiesData.subsumable.length} subsumable, ${Object.keys(abilitiesData.augmentToAbility).length} augments)`);
+
+  // ── Manifest ──────────────────────────────────────────────────────────────
   const newManifest: Manifest = {
     lastUpdated: new Date().toISOString(),
     sourceVersions: {
       wfcd: '1.1269.x',
       publicExport: publicExport.indexHash,
-      wiki: wikiRevIds,
+      wiki: wikiLua.revIds as Record<string, number>,
+      wikiPages: {
+        arcaneHelmet: String(wikiPages.arcaneHelmet.length),
+        archonShard: String(wikiPages.archonShard.length),
+      },
     },
   };
   writeFileSync(resolve(DATA_DIR, 'manifest.json'), JSON.stringify(newManifest, null, 2));

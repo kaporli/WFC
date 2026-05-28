@@ -14,6 +14,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shuriken",
@@ -49,7 +50,9 @@
       }
     ],
     "passiveDescription": "<DT_SLASH_COLOR>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Ninja/AshPrime",
@@ -67,6 +70,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shuriken",
@@ -102,7 +106,9 @@
       }
     ],
     "passiveDescription": "<DT_SLASH>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Brawler/Brawler",
@@ -120,6 +126,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Landslide",
@@ -155,7 +162,9 @@
       }
     ],
     "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Brawler/AtlasPrime",
@@ -174,6 +183,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Landslide",
@@ -209,7 +219,9 @@
       }
     ],
     "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Banshee/Banshee",
@@ -226,6 +238,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Sonic Boom",
@@ -261,7 +274,9 @@
       }
     ],
     "passiveDescription": "Weapon noises are hushed so that enemies cannot hear them.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Banshee/BansheePrime",
@@ -279,6 +294,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Sonic Boom",
@@ -314,7 +330,9 @@
       }
     ],
     "passiveDescription": "Weapon noises are hushed so that enemies cannot hear them.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pacifist/Pacifist",
@@ -331,6 +349,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Elude",
@@ -366,7 +385,9 @@
       }
     ],
     "passiveDescription": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to |PERCENT|% more resistant to damage.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pacifist/BaruukPrime",
@@ -384,6 +405,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Elude",
@@ -419,7 +441,9 @@
       }
     ],
     "passiveDescription": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to |PERCENT|% more resistant to damage.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/EntratiMech/ThanoTech",
@@ -433,6 +457,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Meathook",
@@ -468,7 +493,9 @@
       }
     ],
     "passiveDescription": "",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
@@ -484,6 +511,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Razor Gyre",
@@ -519,7 +547,9 @@
       }
     ],
     "passiveDescription": "Allies within Affinity range gain up to |PCT|% resistance to the types of damage they are currently taking.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Dragon/Dragon",
@@ -536,6 +566,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Spectral Scream",
@@ -571,7 +602,9 @@
       }
     ],
     "passiveDescription": "Wings sprout for an additional jump and bullet jump.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Dragon/ChromaPrime",
@@ -590,6 +623,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Spectral Scream",
@@ -625,7 +659,9 @@
       }
     ],
     "passiveDescription": "Wings sprout for an additional jump and bullet jump.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Geode/Geode",
@@ -642,6 +678,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Fractured Blast",
@@ -677,7 +714,9 @@
       }
     ],
     "passiveDescription": "Citrine grants nearby allies |BASE| health regeneration per second. Pick up a Health Orb to increase regeneration by |HPS|, up to a maximum of |MAX|.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 32,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Frumentarius/Frumentarius",
@@ -694,6 +733,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Seek",
@@ -729,7 +769,9 @@
       }
     ],
     "passiveDescription": "Weak Point Kills increase Cyte-09's Weak Point Critical Chance by |INCREASE|% up to |CAP|% for the duration of the current mission.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 45,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
@@ -743,6 +785,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Wyrd Scythes",
@@ -778,7 +821,9 @@
       }
     ],
     "passiveDescription": "There is a |PERCENT|% chance that Energy and Health Orbs will be |ENERGY|% more effective on Dagath.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
@@ -792,6 +837,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Noctua",
@@ -827,7 +873,9 @@
       }
     ],
     "passiveDescription": "Noctua scans targets, recording information for your Codex. Status Chance increases by |CHANCE|% on fully scanned targets.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Ember/Ember",
@@ -844,6 +892,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Fireball",
@@ -879,7 +928,9 @@
       }
     ],
     "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within <AFFINITY_SHARE>Affinity Range affected by <DT_FIRE_COLOR>Heat.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Ember/EmberPrime",
@@ -896,6 +947,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Fireball",
@@ -931,7 +983,9 @@
       }
     ],
     "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within <AFFINITY_SHARE>Affinity Range affected by <DT_FIRE_COLOR>Heat.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/YinYang/YinYang",
@@ -948,6 +1002,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Metamorphosis",
@@ -968,7 +1023,7 @@
       {
         "name": "Pacify & Provoke",
         "slot": 3,
-        "strengthScaling": true,
+        "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -983,7 +1038,9 @@
       }
     ],
     "passiveDescription": "|PERCENT|% of Health Orbs are converted into Energy, and |PERCENT|% of Energy Orbs are converted into Health.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/YinYang/EquinoxPrime",
@@ -1002,6 +1059,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Metamorphosis",
@@ -1022,7 +1080,7 @@
       {
         "name": "Pacify & Provoke",
         "slot": 3,
-        "strengthScaling": true,
+        "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -1037,7 +1095,9 @@
       }
     ],
     "passiveDescription": "|PERCENT|% of Health Orbs are converted into Energy, and |PERCENT|% of Energy Orbs are converted into Health.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Excalibur/Excalibur",
@@ -1054,6 +1114,7 @@
       "madurai"
     ],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Slash Dash",
@@ -1089,7 +1150,9 @@
       }
     ],
     "passiveDescription": "Excalibur deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
@@ -1107,6 +1170,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Slash Dash",
@@ -1142,7 +1206,9 @@
       }
     ],
     "passiveDescription": "Excalibur Prime deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
@@ -1161,6 +1227,7 @@
       "umbra"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Slash Dash",
@@ -1196,7 +1263,9 @@
       }
     ],
     "passiveDescription": "Umbra exhibits sentience in combat without Transference control. Attacks |SPEED|% faster and deals |DAMAGE|% more damage while wielding swords.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Frost/Frost",
@@ -1213,6 +1282,7 @@
       "vazarin"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Freeze",
@@ -1248,7 +1318,9 @@
       }
     ],
     "passiveDescription": "Cold Status Effects from Frost's Abilities last |DURATION|% longer. Frost gains |ARMOR| Armor for each enemy afflicted with <DT_FREEZE_COLOR>Cold within <AFFINITY_SHARE>Affinity Range.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Frost/FrostPrime",
@@ -1266,6 +1338,7 @@
       "vazarin"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Freeze",
@@ -1301,7 +1374,9 @@
       }
     ],
     "passiveDescription": "Cold Status Effects from Frost's Abilities last |DURATION|% longer. Frost gains |ARMOR| Armor for each enemy afflicted with <DT_FREEZE_COLOR>Cold within <AFFINITY_SHARE>Affinity Range.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Glass/Glass",
@@ -1318,6 +1393,7 @@
       "madurai"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shattered Lash",
@@ -1353,7 +1429,9 @@
       }
     ],
     "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Glass/GaraPrime",
@@ -1371,6 +1449,7 @@
       "naramon"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shattered Lash",
@@ -1406,7 +1485,9 @@
       }
     ],
     "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Garuda/Garuda",
@@ -1423,6 +1504,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Dread Mirror",
@@ -1458,7 +1540,9 @@
       }
     ],
     "passiveDescription": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. \nSlashes with her talons if no melee weapon is equipped.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Garuda/GarudaPrime",
@@ -1476,6 +1560,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Dread Mirror",
@@ -1511,7 +1596,9 @@
       }
     ],
     "passiveDescription": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. \nSlashes with her talons if no melee weapon is equipped.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 55,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Runner/Runner",
@@ -1528,6 +1615,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Mach Rush",
@@ -1563,7 +1651,9 @@
       }
     ],
     "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
@@ -1581,6 +1671,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Mach Rush",
@@ -1616,7 +1707,9 @@
       }
     ],
     "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Devourer/Devourer",
@@ -1634,6 +1727,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Feast",
@@ -1669,7 +1763,9 @@
       }
     ],
     "passiveDescription": "Each enemy consumed grants |ARMOUR| bonus armor.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Devourer/GrendelPrime",
@@ -1688,6 +1784,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Feast",
@@ -1723,7 +1820,9 @@
       }
     ],
     "passiveDescription": "Each enemy consumed grants |ARMOUR| bonus armor.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
@@ -1740,6 +1839,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Arcsphere",
@@ -1775,7 +1875,9 @@
       }
     ],
     "passiveDescription": "Gyre's abilities have a 10% chance to deal critical damage for each Electrical status that affects the enemy.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 47,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Priest/Priest",
@@ -1792,6 +1894,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Condemn",
@@ -1827,7 +1930,9 @@
       }
     ],
     "passiveDescription": "Overshield capacity doubled.\nStart missions at maximum energy.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Priest/HarrowPrime",
@@ -1841,6 +1946,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Condemn",
@@ -1876,7 +1982,9 @@
       }
     ],
     "passiveDescription": "Overshield capacity doubled.\nStart missions at maximum energy.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/Helminth",
@@ -1890,6 +1998,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Energized Munitions",
@@ -1997,7 +2106,9 @@
       }
     ],
     "passiveDescription": "",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 0,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/IronFrame/IronFrame",
@@ -2014,6 +2125,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Balefire",
@@ -2049,7 +2161,9 @@
       }
     ],
     "passiveDescription": "Hildryn's full Shield Gate is high. After her Shields are depleted, she is invulnerable to damage up to 3.5s.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 0,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
@@ -2063,6 +2177,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Balefire",
@@ -2098,7 +2213,9 @@
       }
     ],
     "passiveDescription": "Hildryn's full Shield Gate is high. After her Shields are depleted, she is invulnerable to damage up to 3.5s.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 0,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pirate/Pirate",
@@ -2115,6 +2232,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Tempest Barrage",
@@ -2150,7 +2268,9 @@
       }
     ],
     "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE_COLOR>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pirate/HydroidPrime",
@@ -2169,6 +2289,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Tempest Barrage",
@@ -2204,7 +2325,9 @@
       }
     ],
     "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE_COLOR>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Sandman/Sandman",
@@ -2221,6 +2344,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Desiccation",
@@ -2256,7 +2380,9 @@
       }
     ],
     "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Sandman/InarosPrime",
@@ -2274,6 +2400,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Desiccation",
@@ -2309,7 +2436,9 @@
       }
     ],
     "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Ranger/Ranger",
@@ -2326,6 +2455,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Quiver",
@@ -2361,7 +2491,9 @@
       }
     ],
     "passiveDescription": "Senses nearby enemies within |RADIUS|m.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Ranger/IvaraPrime",
@@ -2379,6 +2511,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Quiver",
@@ -2414,7 +2547,9 @@
       }
     ],
     "passiveDescription": "Senses nearby enemies within |RADIUS|m.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 62,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Choir/Choir",
@@ -2430,6 +2565,7 @@
       "naramon"
     ],
     "aura": "aura",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Light's Judgment",
@@ -2442,7 +2578,7 @@
       {
         "name": "Symphony Of Mercy",
         "slot": 2,
-        "strengthScaling": true,
+        "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -2465,7 +2601,9 @@
       }
     ],
     "passiveDescription": "Jade's profound understanding of the relationship between life and death grants her two Aura Mod Slots. Some of her Abilities apply Judgments, increasing enemy damage vulnerability by |CHANCE|% for |DURATION|s.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 37,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Khora/Khora",
@@ -2482,6 +2620,7 @@
       "naramon"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Whipclaw",
@@ -2517,7 +2656,9 @@
       }
     ],
     "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Khora/KhoraPrime",
@@ -2535,6 +2676,7 @@
       "naramon"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Whipclaw",
@@ -2570,7 +2712,9 @@
       }
     ],
     "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Koumei/Koumei",
@@ -2587,6 +2731,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Kumihimo",
@@ -2622,7 +2767,9 @@
       }
     ],
     "passiveDescription": "Every |DURATION| seconds, one of Koumei's weapons will inflict random Status Effects for |DURATION| seconds.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 30,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
@@ -2639,6 +2786,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Wrathful Advance",
@@ -2674,7 +2822,9 @@
       }
     ],
     "passiveDescription": "Kullervo boasts +|EFFICIENCY|% Heavy Attack Efficiency and +|WINDUP|% Heavy Attack Wind Up Speed on all melee weapons.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
@@ -2691,6 +2841,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Ophidian Bite",
@@ -2726,7 +2877,9 @@
       }
     ],
     "passiveDescription": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.\n\nHold any ability to imbue the next cast with additional Elemental Damage and Status.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 0,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
@@ -2744,6 +2897,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Ophidian Bite",
@@ -2779,7 +2933,9 @@
       }
     ],
     "passiveDescription": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.\n\nHold any ability to imbue the next cast with additional Elemental Damage and Status.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 0,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Magician/Magician",
@@ -2796,6 +2952,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Banish",
@@ -2831,7 +2988,9 @@
       }
     ],
     "passiveDescription": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Magician/LimboPrime",
@@ -2850,6 +3009,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Banish",
@@ -2885,7 +3045,9 @@
       }
     ],
     "passiveDescription": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Loki/Loki",
@@ -2902,6 +3064,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Decoy",
@@ -2937,7 +3100,9 @@
       }
     ],
     "passiveDescription": "Able to hang from walls |MULT|x longer than normal.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Loki/LokiPrime",
@@ -2956,6 +3121,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Decoy",
@@ -2991,7 +3157,9 @@
       }
     ],
     "passiveDescription": "Able to hang from walls |MULT|x longer than normal.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Mag/Mag",
@@ -3008,6 +3176,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Pull",
@@ -3043,7 +3212,9 @@
       }
     ],
     "passiveDescription": "Nearby items gravitate toward Mag for easy collection.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Mag/MagPrime",
@@ -3061,6 +3232,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Pull",
@@ -3096,7 +3268,9 @@
       }
     ],
     "passiveDescription": "Nearby items gravitate toward Mag for easy collection.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Cowgirl/Cowgirl",
@@ -3113,6 +3287,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Ballistic Battery",
@@ -3148,7 +3323,9 @@
       }
     ],
     "passiveDescription": "Shoot dual-wielded sidearms |SPEED|% faster and reload single-handed sidearms |RELOAD|% more rapidly. Gain |HEALTH| Bonus Health when not using Melee Weapons.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Cowgirl/MesaPrime",
@@ -3167,6 +3344,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Ballistic Battery",
@@ -3202,7 +3380,9 @@
       }
     ],
     "passiveDescription": "Shoot dual-wielded sidearms |SPEED|% faster and reload single-handed sidearms |RELOAD|% more rapidly. Gain |HEALTH| Bonus Health when not using Melee Weapons.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Harlequin/Harlequin",
@@ -3219,6 +3399,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Hall Of Mirrors",
@@ -3254,7 +3435,9 @@
       }
     ],
     "passiveDescription": "Sliding lasts |DURATION|% longer and acrobatic maneuvers are |SPEED|% faster.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Harlequin/MiragePrime",
@@ -3273,6 +3456,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Hall Of Mirrors",
@@ -3308,7 +3492,9 @@
       }
     ],
     "passiveDescription": "Sliding lasts |DURATION|% longer and acrobatic maneuvers are |SPEED|% faster.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Necro/Necro",
@@ -3325,6 +3511,7 @@
       "madurai"
     ],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Soul Punch",
@@ -3360,7 +3547,9 @@
       }
     ],
     "passiveDescription": "Restore |HEALTH| Health with every enemy death within |RADIUS|m.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Necro/NekrosPrime",
@@ -3378,6 +3567,7 @@
       "naramon"
     ],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Soul Punch",
@@ -3413,7 +3603,9 @@
       }
     ],
     "passiveDescription": "Restore |HEALTH| Health with every enemy death within |RADIUS|m.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Nezha/Nezha",
@@ -3430,6 +3622,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Fire Walker",
@@ -3465,7 +3658,9 @@
       }
     ],
     "passiveDescription": "Slide |SPEED|% faster and go |RANGE|% farther.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Nezha/NezhaPrime",
@@ -3483,6 +3678,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Fire Walker",
@@ -3518,7 +3714,9 @@
       }
     ],
     "passiveDescription": "Slide |SPEED|% faster and go |RANGE|% farther.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Infestation/Infestation",
@@ -3535,6 +3733,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Virulence",
@@ -3555,7 +3754,7 @@
       {
         "name": "Parasitic Link",
         "slot": 3,
-        "strengthScaling": true,
+        "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -3570,7 +3769,9 @@
       }
     ],
     "passiveDescription": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Infestation/InfestationPrime",
@@ -3588,6 +3789,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Virulence",
@@ -3608,7 +3810,7 @@
       {
         "name": "Parasitic Link",
         "slot": 3,
-        "strengthScaling": true,
+        "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -3623,7 +3825,9 @@
       }
     ],
     "passiveDescription": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/AntiMatter/Anti",
@@ -3640,6 +3844,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Null Star",
@@ -3675,7 +3880,9 @@
       }
     ],
     "passiveDescription": "Enemies killed while slowed down have |CHANCE|% to drop health orbs. Enemies killed while sped up have |CHANCE|% to drop energy orbs.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
@@ -3693,6 +3900,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Null Star",
@@ -3728,7 +3936,9 @@
       }
     ],
     "passiveDescription": "Enemies killed while slowed down have |CHANCE|% to drop health orbs. Enemies killed while sped up have |CHANCE|% to drop energy orbs.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Jade/Jade",
@@ -3745,6 +3955,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Mind Control",
@@ -3780,7 +3991,9 @@
       }
     ],
     "passiveDescription": "Nyx gains +|CRITICAL|% Critical Chance on Primary and Secondary weapons per Confused enemy within <AFFINITY_SHARE>Affinity Range, up to +|MAX|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Jade/NyxPrime",
@@ -3798,6 +4011,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Mind Control",
@@ -3833,7 +4047,9 @@
       }
     ],
     "passiveDescription": "Nyx gains +|CRITICAL|% Critical Chance on Primary and Secondary weapons per Confused enemy within <AFFINITY_SHARE>Affinity Range, up to +|MAX|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Paladin/Paladin",
@@ -3850,6 +4066,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Smite",
@@ -3885,7 +4102,9 @@
       }
     ],
     "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Paladin/PaladinPrime",
@@ -3904,6 +4123,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Smite",
@@ -3939,7 +4159,9 @@
       }
     ],
     "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Bard/Bard",
@@ -3956,6 +4178,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Mallet",
@@ -3991,7 +4214,9 @@
       }
     ],
     "passiveDescription": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Bard/OctaviaPrime",
@@ -4009,6 +4234,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Mallet",
@@ -4044,7 +4270,9 @@
       }
     ],
     "passiveDescription": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
@@ -4061,6 +4289,7 @@
       "naramon"
     ],
     "aura": "aura",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Grenade Fan",
@@ -4096,7 +4325,9 @@
       }
     ],
     "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
@@ -4114,6 +4345,7 @@
       "naramon"
     ],
     "aura": "aura",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Grenade Fan",
@@ -4149,7 +4381,9 @@
       }
     ],
     "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
@@ -4163,6 +4397,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Chyrinka Pillar",
@@ -4198,7 +4433,9 @@
       }
     ],
     "passiveDescription": "Weapons wielded by Qorvex have an additional +|PUNCH_THROUGH| Punch Through.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 37,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Revenant/Revenant",
@@ -4215,6 +4452,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Enthrall",
@@ -4250,7 +4488,9 @@
       }
     ],
     "passiveDescription": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Revenant/RevenantPrime",
@@ -4268,6 +4508,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Enthrall",
@@ -4303,7 +4544,9 @@
       }
     ],
     "passiveDescription": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Rhino/Rhino",
@@ -4320,6 +4563,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Rhino Charge",
@@ -4355,7 +4599,9 @@
       }
     ],
     "passiveDescription": "Emit a shockwave dealing |DAMAGE| damage after landing from a great height.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
@@ -4373,6 +4619,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Rhino Charge",
@@ -4408,7 +4655,9 @@
       }
     ],
     "passiveDescription": "Emit a shockwave dealing |DAMAGE| damage after landing from a great height.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Saryn/Saryn",
@@ -4425,6 +4674,7 @@
       "vazarin"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Spores",
@@ -4460,7 +4710,9 @@
       }
     ],
     "passiveDescription": "Status Effects inflicted upon enemies last |DURATION|% longer.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
@@ -4478,6 +4730,7 @@
       "madurai"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Spores",
@@ -4513,7 +4766,9 @@
       }
     ],
     "passiveDescription": "Status Effects inflicted upon enemies last |DURATION|% longer.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Wraith/Wraith",
@@ -4530,6 +4785,7 @@
       "madurai"
     ],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Reap",
@@ -4565,7 +4821,9 @@
       }
     ],
     "passiveDescription": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone. ",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 35,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
@@ -4583,6 +4841,7 @@
       "madurai"
     ],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Reap",
@@ -4618,7 +4877,9 @@
       }
     ],
     "passiveDescription": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone. ",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Hoplite/Hoplite",
@@ -4635,6 +4896,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Axios Javelin",
@@ -4670,7 +4932,9 @@
       }
     ],
     "passiveDescription": "Styanax's critical chance increases with his shields and doubles for spearguns.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Temple/Temple",
@@ -4684,6 +4948,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Pyrotechnics",
@@ -4719,7 +4984,9 @@
       }
     ],
     "passiveDescription": "Play abilities in sync with the Backbeat metronome to invigorate ability effects while increasing Ability Efficiency by |COST|%.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 41,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Fairy/Fairy",
@@ -4736,6 +5003,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Spellbind",
@@ -4771,7 +5039,9 @@
       }
     ],
     "passiveDescription": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Fairy/TitaniaPrime",
@@ -4790,6 +5060,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Spellbind",
@@ -4825,7 +5096,9 @@
       }
     ],
     "passiveDescription": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 53,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Trinity/Trinity",
@@ -4842,6 +5115,7 @@
       "vazarin"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Well Of Life",
@@ -4877,7 +5151,9 @@
       }
     ],
     "passiveDescription": "Allies in <AFFINITY_SHARE>Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Trinity/TrinityPrime",
@@ -4896,6 +5172,7 @@
       "naramon"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Well Of Life",
@@ -4931,7 +5208,9 @@
       }
     ],
     "passiveDescription": "Allies in <AFFINITY_SHARE>Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Berserker/Berserker",
@@ -4948,6 +5227,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Rip Line",
@@ -4983,7 +5263,9 @@
       }
     ],
     "passiveDescription": "Recover |PERCENT|% faster from being knocked down.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Berserker/ValkyrPrime",
@@ -5001,6 +5283,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Rip Line",
@@ -5036,7 +5319,9 @@
       }
     ],
     "passiveDescription": "Recover |PERCENT|% faster from being knocked down.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Trapper/Trapper",
@@ -5053,6 +5338,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Tesla Nervos",
@@ -5088,7 +5374,9 @@
       }
     ],
     "passiveDescription": "Deal |DAMAGE|% Extra Damage to incapacitated enemies.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Trapper/TrapperPrime",
@@ -5106,6 +5394,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Tesla Nervos",
@@ -5141,7 +5430,9 @@
       }
     ],
     "passiveDescription": "Deal |DAMAGE|% Extra Damage to incapacitated enemies.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/EntratiMech/NechroTech",
@@ -5155,6 +5446,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Necraweb",
@@ -5190,7 +5482,9 @@
       }
     ],
     "passiveDescription": "",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Volt/Volt",
@@ -5207,6 +5501,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shock",
@@ -5242,7 +5537,9 @@
       }
     ],
     "passiveDescription": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Volt/VoltPrime",
@@ -5260,6 +5557,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shock",
@@ -5295,7 +5593,9 @@
       }
     ],
     "passiveDescription": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Werewolf/Werewolf",
@@ -5309,6 +5609,7 @@
     },
     "polarities": [],
     "aura": null,
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Shroud Of Dynar",
@@ -5344,7 +5645,9 @@
       }
     ],
     "passiveDescription": "Voruna never fights alone. In mission, hold Abilities to call upon each wolf’s unique Passive power.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Wisp/Wisp",
@@ -5361,6 +5664,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Reservoirs",
@@ -5396,7 +5700,9 @@
       }
     ],
     "passiveDescription": "Flowing between dimensions, Wisp becomes invisible to enemies while in the air. ",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
@@ -5414,6 +5720,7 @@
       "naramon"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Reservoirs",
@@ -5449,7 +5756,9 @@
       }
     ],
     "passiveDescription": "Flowing between dimensions, Wisp becomes invisible to enemies while in the air. ",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
@@ -5466,6 +5775,7 @@
       "vazarin"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Celestial Twin",
@@ -5501,7 +5811,9 @@
       }
     ],
     "passiveDescription": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 32,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
@@ -5519,6 +5831,7 @@
       "madurai"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Celestial Twin",
@@ -5554,7 +5867,9 @@
       }
     ],
     "passiveDescription": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 36,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
@@ -5571,6 +5886,7 @@
       "vazarin"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Xata's Whisper",
@@ -5606,7 +5922,9 @@
       }
     ],
     "passiveDescription": "|CHANCE|% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 40,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
@@ -5624,6 +5942,7 @@
       "madurai"
     ],
     "aura": "naramon",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Xata's Whisper",
@@ -5659,7 +5978,9 @@
       }
     ],
     "passiveDescription": "|CHANCE|% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 45,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
@@ -5676,6 +5997,7 @@
       "naramon"
     ],
     "aura": "madurai",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Sea Snares",
@@ -5711,7 +6033,9 @@
       }
     ],
     "passiveDescription": "Yareli gains +|CHANCE|% Critical Chance for Secondary weapons when she has been moving for at least |TIME|s.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 50,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Tengu/Tengu",
@@ -5728,6 +6052,7 @@
       "naramon"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Tail Wind",
@@ -5763,7 +6088,9 @@
       }
     ],
     "passiveDescription": "Zephyr moves faster and falls slower while airborne. Also gain |CRIT|% Critical Hit chance with weapons while airborne.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 25,
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
@@ -5782,6 +6109,7 @@
       "naramon"
     ],
     "aura": "vazarin",
+    "auraSlots": 1,
     "abilities": [
       {
         "name": "Tail Wind",
@@ -5817,6 +6145,8 @@
       }
     ],
     "passiveDescription": "Zephyr moves faster and falls slower while airborne. Also gain |CRIT|% Critical Hit chance with weapons while airborne.",
-    "masteryRank": 0
+    "masteryRank": 0,
+    "initialEnergy": 43,
+    "exilusPolarity": null
   }
 ]

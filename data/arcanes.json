@@ -8,8 +8,14 @@
     "effects": [
       {
         "stat": "while_sliding_or_aim_gliding_gain_ammo_efficiency_with_dual_pistols",
-        "value": 65,
-        "atMaxRank": true
+        "levelValues": [
+          15,
+          25,
+          35,
+          45,
+          55,
+          65
+        ]
       }
     ],
     "rawDescription": ""
@@ -166,14 +172,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_90_fire_rate_to_primary_weapons_excludes_shotguns_for_9sn1_arcane_revive",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_15_fire_rate_to_primary_weapons_excludes_shotguns_for_9s",
+        "levelValues": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -186,14 +193,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_shield_damagednchance_for_30_shield_recharge_for_12sn1_arcane_revive",
-        "value": 3,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_shield_damagednchance_for_5_shield_recharge_for_12s",
+        "levelValues": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
       }
     ],
     "rawDescription": ""
@@ -206,14 +214,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_damagednchance_for_60_parkour_velocity_for_18sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_damagednchance_for_10_parkour_velocity_for_18s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -226,14 +235,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_wall_latchndamage_for_30sn1_arcane_revive",
-        "value": 150,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_wall_latchndamage_for_30s",
+        "levelValues": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150
+        ]
       }
     ],
     "rawDescription": ""
@@ -246,14 +256,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_damagednchance_for_45_critical_chance_for_12sn1_arcane_revive",
-        "value": 21,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_damagednchance_for_75_critical_chance_for_12s",
+        "levelValues": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ]
       }
     ],
     "rawDescription": ""
@@ -266,14 +277,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_reloadnchance_for_150_damage_to_pistols_for_24sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_reloadnchance_for_25_damage_to_pistols_for_24s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -286,14 +298,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_shield_damagednchance_to_instantly_restore_all_shieldsn6s_cooldownn1_arcane_revive",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_shield_damagednchance_to_instantly_restore_all_shieldsn1s_cooldown",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -306,14 +319,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "gain_maximum_energy_per_armor_point_up_to_1000_energyn1_arcane_revive",
-        "value": 0.3,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "gain_maximum_energy_per_armor_point_up_to_1000_energy",
+        "levelValues": [
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3
+        ]
       }
     ],
     "rawDescription": ""
@@ -326,14 +340,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "gain_ability_strength_for_every_250_max_health_up_to_72n1_arcane_revive",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "gain_ability_strength_for_every_250_max_health_up_to_12",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -346,14 +361,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_primary_weapon_killnchance_for_300_melee_damage_for_12sn1_arcane_revive",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_primary_weapon_killnchance_for_50_melee_damage_for_12s",
+        "levelValues": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -366,14 +382,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_health_pickupnmax_health_stacks_up_to_50xn1_arcane_revive",
-        "value": 24,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_health_pickupnmax_health_stacks_up_to_50x",
+        "levelValues": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24
+        ]
       }
     ],
     "rawDescription": ""
@@ -386,14 +403,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_kills_within_30snheal_companion_for_900n1_arcane_revive",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_melee_kills_within_30snheal_companion_for_150",
+        "levelValues": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -406,14 +424,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "attacks_from_summoned_minions_increase_ability_strength_by_up_to_60_on_the_next_ability_cast_summons_gain_20_movement_speedn1_arcane_revive",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "attacks_from_summoned_minions_increase_ability_strength_by_up_to_10_on_the_next_ability_cast",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -426,14 +445,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshotnparkour_velocity_for_18sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_headshotnparkour_velocity_for_18s",
+        "levelValues": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -446,14 +466,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "while_invisible_gain_ability_strength_and_3x_final_critical_multipliern1_arcane_revive",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "while_invisible_gain_ability_strength_and_1x_final_critical_multiplier",
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -466,14 +487,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_puncture_colorpuncture_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_puncture_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -486,14 +508,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_slash_colorslash_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_slash_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -506,14 +529,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_poison_colortoxin_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_toxin_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -527,13 +551,14 @@
     "effects": [
       {
         "stat": "gain_damage_resistance_for_4s_per_dodge_double_jump_and_bullet_jump_stacks_up_to_3x",
-        "value": 25,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          9,
+          13,
+          17,
+          21,
+          25
+        ]
       }
     ],
     "rawDescription": ""
@@ -546,14 +571,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_energy_pickupnchance_to_replenish_150_energy_to_self_and_allies_within_15mn15s_cooldownn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_energy_pickupnchance_to_replenish_25_energy_to_self_and_allies_within_15mn15s_cooldown",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -566,14 +592,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_energy_pickupnchance_to_knockdown_nearby_enemiesn1_arcane_revive",
-        "value": 100,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_energy_pickupnchance_to_knockdown_nearby_enemies",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          100
+        ]
       }
     ],
     "rawDescription": ""
@@ -586,14 +613,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_mercy_kill_gain_a_stack_of_escapist_up_to_x_on_taking_fatal_damage_consume_3_stacks_to_avoid_death_and_become_invulnerable_for_12sn1_arcane_revive",
-        "value": 9,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_mercy_kill_gain_a_stack_of_escapist_up_to_x_on_taking_fatal_damage_consume_3_stacks_to_avoid_death_and_become_invulnerable_for_2s",
+        "levelValues": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
       }
     ],
     "rawDescription": ""
@@ -606,14 +634,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_180_melee_damage_to_melee_weapons_for_18sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_30_melee_damage_to_melee_weapons_for_18s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -626,14 +655,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_90_damage_to_pistols_for_24sn1_arcane_revive",
-        "value": 18,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_15_damage_to_pistols_for_4s",
+        "levelValues": [
+          3,
+          6,
+          9,
+          12,
+          15,
+          18
+        ]
       }
     ],
     "rawDescription": ""
@@ -646,14 +676,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_health_damagednchance_for_6_health_regenerations_for_9sn1_arcane_revive",
-        "value": 9,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_health_damagednchance_for_1_health_regenerations_for_9s",
+        "levelValues": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
       }
     ],
     "rawDescription": ""
@@ -666,14 +697,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_damagednchance_for_900_armor_for_20sn1_arcane_revive",
-        "value": 15,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_damagednchance_for_150_armor_for_20s",
+        "levelValues": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
       }
     ],
     "rawDescription": ""
@@ -686,14 +718,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_radiation_colorradiation_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_radiation_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -706,14 +739,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "gain_weapon_critical_chance_for_10s_when_using_abilities_to_inflict_dt_fire_colorheat_status_effect_on_enemies_maximum_50x_stacks",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "gain_weapon_critical_chance_for_10s_when_using_abilities_to_inflict_heat_status_effect_on_enemies_maximum_50x_stacks",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -726,14 +760,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_fire_colorheat_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_heat_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -746,14 +781,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_enemy_frozen_gain_ability_strength_and_2_ability_duration_for_15s_stacks_up_to_20xn1_arcane_revive",
-        "value": 2,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_enemy_frozen_gain_ability_strength_and_2_ability_duration_for_15s_stacks_up_to_10x",
+        "levelValues": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
       }
     ],
     "rawDescription": ""
@@ -766,14 +802,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "unique_status_effects_from_abilities_grant_ability_strength_and_3_ability_efficiency_for_20sn1_arcane_revive",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "unique_status_effects_from_abilities_grant_ability_strength_and_05_ability_efficiency_for_20s",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -787,13 +824,14 @@
     "effects": [
       {
         "stat": "gain_max_health_per_active_channeled_ability",
-        "value": 250,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "levelValues": [
+          40,
+          80,
+          120,
+          160,
+          200,
+          250
+        ]
       }
     ],
     "rawDescription": ""
@@ -806,14 +844,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_gas_colorgas_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_gas_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -826,14 +865,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_150_reload_speed_to_sniper_rifles_for_12sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_25_reload_speed_to_sniper_rifles_for_12s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -846,14 +886,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_magnetic_colormagnetic_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_magnetic_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -866,14 +907,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_blocknchance_for_60_speed_for_18sn1_arcane_revive",
-        "value": 45,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_blocknchance_for_10_speed_for_18s",
+        "levelValues": [
+          45,
+          45,
+          45,
+          45,
+          45,
+          45
+        ]
       }
     ],
     "rawDescription": ""
@@ -886,14 +928,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_pistol_headshot_killnchance_for_102_ammo_efficiency_for_12sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_pistol_headshot_killnchance_for_17_ammo_efficiency_for_12s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -907,13 +950,14 @@
     "effects": [
       {
         "stat": "on_ability_cast_next_ability_cast_gains_ability_strength_stacking_up_to_4x_resets_when_the_same_ability_is_recast_consecutively",
-        "value": 9,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "levelValues": [
+          2,
+          3,
+          4.5,
+          6,
+          7.5,
+          9
+        ]
       }
     ],
     "rawDescription": ""
@@ -926,14 +970,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshotndamage_for_18s_on_secondary_weaponn1_arcane_revive",
-        "value": 300,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_headshotndamage_for_18s_on_secondary_weapon",
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -946,14 +991,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_killnchance_for_300_primary_weapon_damage_for_12sn1_arcane_revive",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_melee_killnchance_for_50_primary_weapon_damage_for_12s",
+        "levelValues": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -966,14 +1012,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_corrosive_colorcorrosive_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_corrosive_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -986,14 +1033,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_health_pickupnchance_to_restore_500_health_to_allies_within_25mn15s_cooldownn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_health_pickupnchance_to_restore_50_health_to_allies_within_25mn15s_cooldown",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -1006,14 +1054,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshotnchance_for_180_damage_to_primary_weapons_for_24sn1_arcane_revive",
-        "value": 15,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_headshotnchance_for_30_damage_to_primary_weapons_for_24s",
+        "levelValues": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
       }
     ],
     "rawDescription": ""
@@ -1026,14 +1075,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_killnhealth_regens_and_660_armor_for_10sn1_arcane_revive",
-        "value": 24,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_melee_killnhealth_regens_and_110_armor_for_10s",
+        "levelValues": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24
+        ]
       }
     ],
     "rawDescription": ""
@@ -1046,14 +1096,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_poison_colortoxin_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_toxin_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -1066,14 +1117,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_reloadnchance_for_150_damage_to_primary_weapons_for_24sn1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_reloadnchance_for_25_damage_to_primary_weapons_for_24s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -1086,14 +1138,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_an_dt_impact_colorimpact_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_an_impact_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -1107,13 +1160,14 @@
     "effects": [
       {
         "stat": "on_ability_cast_chance_that_the_next_three_abilities_will_not_cost_energy",
-        "value": 20,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          8,
+          11,
+          14,
+          17,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -1126,14 +1180,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_hitnchance_for_60_attack_speed_to_melee_weapons_for_18sn1_arcane_revive",
-        "value": 15,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_hitnchance_for_10_attack_speed_to_melee_weapons_for_18s",
+        "levelValues": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
       }
     ],
     "rawDescription": ""
@@ -1146,14 +1201,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_predeathnchance_for_150_bleedout_raten1_arcane_revive",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_predeathnchance_for_25_bleedout_rate",
+        "levelValues": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -1166,14 +1222,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_archgun_equippedn200_armor_for_60sn1_arcane_revive",
-        "value": 1,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_archgun_equippednarmor_for_60s",
+        "levelValues": [
+          200,
+          400,
+          600,
+          800,
+          1,
+          1
+        ]
       }
     ],
     "rawDescription": ""
@@ -1186,14 +1243,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "damage_taken_during_reviven1_arcane_revive",
-        "value": -90,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "damage_taken_during_revive",
+        "levelValues": [
+          -15,
+          -30,
+          -45,
+          -60,
+          -75,
+          -90
+        ]
       }
     ],
     "rawDescription": ""
@@ -1206,14 +1264,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_90_fire_rate_to_shotguns_for_12sn1_arcane_revive",
-        "value": 15,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_15_fire_rate_to_shotguns_for_12s",
+        "levelValues": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
       }
     ],
     "rawDescription": ""
@@ -1226,14 +1285,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_finisher_killnchance_to_become_invisible_for_30sn1_arcane_revive",
-        "value": 15,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_finisher_killnchance_to_become_invisible_for_5s",
+        "levelValues": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
       }
     ],
     "rawDescription": ""
@@ -1246,14 +1306,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "when_gaining_000_or_more_overguard_threshold_release_a_30m_radial_attack_that_applies_max_dt_viral_colorviral_status_stacksn1_arcane_revive",
-        "value": 3,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "when_gaining_000_or_more_overguard_threshold_release_a_5m_radial_attack_that_applies_max_viral_status_stacks",
+        "levelValues": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
       }
     ],
     "rawDescription": ""
@@ -1266,14 +1327,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_finisher_killn200_armor_for_45sn1_arcane_revive",
-        "value": 1,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_finisher_killnarmor_for_45s",
+        "levelValues": [
+          200,
+          400,
+          600,
+          800,
+          1,
+          1
+        ]
       }
     ],
     "rawDescription": ""
@@ -1286,14 +1348,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "each_dt_radiation_colorradiation_status_effect_inflicted_on_enemies_by_abilities_gives_a_chance_to_drop_a_universal_orb_on_enemy_deathn1_arcane_revive",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "each_radiation_status_effect_inflicted_on_enemies_by_abilities_gives_a_chance_to_drop_a_universal_orb_on_enemy_death",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -1306,14 +1369,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_120_fire_rate_to_pistols_for_9sn1_arcane_revive",
-        "value": 90,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_20_fire_rate_to_pistols_for_9s",
+        "levelValues": [
+          90,
+          90,
+          90,
+          90,
+          90,
+          90
+        ]
       }
     ],
     "rawDescription": ""
@@ -1326,14 +1390,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshot_killnchance_for_3_health_regenerations_for_9sn1_arcane_revive",
-        "value": 75,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_headshot_killnchance_for_05_health_regenerations_for_9s",
+        "levelValues": [
+          75,
+          75,
+          75,
+          75,
+          75,
+          75
+        ]
       }
     ],
     "rawDescription": ""
@@ -1346,14 +1411,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "chance_to_resist_a_dt_freeze_colorcold_status_effect",
-        "value": 102,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "chance_to_resist_a_cold_status_effect",
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -1367,8 +1433,14 @@
     "effects": [
       {
         "stat": "on_rollncritical_chance_on_weakpoint_hits_for_4s",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1382,8 +1454,14 @@
     "effects": [
       {
         "stat": "on_status_effectndeals_damage_matching_the_damage_type_of_the_status_effect",
-        "value": 750,
-        "atMaxRank": true
+        "levelValues": [
+          250,
+          350,
+          450,
+          550,
+          650,
+          750
+        ]
       }
     ],
     "rawDescription": ""
@@ -1396,9 +1474,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_dt_fire_colorheat_status_effectndamage_for_10s_stacks_up_to_480",
-        "value": 12,
-        "atMaxRank": true
+        "stat": "on_heat_status_effectndamage_for_10s_stacks_up_to_80",
+        "levelValues": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
       }
     ],
     "rawDescription": ""
@@ -1412,8 +1496,14 @@
     "effects": [
       {
         "stat": "while_overshields_active_critical_chance",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1426,9 +1516,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_dt_electricity_colorelectricity_status_effectnreload_speed_and_3_multishot_for_12s_stacks_up_to_40x",
-        "value": 1.5,
-        "atMaxRank": true
+        "stat": "on_electricity_status_effectnreload_speed_and_05_multishot_for_12s_stacks_up_to_40x",
+        "levelValues": [
+          0.25,
+          0.5,
+          0.75,
+          1,
+          1.25,
+          1.5
+        ]
       }
     ],
     "rawDescription": ""
@@ -1441,9 +1537,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "while_in_void_sling_press_pre_attack_to_dissipate_the_endpoint_in_a_m_radius_enemies_hit_create_a_short_lived_void_mote_that_replenishes_10_energy_on_pick_up",
-        "value": 10,
-        "atMaxRank": true
+        "stat": "while_in_void_sling_press_to_dissipate_the_endpoint_in_a_m_radius_enemies_hit_create_a_short_lived_void_mote_that_replenishes_5_energy_on_pick_up",
+        "levelValues": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
       }
     ],
     "rawDescription": ""
@@ -1457,8 +1559,14 @@
     "effects": [
       {
         "stat": "on_energy_depletednincrease_energy_regeneration_by_over_5s_cooldown_30s",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1471,9 +1579,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_lethal_damagenbecome_invulnerable_for_s_and_recover_60_health_cooldown_90s",
-        "value": 5,
-        "atMaxRank": true
+        "stat": "on_lethal_damagenbecome_invulnerable_for_s_and_recover_10_health_cooldown_90s",
+        "levelValues": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
       }
     ],
     "rawDescription": ""
@@ -1487,8 +1601,14 @@
     "effects": [
       {
         "stat": "on_operator_abilityndamage_to_amps_for_8s",
-        "value": 60,
-        "atMaxRank": true
+        "levelValues": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -1502,8 +1622,14 @@
     "effects": [
       {
         "stat": "on_void_slingnamp_ammo_efficiency_for_8s",
-        "value": 72,
-        "atMaxRank": true
+        "levelValues": [
+          12,
+          24,
+          36,
+          48,
+          60,
+          72
+        ]
       }
     ],
     "rawDescription": ""
@@ -1517,8 +1643,14 @@
     "effects": [
       {
         "stat": "on_energy_depletedncritical_chance_for_8s",
-        "value": 180,
-        "atMaxRank": true
+        "levelValues": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ]
       }
     ],
     "rawDescription": ""
@@ -1532,8 +1664,12 @@
     "effects": [
       {
         "stat": "on_heavy_attack_killnenergy_rate_for_4s_stacks_up_to_3x",
-        "value": 5,
-        "atMaxRank": true
+        "levelValues": [
+          1.3,
+          2.5,
+          3.8,
+          5
+        ]
       }
     ],
     "rawDescription": ""
@@ -1544,13 +1680,7 @@
     "maxRank": 3,
     "maxStacks": 1,
     "trigger": "passive",
-    "effects": [
-      {
-        "stat": "after_a_bullet_jump_or_double_jumpnmelee_while_aim_gliding_launches_a_projectile_that_explodes_on_impact",
-        "value": 0,
-        "atMaxRank": true
-      }
-    ],
+    "effects": [],
     "rawDescription": ""
   },
   {
@@ -1559,13 +1689,7 @@
     "maxRank": 3,
     "maxStacks": 1,
     "trigger": "passive",
-    "effects": [
-      {
-        "stat": "after_a_bullet_jump_or_double_jumpnslam_emits_a_shockwave_forwards_that_suspends_enemies_in_the_air_for_a_short_period",
-        "value": 0,
-        "atMaxRank": true
-      }
-    ],
+    "effects": [],
     "rawDescription": ""
   },
   {
@@ -1576,9 +1700,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_status_effectnchance_to_deal_200_weapon_damage_to_enemies_within_6m",
-        "value": 50,
-        "atMaxRank": true
+        "stat": "on_status_effectnchance_to_deal_50_weapon_damage_to_enemies_within_6m",
+        "levelValues": [
+          50,
+          50,
+          50,
+          50
+        ]
       }
     ],
     "rawDescription": ""
@@ -1591,9 +1719,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_ground_slamnchance_to_pull_enemies_within_12m_into_melee_range",
-        "value": 50,
-        "atMaxRank": true
+        "stat": "on_ground_slamnchance_to_pull_enemies_within_6m_into_melee_range",
+        "levelValues": [
+          50,
+          50,
+          50,
+          50
+        ]
       }
     ],
     "rawDescription": ""
@@ -1606,9 +1738,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_finisher_killnchance_for_30_life_steal_for_8s",
-        "value": 50,
-        "atMaxRank": true
+        "stat": "on_finisher_killnchance_for_75_life_steal_for_8s",
+        "levelValues": [
+          50,
+          50,
+          50,
+          50
+        ]
       }
     ],
     "rawDescription": ""
@@ -1622,8 +1758,12 @@
     "effects": [
       {
         "stat": "additional_combo_count_chance",
-        "value": 50,
-        "atMaxRank": true
+        "levelValues": [
+          12.5,
+          25,
+          37.5,
+          50
+        ]
       }
     ],
     "rawDescription": ""
@@ -1637,8 +1777,12 @@
     "effects": [
       {
         "stat": "additional_combo_count_chance_on_lifted_enemies",
-        "value": 200,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200
+        ]
       }
     ],
     "rawDescription": ""
@@ -1652,8 +1796,14 @@
     "effects": [
       {
         "stat": "on_ability_castnreload_speed_for_5s",
-        "value": 240,
-        "atMaxRank": true
+        "levelValues": [
+          40,
+          80,
+          120,
+          160,
+          200,
+          240
+        ]
       }
     ],
     "rawDescription": ""
@@ -1667,8 +1817,14 @@
     "effects": [
       {
         "stat": "on_headshot_gain_damage_on_your_next_shot",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1681,9 +1837,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_slingnreduce_enemy_resistance_to_dt_fire_colorheat_damage_by_",
-        "value": 65,
-        "atMaxRank": true
+        "stat": "on_void_slingnreduce_enemy_resistance_to_heat_damage_by_",
+        "levelValues": [
+          12,
+          25,
+          37,
+          50,
+          60,
+          65
+        ]
       }
     ],
     "rawDescription": ""
@@ -1697,8 +1859,14 @@
     "effects": [
       {
         "stat": "on_warframe_melee_transference_heavy_blades_deal_critical_damage_for_4_consecutive_attacks_cooldown_20s",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1712,8 +1880,14 @@
     "effects": [
       {
         "stat": "on_transference_innenemies_within_m_are_pulled_towards_warframe",
-        "value": 30,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -1727,8 +1901,14 @@
     "effects": [
       {
         "stat": "on_void_slingnsprint_speed_for_12s",
-        "value": 90,
-        "atMaxRank": true
+        "levelValues": [
+          15,
+          30,
+          45,
+          60,
+          75,
+          90
+        ]
       }
     ],
     "rawDescription": ""
@@ -1742,8 +1922,14 @@
     "effects": [
       {
         "stat": "on_void_modenvoid_sling_radius_for_6s",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1756,9 +1942,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_slingnreduce_enemy_resistance_to_dt_puncture_colorpuncture_damage_by_",
-        "value": 65,
-        "atMaxRank": true
+        "stat": "on_void_slingnreduce_enemy_resistance_to_puncture_damage_by_",
+        "levelValues": [
+          12,
+          25,
+          37,
+          50,
+          60,
+          65
+        ]
       }
     ],
     "rawDescription": ""
@@ -1772,8 +1964,14 @@
     "effects": [
       {
         "stat": "on_transference_innincrease_kdrive_speed_by_for_30s",
-        "value": 150,
-        "atMaxRank": true
+        "levelValues": [
+          25,
+          50,
+          75,
+          100,
+          125,
+          150
+        ]
       }
     ],
     "rawDescription": ""
@@ -1786,9 +1984,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_transference_innchance_to_restore_300_health_to_warframe",
-        "value": 95,
-        "atMaxRank": true
+        "stat": "on_transference_innchance_to_restore_50_health_to_warframe",
+        "levelValues": [
+          95,
+          95,
+          95,
+          95,
+          95,
+          95
+        ]
       }
     ],
     "rawDescription": ""
@@ -1801,9 +2005,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_modengenerate_void_particles_every_s_up_to_6_particles_each_granting_125_damage_reduction_for_60s_taking_damage_consumes_a_particle",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_void_modengenerate_void_particles_every_s_up_to_6_particles_each_granting_125_damage_reduction_for_10s_taking_damage_consumes_a_particle",
+        "levelValues": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
       }
     ],
     "rawDescription": ""
@@ -1817,8 +2027,14 @@
     "effects": [
       {
         "stat": "on_transference_staticnchance_to_negate_transference_static",
-        "value": 102,
-        "atMaxRank": true
+        "levelValues": [
+          17,
+          34,
+          51,
+          68,
+          85,
+          102
+        ]
       }
     ],
     "rawDescription": ""
@@ -1832,8 +2048,14 @@
     "effects": [
       {
         "stat": "on_transference_outnarmor",
-        "value": 300,
-        "atMaxRank": true
+        "levelValues": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300
+        ]
       }
     ],
     "rawDescription": ""
@@ -1846,9 +2068,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_slingndrop_a_mine_that_tethers_up_to_enemies_in_15m_for_4s",
-        "value": 10,
-        "atMaxRank": true
+        "stat": "on_void_slingndrop_a_mine_that_tethers_up_to_enemies_in_3m_for_4s",
+        "levelValues": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
       }
     ],
     "rawDescription": ""
@@ -1861,9 +2089,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_slingnincrease_dt_fire_colorheat_damage_in_operator_mode_by_for_15s_stacking_up_to_7x",
-        "value": 30,
-        "atMaxRank": true
+        "stat": "on_void_slingnincrease_heat_damage_in_operator_mode_by_for_15s_stacking_up_to_2x",
+        "levelValues": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -1877,8 +2111,14 @@
     "effects": [
       {
         "stat": "while_an_operatornrestores_healths_to_warframe",
-        "value": 35,
-        "atMaxRank": true
+        "levelValues": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ]
       }
     ],
     "rawDescription": ""
@@ -1891,9 +2131,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_slingnstun_robotic_enemies_for_s_which_then_discharge_dt_electricity_colorelectricity_damage_dealing_80_of_their_max_health_to_anyone_within_25m",
-        "value": 3,
-        "atMaxRank": true
+        "stat": "on_void_slingnstun_robotic_enemies_for_s_which_then_discharge_electricity_damage_dealing_15_of_their_max_health_to_anyone_within_25m",
+        "levelValues": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
       }
     ],
     "rawDescription": ""
@@ -1906,9 +2152,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_modenheal_warframes_within_m_by_25_healths",
-        "value": 30,
-        "atMaxRank": true
+        "stat": "on_void_modenheal_warframes_within_m_by_5_healths",
+        "levelValues": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -1922,8 +2174,14 @@
     "effects": [
       {
         "stat": "on_void_slingnheal_health",
-        "value": 30,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -1936,9 +2194,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_void_slingnuse_again_within_s_to_return_the_operator_to_their_original_position_at_no_energy_cost_restores_60_health_3s_cooldown",
-        "value": 3,
-        "atMaxRank": true
+        "stat": "on_void_slingnuse_again_within_s_to_return_the_operator_to_their_original_position_at_no_energy_cost_restores_10_health_3s_cooldown",
+        "levelValues": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
       }
     ],
     "rawDescription": ""
@@ -1952,8 +2216,14 @@
     "effects": [
       {
         "stat": "on_transference_outnhealth",
-        "value": 600,
-        "atMaxRank": true
+        "levelValues": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600
+        ]
       }
     ],
     "rawDescription": ""
@@ -1967,8 +2237,14 @@
     "effects": [
       {
         "stat": "enemies_affected_by_status_effects_gain_additional_stacks_when_theyre_knocked_down_or_flung_by_melee_attacks",
-        "value": 6,
-        "atMaxRank": true
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -1981,9 +2257,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_hit_gain_critical_chance_on_your_next_heavy_attack_up_to_420",
-        "value": 42,
-        "atMaxRank": true
+        "stat": "on_melee_hit_gain_critical_chance_on_your_next_heavy_attack_up_to_70",
+        "levelValues": [
+          7,
+          14,
+          21,
+          28,
+          35,
+          42
+        ]
       }
     ],
     "rawDescription": ""
@@ -1997,8 +2279,14 @@
     "effects": [
       {
         "stat": "on_finisher_kill_gain_initial_combo_for_the_rest_of_your_mission",
-        "value": 6,
-        "atMaxRank": true
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -2011,9 +2299,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "gain_x_critical_multiplier_for_every_10_dt_puncture_colorpuncture_status_chance_on_your_melee_weapon",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "gain_x_critical_multiplier_for_every_10_puncture_status_chance_on_your_melee_weapon",
+        "levelValues": [
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1
+        ]
       }
     ],
     "rawDescription": ""
@@ -2027,8 +2321,14 @@
     "effects": [
       {
         "stat": "on_base_critical_hits_chance_for_your_attack_to_strike_a_second_time",
-        "value": 100,
-        "atMaxRank": true
+        "levelValues": [
+          25,
+          40,
+          55,
+          70,
+          85,
+          100
+        ]
       }
     ],
     "rawDescription": ""
@@ -2042,8 +2342,14 @@
     "effects": [
       {
         "stat": "on_ability_cast_gain_corrosive_damage_on_melee_strikes_for_25s_stacks_up_to_240",
-        "value": 60,
-        "atMaxRank": true
+        "levelValues": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -2057,8 +2363,14 @@
     "effects": [
       {
         "stat": "on_melee_kill_armor_for_10s",
-        "value": 210,
-        "atMaxRank": true
+        "levelValues": [
+          35,
+          70,
+          105,
+          140,
+          175,
+          210
+        ]
       }
     ],
     "rawDescription": ""
@@ -2071,9 +2383,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_dt_electricity_colorelectricity_status_chance_for_elemental_melee_status_effects_to_apply_to_enemies_within_20m_for_18s_cannot_refresh_while_active",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_melee_electricity_status_chance_for_elemental_melee_status_effects_to_apply_to_enemies_within_10m_for_3s_cannot_refresh_while_active",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2087,8 +2405,14 @@
     "effects": [
       {
         "stat": "gain_melee_damage_for_every_200_current_shields_up_to_420_bonus_halved_for_overshields",
-        "value": 30,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -2101,9 +2425,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "kill_an_enemy_affected_by_dt_magnetic_colormagnetic_status_for_a_chance_to_pull_in_enemies_within_18m_radius",
-        "value": 45,
-        "atMaxRank": true
+        "stat": "kill_an_enemy_affected_by_magnetic_status_for_a_chance_to_pull_in_enemies_within_18m_radius",
+        "levelValues": [
+          20,
+          25,
+          30,
+          35,
+          40,
+          45
+        ]
       }
     ],
     "rawDescription": ""
@@ -2116,14 +2446,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_killnability_strength_stacks_up_to_250xn1_arcane_revive",
-        "value": 0.24,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_killnability_strength_stacks_up_to_250x",
+        "levelValues": [
+          0.04,
+          0.08,
+          0.12,
+          0.16,
+          0.2,
+          0.24
+        ]
       }
     ],
     "rawDescription": ""
@@ -2136,14 +2467,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "while_shields_are_active_gain_ability_duration_per_second_up_to_a_maximum_of_36",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "while_shields_are_active_gain_ability_duration_per_second_up_to_a_maximum_of_6",
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -2157,13 +2489,14 @@
     "effects": [
       {
         "stat": "heal_yourself_and_allies_within_affinity_range_health_for_each_energy_point_spent_on_the_initial_casting_cost_of_abilities",
-        "value": 6,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "levelValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       }
     ],
     "rawDescription": ""
@@ -2176,14 +2509,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_operator_abilitynability_strength_on_next_warframe_ability_castn1_arcane_revive",
-        "value": 45,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "on_operator_abilitynability_strength_on_next_warframe_ability_cast",
+        "levelValues": [
+          15,
+          21,
+          27,
+          33,
+          39,
+          45
+        ]
       }
     ],
     "rawDescription": ""
@@ -2196,9 +2530,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshot_killnability_efficiency_and_30_ability_strength_on_the_next_ability_used_within_4s",
-        "value": 30,
-        "atMaxRank": true
+        "stat": "on_headshot_killnability_efficiency_and_75_ability_strength_on_the_next_ability_used_within_4s",
+        "levelValues": [
+          7.5,
+          15,
+          22.5,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -2212,8 +2550,12 @@
     "effects": [
       {
         "stat": "battery_recharge_delay_is_reduced_by",
-        "value": 50,
-        "atMaxRank": true
+        "levelValues": [
+          12.5,
+          25,
+          37.5,
+          50
+        ]
       }
     ],
     "rawDescription": ""
@@ -2227,8 +2569,12 @@
     "effects": [
       {
         "stat": "on_headshot_killnprojectiles_burst_from_the_target_and_seek_the_heads_of_nearby_enemies",
-        "value": 4,
-        "atMaxRank": true
+        "levelValues": [
+          1,
+          2,
+          3,
+          4
+        ]
       }
     ],
     "rawDescription": ""
@@ -2242,18 +2588,30 @@
     "effects": [
       {
         "stat": "accuracy_while_airborne",
-        "value": 50,
-        "atMaxRank": true
+        "levelValues": [
+          12.5,
+          25,
+          37.5,
+          50
+        ]
       },
       {
         "stat": "weapon_recoil_while_airborne",
-        "value": -50,
-        "atMaxRank": true
+        "levelValues": [
+          -12.5,
+          -25,
+          -37.5,
+          -50
+        ]
       },
       {
         "stat": "s_aim_glidewall_latch_duration",
-        "value": 5,
-        "atMaxRank": true
+        "levelValues": [
+          1.3,
+          2.5,
+          3.8,
+          5
+        ]
       }
     ],
     "rawDescription": ""
@@ -2266,9 +2624,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_dt_poison_colortoxin_status_effectncritical_damage_and_18_multishot_for_12s_stacks_up_to_40x",
-        "value": 3.6,
-        "atMaxRank": true
+        "stat": "on_toxin_status_effectncritical_damage_and_03_multishot_for_12s_stacks_up_to_40x",
+        "levelValues": [
+          0.6,
+          1.2,
+          1.8,
+          2.4,
+          3,
+          3.6
+        ]
       }
     ],
     "rawDescription": ""
@@ -2281,9 +2645,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_weak_point_hit_gain_status_chance_and_6_ammo_efficiency_for_10s_stacks_up_to_10x",
-        "value": 30,
-        "atMaxRank": true
+        "stat": "on_weak_point_hit_gain_status_chance_and_1_ammo_efficiency_for_10s_stacks_up_to_10x",
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -2296,19 +2666,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_precision_headshot_killndamage_for_24s_stacks_up_to_3xn30_to_headshot_multipliern50_weapon_recoil",
-        "value": 120,
-        "atMaxRank": true
-      },
-      {
-        "stat": "to_headshot_multiplier",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "weapon_recoil",
-        "value": -50,
-        "atMaxRank": true
+        "stat": "on_precision_headshot_killndamage_for_24s_stacks_up_to_3x",
+        "levelValues": [
+          20,
+          40,
+          60,
+          80,
+          100,
+          120
+        ]
       }
     ],
     "rawDescription": ""
@@ -2321,14 +2687,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_killndamage_for_20s_stacks_up_to_6xn75s_combo_duration",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "s_combo_duration",
-        "value": 7.5,
-        "atMaxRank": true
+        "stat": "on_melee_killndamage_for_20s_stacks_up_to_6x",
+        "levelValues": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -2341,9 +2708,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_weapon_dt_impact_colorimpact_status_effectnenergy_regens_for_10s_stacks_up_to_3x",
-        "value": 1.2,
-        "atMaxRank": true
+        "stat": "on_weapon_impact_status_effectnenergy_regens_for_10s_stacks_up_to_3x",
+        "levelValues": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1,
+          1.2
+        ]
       }
     ],
     "rawDescription": ""
@@ -2356,9 +2729,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_dt_freeze_colorcold_status_effectncritical_damage_and_225_multishot_for_12s_stacks_up_to_40x",
-        "value": 3,
-        "atMaxRank": true
+        "stat": "on_cold_status_effectncritical_damage_and_038_multishot_for_12s_stacks_up_to_40x",
+        "levelValues": [
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3
+        ]
       }
     ],
     "rawDescription": ""
@@ -2371,14 +2750,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_killndamage_for_4s_stacks_up_to_12xn30_reload_speed",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "reload_speed",
-        "value": 30,
-        "atMaxRank": true
+        "stat": "on_killndamage_for_4s_stacks_up_to_12x",
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -2391,9 +2771,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_weapon_dt_magnetic_colormagnetic_status_effect_enemy_weapons_jam_within_m_of_target_cooldown_10s",
-        "value": 15,
-        "atMaxRank": true
+        "stat": "on_weapon_magnetic_status_effect_enemy_weapons_jam_within_m_of_target_cooldown_60s",
+        "levelValues": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
       }
     ],
     "rawDescription": ""
@@ -2407,8 +2793,14 @@
     "effects": [
       {
         "stat": "on_reload_deal_increased_damage_per_round_loaded_based_on_max_magazine_size_lasts_for_s",
-        "value": 10,
-        "atMaxRank": true
+        "levelValues": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10
+        ]
       }
     ],
     "rawDescription": ""
@@ -2421,9 +2813,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_kitgun_killnchance_to_spawn_volatile_hives_for_12s_that_explode_when_enemies_approach_for_80_dt_fire_colorheat_damage_in_10m_standing_in_the_area_applies_dt_fire_colorheat_damage_type_to_theorem_arcanes",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_kitgun_killnchance_to_spawn_volatile_hives_for_3s_that_explode_when_enemies_approach_for_80_heat_damage_in_10m_standing_in_the_area_applies_heat_damage_type_to_theorem_arcanes",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2436,9 +2832,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_kitgun_killnchance_to_create_a_frigid_mist_for_12s_dealing_40_dt_freeze_colorcold_damages_standing_in_the_area_applies_dt_freeze_colorcold_damage_to_theorem_arcanes",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_kitgun_killnchance_to_create_a_frigid_mist_for_3s_dealing_40_cold_damages_standing_in_the_area_applies_cold_damage_to_theorem_arcanes",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2451,9 +2851,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_kitgun_killnchance_to_spawn_an_electrified_spike_for_12s_dealing_200_dt_electricity_colorelectricity_damage_to_enemies_within_10m_standing_in_the_area_applies_dt_electricity_colorelectricity_damage_to_theorem_arcanes",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_kitgun_killnchance_to_spawn_an_electrified_spike_for_3s_dealing_200_electricity_damage_to_enemies_within_10m_standing_in_the_area_applies_electricity_damage_to_theorem_arcanes",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2466,9 +2870,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_kitgun_killnchance_to_create_pool_of_toxic_blood_for_12s_dealing_40_dt_poison_colortoxin_damages_standing_in_the_area_applies_the_dt_poison_colortoxin_damage_to_theorem_arcanes",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_kitgun_killnchance_to_create_pool_of_toxic_blood_for_3s_dealing_40_toxin_damages_standing_in_the_area_applies_the_toxin_damage_to_theorem_arcanes",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2481,19 +2889,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_precision_headshot_killndamage_for_24s_stacks_up_to_3xn30_to_headshot_multipliern50_weapon_recoil",
-        "value": 120,
-        "atMaxRank": true
-      },
-      {
-        "stat": "to_headshot_multiplier",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "weapon_recoil",
-        "value": -50,
-        "atMaxRank": true
+        "stat": "on_precision_headshot_killndamage_for_24s_stacks_up_to_3x",
+        "levelValues": [
+          20,
+          40,
+          60,
+          80,
+          100,
+          120
+        ]
       }
     ],
     "rawDescription": ""
@@ -2506,14 +2910,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_melee_killndamage_for_20s_stacks_up_to_6xn75s_combo_duration",
-        "value": 60,
-        "atMaxRank": true
-      },
-      {
-        "stat": "s_combo_duration",
-        "value": 7.5,
-        "atMaxRank": true
+        "stat": "on_melee_killndamage_for_20s_stacks_up_to_6x",
+        "levelValues": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -2527,8 +2932,14 @@
     "effects": [
       {
         "stat": "on_status_effect_chance_to_trigger_a_second_random_status_effect",
-        "value": 24,
-        "atMaxRank": true
+        "levelValues": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24
+        ]
       }
     ],
     "rawDescription": ""
@@ -2541,9 +2952,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_hit_increase_critical_chance_by__resets_after_6_big_critical_hit",
-        "value": 10,
-        "atMaxRank": true
+        "stat": "on_hit_increase_critical_chance_by__resets_after_1_big_critical_hit",
+        "levelValues": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
       }
     ],
     "rawDescription": ""
@@ -2556,14 +2973,26 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "gain_overguard_for_every_100_damage_dealt_to_an_enemys_overguardndeals_x8_extra_damage_to_overguard",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "gain_overguard_for_every_100_damage_dealt_to_an_enemys_overguardndeals_x3_extra_damage_to_overguard",
+        "levelValues": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
       },
       {
         "stat": "deals_xextra_damage_to_overguard",
-        "value": 8,
-        "atMaxRank": true
+        "levelValues": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
       }
     ],
     "rawDescription": ""
@@ -2577,8 +3006,14 @@
     "effects": [
       {
         "stat": "while_buffing_ally_warframes_critical_chance_per_buff",
-        "value": 20,
-        "atMaxRank": true
+        "levelValues": [
+          3,
+          6,
+          10,
+          13,
+          17,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2591,14 +3026,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_killndamage_for_4s_stacks_up_to_12xn30_reload_speed",
-        "value": 30,
-        "atMaxRank": true
-      },
-      {
-        "stat": "reload_speed",
-        "value": 30,
-        "atMaxRank": true
+        "stat": "on_killndamage_for_4s_stacks_up_to_12x",
+        "levelValues": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       }
     ],
     "rawDescription": ""
@@ -2612,8 +3048,14 @@
     "effects": [
       {
         "stat": "on_swapping_to_secondary_weapon_consume_all_combo_multipliers_to_increase_secondary_weapon_critical_chance_and_critical_damage_by_per_combo_consumed_for_30s",
-        "value": 20,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          7,
+          9,
+          12,
+          16,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2626,9 +3068,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "enemies_take_damage_per_dt_freeze_colorcold_status",
-        "value": 45,
-        "atMaxRank": true
+        "stat": "enemies_take_damage_per_cold_status",
+        "levelValues": [
+          7.5,
+          15,
+          22.5,
+          30,
+          37.5,
+          45
+        ]
       }
     ],
     "rawDescription": ""
@@ -2641,9 +3089,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_ability_cast_next_shot_gains_a_damage_multiplier_for_every_current_energy_up_to_x8",
-        "value": 200,
-        "atMaxRank": true
+        "stat": "on_ability_cast_next_shot_gains_a_damage_multiplier_for_every_current_energy_up_to_x3",
+        "levelValues": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
       }
     ],
     "rawDescription": ""
@@ -2656,9 +3110,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_shotgun_kill_within_m_of_targetn180_multishot_and_75_reload_speed_for_15s",
-        "value": 5,
-        "atMaxRank": true
+        "stat": "on_shotgun_kill_within_m_of_targetn30_multishot_and_125_reload_speed_for_15s",
+        "levelValues": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
       }
     ],
     "rawDescription": ""
@@ -2671,14 +3131,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "standing_in_a_zone_created_by_a_residual_arcane_creates_a_globe_that_orbits_the_player_every_s_the_globes_will_strike_the_nearest_enemy_within_15m_dealing_150_damage_increasing_their_vulnerability_to_the_globes_damage_type_by_200_for_6s_globes_will_persist_for_30s_upon_leaving_the_zone",
-        "value": 2,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "standing_in_a_zone_created_by_a_residual_arcane_creates_a_globe_that_orbits_the_player_every_s_the_globes_will_strike_the_nearest_enemy_within_15m_dealing_150_damage_increasing_their_vulnerability_to_the_globes_damage_type_by_25_for_6s_globes_will_persist_for_30s_upon_leaving_the_zone",
+        "levelValues": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
       }
     ],
     "rawDescription": ""
@@ -2692,13 +3153,14 @@
     "effects": [
       {
         "stat": "standing_in_a_zone_created_by_a_residual_arcane_increases_weapon_damage_by_s_stacking_up_to_15x_effect_persists_for_20s_upon_leaving_the_zone",
-        "value": 12,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "levelValues": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
       }
     ],
     "rawDescription": ""
@@ -2711,14 +3173,15 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "standing_in_a_zone_created_by_a_residual_arcane_increases_damage_of_companions_and_summoned_allies_within_m_by_24s_stacking_up_to_15x_effect_persists_for_20s_upon_leaving_the_zone",
-        "value": 90,
-        "atMaxRank": true
-      },
-      {
-        "stat": "arcane_revive",
-        "value": 1,
-        "atMaxRank": true
+        "stat": "standing_in_a_zone_created_by_a_residual_arcane_increases_damage_of_companions_and_summoned_allies_within_m_by_4s_stacking_up_to_15x_effect_persists_for_20s_upon_leaving_the_zone",
+        "levelValues": [
+          90,
+          90,
+          90,
+          90,
+          90,
+          90
+        ]
       }
     ],
     "rawDescription": ""
@@ -2731,9 +3194,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_fire_colorheat_damage",
-        "value": 98,
-        "atMaxRank": true
+        "stat": "on_hitnconverts_void_damage_to_heat_damage",
+        "levelValues": [
+          24,
+          48,
+          72,
+          98
+        ]
       }
     ],
     "rawDescription": ""
@@ -2746,9 +3213,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_status_effectnchance_for_30_damage_for_4s",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_status_effectnchance_for_75_damage_for_4s",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2761,9 +3232,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshotnchance_for_60_status_chance_for_12s",
-        "value": 40,
-        "atMaxRank": true
+        "stat": "on_headshotnchance_for_15_status_chance_for_12s",
+        "levelValues": [
+          40,
+          40,
+          40,
+          40
+        ]
       }
     ],
     "rawDescription": ""
@@ -2777,8 +3252,12 @@
     "effects": [
       {
         "stat": "on_killnamp_energy_regeneration_for_4s",
-        "value": 20,
-        "atMaxRank": true
+        "levelValues": [
+          5,
+          10,
+          15,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2791,9 +3270,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_headshotnchance_for_60_critical_chance_for_12s",
-        "value": 40,
-        "atMaxRank": true
+        "stat": "on_headshotnchance_for_15_critical_chance_for_12s",
+        "levelValues": [
+          40,
+          40,
+          40,
+          40
+        ]
       }
     ],
     "rawDescription": ""
@@ -2806,9 +3289,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_puncture_colorpuncture_damage",
-        "value": 98,
-        "atMaxRank": true
+        "stat": "on_hitnconverts_void_damage_to_puncture_damage",
+        "levelValues": [
+          24,
+          48,
+          72,
+          98
+        ]
       }
     ],
     "rawDescription": ""
@@ -2821,9 +3308,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_critical_hitnchance_for_80_critical_damage_for_4s",
-        "value": 20,
-        "atMaxRank": true
+        "stat": "on_critical_hitnchance_for_20_critical_damage_for_4s",
+        "levelValues": [
+          20,
+          20,
+          20,
+          20
+        ]
       }
     ],
     "rawDescription": ""
@@ -2836,9 +3327,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_electricity_colorelectricity_damage",
-        "value": 98,
-        "atMaxRank": true
+        "stat": "on_hitnconverts_void_damage_to_electricity_damage",
+        "levelValues": [
+          24,
+          48,
+          72,
+          98
+        ]
       }
     ],
     "rawDescription": ""
@@ -2851,9 +3346,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_killnchance_for_60_fire_rate_for_8s",
-        "value": 60,
-        "atMaxRank": true
+        "stat": "on_killnchance_for_15_fire_rate_for_8s",
+        "levelValues": [
+          60,
+          60,
+          60,
+          60
+        ]
       }
     ],
     "rawDescription": ""
@@ -2866,9 +3365,13 @@
     "trigger": "passive",
     "effects": [
       {
-        "stat": "on_hitnconverts_dt_radiant_colorvoid_damage_to_dt_viral_colorviral_damage",
-        "value": 98,
-        "atMaxRank": true
+        "stat": "on_hitnconverts_void_damage_to_viral_damage",
+        "levelValues": [
+          24,
+          48,
+          72,
+          98
+        ]
       }
     ],
     "rawDescription": ""

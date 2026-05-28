@@ -1,0 +1,110 @@
+[
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Ashen/AshenSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "heavyKillArmorStrip",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "heavyKillArmorStrip",
+        "value": 0.2,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "heavyKillArmorStrip",
+        "value": 0.3,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Augur/AugurSetMod",
+    "numPiecesInSet": 6,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "energyToShieldOnCast",
+        "value": 0.4,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "energyToShieldOnCast",
+        "value": 0.8,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "energyToShieldOnCast",
+        "value": 1.2,
+        "isFlat": false
+      },
+      {
+        "pieces": 4,
+        "stat": "energyToShieldOnCast",
+        "value": 1.6,
+        "isFlat": false
+      },
+      {
+        "pieces": 5,
+        "stat": "energyToShieldOnCast",
+        "value": 2,
+        "isFlat": false
+      },
+      {
+        "pieces": 6,
+        "stat": "energyToShieldOnCast",
+        "value": 2.4,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Gladiator/GladiatorSetMod",
+    "numPiecesInSet": 6,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "critChance",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "critChance",
+        "value": 0.2,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "critChance",
+        "value": 0.3,
+        "isFlat": false
+      },
+      {
+        "pieces": 4,
+        "stat": "critChance",
+        "value": 0.4,
+        "isFlat": false
+      },
+      {
+        "pieces": 5,
+        "stat": "critChance",
+        "value": 0.5,
+        "isFlat": false
+      },
+      {
+        "pieces": 6,
+        "stat": "critChance",
+        "value": 0.6,
+        "isFlat": false
+      }
+    ]
+  }
+]

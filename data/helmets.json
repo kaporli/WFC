@@ -1,0 +1,32 @@
+[
+  {
+    "uniqueName": "/Lotus/Upgrades/Skins/AntiMatter/AntiAltHelmet",
+    "name": "Arcane Flux Helmet",
+    "warframeName": "Nova",
+    "effects": []
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmet",
+    "name": "Arcane Hemlock Helmet",
+    "warframeName": "Saryn",
+    "effects": []
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmetB",
+    "name": "Arcane Chlora Helmet",
+    "warframeName": "Saryn",
+    "effects": []
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmet",
+    "name": "Arcane Reverb Helmet",
+    "warframeName": "Banshee",
+    "effects": []
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmetB",
+    "name": "Arcane Chorus Helmet",
+    "warframeName": "Banshee",
+    "effects": []
+  }
+]

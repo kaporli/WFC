@@ -3,6 +3,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryWeapon",
     "name": "Acceltra",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -21,6 +22,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeAcceltra/PrimeAcceltraWeapon",
     "name": "Acceltra Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 97,
       "damageTypes": {},
@@ -39,6 +41,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol",
     "name": "Acrid",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 43,
       "damageTypes": {},
@@ -57,6 +60,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
     "name": "Aegrit",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 806,
       "damageTypes": {},
@@ -75,6 +79,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon",
     "name": "Aeolak",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -93,6 +98,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon",
     "name": "Afentis",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 100,
       "damageTypes": {},
@@ -111,6 +117,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols",
     "name": "Afuris",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -129,6 +136,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
     "name": "Afuris Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 25.999998,
       "damageTypes": {},
@@ -147,6 +155,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol",
     "name": "Akarius",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 487,
       "damageTypes": {},
@@ -165,6 +174,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
     "name": "Akarius Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 577,
       "damageTypes": {},
@@ -183,6 +193,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
     "name": "Akbolto",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 64,
       "damageTypes": {},
@@ -201,6 +212,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon",
     "name": "Akbolto Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 44,
       "damageTypes": {},
@@ -219,6 +231,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun",
     "name": "Akbronco",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 42,
       "damageTypes": {},
@@ -237,6 +250,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun",
     "name": "Akbronco Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -255,6 +269,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols",
     "name": "Akjagara",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 36,
       "damageTypes": {},
@@ -273,6 +288,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime",
     "name": "Akjagara Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 38,
       "damageTypes": {},
@@ -291,6 +307,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol",
     "name": "Aklato",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -309,6 +326,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
     "name": "Aklex",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -327,6 +345,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
     "name": "Aklex Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -345,6 +364,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnus",
     "name": "Akmagnus",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 98,
       "damageTypes": {},
@@ -363,6 +383,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
     "name": "Akmagnus Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 98,
       "damageTypes": {},
@@ -381,6 +402,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
     "name": "Aksomati",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 18,
       "damageTypes": {},
@@ -399,6 +421,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati",
     "name": "Aksomati Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -417,6 +440,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
     "name": "Akstiletto",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 28,
       "damageTypes": {},
@@ -435,6 +459,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto",
     "name": "Akstiletto Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 36,
       "damageTypes": {},
@@ -453,6 +478,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/DualVastos",
     "name": "Akvasto",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -471,6 +497,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
     "name": "Akvasto Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 110,
       "damageTypes": {},
@@ -489,6 +516,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols",
     "name": "Akzani",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 12,
       "damageTypes": {},
@@ -507,6 +535,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon",
     "name": "Alternox",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 62,
       "damageTypes": {},
@@ -525,6 +554,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpArSniper/CrpArSniperRifle",
     "name": "Ambassador",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 24,
       "damageTypes": {},
@@ -543,6 +573,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/ChainLightningGun/ChainLightningRifle",
     "name": "Amprex",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -561,6 +592,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
     "name": "Angstrum",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 450,
       "damageTypes": {},
@@ -579,6 +611,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpShotgun/CrpShotgun",
     "name": "Arca Plasmor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 600,
       "damageTypes": {},
@@ -597,6 +630,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun",
     "name": "Arca Scisco",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -615,6 +649,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/LaserAimRifle/LaserAimRifle",
     "name": "Argonak",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 57,
       "damageTypes": {},
@@ -633,6 +668,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnGlassShotgun/TnGlassShotgunGun",
     "name": "Astilla",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 190,
       "damageTypes": {},
@@ -651,6 +687,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeAstilla/AstillaPrimeWeapon",
     "name": "Astilla Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 240,
       "damageTypes": {},
@@ -669,6 +706,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
     "name": "Athodai",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -687,6 +725,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
     "name": "Atomos",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 29,
       "damageTypes": {},
@@ -705,6 +744,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnoPrmryXbow/TnoPrmryXbowWeapon",
     "name": "Attica",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 80,
       "damageTypes": {},
@@ -723,6 +763,7 @@
     "uniqueName": "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon",
     "name": "Ax-52",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -741,6 +782,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol",
     "name": "Azima",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -759,6 +801,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
     "name": "Ballistica",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 100,
       "damageTypes": {},
@@ -777,6 +820,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica",
     "name": "Ballistica Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 76,
       "damageTypes": {},
@@ -795,6 +839,7 @@
     "uniqueName": "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun",
     "name": "Basmu",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 58,
       "damageTypes": {},
@@ -813,6 +858,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle",
     "name": "Battacor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 66,
       "damageTypes": {},
@@ -831,6 +877,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnSMG/TnSMGWeapon",
     "name": "Baza",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 16,
       "damageTypes": {},
@@ -849,6 +896,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeBaza/PrimeBazaGun",
     "name": "Baza Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 16,
       "damageTypes": {},
@@ -867,6 +915,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Shotgun/FullAutoShotgun",
     "name": "Boar",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -885,6 +934,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Shotgun/PrimeBoar",
     "name": "Boar Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -903,6 +953,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/CrossBow",
     "name": "Bolto",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 64,
       "damageTypes": {},
@@ -921,6 +972,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/BoltoRifle",
     "name": "Boltor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 25,
       "damageTypes": {},
@@ -939,6 +991,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeBoltor/PrimeBoltor",
     "name": "Boltor Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 45.999996,
       "damageTypes": {},
@@ -957,6 +1010,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
     "name": "Brakk",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -975,6 +1029,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/Rifle",
     "name": "Braton",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 24,
       "damageTypes": {},
@@ -993,6 +1048,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/BratonPrime",
     "name": "Braton Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 35,
       "damageTypes": {},
@@ -1011,6 +1067,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/VIPRifle",
     "name": "Braton Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 35,
       "damageTypes": {},
@@ -1029,6 +1086,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
     "name": "Bronco",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 42,
       "damageTypes": {},
@@ -1047,6 +1105,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
     "name": "Bronco Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -1065,6 +1124,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/InfArmCannon/InfArmCannon",
     "name": "Bubonico",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 41,
       "damageTypes": {},
@@ -1083,6 +1143,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/BurstRifle",
     "name": "Burston",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -1101,6 +1162,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeBurston/PrimeBurston",
     "name": "Burston Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 46,
       "damageTypes": {},
@@ -1119,6 +1181,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnGorgSniperRifle/GrnGorgSniperRifle",
     "name": "Buzlok",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -1137,6 +1200,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
     "name": "Cantare",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -1155,6 +1219,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/CarminePenta",
     "name": "Carmine Penta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 425,
       "damageTypes": {},
@@ -1173,6 +1238,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs",
     "name": "Castanas",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -1191,6 +1257,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
     "name": "Catabolyst",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 53,
       "damageTypes": {},
@@ -1209,6 +1276,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun",
     "name": "Cedo",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -1227,6 +1295,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeCedo/PrimeCedoWeapon",
     "name": "Cedo Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 32,
       "damageTypes": {},
@@ -1245,6 +1314,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
     "name": "Cernos",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 380,
       "damageTypes": {},
@@ -1263,6 +1333,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/PrimeCernos/PrimeCernos",
     "name": "Cernos Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 183.99998,
       "damageTypes": {},
@@ -1281,6 +1352,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
     "name": "Cestra",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 26.000002,
       "damageTypes": {},
@@ -1299,6 +1371,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/DaxDuviriAsymetricalBow/DaxDuviriAsymmetricalLongBowPlayerWeapon",
     "name": "Cinta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 800,
       "damageTypes": {},
@@ -1317,6 +1390,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon",
     "name": "Coda Bassocyst",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 808,
       "damageTypes": {},
@@ -1335,6 +1409,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
     "name": "Coda Catabolyst",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 56,
       "damageTypes": {},
@@ -1353,6 +1428,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaHema",
     "name": "Coda Hema",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 52,
       "damageTypes": {},
@@ -1371,6 +1447,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox",
     "name": "Coda Pox",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -1389,6 +1466,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix",
     "name": "Coda Sporothrix",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 376,
       "damageTypes": {},
@@ -1407,6 +1485,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSynapse",
     "name": "Coda Synapse",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 26,
       "damageTypes": {},
@@ -1425,6 +1504,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
     "name": "Coda Tysis",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 135,
       "damageTypes": {},
@@ -1443,6 +1523,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpSplitLaser/CrpSplitLaser",
     "name": "Convectrix",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 12,
       "damageTypes": {},
@@ -1461,6 +1542,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnHeavyShotgun/TnHeavyShotgunGun",
     "name": "Corinth",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -1479,6 +1561,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeCorinth/PrimeCorinth",
     "name": "Corinth Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -1497,6 +1580,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol",
     "name": "Cyanex",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 91,
       "damageTypes": {},
@@ -1515,6 +1599,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun",
     "name": "Cycron",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 23,
       "damageTypes": {},
@@ -1533,6 +1618,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/AsymetricalBow/AsymetricalBow",
     "name": "Daikyu",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 700,
       "damageTypes": {},
@@ -1551,6 +1637,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/EnergyRifle",
     "name": "Dera",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -1569,6 +1656,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/DeraVandal",
     "name": "Dera Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 32,
       "damageTypes": {},
@@ -1587,6 +1675,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
     "name": "Despair",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 58,
       "damageTypes": {},
@@ -1605,6 +1694,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon",
     "name": "Detron",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -1623,6 +1713,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
     "name": "Dex Furis",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 16,
       "damageTypes": {},
@@ -1641,6 +1732,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/DexTheThird/DexTheThird",
     "name": "Dex Sybaris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 75,
       "damageTypes": {},
@@ -1659,6 +1751,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerFlakCannon/FlakCannon",
     "name": "Drakgoon",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -1677,6 +1770,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/StalkerBow",
     "name": "Dread",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 336,
       "damageTypes": {},
@@ -1695,6 +1789,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
     "name": "Dual Cestra",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 26.000002,
       "damageTypes": {},
@@ -1713,6 +1808,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
     "name": "Dual Coda Torxica",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -1731,6 +1827,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
     "name": "Dual Toxocyst",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 75,
       "damageTypes": {},
@@ -1749,6 +1846,7 @@
     "uniqueName": "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon",
     "name": "Efv-5 Jupiter",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 61,
       "damageTypes": {},
@@ -1767,6 +1865,7 @@
     "uniqueName": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
     "name": "Efv-8 Mars",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 75,
       "damageTypes": {},
@@ -1785,6 +1884,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
     "name": "Embolist",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 35,
       "damageTypes": {},
@@ -1803,6 +1903,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon",
     "name": "Epitaph",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -1821,6 +1922,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
     "name": "Epitaph Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 315,
       "damageTypes": {},
@@ -1839,6 +1941,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
     "name": "Euphona Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 325,
       "damageTypes": {},
@@ -1857,6 +1960,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow",
     "name": "Evensong",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 650,
       "damageTypes": {},
@@ -1875,6 +1979,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpShapeBlast/CrpShapeBlastShotgun",
     "name": "Exergis",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 540,
       "damageTypes": {},
@@ -1893,6 +1998,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Zariman/LongGuns/PumpShotgun/ZarimanPumpShotgun",
     "name": "Felarx",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 190,
       "damageTypes": {},
@@ -1911,6 +2017,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/Spears/Railgun/CorpusRailgun",
     "name": "Ferrox",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 350,
       "damageTypes": {},
@@ -1929,6 +2036,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/CrpLaserRifle",
     "name": "Flux Rifle",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -1947,6 +2055,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifle",
     "name": "Fulmin",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 500,
       "damageTypes": {},
@@ -1965,6 +2074,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeFulmin/PrimeFulmin",
     "name": "Fulmin Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 550,
       "damageTypes": {},
@@ -1983,6 +2093,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
     "name": "Furis",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -2001,6 +2112,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon",
     "name": "Fusilai",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 77,
       "damageTypes": {},
@@ -2019,6 +2131,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
     "name": "Gammacor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 16,
       "damageTypes": {},
@@ -2037,6 +2150,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/CrpFreezeRayRifle",
     "name": "Glaxion",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 26,
       "damageTypes": {},
@@ -2055,6 +2169,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle",
     "name": "Glaxion Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 29,
       "damageTypes": {},
@@ -2073,6 +2188,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/HeavyRifle",
     "name": "Gorgon",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 25,
       "damageTypes": {},
@@ -2091,6 +2207,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/WraithGorgon/WraithGorgon",
     "name": "Gorgon Wraith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 27,
       "damageTypes": {},
@@ -2109,6 +2226,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
     "name": "Gotva Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 25,
       "damageTypes": {},
@@ -2127,6 +2245,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/GrnAssaultRifle",
     "name": "Grakata",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 11,
       "damageTypes": {},
@@ -2145,6 +2264,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire",
     "name": "Grimoire",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 25,
       "damageTypes": {},
@@ -2163,6 +2283,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire",
     "name": "Grimoire",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -2181,6 +2302,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/GLARifle",
     "name": "Grinlok",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 187,
       "damageTypes": {},
@@ -2199,6 +2321,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnHarpoonGun/GrnHarpoonGun",
     "name": "Harpak",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -2217,6 +2340,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Shotgun/QuadShotgun",
     "name": "Hek",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 75,
       "damageTypes": {},
@@ -2235,6 +2359,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle",
     "name": "Hema",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 47,
       "damageTypes": {},
@@ -2253,6 +2378,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
     "name": "Higasa",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 26,
       "damageTypes": {},
@@ -2271,6 +2397,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
     "name": "Hikou",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 26,
       "damageTypes": {},
@@ -2289,6 +2416,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou",
     "name": "Hikou Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 36,
       "damageTypes": {},
@@ -2307,6 +2435,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/BurstRifle/GrnBurstRifle",
     "name": "Hind",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -2325,6 +2454,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon",
     "name": "Hystrix",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 36.000004,
       "damageTypes": {},
@@ -2343,6 +2473,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
     "name": "Hystrix Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 46,
       "damageTypes": {},
@@ -2361,6 +2492,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Chemical/FlameThrower",
     "name": "Ignis",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 33,
       "damageTypes": {},
@@ -2379,6 +2511,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Chemical/FlameThrowerWraith",
     "name": "Ignis Wraith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 35,
       "damageTypes": {},
@@ -2397,6 +2530,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GrnFlameSpear",
     "name": "Javlok",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 280,
       "damageTypes": {},
@@ -2415,6 +2549,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerM16Homage/GrineerM16Rifle",
     "name": "Karak",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 29,
       "damageTypes": {},
@@ -2433,6 +2568,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerM16Homage/KarakWraith",
     "name": "Karak Wraith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 31,
       "damageTypes": {},
@@ -2451,6 +2587,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon",
     "name": "Knell",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -2469,6 +2606,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeKnell/PrimeKnellWeapon",
     "name": "Knell Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -2487,6 +2625,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnSpark/GrnSparkRifle",
     "name": "Kohm",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -2505,6 +2644,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
     "name": "Kohmak",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -2523,6 +2663,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpSentAmlgSniper/CrpSentAmlgSniper",
     "name": "Komorex",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 97,
       "damageTypes": {},
@@ -2541,6 +2682,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon",
     "name": "Kompressa",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 2,
       "damageTypes": {},
@@ -2559,6 +2701,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
     "name": "Kraken",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 49,
       "damageTypes": {},
@@ -2577,6 +2720,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
     "name": "Kulstar",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 500,
       "damageTypes": {},
@@ -2595,6 +2739,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
     "name": "Kunai",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 45.999996,
       "damageTypes": {},
@@ -2613,6 +2758,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk",
     "name": "Kuva Brakk",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 15,
       "damageTypes": {},
@@ -2631,6 +2777,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Bows/GrnBow/GrnBowWeapon",
     "name": "Kuva Bramma",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 1026,
       "damageTypes": {},
@@ -2649,6 +2796,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnKuvaLichRifle/GrnKuvaLichRifleWeapon",
     "name": "Kuva Chakkhurr",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 366,
       "damageTypes": {},
@@ -2667,6 +2815,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Drakgoon/KuvaDrakgoon",
     "name": "Kuva Drakgoon",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 46,
       "damageTypes": {},
@@ -2685,6 +2834,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hek/KuvaHekWeapon",
     "name": "Kuva Hek",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 87,
       "damageTypes": {},
@@ -2703,6 +2853,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hind/KuvaHind",
     "name": "Kuva Hind",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -2721,6 +2872,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Karak/KuvaKarak",
     "name": "Kuva Karak",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 23,
       "damageTypes": {},
@@ -2739,6 +2891,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Kohm/KuvaKohm",
     "name": "Kuva Kohm",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -2757,6 +2910,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken",
     "name": "Kuva Kraken",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 43,
       "damageTypes": {},
@@ -2775,6 +2929,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor",
     "name": "Kuva Nukor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 21,
       "damageTypes": {},
@@ -2793,6 +2948,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Ogris/KuvaOgris",
     "name": "Kuva Ogris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 714,
       "damageTypes": {},
@@ -2811,6 +2967,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Quartakk/KuvaQuartakk",
     "name": "Kuva Quartakk",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 54,
       "damageTypes": {},
@@ -2829,6 +2986,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer",
     "name": "Kuva Seer",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -2847,6 +3005,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Sobek/KuvaSobek",
     "name": "Kuva Sobek",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 77,
       "damageTypes": {},
@@ -2865,6 +3024,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Tonkor/KuvaTonkor",
     "name": "Kuva Tonkor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 733,
       "damageTypes": {},
@@ -2883,6 +3043,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba",
     "name": "Kuva Twin Stubbas",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 27,
       "damageTypes": {},
@@ -2901,6 +3062,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Zarr/KuvaZarr",
     "name": "Kuva Zarr",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 723,
       "damageTypes": {},
@@ -2919,6 +3081,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
     "name": "Laetum",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -2937,6 +3100,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/Railgun",
     "name": "Lanka",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 525,
       "damageTypes": {},
@@ -2955,6 +3119,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/Pistol",
     "name": "Lato",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -2973,6 +3138,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
     "name": "Lato Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -2991,6 +3157,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
     "name": "Lato Vandal",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 46,
       "damageTypes": {},
@@ -3009,6 +3176,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/SemiAutoRifle",
     "name": "Latron",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 55,
       "damageTypes": {},
@@ -3027,6 +3195,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/LatronPrime",
     "name": "Latron Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -3045,6 +3214,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/WraithLatron/WraithLatron",
     "name": "Latron Wraith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 62,
       "damageTypes": {},
@@ -3063,6 +3233,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBow",
     "name": "Lenz",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -3081,6 +3252,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
     "name": "Lex",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -3099,6 +3271,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
     "name": "Lex Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -3117,6 +3290,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
     "name": "Magnus",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 98,
       "damageTypes": {},
@@ -3135,6 +3309,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
     "name": "Magnus Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 98,
       "damageTypes": {},
@@ -3153,6 +3328,7 @@
     "uniqueName": "/Lotus/Weapons/VoidTrader/VTDetron",
     "name": "Mara Detron",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -3171,6 +3347,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol",
     "name": "Marelok",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -3189,6 +3366,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/SawBladeGun",
     "name": "Miter",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -3207,6 +3385,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/StartingRifle",
     "name": "Mk1-Braton",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 18,
       "damageTypes": {},
@@ -3225,6 +3404,7 @@
     "uniqueName": "/Lotus/Weapons/MK1Series/MK1Furis",
     "name": "Mk1-Furis",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 12.999999,
       "damageTypes": {},
@@ -3243,6 +3423,7 @@
     "uniqueName": "/Lotus/Weapons/MK1Series/MK1Kunai",
     "name": "Mk1-Kunai",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -3261,6 +3442,7 @@
     "uniqueName": "/Lotus/Weapons/MK1Series/MK1Paris",
     "name": "Mk1-Paris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 230,
       "damageTypes": {},
@@ -3279,6 +3461,7 @@
     "uniqueName": "/Lotus/Weapons/MK1Series/MK1Strun",
     "name": "Mk1-Strun",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 18,
       "damageTypes": {},
@@ -3297,6 +3480,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos",
     "name": "Mutalist Cernos",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 415,
       "damageTypes": {},
@@ -3315,6 +3499,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/InfCrpShockSwarm/InfCrpShockSwarmRifle",
     "name": "Mutalist Quanta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 25,
       "damageTypes": {},
@@ -3333,6 +3518,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow",
     "name": "Nagantaka",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 158.99998,
       "damageTypes": {},
@@ -3351,6 +3537,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeNagantaka/PrimeNagantakaWeapon",
     "name": "Nagantaka Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 173,
       "damageTypes": {},
@@ -3369,6 +3556,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/Omicrus/OmicrusPlayerWep",
     "name": "Nataruk",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 900,
       "damageTypes": {},
@@ -3387,6 +3575,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol",
     "name": "Nukor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -3405,6 +3594,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
     "name": "Ocucor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 11,
       "damageTypes": {},
@@ -3423,6 +3613,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Chemical/RocketLauncher",
     "name": "Ogris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 700,
       "damageTypes": {},
@@ -3441,6 +3632,7 @@
     "uniqueName": "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
     "name": "Onos",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 220,
       "damageTypes": {},
@@ -3459,6 +3651,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/CrpBFG",
     "name": "Opticor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 999.99994,
       "damageTypes": {},
@@ -3477,6 +3670,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/Vandal/VandalCrpBFG",
     "name": "Opticor Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 400,
       "damageTypes": {},
@@ -3495,6 +3689,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun",
     "name": "Pandero",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 72,
       "damageTypes": {},
@@ -3513,6 +3708,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
     "name": "Pandero Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 104,
       "damageTypes": {},
@@ -3531,6 +3727,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Miter/TnoMiter",
     "name": "Panthera",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 100,
       "damageTypes": {},
@@ -3549,6 +3746,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimePanthera/PrimePanthera",
     "name": "Panthera Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -3567,6 +3765,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/QuantaFullyInfested/InfQuantaRifle",
     "name": "Paracyst",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 33,
       "damageTypes": {},
@@ -3585,6 +3784,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/HuntingBow",
     "name": "Paris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 320,
       "damageTypes": {},
@@ -3603,6 +3803,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/PrimeHuntingBow",
     "name": "Paris Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 360,
       "damageTypes": {},
@@ -3621,6 +3822,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/GrenadeLauncher",
     "name": "Penta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 425,
       "damageTypes": {},
@@ -3639,6 +3841,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
     "name": "Perigale",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 172,
       "damageTypes": {},
@@ -3657,6 +3860,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/Tentacluster/InfestedShotgun",
     "name": "Phage",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 5,
       "damageTypes": {},
@@ -3675,6 +3879,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgun",
     "name": "Phantasma",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 15,
       "damageTypes": {},
@@ -3693,6 +3898,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun",
     "name": "Phantasma Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 15,
       "damageTypes": {},
@@ -3711,6 +3917,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Zariman/LongGuns/SemiAutoRifle/ZarimanSemiAutoRifle",
     "name": "Phenmor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -3729,6 +3936,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorWeapon",
     "name": "Plinx",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 46,
       "damageTypes": {},
@@ -3747,6 +3955,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
     "name": "Pox",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -3765,6 +3974,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
     "name": "Prisma Angstrum",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 450,
       "damageTypes": {},
@@ -3783,6 +3993,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/VoidTraderGorgon/VTGorgon",
     "name": "Prisma Gorgon",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 23.000002,
       "damageTypes": {},
@@ -3801,6 +4012,7 @@
     "uniqueName": "/Lotus/Weapons/VoidTrader/PrismaGrakata",
     "name": "Prisma Grakata",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 15,
       "damageTypes": {},
@@ -3819,6 +4031,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/PrismaGrinlokWeapon",
     "name": "Prisma Grinlok",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 187,
       "damageTypes": {},
@@ -3837,6 +4050,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Bow/Longbow/PrismaLenz/PrismaLenzWeapon",
     "name": "Prisma Lenz",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 66,
       "damageTypes": {},
@@ -3855,6 +4069,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/PrismaCorpusUMP",
     "name": "Prisma Tetra",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 38,
       "damageTypes": {},
@@ -3873,6 +4088,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
     "name": "Prisma Twin Gremlins",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 27,
       "damageTypes": {},
@@ -3891,6 +4107,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Bows/PrimeDerelictCernos/DerelictCernos",
     "name": "Proboscis Cernos",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 279,
       "damageTypes": {},
@@ -3909,6 +4126,7 @@
     "uniqueName": "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon",
     "name": "Purgator 1",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 781,
       "damageTypes": {},
@@ -3927,6 +4145,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun",
     "name": "Pyrana",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -3945,6 +4164,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol",
     "name": "Pyrana Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 24,
       "damageTypes": {},
@@ -3963,6 +4183,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/CrpShockRifle",
     "name": "Quanta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 10,
       "damageTypes": {},
@@ -3981,6 +4202,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/QuantaVandal",
     "name": "Quanta Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 13,
       "damageTypes": {},
@@ -3999,6 +4221,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnFourBarrelRifle/GrnFourBarrelRifleWeapon",
     "name": "Quartakk",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 49,
       "damageTypes": {},
@@ -4017,6 +4240,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
     "name": "Quatz",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 29,
       "damageTypes": {},
@@ -4035,6 +4259,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnRailjackRifle/RailjackRifleGun",
     "name": "Quellor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 58,
       "damageTypes": {},
@@ -4053,6 +4278,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica",
     "name": "Rakta Ballistica",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -4071,6 +4297,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/RedVeil/Bows/RVCernos",
     "name": "Rakta Cernos",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 470,
       "damageTypes": {},
@@ -4089,6 +4316,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun",
     "name": "Rauta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -4107,6 +4335,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
     "name": "Reconifex",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -4125,6 +4354,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
     "name": "Riot-848",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -4143,6 +4373,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/FiveShotSniper/FiveShotSniper",
     "name": "Rubico",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 179.99998,
       "damageTypes": {},
@@ -4161,6 +4392,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/RubicoPrime/RubicoPrimeWeapon",
     "name": "Rubico Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 187,
       "damageTypes": {},
@@ -4179,6 +4411,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas",
     "name": "Sancti Castanas",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -4197,6 +4430,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/NewLoka/LongGuns/NLTigris",
     "name": "Sancti Tigris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 210,
       "damageTypes": {},
@@ -4215,6 +4449,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnPriestSpear/TnPriestSpearGun",
     "name": "Scourge",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 125,
       "damageTypes": {},
@@ -4233,6 +4468,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeScourge/PrimeScourgeWeapon",
     "name": "Scourge Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -4251,6 +4487,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra",
     "name": "Secura Dual Cestra",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 28,
       "damageTypes": {},
@@ -4269,6 +4506,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/PerrinSequence/LongGuns/PSPenta",
     "name": "Secura Penta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 375,
       "damageTypes": {},
@@ -4287,6 +4525,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer",
     "name": "Seer",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 101,
       "damageTypes": {},
@@ -4305,6 +4544,7 @@
     "uniqueName": "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol",
     "name": "Sepulcrum",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 94,
       "damageTypes": {},
@@ -4323,6 +4563,7 @@
     "uniqueName": "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon",
     "name": "Shedu",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 158,
       "damageTypes": {},
@@ -4341,6 +4582,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/BurstPistol",
     "name": "Sicarus",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -4359,6 +4601,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol",
     "name": "Sicarus Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -4377,6 +4620,7 @@
     "uniqueName": "/Lotus/Weapons/Cephalon/Primary/CephPrimary/CephPrimary",
     "name": "Simulor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -4395,6 +4639,7 @@
     "uniqueName": "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon",
     "name": "Sirocco",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 2000,
       "damageTypes": {},
@@ -4413,6 +4658,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/SniperRifle",
     "name": "Snipetron",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -4431,6 +4677,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/VandalSniperRifle",
     "name": "Snipetron Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -4449,6 +4696,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Shotgun/DoubleBarrelShotgun",
     "name": "Sobek",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -4467,6 +4715,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/TennoAR",
     "name": "Soma",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 12,
       "damageTypes": {},
@@ -4485,6 +4734,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeSoma/PrimeSomaRifle",
     "name": "Soma Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 12,
       "damageTypes": {},
@@ -4503,6 +4753,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray",
     "name": "Sonicor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -4521,6 +4772,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol",
     "name": "Spectra",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 18,
       "damageTypes": {},
@@ -4539,6 +4791,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
     "name": "Spectra Vandal",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -4557,6 +4810,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger",
     "name": "Spira",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 82,
       "damageTypes": {},
@@ -4575,6 +4829,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
     "name": "Spira Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -4593,6 +4848,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle",
     "name": "Sporothrix",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 371,
       "damageTypes": {},
@@ -4611,6 +4867,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpRubanRifle/CrpRubanRifle",
     "name": "Stahlta",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 52,
       "damageTypes": {},
@@ -4629,6 +4886,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag",
     "name": "Staticor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -4647,6 +4905,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun",
     "name": "Steflos",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 320,
       "damageTypes": {},
@@ -4665,6 +4924,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TennoTommyGun/TennoTommyGunRifle",
     "name": "Stradavar",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 28,
       "damageTypes": {},
@@ -4683,6 +4943,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeStradavar/PrimeStradavarGun",
     "name": "Stradavar Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -4701,6 +4962,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Shotgun/Shotgun",
     "name": "Strun",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 25,
       "damageTypes": {},
@@ -4719,6 +4981,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
     "name": "Strun Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 54,
       "damageTypes": {},
@@ -4737,6 +5000,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Shotgun/ShotgunVandal",
     "name": "Strun Wraith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -4755,6 +5019,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
     "name": "Stubba",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 33,
       "damageTypes": {},
@@ -4773,6 +5038,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun",
     "name": "Stug",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 79,
       "damageTypes": {},
@@ -4791,6 +5057,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/CrpHeavyRifle",
     "name": "Supra",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -4809,6 +5076,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/Machinegun/SupraVandal",
     "name": "Supra Vandal",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 40,
       "damageTypes": {},
@@ -4827,6 +5095,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnoLeverAction/TnoLeverActionRifle",
     "name": "Sybaris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 80,
       "damageTypes": {},
@@ -4845,6 +5114,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle",
     "name": "Sybaris Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 88,
       "damageTypes": {},
@@ -4863,6 +5133,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/LongGuns/InfestedRifle",
     "name": "Synapse",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 20,
       "damageTypes": {},
@@ -4881,6 +5152,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor",
     "name": "Synoid Gammacor",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 21,
       "damageTypes": {},
@@ -4899,6 +5171,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/CephalonSuda/LongGuns/CSSimulor",
     "name": "Synoid Simulor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 240,
       "damageTypes": {},
@@ -4917,6 +5190,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
     "name": "Talons",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -4935,6 +5209,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto",
     "name": "Telos Akbolto",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -4953,6 +5228,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/LongGuns/AHBoltor",
     "name": "Telos Boltor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -4971,6 +5247,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEArcaPlasmor/CrpBEArcaPlasmor",
     "name": "Tenet Arca Plasmor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 760,
       "damageTypes": {},
@@ -4989,6 +5266,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron",
     "name": "Tenet Cycron",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -5007,6 +5285,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron",
     "name": "Tenet Detron",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 26,
       "damageTypes": {},
@@ -5025,6 +5304,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol",
     "name": "Tenet Diplos",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 28,
       "damageTypes": {},
@@ -5043,6 +5323,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncher",
     "name": "Tenet Envoy",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 740,
       "damageTypes": {},
@@ -5061,6 +5342,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
     "name": "Tenet Ferrox",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -5079,6 +5361,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFluxRifle/CrpBEFluxRifle",
     "name": "Tenet Flux Rifle",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 22,
       "damageTypes": {},
@@ -5097,6 +5380,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion",
     "name": "Tenet Glaxion",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 34,
       "damageTypes": {},
@@ -5115,6 +5399,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
     "name": "Tenet Plinx",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -5133,6 +5418,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol",
     "name": "Tenet Spirex",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -5151,6 +5437,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBETetra/CrpBETetra",
     "name": "Tenet Tetra",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 60,
       "damageTypes": {},
@@ -5169,6 +5456,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifle",
     "name": "Tenora",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 24,
       "damageTypes": {},
@@ -5187,6 +5475,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon",
     "name": "Tenora Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 28,
       "damageTypes": {},
@@ -5205,6 +5494,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/CorpusUMP",
     "name": "Tetra",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 32,
       "damageTypes": {},
@@ -5223,6 +5513,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/DrakeRifle/DrakeRifle",
     "name": "Tiberon",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 44,
       "damageTypes": {},
@@ -5241,6 +5532,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTiberon/PrimeTiberonRifle",
     "name": "Tiberon Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 48,
       "damageTypes": {},
@@ -5259,6 +5551,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun",
     "name": "Tigris",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 210,
       "damageTypes": {},
@@ -5277,6 +5570,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTigris/PrimeTigris",
     "name": "Tigris Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 195,
       "damageTypes": {},
@@ -5295,6 +5589,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnGrenadeLauncher/GrnGrenadeLauncher",
     "name": "Tonkor",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 725,
       "damageTypes": {},
@@ -5313,6 +5608,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Bio/BioWeapon",
     "name": "Torid",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -5331,6 +5627,7 @@
     "uniqueName": "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle",
     "name": "Trumna",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 82,
       "damageTypes": {},
@@ -5349,6 +5646,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon",
     "name": "Trumna Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 85,
       "damageTypes": {},
@@ -5367,6 +5665,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas",
     "name": "Twin Grakatas",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 10,
       "damageTypes": {},
@@ -5385,6 +5684,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol",
     "name": "Twin Gremlins",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 37,
       "damageTypes": {},
@@ -5403,6 +5703,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
     "name": "Twin Kohmak",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -5421,6 +5722,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
     "name": "Twin Rogga",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 47.000004,
       "damageTypes": {},
@@ -5439,6 +5741,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols",
     "name": "Twin Vipers",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 17,
       "damageTypes": {},
@@ -5457,6 +5760,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers",
     "name": "Twin Vipers Wraith",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 18,
       "damageTypes": {},
@@ -5475,6 +5779,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
     "name": "Tysis",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 76,
       "damageTypes": {},
@@ -5493,6 +5798,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
     "name": "Vasto",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -5511,6 +5817,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
     "name": "Vasto Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 110,
       "damageTypes": {},
@@ -5529,6 +5836,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/SteelMeridian/LongGuns/SMHek",
     "name": "Vaykor Hek",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 75,
       "damageTypes": {},
@@ -5547,6 +5855,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok",
     "name": "Vaykor Marelok",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -5565,6 +5874,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Rifle/TennoSniperRifle",
     "name": "Vectis",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 225,
       "damageTypes": {},
@@ -5583,6 +5893,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeVectis/PrimeVectisRifle",
     "name": "Vectis Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 350,
       "damageTypes": {},
@@ -5601,6 +5912,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnRevolverRifle/TnRevolverRifleGun",
     "name": "Veldt",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -5619,6 +5931,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
     "name": "Velox",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 24,
       "damageTypes": {},
@@ -5637,6 +5950,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
     "name": "Velox Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 27,
       "damageTypes": {},
@@ -5655,6 +5969,7 @@
     "uniqueName": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
     "name": "Vesper 77",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -5673,6 +5988,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
     "name": "Viper",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 17,
       "damageTypes": {},
@@ -5691,6 +6007,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
     "name": "Viper Wraith",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 18,
       "damageTypes": {},
@@ -5709,6 +6026,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/GrnSniperRifle",
     "name": "Vulkar",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 224.99998,
       "damageTypes": {},
@@ -5727,6 +6045,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/VulkarWraith",
     "name": "Vulkar Wraith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 273,
       "damageTypes": {},
@@ -5745,6 +6064,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun",
     "name": "Zakti",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -5763,6 +6083,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
     "name": "Zakti Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -5781,6 +6102,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnCannon/GrnCannonWeapon",
     "name": "Zarr",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -5799,6 +6121,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/LoginPrimary/SundialRifle",
     "name": "Zenith",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 30,
       "damageTypes": {},
@@ -5817,6 +6140,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbow",
     "name": "Zhuge",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 100,
       "damageTypes": {},
@@ -5835,6 +6159,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/PrimeZhugeCrossbow",
     "name": "Zhuge Prime",
     "type": "Primary",
+    "slot": 0,
     "baseStats": {
       "totalDamage": 50,
       "damageTypes": {},
@@ -5853,6 +6178,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
     "name": "Zylok",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -5871,6 +6197,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
     "name": "Zylok Prime",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 210,
       "damageTypes": {},
@@ -5889,6 +6216,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon",
     "name": "Zymos",
     "type": "Secondary",
+    "slot": 1,
     "baseStats": {
       "totalDamage": 84,
       "damageTypes": {},
@@ -5907,6 +6235,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield",
     "name": "Ack & Brunt",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 149,
       "damageTypes": {},
@@ -5917,7 +6246,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 745
     },
     "disposition": 5,
     "masteryRank": 3
@@ -5926,6 +6257,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
     "name": "Amanata",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 126,
       "damageTypes": {},
@@ -5936,7 +6268,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 756
     },
     "disposition": 1,
     "masteryRank": 2
@@ -5945,6 +6279,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Staff/GrnStaff",
     "name": "Amphis",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -5955,7 +6290,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 650
     },
     "disposition": 5,
     "masteryRank": 5
@@ -5964,6 +6301,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Scythe/ParisScythe/ParisScythe",
     "name": "Anku",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -5974,7 +6312,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1020
     },
     "disposition": 5,
     "masteryRank": 3
@@ -5983,6 +6323,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gauntlet/Gauntlet",
     "name": "Ankyros",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -5993,7 +6334,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 450
     },
     "disposition": 5,
     "masteryRank": 2
@@ -6002,6 +6345,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gauntlet/PrimeAnkyros/PrimeAnkyros",
     "name": "Ankyros Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 128,
       "damageTypes": {},
@@ -6012,7 +6356,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 640
     },
     "disposition": 5,
     "masteryRank": 8
@@ -6021,6 +6367,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeapon",
     "name": "Arca Titron",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 360,
       "damageTypes": {},
@@ -6031,7 +6378,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 2160
     },
     "disposition": 4,
     "masteryRank": 10
@@ -6040,6 +6389,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon",
     "name": "Argo & Vel",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -6050,7 +6400,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 900
     },
     "disposition": 3,
     "masteryRank": 0
@@ -6059,6 +6411,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon",
     "name": "Arum Spinosa",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 297,
       "damageTypes": {},
@@ -6069,7 +6422,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1188
     },
     "disposition": 4,
     "masteryRank": 11
@@ -6078,6 +6433,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip",
     "name": "Atterax",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 129,
       "damageTypes": {},
@@ -6088,7 +6444,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4963856
+      "range": 2.4963856,
+      "comboDuration": 5,
+      "heavyAttackDamage": 581
     },
     "disposition": 4,
     "masteryRank": 5
@@ -6097,6 +6455,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon",
     "name": "Azothane",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -6107,7 +6466,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3.2
+      "range": 3.2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1020
     },
     "disposition": 3,
     "masteryRank": 0
@@ -6116,6 +6477,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipOne",
     "name": "Balla",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6134,6 +6496,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOne",
     "name": "Balla",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6152,6 +6515,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
     "name": "Bo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -6162,7 +6526,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 700
     },
     "disposition": 5,
     "masteryRank": 0
@@ -6171,6 +6537,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon",
     "name": "Bo Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 176,
       "damageTypes": {},
@@ -6181,7 +6548,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 880
     },
     "disposition": 5,
     "masteryRank": 5
@@ -6190,6 +6559,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Tonfa/Boltonfa/Boltonfa",
     "name": "Boltace",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 176,
       "damageTypes": {},
@@ -6200,7 +6570,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 704
     },
     "disposition": 4,
     "masteryRank": 4
@@ -6209,6 +6581,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnQueenSceptre/GrnQueenSceptreWeapon",
     "name": "Broken Scepter",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 179,
       "damageTypes": {},
@@ -6219,7 +6592,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 895
     },
     "disposition": 5,
     "masteryRank": 7
@@ -6228,6 +6603,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoSmallSword",
     "name": "Broken War",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 187,
       "damageTypes": {},
@@ -6238,7 +6614,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 935
     },
     "disposition": 4,
     "masteryRank": 10
@@ -6247,6 +6625,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Staff/SingleStaff",
     "name": "Cadus",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -6257,7 +6636,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 650
     },
     "disposition": 4,
     "masteryRank": 4
@@ -6266,6 +6647,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/TnHalberdPolearm/TnHalberdPolearmWeapon",
     "name": "Cassowar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 188,
       "damageTypes": {},
@@ -6276,7 +6658,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1128
     },
     "disposition": 5,
     "masteryRank": 5
@@ -6285,6 +6669,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe",
     "name": "Caustacyst",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 260,
       "damageTypes": {},
@@ -6295,7 +6680,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1560
     },
     "disposition": 4,
     "masteryRank": 7
@@ -6304,6 +6691,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger",
     "name": "Ceramic Dagger",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -6314,7 +6702,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.8
+      "range": 1.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 280
     },
     "disposition": 5,
     "masteryRank": 3
@@ -6323,6 +6713,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon",
     "name": "Cerata",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 183,
       "damageTypes": {},
@@ -6333,7 +6724,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 183
     },
     "disposition": 4,
     "masteryRank": 7
@@ -6342,6 +6735,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/OperationsLacera",
     "name": "Ceti Lacera",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 216,
       "damageTypes": {},
@@ -6352,7 +6746,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 864
     },
     "disposition": 4,
     "masteryRank": 12
@@ -6361,6 +6757,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword",
     "name": "Cobra & Crane",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 296,
       "damageTypes": {},
@@ -6371,7 +6768,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1480
     },
     "disposition": 4,
     "masteryRank": 10
@@ -6380,6 +6779,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon",
     "name": "Cobra & Crane Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -6390,7 +6790,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1500
     },
     "disposition": 3,
     "masteryRank": 14
@@ -6399,6 +6801,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaCaustacyst/CodaCaustacyst",
     "name": "Coda Caustacyst",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 285,
       "damageTypes": {},
@@ -6409,7 +6812,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1710
     },
     "disposition": 3,
     "masteryRank": 17
@@ -6418,6 +6823,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaHirudo",
     "name": "Coda Hirudo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 174.99998,
       "damageTypes": {},
@@ -6428,7 +6834,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1138
     },
     "disposition": 1,
     "masteryRank": 17
@@ -6437,6 +6845,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaMire",
     "name": "Coda Mire",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 235,
       "damageTypes": {},
@@ -6447,7 +6856,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1175
     },
     "disposition": 1,
     "masteryRank": 17
@@ -6456,6 +6867,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon",
     "name": "Coda Motovore",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -6466,7 +6878,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1500
     },
     "disposition": 1,
     "masteryRank": 17
@@ -6475,6 +6889,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst",
     "name": "Coda Pathocyst",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 270,
       "damageTypes": {},
@@ -6485,7 +6900,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.3
+      "range": 1.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 270
     },
     "disposition": 3,
     "masteryRank": 17
@@ -6494,6 +6911,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon",
     "name": "Corufell",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -6504,7 +6922,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 200
     },
     "disposition": 2,
     "masteryRank": 8
@@ -6513,6 +6933,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/CronusSword/CronusLongSword",
     "name": "Cronus",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 106,
       "damageTypes": {},
@@ -6523,7 +6944,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 530
     },
     "disposition": 5,
     "masteryRank": 0
@@ -6532,6 +6955,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFour",
     "name": "Cyath",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6550,6 +6974,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour",
     "name": "Cyath",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6568,6 +6993,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/CronusSword/PrimeCronusLongSword",
     "name": "Dakra Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -6578,7 +7004,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 850
     },
     "disposition": 3,
     "masteryRank": 10
@@ -6587,6 +7015,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Dagger/DarkDagger",
     "name": "Dark Dagger",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 154,
       "damageTypes": {},
@@ -6597,7 +7026,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 308
     },
     "disposition": 3,
     "masteryRank": 2
@@ -6606,6 +7037,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon",
     "name": "Dark Split-Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 10,
       "damageTypes": {},
@@ -6624,6 +7056,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkLongSword",
     "name": "Dark Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 260,
       "damageTypes": {},
@@ -6634,7 +7067,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1300
     },
     "disposition": 5,
     "masteryRank": 8
@@ -6643,6 +7078,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFive",
     "name": "Dehtat",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6661,6 +7097,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFive",
     "name": "Dehtat",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6679,6 +7116,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TnoRapier/TnoRapier",
     "name": "Destreza",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 158,
       "damageTypes": {},
@@ -6689,7 +7127,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 711
     },
     "disposition": 4,
     "masteryRank": 7
@@ -6698,6 +7138,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PRapier/DestrezaPrime",
     "name": "Destreza Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -6708,7 +7149,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 765
     },
     "disposition": 4,
     "masteryRank": 10
@@ -6717,6 +7160,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DexTheSecond/DexTheSecond",
     "name": "Dex Dakra",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 142,
       "damageTypes": {},
@@ -6727,7 +7171,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 568
     },
     "disposition": 5,
     "masteryRank": 6
@@ -6736,6 +7182,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana",
     "name": "Dex Nikana",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 168,
       "damageTypes": {},
@@ -6746,7 +7193,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 840
     },
     "disposition": 2,
     "masteryRank": 8
@@ -6755,6 +7204,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipEleven",
     "name": "Dokrahm",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -6773,6 +7223,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip",
     "name": "Dorrclave",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 222,
       "damageTypes": {},
@@ -6783,7 +7234,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 888
     },
     "disposition": 3,
     "masteryRank": 8
@@ -6792,6 +7245,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/LowKatana",
     "name": "Dragon Nikana",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 188,
       "damageTypes": {},
@@ -6802,7 +7256,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 940
     },
     "disposition": 4,
     "masteryRank": 8
@@ -6811,6 +7267,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon",
     "name": "Dual Cleavers",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 157,
       "damageTypes": {},
@@ -6821,7 +7278,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 628
     },
     "disposition": 4,
     "masteryRank": 5
@@ -6830,6 +7289,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualEtherSword",
     "name": "Dual Ether",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -6840,7 +7300,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 720
     },
     "disposition": 5,
     "masteryRank": 8
@@ -6849,6 +7311,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualHeatSwords",
     "name": "Dual Heat Swords",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 147,
       "damageTypes": {},
@@ -6859,7 +7322,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 588
     },
     "disposition": 5,
     "masteryRank": 3
@@ -6868,6 +7333,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon",
     "name": "Dual Ichor",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 122,
       "damageTypes": {},
@@ -6878,7 +7344,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.3
+      "range": 2.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 488
     },
     "disposition": 4,
     "masteryRank": 6
@@ -6887,6 +7355,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualKamas/DualKamas",
     "name": "Dual Kamas",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 96.000008,
       "damageTypes": {},
@@ -6897,7 +7366,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 384
     },
     "disposition": 5,
     "masteryRank": 1
@@ -6906,6 +7377,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeDualKamas/PrimeDualKamas",
     "name": "Dual Kamas Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -6916,7 +7388,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 640
     },
     "disposition": 4,
     "masteryRank": 8
@@ -6925,6 +7399,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwords",
     "name": "Dual Keres",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 115,
       "damageTypes": {},
@@ -6935,7 +7410,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 460
     },
     "disposition": 3,
     "masteryRank": 7
@@ -6944,6 +7421,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeDualKeres/PrimeDualKeresWeapon",
     "name": "Dual Keres Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -6954,7 +7432,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 720
     },
     "disposition": 1,
     "masteryRank": 14
@@ -6963,6 +7443,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Soma/SomaDualKamas",
     "name": "Dual Raza",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 110,
       "damageTypes": {},
@@ -6973,7 +7454,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 440
     },
     "disposition": 5,
     "masteryRank": 6
@@ -6982,6 +7465,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualShortSword",
     "name": "Dual Skana",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -6992,7 +7476,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 480
     },
     "disposition": 5,
     "masteryRank": 0
@@ -7001,6 +7487,7 @@
     "uniqueName": "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon",
     "name": "Dual Viciss",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 255,
       "damageTypes": {},
@@ -7011,7 +7498,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1020
     },
     "disposition": 3,
     "masteryRank": 14
@@ -7020,6 +7509,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon",
     "name": "Dual Zoren",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 70,
       "damageTypes": {},
@@ -7030,7 +7520,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.3
+      "range": 2.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 280
     },
     "disposition": 5,
     "masteryRank": 2
@@ -7039,6 +7531,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/PrimeZoren/PrimeZorenAxeWeapon",
     "name": "Dual Zoren Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -7049,7 +7542,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.3
+      "range": 2.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 560
     },
     "disposition": 1,
     "masteryRank": 13
@@ -7058,6 +7553,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon",
     "name": "Edun",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 220,
       "damageTypes": {},
@@ -7068,7 +7564,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 880
     },
     "disposition": 3,
     "masteryRank": 0
@@ -7077,6 +7575,7 @@
     "uniqueName": "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer",
     "name": "Ekhein",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 340,
       "damageTypes": {},
@@ -7087,7 +7586,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 2040
     },
     "disposition": 3,
     "masteryRank": 10
@@ -7096,6 +7597,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusII",
     "name": "Ekwana Ii Jai",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7114,6 +7616,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusII",
     "name": "Ekwana Ii Ruhang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7132,6 +7635,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusI",
     "name": "Ekwana Jai",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7150,6 +7654,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIStatusI",
     "name": "Ekwana Jai Ii",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7168,6 +7673,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusI",
     "name": "Ekwana Ruhang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7186,6 +7692,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIStatusI",
     "name": "Ekwana Ruhang Ii",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7204,6 +7711,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/ThreeLeaf/ThreeLeaf",
     "name": "Endura",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -7214,7 +7722,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 900
     },
     "disposition": 5,
     "masteryRank": 7
@@ -7223,6 +7733,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger",
     "name": "Ether Daggers",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 224,
       "damageTypes": {},
@@ -7233,7 +7744,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 448
     },
     "disposition": 5,
     "masteryRank": 6
@@ -7242,6 +7755,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Scythe/EtherScytheWeapon",
     "name": "Ether Reaper",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -7252,7 +7766,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1080
     },
     "disposition": 5,
     "masteryRank": 4
@@ -7261,6 +7777,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/LongSword/EtherSword",
     "name": "Ether Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 192,
       "damageTypes": {},
@@ -7271,7 +7788,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 960
     },
     "disposition": 5,
     "masteryRank": 7
@@ -7280,6 +7799,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGlaive/CrpGlaive",
     "name": "Falcor",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 230,
       "damageTypes": {},
@@ -7290,7 +7810,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.3
+      "range": 1.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 230
     },
     "disposition": 4,
     "masteryRank": 8
@@ -7299,6 +7821,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualDagger/DualDagger",
     "name": "Fang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 108,
       "damageTypes": {},
@@ -7309,7 +7832,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.65
+      "range": 1.65,
+      "comboDuration": 5,
+      "heavyAttackDamage": 216
     },
     "disposition": 5,
     "masteryRank": 0
@@ -7318,6 +7843,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualDagger/FangPrimeDagger",
     "name": "Fang Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 178,
       "damageTypes": {},
@@ -7328,7 +7854,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 356
     },
     "disposition": 4,
     "masteryRank": 10
@@ -7337,6 +7865,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/HammerWeapon",
     "name": "Fragor",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -7347,7 +7876,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1200
     },
     "disposition": 4,
     "masteryRank": 2
@@ -7356,6 +7887,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeFragor/PrimeFragor",
     "name": "Fragor Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 270,
       "damageTypes": {},
@@ -7366,7 +7898,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1620
     },
     "disposition": 3,
     "masteryRank": 12
@@ -7375,6 +7909,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
     "name": "Furax",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 135,
       "damageTypes": {},
@@ -7385,7 +7920,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 675
     },
     "disposition": 5,
     "masteryRank": 5
@@ -7394,6 +7931,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith",
     "name": "Furax Wraith",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 138.99998,
       "damageTypes": {},
@@ -7404,7 +7942,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 695
     },
     "disposition": 4,
     "masteryRank": 9
@@ -7413,6 +7953,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/GreatSword/TennoGreatSword",
     "name": "Galatine",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 182,
       "damageTypes": {},
@@ -7423,7 +7964,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1092
     },
     "disposition": 3,
     "masteryRank": 3
@@ -7432,6 +7975,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGalatine/PrimeGalatine",
     "name": "Galatine Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 280,
       "damageTypes": {},
@@ -7442,7 +7986,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1680
     },
     "disposition": 3,
     "masteryRank": 13
@@ -7451,6 +7997,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Whips/CrpShockGrip/CrpShockGripWhipWeapon",
     "name": "Galvacord",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 210,
       "damageTypes": {},
@@ -7461,7 +8008,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.6963859
+      "range": 2.6963859,
+      "comboDuration": 5,
+      "heavyAttackDamage": 945
     },
     "disposition": 5,
     "masteryRank": 6
@@ -7470,6 +8019,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PersianMachete/DjinnMachete",
     "name": "Gazal Machete",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 178,
       "damageTypes": {},
@@ -7480,7 +8030,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1068
     },
     "disposition": 5,
     "masteryRank": 5
@@ -7489,6 +8041,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnGhoulSaw/GrnGhoulSawPlayer",
     "name": "Ghoulsaw",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 197,
       "damageTypes": {},
@@ -7499,7 +8052,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.1530571
+      "range": 2.1530571,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1182
     },
     "disposition": 4,
     "masteryRank": 7
@@ -7508,6 +8063,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon",
     "name": "Glaive",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 105,
       "damageTypes": {},
@@ -7518,7 +8074,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 105
     },
     "disposition": 4,
     "masteryRank": 1
@@ -7527,6 +8085,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon",
     "name": "Glaive Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 164,
       "damageTypes": {},
@@ -7537,7 +8096,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 164
     },
     "disposition": 1,
     "masteryRank": 10
@@ -7546,6 +8107,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/GreatSword/GreatSword",
     "name": "Gram",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -7556,7 +8118,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 960
     },
     "disposition": 5,
     "masteryRank": 2
@@ -7565,6 +8129,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGram/PrimeGram",
     "name": "Gram Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -7575,7 +8140,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1800
     },
     "disposition": 1,
     "masteryRank": 14
@@ -7584,6 +8151,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/TnGuandaoPolearm/TnGuandaoPolearmWeapon",
     "name": "Guandao",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 202,
       "damageTypes": {},
@@ -7594,7 +8162,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1212
     },
     "disposition": 3,
     "masteryRank": 4
@@ -7603,6 +8173,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/PrimeGuandao/PrimeGuandaoWeapon",
     "name": "Guandao Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 240,
       "damageTypes": {},
@@ -7613,7 +8184,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 6,
+      "heavyAttackDamage": 1440
     },
     "disposition": 1,
     "masteryRank": 12
@@ -7622,6 +8195,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon",
     "name": "Gunsen",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -7632,7 +8206,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 640
     },
     "disposition": 5,
     "masteryRank": 8
@@ -7641,6 +8217,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon",
     "name": "Gunsen Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 225,
       "damageTypes": {},
@@ -7651,7 +8228,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.9
+      "range": 1.9,
+      "comboDuration": 5,
+      "heavyAttackDamage": 900
     },
     "disposition": 3,
     "masteryRank": 12
@@ -7660,6 +8239,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/GrnBoomerang",
     "name": "Halikar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 149,
       "damageTypes": {},
@@ -7670,7 +8250,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.2
+      "range": 1.2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 149
     },
     "disposition": 5,
     "masteryRank": 7
@@ -7679,6 +8261,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon",
     "name": "Halikar Wraith",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 225,
       "damageTypes": {},
@@ -7689,7 +8272,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.2
+      "range": 1.2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 225
     },
     "disposition": 4,
     "masteryRank": 13
@@ -7698,6 +8283,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe",
     "name": "Harmony",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 240,
       "damageTypes": {},
@@ -7708,7 +8294,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1440
     },
     "disposition": 1,
     "masteryRank": 10
@@ -7717,6 +8305,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon",
     "name": "Hate",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 230,
       "damageTypes": {},
@@ -7727,7 +8316,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1380
     },
     "disposition": 3,
     "masteryRank": 8
@@ -7736,6 +8327,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Dagger/Dagger",
     "name": "Heat Dagger",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 208,
       "damageTypes": {},
@@ -7746,7 +8338,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 416
     },
     "disposition": 5,
     "masteryRank": 3
@@ -7755,6 +8349,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/HeatSword/HeatLongSword",
     "name": "Heat Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 147,
       "damageTypes": {},
@@ -7765,7 +8360,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 735
     },
     "disposition": 5,
     "masteryRank": 3
@@ -7774,6 +8371,7 @@
     "uniqueName": "/Lotus/Weapons/Cephalon/Melee/Hammer/CephHammerWeapon",
     "name": "Heliocor",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 280,
       "damageTypes": {},
@@ -7784,7 +8382,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1680
     },
     "disposition": 5,
     "masteryRank": 9
@@ -7793,6 +8393,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon",
     "name": "Hespar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 280,
       "damageTypes": {},
@@ -7803,7 +8404,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 5040
     },
     "disposition": 3,
     "masteryRank": 12
@@ -7812,6 +8415,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake",
     "name": "Hirudo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -7822,7 +8426,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 845
     },
     "disposition": 3,
     "masteryRank": 7
@@ -7831,6 +8437,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon",
     "name": "Innodem",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 360,
       "damageTypes": {},
@@ -7841,7 +8448,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.8
+      "range": 1.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 720
     },
     "disposition": 1,
     "masteryRank": 14
@@ -7850,6 +8459,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedI",
     "name": "Jai",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7868,6 +8478,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedII",
     "name": "Jai Ii",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7886,6 +8497,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm",
     "name": "Jat Kittag",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 199.99998,
       "damageTypes": {},
@@ -7896,7 +8508,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1200
     },
     "disposition": 5,
     "masteryRank": 5
@@ -7905,6 +8519,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnKusarigama/GrnKusarigamaWeapon",
     "name": "Jat Kusar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 218,
       "damageTypes": {},
@@ -7915,7 +8530,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 872
     },
     "disposition": 4,
     "masteryRank": 11
@@ -7924,6 +8541,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword",
     "name": "Jaw Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -7934,7 +8552,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 600
     },
     "disposition": 5,
     "masteryRank": 0
@@ -7943,6 +8563,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFive",
     "name": "Jayap",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -7961,6 +8582,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama",
     "name": "Kama",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -7971,7 +8593,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 540
     },
     "disposition": 5,
     "masteryRank": 1
@@ -7980,6 +8604,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger",
     "name": "Karyst",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 273,
       "damageTypes": {},
@@ -7990,7 +8615,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 546
     },
     "disposition": 5,
     "masteryRank": 6
@@ -7999,6 +8626,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKaryst/PrimeKrisDagger",
     "name": "Karyst Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 344,
       "damageTypes": {},
@@ -8009,7 +8637,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.2
+      "range": 2.2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 688
     },
     "disposition": 3,
     "masteryRank": 12
@@ -8018,6 +8648,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon",
     "name": "Keratinos",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 244,
       "damageTypes": {},
@@ -8028,7 +8659,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1708
     },
     "disposition": 3,
     "masteryRank": 9
@@ -8037,6 +8670,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerHalberd/GrnHalberd",
     "name": "Kesheg",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 241,
       "damageTypes": {},
@@ -8047,7 +8681,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1446
     },
     "disposition": 5,
     "masteryRank": 7
@@ -8056,6 +8692,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Glaives/Boomerang/BoomerangWeapon",
     "name": "Kestrel",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 84,
       "damageTypes": {},
@@ -8066,7 +8703,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.2
+      "range": 1.2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 84
     },
     "disposition": 5,
     "masteryRank": 0
@@ -8075,6 +8714,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles",
     "name": "Kogake",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -8085,7 +8725,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1440
     },
     "disposition": 5,
     "masteryRank": 2
@@ -8094,6 +8736,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeKogake/KogakePrimeKnuckles",
     "name": "Kogake Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 242,
       "damageTypes": {},
@@ -8104,7 +8747,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 2904
     },
     "disposition": 5,
     "masteryRank": 10
@@ -8113,6 +8758,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleNine",
     "name": "Korb",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8131,6 +8777,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring",
     "name": "Korrudo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 193,
       "damageTypes": {},
@@ -8141,7 +8788,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 2065
     },
     "disposition": 5,
     "masteryRank": 9
@@ -8150,6 +8799,7 @@
     "uniqueName": "/Lotus/Weapons/Archon/Melee/Trident/ArchonTridentPlayerWep",
     "name": "Korumm",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 260,
       "damageTypes": {},
@@ -8160,7 +8810,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1560
     },
     "disposition": 3,
     "masteryRank": 13
@@ -8169,6 +8821,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpVenusHatchet/CrpVenusHatchet",
     "name": "Kreska",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 190,
       "damageTypes": {},
@@ -8179,7 +8832,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1140
     },
     "disposition": 5,
     "masteryRank": 6
@@ -8188,6 +8843,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon",
     "name": "Krohkur",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 217,
       "damageTypes": {},
@@ -8198,7 +8854,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1085
     },
     "disposition": 5,
     "masteryRank": 9
@@ -8207,6 +8865,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinner/TennoTonfa",
     "name": "Kronen",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 130,
       "damageTypes": {},
@@ -8217,7 +8876,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 520
     },
     "disposition": 5,
     "masteryRank": 3
@@ -8226,6 +8887,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon",
     "name": "Kronen Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 212,
       "damageTypes": {},
@@ -8236,7 +8898,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 848
     },
     "disposition": 1,
     "masteryRank": 13
@@ -8245,6 +8909,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipSix",
     "name": "Kronsh",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8263,6 +8928,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix",
     "name": "Kronsh",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8281,6 +8947,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleSix",
     "name": "Kroostra",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8299,6 +8966,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon",
     "name": "Kuva Shildeg",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 205,
       "damageTypes": {},
@@ -8309,7 +8977,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1230
     },
     "disposition": 2,
     "masteryRank": 13
@@ -8318,6 +8988,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleThree",
     "name": "Kwath",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8336,6 +9007,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/StalkerMios",
     "name": "Lacera",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 216,
       "damageTypes": {},
@@ -8346,7 +9018,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 864
     },
     "disposition": 5,
     "masteryRank": 7
@@ -8355,6 +9029,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleTwo",
     "name": "Laka",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8373,6 +9048,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Whip/CorpusWhipWeapon",
     "name": "Lecta",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 101,
       "damageTypes": {},
@@ -8383,7 +9059,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4963856
+      "range": 2.4963856,
+      "comboDuration": 5,
+      "heavyAttackDamage": 455
     },
     "disposition": 4,
     "masteryRank": 0
@@ -8392,6 +9070,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff",
     "name": "Lesion",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 237,
       "damageTypes": {},
@@ -8402,7 +9081,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1422
     },
     "disposition": 2,
     "masteryRank": 9
@@ -8411,6 +9092,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/Machete",
     "name": "Machete",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -8421,7 +9103,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 720
     },
     "disposition": 5,
     "masteryRank": 1
@@ -8430,6 +9114,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/WraithMacheteWeapon",
     "name": "Machete Wraith",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 211,
       "damageTypes": {},
@@ -8440,7 +9125,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1266
     },
     "disposition": 5,
     "masteryRank": 11
@@ -8449,6 +9136,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
     "name": "Magistar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 209.99998,
       "damageTypes": {},
@@ -8459,7 +9147,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1260
     },
     "disposition": 5,
     "masteryRank": 1
@@ -8468,6 +9158,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo",
     "name": "Masseter",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 241,
       "damageTypes": {},
@@ -8478,7 +9169,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1446
     },
     "disposition": 4,
     "masteryRank": 8
@@ -8487,6 +9180,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter",
     "name": "Masseter Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 260,
       "damageTypes": {},
@@ -8497,7 +9191,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1560
     },
     "disposition": 3,
     "masteryRank": 14
@@ -8506,6 +9202,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipThree",
     "name": "Mewan",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8524,6 +9221,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThree",
     "name": "Mewan",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8542,6 +9240,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/Swords/Mios/Mios",
     "name": "Mios",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 177,
       "damageTypes": {},
@@ -8552,7 +9251,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 708
     },
     "disposition": 4,
     "masteryRank": 8
@@ -8561,6 +9262,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword",
     "name": "Mire",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 158,
       "damageTypes": {},
@@ -8571,7 +9273,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 790
     },
     "disposition": 4,
     "masteryRank": 5
@@ -8580,6 +9284,7 @@
     "uniqueName": "/Lotus/Weapons/MK1Series/MK1Bo",
     "name": "Mk1-Bo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -8590,7 +9295,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 450
     },
     "disposition": 5,
     "masteryRank": 0
@@ -8599,6 +9306,7 @@
     "uniqueName": "/Lotus/Weapons/MK1Series/MK1Furax",
     "name": "Mk1-Furax",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 90,
       "damageTypes": {},
@@ -8609,7 +9317,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 450
     },
     "disposition": 5,
     "masteryRank": 0
@@ -8618,6 +9328,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/CutlassPoignardSwords",
     "name": "Nami Skyla",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 125,
       "damageTypes": {},
@@ -8628,7 +9339,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 500
     },
     "disposition": 4,
     "masteryRank": 2
@@ -8637,6 +9350,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeNamiSkyla/PrimeNamiSkyla",
     "name": "Nami Skyla Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -8647,7 +9361,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 720
     },
     "disposition": 3,
     "masteryRank": 11
@@ -8656,6 +9372,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/TennoCutlass",
     "name": "Nami Solo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 172,
       "damageTypes": {},
@@ -8666,7 +9383,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1032
     },
     "disposition": 5,
     "masteryRank": 6
@@ -8675,6 +9394,7 @@
     "uniqueName": "/Lotus/Weapons/Archon/Melee/DualDaggers/ArchonDualDaggersPlayerWep",
     "name": "Nepheri",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 261,
       "damageTypes": {},
@@ -8685,7 +9405,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.9
+      "range": 1.9,
+      "comboDuration": 5,
+      "heavyAttackDamage": 522
     },
     "disposition": 3,
     "masteryRank": 13
@@ -8694,6 +9416,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Katana",
     "name": "Nikana",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 142,
       "damageTypes": {},
@@ -8704,7 +9427,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 710
     },
     "disposition": 3,
     "masteryRank": 4
@@ -8713,6 +9438,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana",
     "name": "Nikana Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 198,
       "damageTypes": {},
@@ -8723,7 +9449,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 990
     },
     "disposition": 1,
     "masteryRank": 12
@@ -8732,6 +9460,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku",
     "name": "Ninkondi",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 190,
       "damageTypes": {},
@@ -8742,7 +9471,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.307992
+      "range": 2.307992,
+      "comboDuration": 5,
+      "heavyAttackDamage": 950
     },
     "disposition": 5,
     "masteryRank": 8
@@ -8751,6 +9482,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeNinkondi/PrimeNikondi",
     "name": "Ninkondi Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 234,
       "damageTypes": {},
@@ -8761,7 +9493,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.307992
+      "range": 2.307992,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1170
     },
     "disposition": 3,
     "masteryRank": 14
@@ -8770,6 +9504,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon",
     "name": "Obex",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -8780,7 +9515,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1440
     },
     "disposition": 4,
     "masteryRank": 4
@@ -8789,6 +9526,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpTonfa",
     "name": "Ohma",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 224,
       "damageTypes": {},
@@ -8799,7 +9537,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 896
     },
     "disposition": 4,
     "masteryRank": 8
@@ -8808,6 +9548,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais",
     "name": "Okina",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -8818,7 +9559,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 280
     },
     "disposition": 5,
     "masteryRank": 5
@@ -8827,6 +9570,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina",
     "name": "Okina Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 184,
       "damageTypes": {},
@@ -8837,7 +9581,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 368
     },
     "disposition": 1,
     "masteryRank": 12
@@ -8846,6 +9592,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipTwo",
     "name": "Ooltha",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8864,6 +9611,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwo",
     "name": "Ooltha",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -8882,6 +9630,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon",
     "name": "Orthos",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 185,
       "damageTypes": {},
@@ -8892,7 +9641,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1110
     },
     "disposition": 3,
     "masteryRank": 2
@@ -8901,6 +9652,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/PrimePolearmWeapon",
     "name": "Orthos Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 234,
       "damageTypes": {},
@@ -8911,7 +9663,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1404
     },
     "disposition": 1,
     "masteryRank": 12
@@ -8920,6 +9674,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Glaives/TeshinGlaive/TnTeshinGlaiveWep",
     "name": "Orvius",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 195,
       "damageTypes": {},
@@ -8930,7 +9685,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.3
+      "range": 1.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 195
     },
     "disposition": 5,
     "masteryRank": 5
@@ -8939,6 +9696,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimePangolinSword/PrimePangolinSword",
     "name": "Pangolin Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 248.00002,
       "damageTypes": {},
@@ -8949,7 +9707,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1240
     },
     "disposition": 3,
     "masteryRank": 14
@@ -8958,6 +9718,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PangolinSword/PangolinLongSword",
     "name": "Pangolin Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -8968,7 +9729,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 750
     },
     "disposition": 5,
     "masteryRank": 3
@@ -8977,6 +9740,7 @@
     "uniqueName": "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon",
     "name": "Paracesis",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 222,
       "damageTypes": {},
@@ -8987,7 +9751,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1332
     },
     "disposition": 1,
     "masteryRank": 10
@@ -8996,6 +9762,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon",
     "name": "Pathocyst",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 262,
       "damageTypes": {},
@@ -9006,7 +9773,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.3
+      "range": 1.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 262
     },
     "disposition": 4,
     "masteryRank": 9
@@ -9015,6 +9784,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon",
     "name": "Pennant",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -9025,7 +9795,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1200
     },
     "disposition": 3,
     "masteryRank": 7
@@ -9034,6 +9806,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleOne",
     "name": "Peye",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9052,6 +9825,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleOne",
     "name": "Plague Akwin",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9070,6 +9844,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleTwo",
     "name": "Plague Bokwin",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9088,6 +9863,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwo",
     "name": "Plague Keewar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9106,6 +9882,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/PvPVariantInfestedTipTwo",
     "name": "Plague Keewar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9124,6 +9901,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipOne",
     "name": "Plague Kripath",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9142,6 +9920,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/PvPVariantInfestedTipOne",
     "name": "Plague Kripath",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9160,6 +9939,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword",
     "name": "Plasma Sword",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -9170,7 +9950,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1000
     },
     "disposition": 5,
     "masteryRank": 4
@@ -9179,6 +9961,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon",
     "name": "Praedos",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -9189,7 +9972,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 800
     },
     "disposition": 1,
     "masteryRank": 14
@@ -9198,6 +9983,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers",
     "name": "Prisma Dual Cleavers",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 133,
       "damageTypes": {},
@@ -9208,7 +9994,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 532
     },
     "disposition": 3,
     "masteryRank": 9
@@ -9217,6 +10005,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaMachete",
     "name": "Prisma Machete",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 193,
       "damageTypes": {},
@@ -9227,7 +10016,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1158
     },
     "disposition": 5,
     "masteryRank": 7
@@ -9236,6 +10027,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/KickAndPunch/PrismaObex",
     "name": "Prisma Obex",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -9246,7 +10038,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1800
     },
     "disposition": 4,
     "masteryRank": 10
@@ -9255,6 +10049,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa",
     "name": "Prisma Ohma",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -9265,7 +10060,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1000
     },
     "disposition": 2,
     "masteryRank": 12
@@ -9274,6 +10071,7 @@
     "uniqueName": "/Lotus/Weapons/VoidTrader/PrismaSkana",
     "name": "Prisma Skana",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -9284,7 +10082,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 850
     },
     "disposition": 4,
     "masteryRank": 8
@@ -9293,6 +10093,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/ElectroProd",
     "name": "Prova",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 128,
       "damageTypes": {},
@@ -9303,7 +10104,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 768
     },
     "disposition": 5,
     "masteryRank": 3
@@ -9312,6 +10115,7 @@
     "uniqueName": "/Lotus/Weapons/ClanTech/Energy/VandalElectroProd",
     "name": "Prova Vandal",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 198,
       "damageTypes": {},
@@ -9322,7 +10126,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1188
     },
     "disposition": 5,
     "masteryRank": 8
@@ -9331,6 +10137,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/Nunchaku/InfNunchuck/InfNunchuck",
     "name": "Pulmonars",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 290,
       "damageTypes": {},
@@ -9341,7 +10148,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.507992
+      "range": 2.507992,
+      "comboDuration": 9,
+      "heavyAttackDamage": 1450
     },
     "disposition": 4,
     "masteryRank": 11
@@ -9350,6 +10159,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/Staff/InfStaff/InfStaff",
     "name": "Pupacyst",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 284,
       "damageTypes": {},
@@ -9360,7 +10170,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1704
     },
     "disposition": 5,
     "masteryRank": 7
@@ -9369,6 +10181,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon",
     "name": "Quassus",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 230,
       "damageTypes": {},
@@ -9379,7 +10192,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 920
     },
     "disposition": 3,
     "masteryRank": 8
@@ -9388,6 +10203,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon",
     "name": "Quassus Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 260,
       "damageTypes": {},
@@ -9398,7 +10214,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1040
     },
     "disposition": 3,
     "masteryRank": 13
@@ -9407,6 +10225,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTen",
     "name": "Rabvee",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9425,6 +10244,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/RedVeil/Melee/RVDarkDagger",
     "name": "Rakta Dark Dagger",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 246,
       "damageTypes": {},
@@ -9435,7 +10255,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 492
     },
     "disposition": 3,
     "masteryRank": 8
@@ -9444,6 +10266,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Scythe/ReaperWeapon",
     "name": "Reaper Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -9454,7 +10277,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1200
     },
     "disposition": 1,
     "masteryRank": 10
@@ -9463,6 +10288,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gunblade/TnoGunblade",
     "name": "Redeemer",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -9473,7 +10299,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2
+      "range": 2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 900
     },
     "disposition": 3,
     "masteryRank": 4
@@ -9482,6 +10310,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep",
     "name": "Redeemer Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 212,
       "damageTypes": {},
@@ -9492,7 +10321,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2
+      "range": 2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1060
     },
     "disposition": 1,
     "masteryRank": 10
@@ -9501,6 +10332,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws",
     "name": "Ripkas",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 173,
       "damageTypes": {},
@@ -9511,7 +10343,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 865
     },
     "disposition": 4,
     "masteryRank": 5
@@ -9520,6 +10354,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageI",
     "name": "Ruhang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9538,6 +10373,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageII",
     "name": "Ruhang Ii",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9556,6 +10392,7 @@
     "uniqueName": "/Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep",
     "name": "Rumblejack",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 300,
       "damageTypes": {},
@@ -9566,7 +10403,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.8
+      "range": 1.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 600
     },
     "disposition": 4,
     "masteryRank": 8
@@ -9575,6 +10414,7 @@
     "uniqueName": "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon",
     "name": "Ruvox",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -9585,7 +10425,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 850
     },
     "disposition": 1,
     "masteryRank": 14
@@ -9594,6 +10436,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon",
     "name": "Sampotes",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 247.99998,
       "damageTypes": {},
@@ -9604,7 +10447,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1488
     },
     "disposition": 3,
     "masteryRank": 0
@@ -9613,6 +10458,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar",
     "name": "Sancti Magistar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 239.99998,
       "damageTypes": {},
@@ -9623,7 +10469,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1440
     },
     "disposition": 4,
     "masteryRank": 8
@@ -9632,6 +10480,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon",
     "name": "Sarofang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -9642,7 +10491,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1200
     },
     "disposition": 3,
     "masteryRank": 8
@@ -9651,6 +10502,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic",
     "name": "Sarpa",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -9661,7 +10513,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2
+      "range": 2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 600
     },
     "disposition": 4,
     "masteryRank": 8
@@ -9670,6 +10524,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/AxeWeapon",
     "name": "Scindo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 200,
       "damageTypes": {},
@@ -9680,7 +10535,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1200
     },
     "disposition": 5,
     "masteryRank": 2
@@ -9689,6 +10546,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/PrimeScindo/PrimeScindoWeapon",
     "name": "Scindo Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -9699,7 +10557,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1500
     },
     "disposition": 4,
     "masteryRank": 8
@@ -9708,6 +10568,7 @@
     "uniqueName": "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon",
     "name": "Scoliac",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 150,
       "damageTypes": {},
@@ -9718,7 +10579,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4963856
+      "range": 2.4963856,
+      "comboDuration": 5,
+      "heavyAttackDamage": 675
     },
     "disposition": 4,
     "masteryRank": 6
@@ -9727,6 +10590,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/PerrinSequence/Melee/PSLecta",
     "name": "Secura Lecta",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 176,
       "damageTypes": {},
@@ -9737,7 +10601,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4963856
+      "range": 2.4963856,
+      "comboDuration": 5,
+      "heavyAttackDamage": 792
     },
     "disposition": 4,
     "masteryRank": 8
@@ -9746,6 +10612,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFour",
     "name": "Seekalla",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9764,6 +10631,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNine",
     "name": "Sepfahn",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9782,6 +10650,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon",
     "name": "Serro",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 234,
       "damageTypes": {},
@@ -9792,7 +10661,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1404
     },
     "disposition": 5,
     "masteryRank": 6
@@ -9801,6 +10672,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Nunchaku/TnoNunchaku/TnoNunchaku",
     "name": "Shaku",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -9811,7 +10683,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.2079918
+      "range": 2.2079918,
+      "comboDuration": 5,
+      "heavyAttackDamage": 900
     },
     "disposition": 5,
     "masteryRank": 10
@@ -9820,6 +10694,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrineerCombatKnife/GrineerCombatKnife",
     "name": "Sheev",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 270,
       "damageTypes": {},
@@ -9830,7 +10705,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.7
+      "range": 1.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 540
     },
     "disposition": 5,
     "masteryRank": 5
@@ -9839,6 +10716,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleTen",
     "name": "Shtung",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -9857,6 +10735,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer",
     "name": "Sibear",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 270,
       "damageTypes": {},
@@ -9867,7 +10746,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1620
     },
     "disposition": 5,
     "masteryRank": 6
@@ -9876,6 +10757,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword",
     "name": "Sigma & Octantis",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 174,
       "damageTypes": {},
@@ -9886,7 +10768,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 870
     },
     "disposition": 3,
     "masteryRank": 10
@@ -9895,6 +10779,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield",
     "name": "Silva & Aegis",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 98,
       "damageTypes": {},
@@ -9905,7 +10790,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 490
     },
     "disposition": 4,
     "masteryRank": 0
@@ -9914,6 +10801,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeSilvaAegis/PrimeSilvaAegis",
     "name": "Silva & Aegis Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 318,
       "damageTypes": {},
@@ -9924,7 +10812,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1590
     },
     "disposition": 3,
     "masteryRank": 12
@@ -9933,6 +10823,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword",
     "name": "Skana",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -9943,7 +10834,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 600
     },
     "disposition": 4,
     "masteryRank": 0
@@ -9952,6 +10845,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime",
     "name": "Skana Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 210,
       "damageTypes": {},
@@ -9962,7 +10856,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1050
     },
     "disposition": 4,
     "masteryRank": 12
@@ -9971,6 +10867,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraKatana",
     "name": "Skiajati",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 175,
       "damageTypes": {},
@@ -9981,7 +10878,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 875
     },
     "disposition": 3,
     "masteryRank": 11
@@ -9990,6 +10889,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaWeapon",
     "name": "Slaytra",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 333,
       "damageTypes": {},
@@ -10000,7 +10900,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1998
     },
     "disposition": 3,
     "masteryRank": 13
@@ -10009,6 +10911,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Gunblade/CrpGunBlade/CrpGunbladeWeapon",
     "name": "Stropha",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 220,
       "damageTypes": {},
@@ -10019,7 +10922,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2
+      "range": 2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1100
     },
     "disposition": 1,
     "masteryRank": 10
@@ -10028,6 +10933,7 @@
     "uniqueName": "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon",
     "name": "Sun & Moon",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 190,
       "damageTypes": {},
@@ -10038,7 +10944,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 3420
     },
     "disposition": 2,
     "masteryRank": 0
@@ -10047,6 +10955,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon",
     "name": "Syam",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 270,
       "damageTypes": {},
@@ -10057,7 +10966,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1350
     },
     "disposition": 1,
     "masteryRank": 0
@@ -10066,6 +10977,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon",
     "name": "Sydon",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 225,
       "damageTypes": {},
@@ -10076,7 +10988,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1350
     },
     "disposition": 5,
     "masteryRank": 5
@@ -10085,6 +10999,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/CephalonSuda/Melee/CSHeliocor",
     "name": "Synoid Heliocor",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 280,
       "damageTypes": {},
@@ -10095,7 +11010,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1680
     },
     "disposition": 5,
     "masteryRank": 11
@@ -10104,6 +11021,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TnTwoHandedKatana/TnTwoHandedKatana",
     "name": "Tatsu",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 214,
       "damageTypes": {},
@@ -10114,7 +11032,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1284
     },
     "disposition": 3,
     "masteryRank": 7
@@ -10123,6 +11043,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
     "name": "Tatsu Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 230,
       "damageTypes": {},
@@ -10133,7 +11054,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1380
     },
     "disposition": 2,
     "masteryRank": 14
@@ -10142,6 +11065,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gauntlet/BrawlerKnuckles/BrawlerKnuckles",
     "name": "Tekko",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 160,
       "damageTypes": {},
@@ -10152,7 +11076,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.25
+      "range": 1.25,
+      "comboDuration": 5,
+      "heavyAttackDamage": 800
     },
     "disposition": 5,
     "masteryRank": 6
@@ -10161,6 +11087,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeTekko/PrimeTekko",
     "name": "Tekko Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -10171,7 +11098,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.35
+      "range": 1.35,
+      "comboDuration": 5,
+      "heavyAttackDamage": 900
     },
     "disposition": 4,
     "masteryRank": 12
@@ -10180,6 +11109,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Melee/AHBoltace",
     "name": "Telos Boltace",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 209.99998,
       "damageTypes": {},
@@ -10190,7 +11120,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 840
     },
     "disposition": 3,
     "masteryRank": 11
@@ -10199,6 +11131,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/ShieldAndSword/CrpHammerShield/CrpHammerShield",
     "name": "Tenet Agendus",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 260,
       "damageTypes": {},
@@ -10209,7 +11142,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1040
     },
     "disposition": 3,
     "masteryRank": 14
@@ -10218,6 +11153,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/CrpBigSlash/CrpBigSlash",
     "name": "Tenet Exec",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 190,
       "damageTypes": {},
@@ -10228,7 +11164,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.8
+      "range": 2.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1140
     },
     "disposition": 2,
     "masteryRank": 16
@@ -10237,6 +11175,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpBriefcaseScythe/CrpBriefcaseScythe",
     "name": "Tenet Grigori",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 228,
       "damageTypes": {},
@@ -10247,7 +11186,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1368
     },
     "disposition": 3,
     "masteryRank": 14
@@ -10256,6 +11197,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpBriefcase2HKatana/CrpBriefcase2HKatana",
     "name": "Tenet Livia",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 198,
       "damageTypes": {},
@@ -10266,7 +11208,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1188
     },
     "disposition": 3,
     "masteryRank": 14
@@ -10275,6 +11219,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff",
     "name": "Tipedo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 124.00001,
       "damageTypes": {},
@@ -10285,7 +11230,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 620
     },
     "disposition": 5,
     "masteryRank": 3
@@ -10294,6 +11241,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Staff/TipedoPrime/TipedoPrimeWeapon",
     "name": "Tipedo Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 170,
       "damageTypes": {},
@@ -10304,7 +11252,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 850
     },
     "disposition": 4,
     "masteryRank": 10
@@ -10313,6 +11263,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep",
     "name": "Tonbo",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 184,
       "damageTypes": {},
@@ -10323,7 +11274,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3
+      "range": 3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1104
     },
     "disposition": 5,
     "masteryRank": 3
@@ -10332,6 +11285,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe",
     "name": "Twin Basolk",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 210.00002,
       "damageTypes": {},
@@ -10342,7 +11296,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.4000001
+      "range": 2.4000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 840
     },
     "disposition": 4,
     "masteryRank": 7
@@ -10351,6 +11307,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/DualGrnEgyptSwdWeapon",
     "name": "Twin Krohkur",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -10361,7 +11318,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5
+      "range": 2.5,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1000
     },
     "disposition": 4,
     "masteryRank": 10
@@ -10370,6 +11329,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritII",
     "name": "Vargeet Ii Jai",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -10388,6 +11348,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritII",
     "name": "Vargeet Ii Ruhang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -10406,6 +11367,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritI",
     "name": "Vargeet Jai",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -10424,6 +11386,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIICritI",
     "name": "Vargeet Jai Ii",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -10442,6 +11405,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritI",
     "name": "Vargeet Ruhang",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -10460,6 +11424,7 @@
     "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIICritI",
     "name": "Vargeet Ruhang Ii",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 0,
       "damageTypes": {},
@@ -10478,6 +11443,7 @@
     "uniqueName": "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
     "name": "Vastilok",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 279,
       "damageTypes": {},
@@ -10488,7 +11454,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1
+      "range": 1,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1395
     },
     "disposition": 2,
     "masteryRank": 9
@@ -10497,6 +11465,7 @@
     "uniqueName": "/Lotus/Weapons/Syndicates/SteelMeridian/Melee/SMSydon",
     "name": "Vaykor Sydon",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 212.99998,
       "damageTypes": {},
@@ -10507,7 +11476,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1278
     },
     "disposition": 4,
     "masteryRank": 11
@@ -10516,6 +11487,7 @@
     "uniqueName": "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon",
     "name": "Venato",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 220,
       "damageTypes": {},
@@ -10526,7 +11498,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.7
+      "range": 2.7,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1320
     },
     "disposition": 4,
     "masteryRank": 9
@@ -10535,6 +11509,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Claws/TennoClaws",
     "name": "Venka",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 140,
       "damageTypes": {},
@@ -10545,7 +11520,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.75
+      "range": 1.75,
+      "comboDuration": 5,
+      "heavyAttackDamage": 700
     },
     "disposition": 3,
     "masteryRank": 4
@@ -10554,6 +11531,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeVenKa/PrimeVenkaClaws",
     "name": "Venka Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 188,
       "damageTypes": {},
@@ -10564,7 +11542,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.8
+      "range": 1.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 940
     },
     "disposition": 2,
     "masteryRank": 14
@@ -10573,6 +11553,7 @@
     "uniqueName": "/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep",
     "name": "Verdilac",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 213,
       "damageTypes": {},
@@ -10583,7 +11564,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9963856
+      "range": 2.9963856,
+      "comboDuration": 5,
+      "heavyAttackDamage": 959
     },
     "disposition": 3,
     "masteryRank": 13
@@ -10592,6 +11575,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
     "name": "Vericres",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 180,
       "damageTypes": {},
@@ -10602,7 +11586,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.8
+      "range": 1.8,
+      "comboDuration": 5,
+      "heavyAttackDamage": 720
     },
     "disposition": 4,
     "masteryRank": 8
@@ -10611,6 +11597,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/NWIIIOrokinSword/NWOrokinSword",
     "name": "Vitrica",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 333,
       "damageTypes": {},
@@ -10621,7 +11608,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 10,
+      "heavyAttackDamage": 1998
     },
     "disposition": 3,
     "masteryRank": 13
@@ -10630,6 +11619,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer",
     "name": "Volnus",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 220.00002,
       "damageTypes": {},
@@ -10640,7 +11630,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1320
     },
     "disposition": 5,
     "masteryRank": 9
@@ -10649,6 +11641,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/PrimeVolnus/VolnusPrimeWeapon",
     "name": "Volnus Prime",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -10659,7 +11652,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.9000001
+      "range": 2.9000001,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1500
     },
     "disposition": 4,
     "masteryRank": 14
@@ -10668,6 +11663,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoGreatSword",
     "name": "War",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 250,
       "damageTypes": {},
@@ -10678,7 +11674,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3.2
+      "range": 3.2,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1500
     },
     "disposition": 3,
     "masteryRank": 10
@@ -10687,6 +11685,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer",
     "name": "Wolf Sledge",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 259,
       "damageTypes": {},
@@ -10697,7 +11696,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 3.0999999
+      "range": 3.0999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1554
     },
     "disposition": 4,
     "masteryRank": 7
@@ -10706,6 +11707,7 @@
     "uniqueName": "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive",
     "name": "Xoris",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 120,
       "damageTypes": {},
@@ -10716,7 +11718,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 1.3
+      "range": 1.3,
+      "comboDuration": 5,
+      "heavyAttackDamage": 120
     },
     "disposition": 1,
     "masteryRank": 4
@@ -10725,6 +11729,7 @@
     "uniqueName": "/Lotus/Weapons/Tenno/Melee/SunDialAxe/SundialAxeWeapon",
     "name": "Zenistar",
     "type": "Melee",
+    "slot": 2,
     "baseStats": {
       "totalDamage": 298,
       "damageTypes": {},
@@ -10735,7 +11740,9 @@
       "magazineSize": 0,
       "reloadTime": 0,
       "multishot": 1,
-      "range": 2.5999999
+      "range": 2.5999999,
+      "comboDuration": 5,
+      "heavyAttackDamage": 1788
     },
     "disposition": 4,
     "masteryRank": 6
