@@ -10,7 +10,7 @@ declare module 'luaparse' {
     | TableConstructor | StringLiteral | NumericLiteral | BooleanLiteral
     | NilLiteral | UnaryExpression | Identifier | VarargLiteral
     | { type: string; [k: string]: unknown };
-  interface TableConstructor { type: 'TableConstructor'; fields: Field[]; }
+  interface TableConstructor { type: 'TableConstructor' | 'TableConstructorExpression'; fields: Field[]; }
   type Field = TableKeyString | TableKey | TableValue;
   interface TableKeyString { type: 'TableKeyString'; key: Identifier; value: Expression; }
   interface TableKey     { type: 'TableKey';     key: Expression;  value: Expression; }
