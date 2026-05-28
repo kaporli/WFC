@@ -1,124 +1,226 @@
-# Warframe Planner — Pipeline Fix + Calc Engine Design
+# Warframe Planner — Full Loadout Calc Engine Design
 
 ## Goal
 
-Fix the data pipeline's accuracy issues (mod level values, ability scaling flags, full Lua parsing) and implement the Python calc engine that computes a complete stat sheet from a build definition (warframe + mods at any rank + arcanes + archon shards + arcane helmet + augment mods), accounting for warframe-specific slot rules derived entirely from data.
+Complete data pipeline with accurate per-rank mod values, ability scaling, and full wiki data; a Python calc engine that models an entire loadout (warframe + all weapons + companion), computes per-slot stat sheets, routes cross-equipment mod effects, and runs mechanic checks (shieldgate feasibility, armor strip thresholds, etc.).
 
 ## Architecture
 
-Two independent pieces shipped together: pipeline fixes that improve data quality, and a new Python calc engine in `engine/` that reads the improved data.
+Three tiers:
+1. **Data pipeline** (TypeScript) — fetches, parses, normalises all sources → `data/*.json`
+2. **Calc engine** (Python) — pure functions over data; per-slot stat sheets + loadout aggregation
+3. **Interactions** (YAML in `engine/interactions/`) — mechanic formulas and cross-equipment routing rules for effects not expressible from stat names alone
 
-**Tech stack:** TypeScript pipeline (luaparse for Lua → JS, existing fetchers), Python 3.12 calc engine (pure functions + dataclasses, no new dependencies), pytest for tests.
+**Tech stack:** TypeScript 5, luaparse (Lua AST, 12ms for 911KB), warframe-items npm, Python 3.12, pytest. No new Python dependencies.
 
 ---
 
-## Part 1 — Pipeline fixes
+## Part 1 — Pipeline
 
-### 1.1 Full Lua evaluation (`pipeline/src/lua/eval.ts`)
+### 1.1 Lua AST evaluator (`pipeline/src/lua/eval.ts`)
 
-New file that converts a `luaparse` AST into a plain JS object. `luaparse` parses 911KB in 12ms (benchmarked), making it suitable for all wiki modules.
+Converts a `luaparse` AST into a plain JS value. Handles the subset used by wiki data modules:
 
-Handles the subset of Lua used in wiki data modules:
-- `TableConstructor` → object (keyed fields) or array (sequential fields)
-- `StringLiteral`, `NumericLiteral`, `BooleanLiteral`, `NilLiteral` → JS primitives
-- `UnaryExpression` with `-` operator → negative numbers
+| AST node | JS output |
+|---|---|
+| `TableConstructor` with all string/identifier keys | `object` |
+| `TableConstructor` with all numeric keys | `array` |
+| `TableConstructor` mixed | `object` (numeric keys become string keys) |
+| `StringLiteral`, `NumericLiteral`, `BooleanLiteral` | primitive |
+| `NilLiteral` | `null` |
+| `UnaryExpression` with `-` | negative number |
 
-The wiki fetcher (`fetchers/wiki-lua.ts`) stops storing raw Lua text and instead stores evaluated JS objects. Cache file `wiki-lua-raw.json` changes shape from `{ sources: Record<ModuleName, string> }` to `{ modules: Record<ModuleName, unknown>, revIds: Record<ModuleName, number> }`.
+All four wiki modules are now parsed to JS objects. Cache file shape changes:
+```
+wiki-lua-raw.json: { sources: Record<ModuleName, string> }   ← old
+wiki-lua-raw.json: { modules: Record<ModuleName, unknown>, revIds: Record<ModuleName, number> }   ← new
+```
 
-### 1.2 Additional wiki module: `Module:Ability/data/stats`
+### 1.2 Wiki modules fetched
 
-Added to the fetch list alongside the existing three modules. Contains 220 ability entries keyed by `uniqueName`, each with stat blocks carrying a `Modifier` field (`AVATAR_ABILITY_STRENGTH` | `AVATAR_ABILITY_DURATION` | `AVATAR_ABILITY_RANGE` | `AVATAR_ABILITY_EFFICIENCY`).
+| Module | Size | Purpose |
+|---|---|---|
+| `Module:Mods/data` | 911KB | Mod metadata cross-reference |
+| `Module:Warframes/data` | ~150KB | Aura slots, initial energy, exilus polarity |
+| `Module:Ability/data` | ~186KB | Subsumable flags, augment lists per ability |
+| `Module:Ability/data/stats` | ~179KB | Per-ability energy costs + scaled stat values |
 
-### 1.3 `levelValues` replaces `valuePerRank` in mod/arcane schema
+### 1.3 `levelValues` replaces `valuePerRank`
 
-**Old schema:**
+**Old:** `{ stat, stackType, valuePerRank: number }` — linear approximation, wrong at non-max ranks.
+
+**New:** `{ stat, stackType, levelValues: number[] }` — `levelValues[i]` is the exact parsed value from `levelStats[i]`. `levelValues[0]` = unranked, `levelValues[maxRank]` = fully ranked. Example for Vitality (rank 0–10): `[0.09, 0.18, 0.27, 0.36, 0.45, 0.55, 0.64, 0.73, 0.82, 0.91, 1.00]`.
+
+Same change to `ArcaneEffect`.
+
+Calc engine uses `effect.level_values[equipped_rank]` for exact values at any rank.
+
+### 1.4 `ModEffect` gains `target` field
+
+Cross-equipment mod effects (e.g. Amalgam Furax Body Count giving +45% Secondary Fire Rate while installed on a Melee weapon) need routing. The `target` field on each parsed effect indicates which loadout slot the stat applies to:
+
 ```typescript
+type EffectTarget = 'self' | 'warframe' | 'primary' | 'secondary' | 'melee' | 'archgun' | 'companion';
+
 interface ModEffect {
   stat: string;
   stackType: StackType;
-  valuePerRank: number;   // linear approximation, inexact at non-max ranks
+  levelValues: number[];
+  target: EffectTarget;   // 'self' = same slot as the mod; others = cross-equipment
 }
 ```
 
-**New schema:**
+Target is resolved in `normalizers/mods.ts` by:
+1. Checking `pipeline/src/data/stat-targets.json` — a static mapping of description fragments to targets (e.g. `"Fire Rate for Secondary Weapons" → secondary`, `"Sprint Speed" → warframe`, `"Reload Speed on Shotguns" → primary`). ~30 entries, changes only when DE adds new Amalgam/cross-equipment mods.
+2. Fallback: `target = 'self'`.
+
+### 1.5 Ability scaling flags (`normalizers/abilities.ts`)
+
+Reads parsed `Module:Ability/data/stats`. For each uniqueName entry, scans stat blocks for `Modifier` values:
+
+```
+AVATAR_ABILITY_STRENGTH  → strengthScaling = true
+AVATAR_ABILITY_DURATION  → durationScaling = true
+AVATAR_ABILITY_RANGE     → rangeScaling    = true
+AVATAR_ABILITY_EFFICIENCY → efficiencyScaling = true
+```
+
+Produces `AbilityScalingMap: Map<uniqueName, { strengthScaling, durationScaling, rangeScaling, efficiencyScaling }>`. Warframes normalizer merges these flags into each `AbilityRef`.
+
+### 1.6 `Module:Warframes/data` enrichment
+
+Cross-referenced to fill: `initialEnergy`, `exilusPolarity` (if present), corrected `sprintSpeed`.
+
+`AuraPolarity` is either a string → `auraSlots = 1`, or a Lua table (e.g. `{ "Aura", "Vazarin" }` for Jade) → `auraSlots = table.length`. The `WarframeEntry` schema gains `auraSlots: number`.
+
+### 1.7 `Module:Ability/data` — Helminth + augment map
+
+Each ability entry carries `Augments = { "Augment Name", ... }` and optionally `Subsumable = true`.
+
+New output file `data/abilities.json`:
 ```typescript
-interface ModEffect {
-  stat: string;
-  stackType: StackType;
-  levelValues: number[];  // index = rank, exact value from levelStats[i]
+interface AbilitiesData {
+  subsumable: string[];                      // uniqueNames of subsumable abilities
+  augmentToAbility: Record<string, string>;  // augment display name → ability uniqueName
 }
 ```
 
-`levelValues[0]` = stat at rank 0 (unranked), `levelValues[maxRank]` = stat at max rank.
-Example for Vitality: `[0.09, 0.18, 0.27, 0.36, 0.45, 0.55, 0.64, 0.73, 0.82, 0.91, 1.00]`
+### 1.8 Arcane helmets (`normalizers/helmets.ts`)
 
-Same change applies to `ArcaneEffect`.
+`ExportCustoms_en.json` added to the Public Export fetch list.
 
-### 1.4 Ability scaling flags normalizer (`pipeline/src/normalizers/abilities.ts`)
+Arcane helmets identified by: `uniqueName.includes('AltHelmet')` AND `name.startsWith('Arcane')`. 27 entries currently.
 
-Reads the evaluated `Module:Ability/data/stats` object. For each ability entry, scans its stat blocks for `Modifier` values and produces a map:
+`warframeName` parsed from description: `"This helmet is worn by X"` → X.
 
-```typescript
-type AbilityScalingMap = Map<string, {  // keyed by ability uniqueName
-  strengthScaling: boolean;
-  durationScaling: boolean;
-  rangeScaling: boolean;
-  efficiencyScaling: boolean;
-}>;
-```
+Stat effects: descriptions contain natural language only (no numbers). Values are sourced from `pipeline/src/data/arcane-helmet-stats.json` — a static committed file with the 27 entries. These helmets have not changed since 2013; the file is updated if DE ever adds more. Format mirrors `ModEffect` with `levelValues` of length 1.
 
-The warframes normalizer imports this map and uses `uniqueName` to set the four flags on each `AbilityRef`. Abilities not found in the stats module default to all-false.
+Output: `data/helmets.json`.
 
-### 1.5 `Module:Warframes/data` enrichment + aura slot count
+### 1.9 Mod set bonuses (`normalizers/mod-sets.ts`)
 
-The warframes normalizer cross-references the parsed wiki `Warframes` table to fill fields WFCD may leave empty: `exilusPolarity`, `initialEnergy` (energy on spawn), and corrects `sprintSpeed` where WFCD has null.
+WFCD's `Mod Set Mod` items carry a `stats: string[]` array — one string per cumulative piece count. Example for Augur: `["40% Energy spent...converted to Shields.", "80%...", ...]`.
 
-`AuraPolarity` in the wiki data is either a string (`"Naramon"`) or a table (`{ "Aura", "Vazarin" }` for Jade). The normalizer handles both: string → `auraSlots = 1`, table → `auraSlots = table.length`. This is the only source for this information and must not be hardcoded. The `WarframeEntry` schema gains an `auraSlots: number` field.
-
-### 1.6 Arcane helmets (`pipeline/src/fetchers/public-export.ts` + `data/helmets.json`)
-
-`ExportCustoms_en.json` is added to the Public Export fetch. Arcane helmets are identified by two conditions: `uniqueName` contains `AltHelmet` AND `name` starts with `"Arcane"`. 27 exist currently.
-
-Each arcane helmet's stat effects (bonus + penalty) are parsed from its description string using the same regex approach as mod `levelStats`. A new output file `data/helmets.json` is written with entries:
+Parser extracts the numeric value per piece count with a regex, producing:
 
 ```typescript
-interface ArcaneHelmetEntry {
+interface SetBonusEntry {
   uniqueName: string;
-  name: string;
-  warframeName: string;   // parsed from description "This helmet is worn by X"
-  effects: ModEffect[];   // same shape as mod effects — levelValues has one entry (no ranking)
+  numPiecesInSet: number;
+  bonusByPieceCount: Array<{
+    pieces: number;
+    stat: string;          // normalised stat name, e.g. 'energyToShieldOnCast'
+    value: number;
+    isFlat: boolean;
+  }>;
 }
 ```
 
-### 1.7 Augment mod enrichment
+Output: `data/mod-sets.json`.
 
-`isAugment` and `compatName` are already present on augment mods in WFCD. The `ModEntry` schema gains two fields: `isAugment: boolean` and `compatName: string | null`. No additional sourcing needed — WFCD covers all 199 augments.
+### 1.10 Ability stats (`normalizers/ability-stats.ts`)
+
+Reads parsed `Module:Ability/data/stats`. For each ability, extracts all stat blocks:
+
+```typescript
+interface AbilityStatBlock {
+  label: string;           // e.g. "Armor Reduction"
+  modifier: string;        // e.g. "AVATAR_ABILITY_STRENGTH"
+  baseValue: number;       // Val1 from Values table (already divided by 100 if %)
+  isPercent: boolean;      // true if label contains '%'
+}
+
+interface AbilityStatsEntry {
+  uniqueName: string;
+  stats: AbilityStatBlock[];
+}
+```
+
+Output: `data/ability-stats.json`.
+
+### 1.11 Weapon schema expansion
+
+`data/weapons.json` entries gain:
+- `comboDuration: number` (melee only) — from WFCD
+- `heavyAttackDamage: number` (melee only)
+- `range: number` (melee only)
+- `attacks: Attack[]` — full WFCD attack data (for heavy attack, slam, etc.)
+- `slot: number` — 0=primary, 1=secondary, 2=melee, 5=archgun
+
+### 1.12 Augment mod fields
+
+`data/mods.json` entries gain `isAugment: boolean` and `compatName: string | null` — already in WFCD, just forwarded.
+
+### 1.13 Static data files (committed to repo)
+
+| File | Entries | Change frequency |
+|---|---|---|
+| `pipeline/src/data/arcane-helmet-stats.json` | 27 | Never (no new arcane helmets since 2013) |
+| `pipeline/src/data/shard-bonuses.json` | 5 colors × N stats | Rare (only on DE shard rework) |
+| `pipeline/src/data/upgrade-costs.json` | 4 rarity tiers × 10 ranks | Rare |
+| `pipeline/src/data/stat-targets.json` | ~30 description fragments | Rare (new Amalgam mod) |
 
 ### Updated `data/` output
 
-`data/warframes.json` — ability entries with correct scaling flags; `auraSlots` field added.
-`data/mods.json` — effects use `levelValues: number[]`; `isAugment` and `compatName` fields added.
-`data/arcanes.json` — effects use `levelValues: number[]`.
-`data/helmets.json` — new file, 27 arcane helmet entries with parsed stat effects.
-`data/abilities.json` — new file, augment-name → ability uniqueName map for Helminth validation; 77 subsumable abilities.
+```
+data/
+  warframes.json       — auraSlots, correct ability flags, initialEnergy, exilusPolarity
+  mods.json            — levelValues, isAugment, compatName, effect.target
+  arcanes.json         — levelValues
+  weapons.json         — comboDuration, heavyAttackDamage, range, slot
+  helmets.json         — 27 arcane helmets with stat effects
+  abilities.json       — subsumable list, augment→ability map
+  ability-stats.json   — per-ability energy cost + scaled stat values
+  mod-sets.json        — set bonus values by piece count
+```
 
 ---
 
-## Part 2 — Calc engine
+## Part 2 — Loadout model
 
 ### 2.1 File structure
 
 ```
 engine/warframe_engine/
-  loader.py          (existing — updated to load levelValues, auraSlots, isAugment, compatName)
-  build.py           — Build, EquippedMod, EquippedArcane, ArchonShard + from_dict/to_dict/validate
-  shards.py          — SHARD_TABLE: all 5 colors, all stat options, tauforged multiplier
-  calculator.py      — DataCache, compute_stats() → StatSheet
-  upgrade_cost.py    — ENDO_TABLE, CREDIT_TABLE, compute_upgrade_cost()
+  loader.py              (updated — all new data files)
+  build.py               (updated — helminth, helmet, auras list, validate())
+  loadout.py             (new — Loadout, WeaponSlot)
+  shards.py              (new — SHARD_TABLE)
+  calculator.py          (updated — compute_warframe_stats() → StatSheet)
+  weapon_calculator.py   (new — compute_weapon_stats() → WeaponStatSheet)
+  loadout_calculator.py  (new — compute_loadout() → LoadoutStats, cross-equipment routing)
+  checks.py              (new — MechanicCheck, run_checks())
+  upgrade_cost.py        (new — compute_upgrade_cost())
+engine/interactions/
+  mechanics/
+    shieldgate.yaml
+    armor-strip.yaml
 engine/tests/
-  test_loader.py     (existing)
+  test_loader.py         (existing)
   test_build.py
-  test_calculator.py
+  test_weapon_calculator.py
+  test_loadout_calculator.py
+  test_checks.py
   test_upgrade_cost.py
 ```
 
@@ -128,7 +230,7 @@ engine/tests/
 @dataclass
 class EquippedMod:
     unique_name: str
-    rank: int          # 0 = unranked, mod.max_rank = fully ranked
+    rank: int             # 0 = unranked
 
 @dataclass
 class EquippedArcane:
@@ -137,88 +239,71 @@ class EquippedArcane:
 
 @dataclass
 class ArchonShard:
-    color: str         # 'crimson' | 'azure' | 'amber' | 'topaz' | 'violet'
-    stat: str          # e.g. 'abilityStrength', 'health', 'armor'
+    color: str            # 'crimson' | 'azure' | 'amber' | 'topaz' | 'violet'
+    stat: str             # e.g. 'abilityStrength', 'health'
     tauforged: bool
 
 @dataclass
 class Build:
     warframe_name: str
-    mods: list[EquippedMod]        # regular mod slots (max 8)
-    arcanes: list[EquippedArcane]  # max slots derived from warframe data (usually 2, 1 if arcane helmet)
-    shards: list[ArchonShard]      # max 5
-    exilus: EquippedMod | None     # exilus slot
-    auras: list[EquippedMod]       # 1 slot for most warframes, 2 for Jade — count from WarframeEntry.aura_slots
-    helmet: str | None             # uniqueName of equipped helmet; if arcane helmet, reduces arcane slots to 1
-    helminth_ability: str | None   # uniqueName of subsumed ability replacing slot 3; enables augments for that ability
+    mods: list[EquippedMod]         # regular slots (max 8)
+    arcanes: list[EquippedArcane]   # max 2; max 1 if arcane helmet equipped
+    shards: list[ArchonShard]       # max 5
+    exilus: EquippedMod | None
+    auras: list[EquippedMod]        # len = warframe.aura_slots (1 for most, 2 for Jade)
+    helmet: str | None              # uniqueName; arcane helmet reduces arcane slots to 1
+    helminth_ability: str | None    # uniqueName of subsumed ability (slot 3 replacement)
 ```
 
-`from_dict` / `to_dict` enable JSON serialization for saving/loading builds.
+**`validate(build, cache) → list[str]`** — returns error strings:
+- Augment mod valid if: `mod.compat_name == build.warframe_name` OR mod's display name is in `cache.augment_name_to_ability[mod_name]`'s ability and that ability's `uniqueName == build.helminth_ability`.
+- `len(build.auras) <= warframe.aura_slots`
+- Arcane helmet → max 1 arcane
+- Each rank in `[0, entry.max_rank]`
 
-**`validate(build, cache) → list[str]`** returns a list of error strings (empty = valid):
-- Augment mods: valid if either (a) `mod.compat_name == build.warframe_name`, or (b) the augment's name appears in the `Augments` list of an ability whose `uniqueName == build.helminth_ability` in the parsed `Module:Ability/data`. The 77 subsumable abilities each carry an `Augments` table; the normalizer builds a `augment_name → ability_unique_name` map stored in `data/abilities.json`. This is entirely data-driven — no hardcoded warframe/augment pairs.
-- Aura count: `len(build.auras)` must not exceed `warframe.aura_slots`.
-- Arcane count: if `build.helmet` is an arcane helmet unique_name, max arcanes = 1; otherwise max = 2.
-- Shard count: max 5.
-- Rank bounds: each mod/arcane rank must be in `[0, entry.max_rank]`.
-
-### 2.3 Archon shard table (`shards.py`)
+### 2.3 Loadout model (`loadout.py`)
 
 ```python
 @dataclass
-class ShardBonus:
-    value: float    # base (non-tauforged) value; tauforged = value × 1.5
-    is_flat: bool   # True → adds to base stat before mod scaling
-                    # False → adds to additive mod pool
+class WeaponSlot:
+    weapon_unique_name: str
+    mods: list[EquippedMod]    # max 8
+    exilus: EquippedMod | None
+    riven: EquippedMod | None  # riven occupies one regular slot
 
-SHARD_TABLE: dict[str, dict[str, ShardBonus]] = {
-    'crimson': {
-        'abilityStrength': ShardBonus(0.25,   False),
-        'health':          ShardBonus(150.0,  True),
-        'abilityDuration': ShardBonus(0.10,   False),
-        'castSpeed':       ShardBonus(0.10,   False),
-    },
-    'azure': {
-        'shield':  ShardBonus(150.0, True),
-        'energy':  ShardBonus(50.0,  True),
-        'sprint':  ShardBonus(0.05,  False),
-    },
-    'amber': {
-        'armor':           ShardBonus(75.0,  True),
-        'energyOrb':       ShardBonus(0.25,  False),
-        'abilityStrength': ShardBonus(0.25,  False),
-    },
-    'topaz': {
-        'status':   ShardBonus(0.15, False),
-        'fireRate': ShardBonus(0.10, False),
-    },
-    'violet': {
-        'parkourVelocity': ShardBonus(0.25, False),
-        'abilityRange':    ShardBonus(0.20, False),
-    },
-}
+@dataclass
+class Loadout:
+    warframe: Build
+    primary: WeaponSlot | None
+    secondary: WeaponSlot | None
+    melee: WeaponSlot | None
+    archgun: WeaponSlot | None
+    archgun_gravimag: bool         # True = Gravimag installed; archgun usable in ground mission
+    companion_mods: list[EquippedMod]
+    companion_weapon: WeaponSlot | None
 ```
 
-Tauforged multiplier of 1.5× applied at call time: `value * (1.5 if shard.tauforged else 1.0)`.
+---
 
-### 2.4 Calculator (`calculator.py`)
+## Part 3 — Stat calculators
 
-**`DataCache`** — loads all six `data/*.json` files once at construction, builds lookup dicts:
-- `warframe_by_name: dict[str, WarframeEntry]`
-- `mod_by_unique_name: dict[str, ModEntry]`
-- `arcane_by_unique_name: dict[str, ArcaneEntry]`
-- `helmet_by_unique_name: dict[str, ArcaneHelmetEntry]`
-- `arcane_helmet_unique_names: set[str]`  — for O(1) helmet type check
-- `augment_name_to_ability: dict[str, str]`  — augment display name → ability uniqueName, for Helminth validation
+### 3.1 Warframe stat sheet (`calculator.py`)
+
+**`DataCache`** loads all eight `data/*.json` files. Lookup structures:
+- `warframe_by_name`, `mod_by_unique_name`, `arcane_by_unique_name`
+- `helmet_by_unique_name`, `arcane_helmet_unique_names: set[str]`
+- `augment_name_to_ability: dict[str, str]`
+- `mod_set_by_unique_name: dict[str, SetBonusEntry]`
+- `ability_stats_by_unique_name: dict[str, AbilityStatsEntry]`
 
 **`StatSheet`:**
 ```python
 @dataclass
 class StatSheet:
-    ability_strength: float    # 1.0 = 100% (no bonuses)
+    ability_strength: float    # 1.0 = 100%
     ability_duration: float
     ability_range: float
-    ability_efficiency: float  # hard-capped at 1.75
+    ability_efficiency: float  # hard cap 1.75
 
     health: float
     shield: float
@@ -229,49 +314,186 @@ class StatSheet:
     armor_dr: float            # armor / (armor + 300)
     ehp: float                 # health / (1 - armor_dr) + shield
 
-    can_shieldgate: bool       # True if shield > 0
-    gate_full_s: float         # 1.3  — full gate (shields fully depleted)
-    gate_short_s: float        # 0.13 — short gate (partially depleted)
+    can_shieldgate: bool
+    gate_full_s: float         # 1.3
+    gate_short_s: float        # 0.13
 ```
 
-**`compute_stats(build, cache) → StatSheet`:**
+**`compute_warframe_stats(build, cache, cross_equip_additive=None) → StatSheet`:**
 
 ```
-1. Collect additive modifiers (dict[stat, float]) from:
-     - All mods (regular + exilus + all auras): level_values[rank]
-     - All arcanes: level_values[rank]
-     - Arcane helmet effects (level_values[0], single rank): if build.helmet is an arcane helmet
-     - Non-flat shard bonuses
+1. Additive pool from: all mods (regular + exilus + auras) level_values[rank]
+                       all arcanes level_values[rank]
+                       arcane helmet effects (level_values[0]) if equipped
+                       non-flat shard bonuses
+   Flat pool from:     flat shard bonuses (health, shield, armor, energy)
+   Cross-equip from:   additive bonuses with target='warframe' from weapon mods (passed in)
 
-2. Collect flat bonuses (dict[stat, float]) from:
-     - Flat shard bonuses (health, shield, armor, energy)
+2. Final stats:
+   health = (base.health + flat['health']) × (1 + additive['health'])
+   shield = (base.shield + flat['shield']) × (1 + additive['shield'])
+   armor  = (base.armor  + flat['armor'])  × (1 + additive['armor'])
+   energy = (base.energy + flat['energy']) × (1 + additive['energy'])
+   sprint = base.sprint × (1 + additive['sprint'])
 
-3. Compute final stats:
-     health = (base.health + flat['health']) × (1 + additive['health'])
-     shield = (base.shield + flat['shield']) × (1 + additive['shield'])
-     armor  = (base.armor  + flat['armor'])  × (1 + additive['armor'])
-     energy = (base.energy + flat['energy']) × (1 + additive['energy'])
-     sprint = base.sprint × (1 + additive['sprint'])
+3. Ability multipliers:
+   ability_strength   = 1.0 + additive['abilityStrength']
+   ability_duration   = 1.0 + additive['abilityDuration']
+   ability_range      = 1.0 + additive['abilityRange']
+   ability_efficiency = min(1.75, 1.0 + additive['abilityEfficiency'])
 
-4. Ability multipliers:
-     ability_strength   = 1.0 + additive['abilityStrength']
-     ability_duration   = 1.0 + additive['abilityDuration']
-     ability_range      = 1.0 + additive['abilityRange']
-     ability_efficiency = min(1.75, 1.0 + additive['abilityEfficiency'])
-
-5. EHP:
-     armor_dr = armor / (armor + 300)
-     ehp      = health / (1 - armor_dr) + shield
-
-6. Shieldgate:
-     can_shieldgate = shield > 0
-     gate_full_s    = 1.3
-     gate_short_s   = 0.13
+4. EHP: armor_dr = armor / (armor + 300); ehp = health / (1 - armor_dr) + shield
+5. Shieldgate: can_shieldgate = shield > 0; gate_full_s = 1.3; gate_short_s = 0.13
 ```
 
-### 2.5 Upgrade cost (`upgrade_cost.py`)
+### 3.2 Weapon stat sheet (`weapon_calculator.py`)
 
-DE's endo and credit costs per rank are fixed values (not formulaic). Two lookup tables — `ENDO_PER_RANK: list[int]` (index = rank being applied, e.g. index 0 = cost to go from rank 0 to rank 1) and `CREDIT_PER_RANK: list[int]` — sourced from the wiki's Mod Fusion page.
+**`WeaponStatSheet`:**
+```python
+@dataclass
+class WeaponStatSheet:
+    total_damage: float
+    damage_types: dict[str, float]   # e.g. {'Impact': 120.0, 'Slash': 80.0}
+    crit_chance: float
+    crit_multiplier: float
+    status_chance: float
+    fire_rate: float
+    magazine_size: int
+    reload_time: float
+    multishot: float
+    # Melee only
+    combo_duration: float
+    heavy_attack_damage: float
+    range_: float
+```
+
+**`compute_weapon_stats(slot, weapon_entry, cache) → tuple[WeaponStatSheet, dict[str, dict[str, float]]]`:**
+
+Returns the weapon's stat sheet AND a `cross_equip` dict keyed by target slot (`'warframe'`, `'secondary'`, etc.) containing additive bonuses to pass to other calculators.
+
+Mod effect routing:
+- `effect.target == 'self'` → add to this weapon's additive pool
+- `effect.target != 'self'` → add to `cross_equip[effect.target][effect.stat]`
+
+Weapon final stats formula:
+```
+total_damage  = base_total × (1 + additive['damage'])
+crit_chance   = base_crit + additive['critChance']   (additive, not multiplicative)
+crit_mult     = base_mult × (1 + additive['critMult'])
+status_chance = base_status + additive['statusChance']
+fire_rate     = base_fire_rate × (1 + additive['fireRate'])
+combo_duration = base_combo_duration + flat_additive['comboDuration']  (flat, not %)
+```
+
+### 3.3 Loadout aggregation (`loadout_calculator.py`)
+
+**`LoadoutStats`:**
+```python
+@dataclass
+class LoadoutStats:
+    warframe: StatSheet
+    primary: WeaponStatSheet | None
+    secondary: WeaponStatSheet | None
+    melee: WeaponStatSheet | None
+    archgun: WeaponStatSheet | None
+    companion_weapon: WeaponStatSheet | None
+```
+
+**`compute_loadout(loadout, cache) → LoadoutStats`:**
+
+```
+1. Compute each weapon slot independently, collecting cross_equip dicts.
+2. Merge all cross_equip['warframe'] additive pools into one dict.
+3. Compute warframe stats, passing merged cross_equip warframe bonuses.
+4. Return LoadoutStats.
+```
+
+Order: weapons first → collect cross-equip → warframe last (so all cross-equip contributions are known).
+
+**Set bonus resolution:**
+
+For each mod set (keyed by `mod.modSet`), count how many pieces are equipped across the ENTIRE loadout (including warframe + all weapon slots). Look up `mod-sets.json` for the appropriate tier bonus and add it to the relevant slot's additive pool.
+
+Example: 2 Augur pieces (e.g. Augur Accord on warframe + Augur Pact on secondary) → 80% energy-to-shield bonus, attributed to warframe.
+
+---
+
+## Part 4 — Mechanic checks (`checks.py`)
+
+### 4.1 MechanicResult
+
+```python
+@dataclass
+class MechanicCheck:
+    id: str                  # e.g. 'shieldgate_ability_snowglobe_augur'
+    name: str
+    category: str            # 'shieldgate' | 'armor_strip' | 'ability_threshold'
+    value: float             # computed value
+    threshold: float         # target for check to pass
+    passes: bool
+    details: dict            # extra data: required_strength, ability_name, pieces_needed, etc.
+```
+
+### 4.2 `run_checks(loadout, loadout_stats, cache) → list[MechanicCheck]`
+
+Runs all applicable checks and returns results. Checks are generated dynamically from data — not hardcoded per warframe.
+
+### 4.3 Shieldgate checks
+
+**Sources:**
+- Brief Respite (aura): `levelStats` parsed to `energyToShieldOnCast = 1.5` (150% at max rank, if equipped)
+- Augur set: from `mod-sets.json` by piece count across loadout
+- Catalyzing Shields: special case — forces `shield = 1`, makes full gate (1.3s) always trigger
+
+**Formula:**
+```
+actual_energy_cost = base_cost × (2 - ability_efficiency)  # efficiency capped at 1.75 → min cost = 25%
+shields_restored   = actual_energy_cost × (brief_respite_pct + augur_set_pct)
+```
+
+**Check per ability:** for each of the warframe's 4 abilities (including helminth replacement):
+```
+passes = shields_restored >= warframe_stats.shield
+```
+
+`base_cost` comes from `ability-stats.json`: the stat block where `modifier == "AVATAR_ABILITY_EFFICIENCY"`.
+
+### 4.4 Armor strip checks
+
+For each ability with a stat block labelled `"Armor Reduction"` in `ability-stats.json`:
+
+```
+final_strip = base_armor_reduction × warframe_stats.ability_strength
+passes      = final_strip >= 1.0
+required_strength = 1.0 / base_armor_reduction
+```
+
+`details` includes `required_strength` so the UI can show "you need 250% strength for full strip."
+
+### 4.5 Interaction YAML format
+
+For mechanics not expressible from stat data alone, YAML files in `engine/interactions/mechanics/` define the formula:
+
+```yaml
+# engine/interactions/mechanics/shieldgate.yaml
+id: shieldgate
+description: Shield gate mechanic parameters
+params:
+  full_gate_duration_s: 1.3
+  short_gate_duration_s: 0.13
+  brief_respite_stat: energyToShieldOnCast
+  augur_set_stat: energyToShieldOnCast
+  efficiency_formula: "base_cost * (2 - efficiency)"  # human-readable only
+  catalyzing_shields_override: true  # sets shield to 1, always full gate
+```
+
+The Python checks module reads these files but implements the actual computation in code — the YAML is documentation + parameter source, not an interpreter target.
+
+---
+
+## Part 5 — Upgrade cost (`upgrade_cost.py`)
+
+Endo and credit costs per rank are fixed per-rarity lookup tables from `pipeline/src/data/upgrade-costs.json`:
 
 ```python
 @dataclass
@@ -280,33 +502,65 @@ class UpgradeCost:
     credits: int
 
 def compute_upgrade_cost(mod: ModEntry, from_rank: int, to_rank: int) -> UpgradeCost:
-    """Sum per-rank costs from from_rank to to_rank (exclusive of from_rank)."""
+    """Sum costs for ranks [from_rank+1 .. to_rank] inclusive."""
 ```
-
-Rarity affects credit costs (Common < Uncommon < Rare < Legendary/Primed). Two tables per rarity.
-
-### 2.6 Tests
-
-**`test_build.py`:** Build round-trips through `to_dict` / `from_dict` without data loss. Validation catches: augment on wrong warframe (no Helminth), augment valid when Helminth ability matches, too many auras, arcane helmet + 2 arcanes, out-of-range rank.
-
-**`test_calculator.py`** — verified against wiki values:
-- Frost + Vitality R10 + Steel Fiber R10: health = 270 × 2.0 = 540, armor = 315 × 2.0 = 630, armor_dr ≈ 67.7%, EHP ≈ 1672 + 455
-- Rhino + Intensify R5 + Transient Fortitude R5: ability_strength = 1.0 + 0.30 + 0.55 = 1.85
-- Frost + 1 crimson shard (abilityStrength, tauforged): ability_strength = 1.0 + 0.375 = 1.375
-- Frost + Vitality R3 (not max rank): health = 270 × (1 + 0.27) = 342.9
-
-**`test_upgrade_cost.py`:**
-- Common mod R3 → R5: correct endo + credits sum
-- Rare mod R0 → R5: correct totals for higher credit cost tier
 
 ---
 
-## Spec Self-Review
+## Part 6 — Archon shard table (`shards.py`)
 
-**Placeholder scan:** No TBDs. Shard table values need validation against current wiki — marked as "to verify" in implementation comments, not in spec. Endo/credit tables are sourced at implementation time from wiki Mod Fusion page.
+Values sourced from `pipeline/src/data/shard-bonuses.json` (static, loaded at pipeline time into `data/` output as part of manifest). Python reads `shard-bonuses.json` via `DataCache`.
 
-**Internal consistency:** `levelValues` schema change is consistent throughout — schema/index.ts, normalizers, loader.py, calculator.py all use the same field name. `from_dict` in build.py must match the field names defined in section 2.2.
+```python
+@dataclass
+class ShardBonus:
+    value: float     # base; tauforged = × 1.5
+    is_flat: bool    # True → adds to base stat before mod scaling
 
-**Scope:** Two cohesive pieces (pipeline fix + calc engine) that must ship together since the calc engine depends on `levelValues` which requires the pipeline fix. Appropriate for one plan.
+SHARD_TABLE: dict[str, dict[str, ShardBonus]]  # loaded from data at runtime
+```
 
-**Ambiguity:** Armor formula for shards — flat shard armor adds to base before Steel Fiber scaling. This matches Warframe's in-game behavior and is explicitly stated in section 2.4 step 3. Ability efficiency cap of 1.75 (75% cost reduction) is a hard game cap, encoded in `compute_stats`.
+---
+
+## Part 7 — Tests
+
+**`test_build.py`:**
+- Round-trip `to_dict` / `from_dict`
+- `validate()`: augment on wrong warframe rejected; same augment accepted with Helminth; too many auras; arcane helmet + 2 arcanes; out-of-range rank
+
+**`test_weapon_calculator.py`:**
+- Soma Prime + Serration R10 + Split Chamber R5 → correct damage, multishot
+- Amalgam Furax Body Count on melee → `cross_equip['secondary']['fireRate'] = 0.45`
+- Amalgam Ripkas True Steel on melee → `cross_equip['primary']['reloadSpeed'] = 0.20`
+
+**`test_loadout_calculator.py`:**
+- Full loadout: Frost warframe + any primary + secondary with 2× Augur mods → set bonus included in warframe check
+- Frost + Steel Fiber R10 + Vitality R10 → health=540, armor=630, EHP≈2127
+- Rhino + Intensify R5 + Transient Fortitude R5 → ability_strength=1.85
+- Jade + 2 auras → passes validation; strength from both auras stacks
+- Frost + Vitality R3 (not max) → health = 270 × (1 + 0.27) = 342.9
+
+**`test_checks.py`:**
+- Frost + 2× Augur pieces + low efficiency: shieldgate check passes/fails at correct shield value
+- Frost + high strength build: Avalanche armor strip check passes at ≥250% strength
+- Nekros + enough strength: Terrify armor strip check (base 50%) passes at ≥200% strength
+
+**`test_upgrade_cost.py`:**
+- Common R3→R5, Rare R0→R5: correct totals
+
+---
+
+## Self-Review
+
+**Placeholder scan:** Three static JSON files (`arcane-helmet-stats.json`, `shard-bonuses.json`, `upgrade-costs.json`) are populated at implementation time from wiki tables — not automated but committed as data files, not hardcoded in Python. All other data is fully automated from WFCD/Public Export/wiki APIs.
+
+**Internal consistency:** `effect.target` added at normalizer level is used by both `compute_weapon_stats` (cross-equip routing) and the shieldgate check (Augur set counted across entire loadout). `data/mod-sets.json` feeds both the loadout aggregator (set bonus) and the shieldgate check. Consistent use throughout.
+
+**Scope check:** This is large but cohesive — all pieces feed into `compute_loadout() → LoadoutStats → run_checks()`. Natural implementation order: pipeline fixes → warframe calc (existing base) → weapon calc → loadout aggregation → checks.
+
+**Ambiguity resolutions:**
+- Augur set pieces counted across the ENTIRE loadout, not per slot.
+- Archgun with `gravimag = false` is ignored in ground-mission load calculations.
+- Ability efficiency formula: `actual_cost = base_cost × (2 - efficiency)` where efficiency is already capped at 1.75.
+- Armor formula: flat shard bonuses add to base before mod multiplier: `(base + flat) × (1 + pct_mods)`.
+- Combo duration from Amalgam mods: stored as a flat-seconds additive to base (not a multiplier).
