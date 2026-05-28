@@ -26,18 +26,29 @@ function extractMaxStacks(desc: string): number {
 
 function parseArcaneEffects(levelStats: WfcdLevelStat[] | undefined): ArcaneEffect[] {
   if (!levelStats?.length) return [];
-  const maxStats = levelStats[levelStats.length - 1].stats ?? [];
+  const effectCount = levelStats[0].stats?.length ?? 0;
+  const results: ArcaneEffect[] = [];
 
-  return maxStats.map((desc: string): ArcaneEffect => {
-    const match = desc.match(/([+-]?\d+(?:\.\d+)?)\s*%?/);
-    const value = match ? parseFloat(match[1]) : 0;
-    const statFrag = desc.replace(/[+-]?\d+(?:\.\d+)?\s*%?\s*/, '').trim();
-    return {
-      stat: statFrag.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, ''),
-      value,
-      atMaxRank: true,
-    };
-  });
+  for (let effIdx = 0; effIdx < effectCount; effIdx++) {
+    const levelValues: number[] = [];
+    let stat = '';
+
+    for (let rankIdx = 0; rankIdx < levelStats.length; rankIdx++) {
+      const raw = (levelStats[rankIdx].stats?.[effIdx] ?? '').replace(/<[^>]+>/g, '');
+      const match = raw.match(/([+-]?\d+(?:\.\d+)?)\s*%?/);
+      const value = match ? parseFloat(match[1]) : 0;
+      levelValues.push(value);
+      if (rankIdx === 0 && !stat) {
+        stat = raw.replace(/[+-]?\d+(?:\.\d+)?\s*%?\s*/, '').trim()
+          .toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+      }
+    }
+
+    if (stat && levelValues.some(v => v !== 0)) {
+      results.push({ stat, levelValues });
+    }
+  }
+  return results;
 }
 
 export function normalizeArcanes(wfcdArcanes: WfcdArcane[]): ArcaneEntry[] {
@@ -48,7 +59,6 @@ export function normalizeArcanes(wfcdArcanes: WfcdArcane[]): ArcaneEntry[] {
       return {
         uniqueName: a.uniqueName,
         name: a.name,
-        // Arcane rank count = levelStats.length; ranks are 0-indexed so maxRank = length - 1
         maxRank: (a.levelStats?.length ?? 1) - 1,
         maxStacks: extractMaxStacks(desc),
         trigger: extractTrigger(desc),
