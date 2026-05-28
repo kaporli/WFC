@@ -1,0 +1,9 @@
+{
+  "name": "warframe-planner",
+  "private": true,
+  "workspaces": ["pipeline"],
+  "scripts": {
+    "pipeline": "npm run -w pipeline",
+    "ingest": "npm run -w pipeline run"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+pipeline/cache/
+pipeline/dist/
+*.lzma
+.env
+__pycache__/
+*.pyc
+.venv/
+dist/
+.DS_Store
