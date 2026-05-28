@@ -1,0 +1,18 @@
+{
+  "fire rate for secondary weapons": "secondary",
+  "fire rate for secondaries": "secondary",
+  "secondary fire rate": "secondary",
+  "reload speed on shotguns": "primary",
+  "reload speed on rifles": "primary",
+  "reload speed on primary": "primary",
+  "sprint speed": "warframe",
+  "dodge speed": "warframe",
+  "movement speed": "warframe",
+  "holster speed": "warframe",
+  "combo duration": "melee",
+  "life steal on nikanas": "melee",
+  "life steal on daggers": "melee",
+  "life steal on swords": "melee",
+  "damage from daggers": "melee",
+  "gore chance": "melee"
+}
