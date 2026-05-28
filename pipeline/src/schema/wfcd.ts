@@ -42,6 +42,8 @@ export interface WfcdMod {
   levelStats?: WfcdLevelStat[];
   description?: string;
   tradable: boolean;
+  isAugment?: boolean;
+  compatName?: string;
 }
 
 export interface WfcdArcane {
@@ -65,6 +67,8 @@ export interface WfcdWeapon {
   procChance?: number;
   fireRate?: number;
   attackSpeed?: number;
+  comboDuration?: number;
+  heavyAttackDamage?: number;
   magazineSize?: number;
   reloadTime?: number;
   multishot?: number;

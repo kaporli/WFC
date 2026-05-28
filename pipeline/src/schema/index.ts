@@ -21,17 +21,22 @@ export interface WarframeEntry {
   baseStats: BaseStats;
   polarities: string[];
   aura: string | null;
+  auraSlots: number;
   abilities: AbilityRef[];
   passiveDescription: string;
   masteryRank: number;
+  initialEnergy: number;
+  exilusPolarity: string | null;
 }
 
 export type StackType = 'additive_base' | 'additive_stacking' | 'multiplicative';
+export type EffectTarget = 'self' | 'warframe' | 'primary' | 'secondary' | 'melee' | 'archgun' | 'companion';
 
 export interface ModEffect {
   stat: string;
   stackType: StackType;
-  valuePerRank: number;
+  levelValues: number[];
+  target: EffectTarget;
 }
 
 export interface ModEntry {
@@ -43,14 +48,15 @@ export interface ModEntry {
   type: string;
   modSet: string | null;
   tradable: boolean;
+  isAugment: boolean;
+  compatName: string | null;
   effects: ModEffect[];
   rawDescription: string;
 }
 
 export interface ArcaneEffect {
   stat: string;
-  value: number;
-  atMaxRank: boolean;
+  levelValues: number[];
 }
 
 export interface ArcaneEntry {
@@ -75,15 +81,68 @@ export interface WeaponStats {
   multishot: number;
   range?: number;
   attackSpeed?: number;
+  comboDuration?: number;
+  heavyAttackDamage?: number;
 }
 
 export interface WeaponEntry {
   uniqueName: string;
   name: string;
   type: string;
+  slot: number;
   baseStats: WeaponStats;
   disposition: number;
   masteryRank: number;
+}
+
+export interface ArcaneHelmetEffect {
+  stat: string;
+  value: number;
+  isFlat: boolean;
+}
+
+export interface ArcaneHelmetEntry {
+  uniqueName: string;
+  name: string;
+  warframeName: string;
+  effects: ArcaneHelmetEffect[];
+}
+
+export interface SetBonusEffect {
+  pieces: number;
+  stat: string;
+  value: number;
+  isFlat: boolean;
+}
+
+export interface SetBonusEntry {
+  uniqueName: string;
+  numPiecesInSet: number;
+  bonusByPieceCount: SetBonusEffect[];
+}
+
+export interface AbilityStatBlock {
+  label: string;
+  modifier: string;
+  baseValue: number;
+  isPercent: boolean;
+}
+
+export interface AbilityStatsEntry {
+  uniqueName: string;
+  stats: AbilityStatBlock[];
+}
+
+export interface ShardBonus {
+  stat: string;
+  value: number;
+  isFlat: boolean;
+  conditional: boolean;
+}
+
+export interface AbilitiesData {
+  subsumable: string[];
+  augmentToAbility: Record<string, string>;
 }
 
 export interface Manifest {
@@ -92,5 +151,6 @@ export interface Manifest {
     wfcd: string;
     publicExport: string;
     wiki: Record<string, number>;
+    wikiPages: Record<string, string>;
   };
 }
