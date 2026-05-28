@@ -2,7 +2,7 @@
 
 ## Goal
 
-Fix the data pipeline's accuracy issues (mod level values, ability scaling flags, full Lua parsing) and implement the Python calc engine that computes a complete stat sheet from a build definition (warframe + mods at any rank + arcanes + archon shards).
+Fix the data pipeline's accuracy issues (mod level values, ability scaling flags, full Lua parsing) and implement the Python calc engine that computes a complete stat sheet from a build definition (warframe + mods at any rank + arcanes + archon shards + arcane helmet + augment mods), accounting for warframe-specific slot rules derived entirely from data.
 
 ## Architecture
 
@@ -69,15 +69,38 @@ type AbilityScalingMap = Map<string, {  // keyed by ability uniqueName
 
 The warframes normalizer imports this map and uses `uniqueName` to set the four flags on each `AbilityRef`. Abilities not found in the stats module default to all-false.
 
-### 1.5 `Module:Warframes/data` enrichment
+### 1.5 `Module:Warframes/data` enrichment + aura slot count
 
-The warframes normalizer cross-references the parsed wiki `Warframes` table to fill fields WFCD may leave empty: `exilusPolarity`, `initiallEnergy` (energy on spawn), and corrects `sprintSpeed` where WFCD has null.
+The warframes normalizer cross-references the parsed wiki `Warframes` table to fill fields WFCD may leave empty: `exilusPolarity`, `initialEnergy` (energy on spawn), and corrects `sprintSpeed` where WFCD has null.
+
+`AuraPolarity` in the wiki data is either a string (`"Naramon"`) or a table (`{ "Aura", "Vazarin" }` for Jade). The normalizer handles both: string → `auraSlots = 1`, table → `auraSlots = table.length`. This is the only source for this information and must not be hardcoded. The `WarframeEntry` schema gains an `auraSlots: number` field.
+
+### 1.6 Arcane helmets (`pipeline/src/fetchers/public-export.ts` + `data/helmets.json`)
+
+`ExportCustoms_en.json` is added to the Public Export fetch. Arcane helmets are identified by two conditions: `uniqueName` contains `AltHelmet` AND `name` starts with `"Arcane"`. 27 exist currently.
+
+Each arcane helmet's stat effects (bonus + penalty) are parsed from its description string using the same regex approach as mod `levelStats`. A new output file `data/helmets.json` is written with entries:
+
+```typescript
+interface ArcaneHelmetEntry {
+  uniqueName: string;
+  name: string;
+  warframeName: string;   // parsed from description "This helmet is worn by X"
+  effects: ModEffect[];   // same shape as mod effects — levelValues has one entry (no ranking)
+}
+```
+
+### 1.7 Augment mod enrichment
+
+`isAugment` and `compatName` are already present on augment mods in WFCD. The `ModEntry` schema gains two fields: `isAugment: boolean` and `compatName: string | null`. No additional sourcing needed — WFCD covers all 199 augments.
 
 ### Updated `data/` output
 
-`data/warframes.json` — ability entries now have correct scaling flags.
-`data/mods.json` — effects use `levelValues: number[]`.
+`data/warframes.json` — ability entries with correct scaling flags; `auraSlots` field added.
+`data/mods.json` — effects use `levelValues: number[]`; `isAugment` and `compatName` fields added.
 `data/arcanes.json` — effects use `levelValues: number[]`.
+`data/helmets.json` — new file, 27 arcane helmet entries with parsed stat effects.
+`data/abilities.json` — new file, augment-name → ability uniqueName map for Helminth validation; 77 subsumable abilities.
 
 ---
 
@@ -87,8 +110,8 @@ The warframes normalizer cross-references the parsed wiki `Warframes` table to f
 
 ```
 engine/warframe_engine/
-  loader.py          (existing — updated to load levelValues)
-  build.py           — Build, EquippedMod, EquippedArcane, ArchonShard + from_dict/to_dict
+  loader.py          (existing — updated to load levelValues, auraSlots, isAugment, compatName)
+  build.py           — Build, EquippedMod, EquippedArcane, ArchonShard + from_dict/to_dict/validate
   shards.py          — SHARD_TABLE: all 5 colors, all stat options, tauforged multiplier
   calculator.py      — DataCache, compute_stats() → StatSheet
   upgrade_cost.py    — ENDO_TABLE, CREDIT_TABLE, compute_upgrade_cost()
@@ -122,13 +145,22 @@ class ArchonShard:
 class Build:
     warframe_name: str
     mods: list[EquippedMod]        # regular mod slots (max 8)
-    arcanes: list[EquippedArcane]  # max 2
+    arcanes: list[EquippedArcane]  # max slots derived from warframe data (usually 2, 1 if arcane helmet)
     shards: list[ArchonShard]      # max 5
     exilus: EquippedMod | None     # exilus slot
-    aura: EquippedMod | None       # aura slot
+    auras: list[EquippedMod]       # 1 slot for most warframes, 2 for Jade — count from WarframeEntry.aura_slots
+    helmet: str | None             # uniqueName of equipped helmet; if arcane helmet, reduces arcane slots to 1
+    helminth_ability: str | None   # uniqueName of subsumed ability replacing slot 3; enables augments for that ability
 ```
 
 `from_dict` / `to_dict` enable JSON serialization for saving/loading builds.
+
+**`validate(build, cache) → list[str]`** returns a list of error strings (empty = valid):
+- Augment mods: valid if either (a) `mod.compat_name == build.warframe_name`, or (b) the augment's name appears in the `Augments` list of an ability whose `uniqueName == build.helminth_ability` in the parsed `Module:Ability/data`. The 77 subsumable abilities each carry an `Augments` table; the normalizer builds a `augment_name → ability_unique_name` map stored in `data/abilities.json`. This is entirely data-driven — no hardcoded warframe/augment pairs.
+- Aura count: `len(build.auras)` must not exceed `warframe.aura_slots`.
+- Arcane count: if `build.helmet` is an arcane helmet unique_name, max arcanes = 1; otherwise max = 2.
+- Shard count: max 5.
+- Rank bounds: each mod/arcane rank must be in `[0, entry.max_rank]`.
 
 ### 2.3 Archon shard table (`shards.py`)
 
@@ -171,10 +203,13 @@ Tauforged multiplier of 1.5× applied at call time: `value * (1.5 if shard.taufo
 
 ### 2.4 Calculator (`calculator.py`)
 
-**`DataCache`** — loads all four `data/*.json` files once at construction, builds lookup dicts:
+**`DataCache`** — loads all six `data/*.json` files once at construction, builds lookup dicts:
 - `warframe_by_name: dict[str, WarframeEntry]`
 - `mod_by_unique_name: dict[str, ModEntry]`
 - `arcane_by_unique_name: dict[str, ArcaneEntry]`
+- `helmet_by_unique_name: dict[str, ArcaneHelmetEntry]`
+- `arcane_helmet_unique_names: set[str]`  — for O(1) helmet type check
+- `augment_name_to_ability: dict[str, str]`  — augment display name → ability uniqueName, for Helminth validation
 
 **`StatSheet`:**
 ```python
@@ -203,8 +238,9 @@ class StatSheet:
 
 ```
 1. Collect additive modifiers (dict[stat, float]) from:
-     - All mods (regular + exilus + aura): level_values[rank]
+     - All mods (regular + exilus + all auras): level_values[rank]
      - All arcanes: level_values[rank]
+     - Arcane helmet effects (level_values[0], single rank): if build.helmet is an arcane helmet
      - Non-flat shard bonuses
 
 2. Collect flat bonuses (dict[stat, float]) from:
@@ -251,7 +287,7 @@ Rarity affects credit costs (Common < Uncommon < Rare < Legendary/Primed). Two t
 
 ### 2.6 Tests
 
-**`test_build.py`:** Build round-trips through `to_dict` / `from_dict` without data loss.
+**`test_build.py`:** Build round-trips through `to_dict` / `from_dict` without data loss. Validation catches: augment on wrong warframe (no Helminth), augment valid when Helminth ability matches, too many auras, arcane helmet + 2 arcanes, out-of-range rank.
 
 **`test_calculator.py`** — verified against wiki values:
 - Frost + Vitality R10 + Steel Fiber R10: health = 270 × 2.0 = 540, armor = 315 × 2.0 = 630, armor_dr ≈ 67.7%, EHP ≈ 1672 + 455
