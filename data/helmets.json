@@ -3,30 +3,85 @@
     "uniqueName": "/Lotus/Upgrades/Skins/AntiMatter/AntiAltHelmet",
     "name": "Arcane Flux Helmet",
     "warframeName": "Nova",
-    "effects": []
+    "effects": [
+      {
+        "stat": "aimGlideDuration",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "stat": "health",
+        "value": -0.05,
+        "isFlat": false
+      }
+    ]
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmet",
     "name": "Arcane Hemlock Helmet",
     "warframeName": "Saryn",
-    "effects": []
+    "effects": [
+      {
+        "stat": "sprint",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "stat": "health",
+        "value": -0.05,
+        "isFlat": false
+      }
+    ]
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmetB",
     "name": "Arcane Chlora Helmet",
     "warframeName": "Saryn",
-    "effects": []
+    "effects": [
+      {
+        "stat": "parkourVelocity",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "stat": "abilityDuration",
+        "value": -0.05,
+        "isFlat": false
+      }
+    ]
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmet",
     "name": "Arcane Reverb Helmet",
     "warframeName": "Banshee",
-    "effects": []
+    "effects": [
+      {
+        "stat": "energy",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "stat": "health",
+        "value": -0.05,
+        "isFlat": false
+      }
+    ]
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmetB",
     "name": "Arcane Chorus Helmet",
     "warframeName": "Banshee",
-    "effects": []
+    "effects": [
+      {
+        "stat": "abilityEfficiency",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "stat": "aimGlideDuration",
+        "value": -0.05,
+        "isFlat": false
+      }
+    ]
   }
 ]

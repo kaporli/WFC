@@ -1,12 +1,17 @@
 {
-  "lastUpdated": "2026-05-28T17:05:16.889Z",
+  "lastUpdated": "2026-05-28T17:10:05.031Z",
   "sourceVersions": {
     "wfcd": "1.1269.x",
     "publicExport": "00_m9FG9TNGBajOIs+doss3tA",
-    "wiki": {},
+    "wiki": {
+      "Module:Mods/data": 2779682,
+      "Module:Warframes/data": 2775186,
+      "Module:Ability/data": 2779959,
+      "Module:Ability/data/stats": 2281902
+    },
     "wikiPages": {
-      "arcaneHelmet": "0",
-      "archonShard": "0"
+      "arcaneHelmet": "18277",
+      "archonShard": "43672"
     }
   }
 }

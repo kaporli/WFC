@@ -46,7 +46,8 @@ export function buildAbilityScalingMap(abilityStatsModule: LuaObj): AbilityScali
 }
 
 // Build AbilitiesData from Module:Ability/data
-// Each entry looks like:
+// The module returns { Archived: {...}, Ability: { ["Roar"] = { ... }, ... } }
+// Each entry in the Ability sub-table looks like:
 //   ["Roar"] = {
 //     InternalName = "/Lotus/Powersuits/Rhino/Abilities/RhinoRoarAbility",
 //     Augments = { "Piercing Roar" },
@@ -57,7 +58,11 @@ export function buildAbilitiesData(abilityDataModule: LuaObj): AbilitiesData {
   const subsumable: string[] = [];
   const augmentToAbility: Record<string, string> = {};
 
-  for (const [, entry] of Object.entries(abilityDataModule)) {
+  // The module is structured as { Ability: { ... }, Archived: { ... } }
+  // We want the Ability sub-table; fall back to iterating top-level if absent.
+  const abilityTable = (abilityDataModule['Ability'] as LuaObj | undefined) ?? abilityDataModule;
+
+  for (const [, entry] of Object.entries(abilityTable)) {
     if (typeof entry !== 'object' || Array.isArray(entry) || !entry) continue;
     const e = entry as LuaObj;
 
