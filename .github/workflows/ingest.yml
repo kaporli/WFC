@@ -1,0 +1,144 @@
+name: Warframe Data Ingest
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # midnight UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # ── Job 1: Crawl all 8565 wiki article pages → chatbot/raw/ ──────────────
+  wiki-crawl:
+    name: Crawl Wiki Articles
+    runs-on: ubuntu-latest
+    outputs:
+      raw-key: ${{ steps.raw-cache.outputs.cache-primary-key }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install chatbot deps
+        run: uv sync
+        working-directory: chatbot
+
+      - name: Restore raw/ cache
+        id: raw-cache
+        uses: actions/cache@v4
+        with:
+          path: chatbot/raw/
+          key: wiki-raw-${{ github.run_id }}
+          restore-keys: wiki-raw-
+
+      - name: Crawl wiki article pages
+        run: uv run wf-crawl
+        working-directory: chatbot
+
+      - name: Upload raw/ as artifact for Job 2
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-raw
+          path: chatbot/raw/
+          retention-days: 1
+
+  # ── Job 2: Build planner — normalize WFCD + wiki data → data/*.json ───────
+  build-planner:
+    name: Build Planner Normalize
+    needs: wiki-crawl
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Download wiki raw/ from Job 1
+        uses: actions/download-artifact@v4
+        with:
+          name: wiki-raw
+          path: chatbot/raw/
+
+      - name: Restore wiki-lua cache
+        uses: actions/cache@v4
+        with:
+          path: pipeline/cache/
+          key: wiki-lua-${{ github.run_id }}
+          restore-keys: wiki-lua-
+
+      - name: Run build-planner pipeline
+        run: npx tsx src/index.ts run --fresh
+        working-directory: pipeline
+
+      - name: Upload data/ as artifact for Job 3
+        uses: actions/upload-artifact@v4
+        with:
+          name: planner-data
+          path: data/
+          retention-days: 1
+
+      - name: Commit updated data/
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet --staged || git commit -m "chore: update data [$(date -u +%Y-%m-%d)]" && git push
+
+  # ── Job 3: Chatbot embed — wiki articles + data/*.json → ChromaDB ─────────
+  chatbot-embed:
+    name: Chatbot Embed
+    needs: [wiki-crawl, build-planner]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install chatbot deps
+        run: uv sync
+        working-directory: chatbot
+
+      - name: Restore ChromaDB cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            chatbot/chroma/
+            chatbot/state.json
+            chatbot/crawl-state.json
+          key: chatbot-chroma-${{ github.run_id }}
+          restore-keys: chatbot-chroma-
+
+      - name: Download wiki raw/ from Job 1
+        uses: actions/download-artifact@v4
+        with:
+          name: wiki-raw
+          path: chatbot/raw/
+
+      - name: Download data/ from Job 2
+        uses: actions/download-artifact@v4
+        with:
+          name: planner-data
+          path: data/
+
+      - name: Embed wiki + data into ChromaDB
+        run: uv run wf-ingest
+        working-directory: chatbot
+        env:
+          WF_MODEL: ${{ secrets.WF_MODEL || 'claude-sonnet-4-6' }}
