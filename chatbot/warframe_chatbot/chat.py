@@ -1,5 +1,8 @@
 from __future__ import annotations
+import logging
 import litellm
+
+logging.getLogger("LiteLLM").setLevel(logging.ERROR)
 
 from warframe_chatbot.config import CHAT_MODEL, RETRIEVAL_K
 from warframe_chatbot.store import WikiStore, SearchResult
