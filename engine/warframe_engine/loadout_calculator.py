@@ -62,7 +62,7 @@ def _resolve_set_bonuses(loadout: Loadout, cache: DataCache) -> dict[str, float]
         if not set_entry:
             continue
         for bonus in set_entry.bonus_by_piece_count:
-            if bonus.pieces == pieces and not bonus.is_flat:
+            if bonus.pieces == pieces and not bonus.is_flat and bonus.stat != 'mechanic':
                 warframe_bonus[bonus.stat] += bonus.value
 
     return dict(warframe_bonus)

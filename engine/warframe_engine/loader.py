@@ -271,9 +271,10 @@ def load_helmets() -> list[ArcaneHelmetEntry]:
 @dataclass
 class SetBonusEffect:
     pieces: int
-    stat: str
-    value: float
+    stat: str       # 'mechanic' for display-only effects with no numeric stat
+    value: float    # 0 for mechanic-only effects
     is_flat: bool
+    raw_text: str   # original description text — always present for UI display
 
 
 @dataclass
@@ -292,6 +293,7 @@ def load_mod_sets() -> list[SetBonusEntry]:
                 SetBonusEffect(
                     pieces=b["pieces"], stat=b["stat"],
                     value=b["value"], is_flat=b["isFlat"],
+                    raw_text=b.get("rawText", ""),
                 )
                 for b in s["bonusByPieceCount"]
             ],

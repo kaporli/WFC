@@ -111,9 +111,10 @@ export interface ArcaneHelmetEntry {
 
 export interface SetBonusEffect {
   pieces: number;
-  stat: string;
-  value: number;
+  stat: string;         // 'mechanic' for effects with no parseable numeric stat
+  value: number;        // 0 for mechanic-only effects
   isFlat: boolean;
+  rawText: string;      // original description from WFCD — always present for UI display
 }
 
 export interface SetBonusEntry {

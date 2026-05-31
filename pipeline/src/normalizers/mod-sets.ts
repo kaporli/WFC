@@ -68,21 +68,27 @@ export function normalizeModSets(allItems: unknown[]): SetBonusEntry[] {
 
   return setMods
     .map(s => {
-      const bonusByPieceCount: SetBonusEffect[] = (s.stats ?? [])
-        .map((statText, idx): SetBonusEffect | null => {
-          const pieces = idx + 1;
-          const parsed = parseSetBonusStat(statText);
-          const value = parseSetBonusValue(statText);
-          if (!parsed || value === 0) return null;
-          return { pieces, stat: parsed.stat, value, isFlat: parsed.isFlat };
-        })
-        .filter((e): e is SetBonusEffect => e !== null);
+      const bonusByPieceCount: SetBonusEffect[] = (s.stats ?? []).map((statText, idx) => {
+        const pieces = idx + 1;
+        const parsed = parseSetBonusStat(statText);
+        const value = parsed ? parseSetBonusValue(statText) : 0;
+        // Strip formatting tags from raw text for clean display
+        const rawText = statText.replace(/<[^>]+>/g, '').replace(/\\n/g, ' ').trim();
+        return {
+          pieces,
+          stat: parsed?.stat ?? 'mechanic',
+          value,
+          isFlat: parsed?.isFlat ?? false,
+          rawText,
+        };
+      });
 
       return {
         uniqueName: s.uniqueName,
         numPiecesInSet: s.numUpgradesInSet ?? bonusByPieceCount.length,
         bonusByPieceCount,
       };
-    })
-    .filter(s => s.bonusByPieceCount.length > 0);
+    });
+  // Keep ALL sets — mechanic-only sets have stat='mechanic' and value=0
+  // The UI uses rawText to display them; the calculator ignores stat='mechanic'
 }

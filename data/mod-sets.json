@@ -7,19 +7,22 @@
         "pieces": 1,
         "stat": "heavyAttackTeleportRange",
         "value": 10,
-        "isFlat": true
+        "isFlat": true,
+        "rawText": "Teleport to a target within 10m on using a Heavy Attack."
       },
       {
         "pieces": 2,
         "stat": "heavyAttackTeleportRange",
         "value": 20,
-        "isFlat": true
+        "isFlat": true,
+        "rawText": "Teleport to a target within 20m on using a Heavy Attack."
       },
       {
         "pieces": 3,
         "stat": "heavyAttackTeleportRange",
         "value": 30,
-        "isFlat": true
+        "isFlat": true,
+        "rawText": "Teleport to a target within 30m on using a Heavy Attack."
       }
     ]
   },
@@ -31,19 +34,22 @@
         "pieces": 1,
         "stat": "enemyAccuracyReduction",
         "value": 0.1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Killing an enemy with a Heavy Attack reduces Enemy Accuracy against Warframe by 10% and grants immunity to Status Effects for 2s"
       },
       {
         "pieces": 2,
         "stat": "enemyAccuracyReduction",
         "value": 0.2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Killing an enemy with a Heavy Attack reduces Enemy Accuracy against Warframe by 20% and grants immunity to Status Effects for 4s"
       },
       {
         "pieces": 3,
         "stat": "enemyAccuracyReduction",
         "value": 0.3,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Killing an enemy with a Heavy Attack reduces Enemy Accuracy against Warframe by 30% and grants immunity to Status Effects for 6s"
       }
     ]
   },
@@ -55,37 +61,43 @@
         "pieces": 1,
         "stat": "energyToShieldOnCast",
         "value": 0.4,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "40% Energy spent on abilities is converted to Shields."
       },
       {
         "pieces": 2,
         "stat": "energyToShieldOnCast",
         "value": 0.8,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "80% Energy spent on abilities is converted to Shields."
       },
       {
         "pieces": 3,
         "stat": "energyToShieldOnCast",
         "value": 1.2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "120% Energy spent on abilities is converted to Shields."
       },
       {
         "pieces": 4,
         "stat": "energyToShieldOnCast",
         "value": 1.6,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "160% Energy spent on abilities is converted to Shields."
       },
       {
         "pieces": 5,
         "stat": "energyToShieldOnCast",
         "value": 2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "200% Energy spent on abilities is converted to Shields."
       },
       {
         "pieces": 6,
         "stat": "energyToShieldOnCast",
         "value": 2.4,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "240% Energy spent on abilities is converted to Shields."
       }
     ]
   },
@@ -97,19 +109,22 @@
         "pieces": 1,
         "stat": "slamDamage",
         "value": 3,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Slam attacks manifest Tendrils to lash enemies within 3m, stunning them for 1s and dealing 25 Puncture Damage. Cooldown: 12s"
       },
       {
         "pieces": 2,
         "stat": "slamDamage",
         "value": 6,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Slam attacks manifest Tendrils to lash enemies within 6m, stunning them for 2s and dealing 50 Puncture Damage. Cooldown: 9s"
       },
       {
         "pieces": 3,
         "stat": "slamDamage",
         "value": 10,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Slam attacks manifest Tendrils to lash enemies within 10m, stunning them for 3s and dealing 75 Puncture Damage. Cooldown: 6s"
       }
     ]
   },
@@ -121,19 +136,49 @@
         "pieces": 1,
         "stat": "airborneReducedDamageTaken",
         "value": 0.2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Reduces damage by +20% when Airborne."
       },
       {
         "pieces": 2,
         "stat": "airborneReducedDamageTaken",
         "value": 0.4,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Reduces damage by +40% when Airborne."
       },
       {
         "pieces": 3,
         "stat": "airborneReducedDamageTaken",
         "value": 0.6,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Reduces damage by +60% when Airborne."
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Femur/FemurSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Lifted enemies explode on death, dealing 10% Enemy Max Health as Impact Damage in a 4m radius. Cooldown: 6s"
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Lifted enemies explode on death, dealing 20% Enemy Max Health as Impact Damage in a 8m radius. Cooldown: 6s"
+      },
+      {
+        "pieces": 3,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Lifted enemies explode on death, dealing 30% Enemy Max Health as Impact Damage in a 12m radius. Cooldown: 6s"
       }
     ]
   },
@@ -145,37 +190,70 @@
         "pieces": 1,
         "stat": "meleeCritPerComboMult",
         "value": 0.1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "10% Melee Critical Chance per Combo Multiplier"
       },
       {
         "pieces": 2,
         "stat": "meleeCritPerComboMult",
         "value": 0.2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "20% Melee Critical Chance per Combo Multiplier"
       },
       {
         "pieces": 3,
         "stat": "meleeCritPerComboMult",
         "value": 0.3,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "30% Melee Critical Chance per Combo Multiplier"
       },
       {
         "pieces": 4,
         "stat": "meleeCritPerComboMult",
         "value": 0.4,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "40% Melee Critical Chance per Combo Multiplier"
       },
       {
         "pieces": 5,
         "stat": "meleeCritPerComboMult",
         "value": 0.5,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "50% Melee Critical Chance per Combo Multiplier"
       },
       {
         "pieces": 6,
         "stat": "meleeCritPerComboMult",
         "value": 0.6,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "60% Melee Critical Chance per Combo Multiplier"
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Hawk/HawkSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Damage enemies while Aim Gliding and put up to 5 of them to Sleep for 3s on landing."
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Damage enemies while Aim Gliding and put up to 5 of them to Sleep for 6s on landing."
+      },
+      {
+        "pieces": 3,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Damage enemies while Aim Gliding and put up to 5 of them to Sleep for 9s on landing."
       }
     ]
   },
@@ -187,37 +265,77 @@
         "pieces": 1,
         "stat": "companionSlashDamage",
         "value": 0.25,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+25% Companion Damage on enemies affected by Slash."
       },
       {
         "pieces": 2,
         "stat": "companionSlashDamage",
         "value": 0.5,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+50% Companion Damage on enemies affected by Slash."
       },
       {
         "pieces": 3,
         "stat": "companionSlashDamage",
         "value": 0.75,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+75% Companion Damage on enemies affected by Slash."
       },
       {
         "pieces": 4,
         "stat": "companionSlashDamage",
         "value": 1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+100% Companion Damage on enemies affected by Slash."
       },
       {
         "pieces": 5,
         "stat": "companionSlashDamage",
         "value": 1.25,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+125% Companion Damage on enemies affected by Slash."
       },
       {
         "pieces": 6,
         "stat": "companionSlashDamage",
         "value": 1.5,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+150% Companion Damage on enemies affected by Slash."
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Mecha/MechaSetMod",
+    "numPiecesInSet": 4,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Companion marks a target every 60s for 3s. Killing the target applies their Status Effects to all enemies within 7.5m."
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Companion marks a target every 45s for 6s. Killing the target applies their Status Effects to all enemies within 15m."
+      },
+      {
+        "pieces": 3,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Companion marks a target every 30s for 9s. Killing the target applies their Status Effects to all enemies within 22.5m."
+      },
+      {
+        "pieces": 4,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Companion marks a target every 15s for 12s. Killing the target applies their Status Effects to all enemies within 30m."
       }
     ]
   },
@@ -229,19 +347,22 @@
         "pieces": 1,
         "stat": "slamDamage",
         "value": 1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Increase damage from Slam Attacks by +100%."
       },
       {
         "pieces": 2,
         "stat": "slamDamage",
         "value": 2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Increase damage from Slam Attacks by +200%."
       },
       {
         "pieces": 3,
         "stat": "slamDamage",
         "value": 3,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Increase damage from Slam Attacks by +300%."
       }
     ]
   },
@@ -253,19 +374,42 @@
         "pieces": 1,
         "stat": "airborneKnockdownImmunity",
         "value": 0.33,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+33% chance to become immune to Knockdown effects while airborne."
       },
       {
         "pieces": 2,
         "stat": "airborneKnockdownImmunity",
         "value": 0.67,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+67% chance to become immune to Knockdown effects while airborne."
       },
       {
         "pieces": 3,
         "stat": "airborneKnockdownImmunity",
         "value": 1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "+100% chance to become immune to Knockdown effects while airborne."
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Sacrifice/SacrificeSetMod",
+    "numPiecesInSet": 2,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Enhance mods in this set."
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Enhance mods in this set."
       }
     ]
   },
@@ -277,19 +421,56 @@
         "pieces": 1,
         "stat": "wallLatchDamageReduction",
         "value": 0.17,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "During a Wall Latch gain +17% Damage Reduction"
       },
       {
         "pieces": 2,
         "stat": "wallLatchDamageReduction",
         "value": 0.33,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "During a Wall Latch gain +33% Damage Reduction"
       },
       {
         "pieces": 3,
         "stat": "wallLatchDamageReduction",
         "value": 0.5,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "During a Wall Latch gain +50% Damage Reduction"
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Strain/StrainSetMod",
+    "numPiecesInSet": 4,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Grows up to 2 Cysts over 6s that erupt every 25s to spawn a maggot."
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Grows up to 4 Cysts over 12s that erupt every 25s to spawn a maggot."
+      },
+      {
+        "pieces": 3,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Grows up to 6 Cysts over 18s that erupt every 25s to spawn a maggot."
+      },
+      {
+        "pieces": 4,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Grows up to 8 Cysts over 24s that erupt every 25s to spawn a maggot."
       }
     ]
   },
@@ -301,25 +482,90 @@
         "pieces": 1,
         "stat": "holsterReloadRate",
         "value": 0.05,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Holstering Primary and Secondary Weapons reload 5% of Magazine/s."
       },
       {
         "pieces": 2,
         "stat": "holsterReloadRate",
         "value": 0.1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Holstering Primary and Secondary Weapons reload 10% of Magazine/s."
       },
       {
         "pieces": 3,
         "stat": "holsterReloadRate",
         "value": 0.15,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Holstering Primary and Secondary Weapons reload 15% of Magazine/s."
       },
       {
         "pieces": 4,
         "stat": "holsterReloadRate",
         "value": 0.2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "Holstering Primary and Secondary Weapons reload 20% of Magazine/s."
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Tek/TekSetMod",
+    "numPiecesInSet": 4,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Mark a 3m zone every 60s that inflicts 50 Damage/s to enemies."
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Mark a 6m zone every 45s that inflicts 100 Damage/s to enemies."
+      },
+      {
+        "pieces": 3,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Mark a 9m zone every 30s that inflicts 150 Damage/s to enemies."
+      },
+      {
+        "pieces": 4,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Mark a 12m zone every 15s that inflicts 200 Damage/s to enemies."
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Umbra/UmbraSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Enhance mods in this set."
+      },
+      {
+        "pieces": 2,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Enhance mods in this set."
+      },
+      {
+        "pieces": 3,
+        "stat": "mechanic",
+        "value": 0,
+        "isFlat": false,
+        "rawText": "Enhance mods in this set."
       }
     ]
   },
@@ -331,37 +577,43 @@
         "pieces": 1,
         "stat": "primaryCritEnhanceChance",
         "value": 0.05,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "5% chance to enhance Critical Hits from Primary Weapons."
       },
       {
         "pieces": 2,
         "stat": "primaryCritEnhanceChance",
         "value": 0.1,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "10% chance to enhance Critical Hits from Primary Weapons."
       },
       {
         "pieces": 3,
         "stat": "primaryCritEnhanceChance",
         "value": 0.15,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "15% chance to enhance Critical Hits from Primary Weapons."
       },
       {
         "pieces": 4,
         "stat": "primaryCritEnhanceChance",
         "value": 0.2,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "20% chance to enhance Critical Hits from Primary Weapons."
       },
       {
         "pieces": 5,
         "stat": "primaryCritEnhanceChance",
         "value": 0.25,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "25% chance to enhance Critical Hits from Primary Weapons."
       },
       {
         "pieces": 6,
         "stat": "primaryCritEnhanceChance",
         "value": 0.3,
-        "isFlat": false
+        "isFlat": false,
+        "rawText": "30% chance to enhance Critical Hits from Primary Weapons."
       }
     ]
   }
