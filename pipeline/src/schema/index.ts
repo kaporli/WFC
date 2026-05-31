@@ -148,6 +148,12 @@ export interface AbilitiesData {
   augmentToAbility: Record<string, string>;
 }
 
+export interface SignatureWeaponEntry {
+  warframeName: string;
+  weaponName: string;
+  bonus: string;
+}
+
 export interface Manifest {
   lastUpdated: string;
   sourceVersions: {

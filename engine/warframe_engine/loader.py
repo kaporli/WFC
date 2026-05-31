@@ -362,6 +362,27 @@ class ShardBonus:
     conditional: bool
 
 
+@dataclass
+class SignatureWeaponEntry:
+    warframe_name: str
+    weapon_name: str
+    bonus: str
+
+
+def load_signature_weapons() -> list[SignatureWeaponEntry]:
+    data = _load_json("signature-weapons.json")
+    if not isinstance(data, list):
+        return []
+    return [
+        SignatureWeaponEntry(
+            warframe_name=e["warframeName"],
+            weapon_name=e["weaponName"],
+            bonus=e["bonus"],
+        )
+        for e in data
+    ]
+
+
 def load_shard_bonuses() -> dict[str, list[ShardBonus]]:
     raw = _load_json("shard-bonuses.json")
     result: dict[str, list[ShardBonus]] = {}

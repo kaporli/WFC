@@ -1,12 +1,13 @@
 """
 notables.py — surface all notable passive effects from an equipped loadout,
-attributed to their source mod/set.
+attributed to their source mod/set/weapon.
 
 Notables are anything the UI should communicate to the player:
-  - cross_equip_stat : a mod on one slot changes a stat in a different slot
-  - passive          : a descriptive mechanic from a mod (no numeric stat)
-  - set_passive      : a mechanic-only set bonus (stat='mechanic')
-  - set_stat         : a numeric set bonus that affects a slot
+  - cross_equip_stat  : a mod on one slot changes a stat in a different slot
+  - passive           : a descriptive mechanic from a mod (no numeric stat)
+  - set_passive       : a mechanic-only set bonus (stat='mechanic')
+  - set_stat          : a numeric set bonus that affects a slot
+  - signature_weapon  : a weapon+warframe synergy bonus (e.g. Epitaph + Sevagoth)
 """
 from __future__ import annotations
 from dataclasses import dataclass, field
@@ -196,6 +197,28 @@ def get_notables(loadout: Loadout, cache: DataCache) -> list[Notable]:
                 target='warframe',
                 value=bonus.value,
                 description=bonus.raw_text,
+            ))
+
+    # ── Signature weapon interactions ──────────────────────────────────────────
+    wf_name_lower = wf.warframe_name.lower()
+
+    for slot_name, slot in weapon_slots:
+        if slot is None:
+            continue
+        weapon = cache.weapon_by_unique_name.get(slot.weapon_unique_name)
+        if not weapon:
+            continue
+        weapon_name_lower = weapon.name.lower()
+        bonus = cache.signature_weapon_bonuses.get((wf_name_lower, weapon_name_lower))
+        if bonus:
+            notables.append(Notable(
+                source=weapon.name,
+                source_slot=slot_name,
+                kind='signature_weapon',
+                stat=None,
+                target=None,
+                value=None,
+                description=bonus,
             ))
 
     return notables

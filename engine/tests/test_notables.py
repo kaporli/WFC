@@ -30,7 +30,7 @@ def test_notables_returns_list(cache):
         assert isinstance(n, Notable)
         assert n.source
         assert n.description
-        assert n.kind in ('cross_equip_stat', 'passive', 'set_passive', 'set_stat')
+        assert n.kind in ('cross_equip_stat', 'passive', 'set_passive', 'set_stat', 'signature_weapon')
 
 
 def test_amalgam_furax_passive_surfaced(cache):
@@ -120,3 +120,45 @@ def test_empty_loadout_no_cross_equip(cache):
     notables = get_notables(loadout, cache)
     cross = [n for n in notables if n.kind == 'cross_equip_stat']
     assert len(cross) == 0
+
+
+def test_signature_weapon_notable(cache):
+    """Sevagoth + Epitaph should produce a signature_weapon notable."""
+    # Find Epitaph in weapon cache
+    epitaph = next(
+        (w for w in cache.weapon_by_unique_name.values() if w.name == 'Epitaph'),
+        None,
+    )
+    if epitaph is None:
+        pytest.skip('Epitaph not in weapons data')
+    if not cache.signature_weapon_bonuses:
+        pytest.skip('signature-weapons.json empty (run full pipeline first)')
+
+    loadout = Loadout(
+        warframe=Build(warframe_name='Sevagoth'),
+        secondary=WeaponSlot(weapon_unique_name=epitaph.unique_name),
+    )
+    notables = get_notables(loadout, cache)
+    sig = next((n for n in notables if n.kind == 'signature_weapon'), None)
+    assert sig is not None, 'Expected signature_weapon notable for Sevagoth + Epitaph'
+    assert sig.source == 'Epitaph'
+    assert sig.source_slot == 'secondary'
+    assert '20%' in sig.description or 'headshot' in sig.description.lower()
+
+
+def test_no_signature_notable_wrong_warframe(cache):
+    """Epitaph on a different warframe should not produce a signature notable."""
+    epitaph = next(
+        (w for w in cache.weapon_by_unique_name.values() if w.name == 'Epitaph'),
+        None,
+    )
+    if epitaph is None:
+        pytest.skip('Epitaph not in weapons data')
+
+    loadout = Loadout(
+        warframe=Build(warframe_name='Frost'),
+        secondary=WeaponSlot(weapon_unique_name=epitaph.unique_name),
+    )
+    notables = get_notables(loadout, cache)
+    sig = [n for n in notables if n.kind == 'signature_weapon']
+    assert len(sig) == 0, f'Expected no signature notable for Frost + Epitaph, got: {sig}'

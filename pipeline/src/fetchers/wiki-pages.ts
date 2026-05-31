@@ -16,6 +16,7 @@ async function fetchPageWikitext(page: string): Promise<string> {
 export interface WikiPagesRaw {
   arcaneHelmet: string;
   archonShard: string;
+  signatureWeapon: string;
 }
 
 export async function fetchWikiPages(): Promise<WikiPagesRaw> {
@@ -27,5 +28,9 @@ export async function fetchWikiPages(): Promise<WikiPagesRaw> {
   const archonShard = await fetchPageWikitext('Archon Shard');
   process.stdout.write(` ${(archonShard.length / 1024).toFixed(0)}KB\n`);
 
-  return { arcaneHelmet, archonShard };
+  process.stdout.write('  fetching Signature Weapon page...');
+  const signatureWeapon = await fetchPageWikitext('Signature Weapon');
+  process.stdout.write(` ${(signatureWeapon.length / 1024).toFixed(0)}KB\n`);
+
+  return { arcaneHelmet, archonShard, signatureWeapon };
 }

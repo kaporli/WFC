@@ -4,8 +4,10 @@ from dataclasses import dataclass
 from warframe_engine.loader import (
     load_warframes, load_mods, load_arcanes, load_weapons,
     load_helmets, load_mod_sets, load_ability_stats, load_abilities_data, load_shard_bonuses,
+    load_signature_weapons,
     WarframeEntry, ModEntry, ArcaneEntry, WeaponEntry,
     ArcaneHelmetEntry, SetBonusEntry, AbilityStatsEntry, AbilitiesData, ShardBonus,
+    SignatureWeaponEntry,
 )
 from warframe_engine.build import Build, EquippedMod
 
@@ -55,6 +57,13 @@ class DataCache:
         }
         self.abilities_data: AbilitiesData = abilities_data
         self.shard_bonuses: dict[str, list[ShardBonus]] = shard_bonuses
+
+        sig_weapons = load_signature_weapons()
+        # Index: (warframe_name_lower, weapon_name_lower) → bonus text
+        self.signature_weapon_bonuses: dict[tuple[str, str], str] = {
+            (e.warframe_name.lower(), e.weapon_name.lower()): e.bonus
+            for e in sig_weapons
+        }
 
         # Convenience refs for tests
         self.mods = mods
