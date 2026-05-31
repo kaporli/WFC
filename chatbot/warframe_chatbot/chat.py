@@ -2,7 +2,8 @@ from __future__ import annotations
 import logging
 import litellm
 
-logging.getLogger("LiteLLM").setLevel(logging.ERROR)
+for _log in ("LiteLLM", "litellm", "litellm.utils", "litellm.main"):
+    logging.getLogger(_log).setLevel(logging.ERROR)
 
 from warframe_chatbot.config import CHAT_MODEL, RETRIEVAL_K
 from warframe_chatbot.store import WikiStore, SearchResult
@@ -58,7 +59,17 @@ def ask(
                 {"role": "user",   "content": prompt},
             ],
         )
-        return response.choices[0].message.content
+        msg = response.choices[0].message
+        # Qwen3 / thinking models may put the answer in content or reasoning_content
+        content = (
+            msg.content
+            or getattr(msg, "reasoning_content", None)
+            or next(
+                (getattr(msg, f, None) for f in ("text", "tool_calls") if getattr(msg, f, None)),
+                None,
+            )
+        )
+        return content or "(no response — model returned empty content)"
     except Exception as e:
         err = str(e)
         if "not found" in err.lower() and "ollama" in model.lower():
