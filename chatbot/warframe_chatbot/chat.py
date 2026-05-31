@@ -51,13 +51,17 @@ def ask(
 
     prompt = build_prompt(question, results)
     try:
+        # For Ollama models, disable thinking mode (Qwen3 etc.) so content
+        # is returned directly instead of being absorbed by <think> tokens.
+        extra = {"think": False} if model.startswith("ollama/") else {}
         response = litellm.completion(
             model=model,
-            max_tokens=1024,
+            max_tokens=2048,
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user",   "content": prompt},
             ],
+            **extra,
         )
         msg = response.choices[0].message
         # Qwen3 / thinking models may put the answer in content or reasoning_content
