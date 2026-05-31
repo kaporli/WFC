@@ -55,9 +55,28 @@ def parse_content_response(raw: dict) -> dict[str, PageContent]:
         if not revisions:
             continue
         rev = revisions[0]
-        wikitext = rev.get("slots", {}).get("main", {}).get("content", "")
+        # formatversion=1 uses "*" as the content key; formatversion=2 uses "content"
+        main = rev.get("slots", {}).get("main", {})
+        wikitext = main.get("*", "") or main.get("content", "")
         if wikitext:
             result[title] = PageContent(title=title, revid=rev["revid"], wikitext=wikitext)
+    return result
+
+
+def parse_extracts_response(raw: dict) -> dict[str, PageContent]:
+    """Parse TextExtracts API response (prop=extracts&explaintext=1).
+    Returns plain-text extracts; falls back to empty string if unavailable."""
+    result = {}
+    for _pid, page in raw.get("query", {}).get("pages", {}).items():
+        title = page.get("title", "")
+        if page.get("missing") or not title:
+            continue
+        extract = page.get("extract", "").strip()
+        if not extract:
+            continue
+        revisions = page.get("revisions", [])
+        revid = revisions[0].get("revid", 0) if revisions else 0
+        result[title] = PageContent(title=title, revid=revid, wikitext=extract)
     return result
 
 
@@ -92,14 +111,23 @@ async def enumerate_pages(client: httpx.AsyncClient) -> list[PageMeta]:
 
 
 async def fetch_content_batch(client: httpx.AsyncClient, titles: list[str]) -> dict[str, PageContent]:
+    # TextExtracts with exintro=1 allows batches of up to 20 pages.
+    # For full articles, exlimit is capped at 1 — intros are sufficient
+    # since precise stats come from data/*.json (data_indexer).
     params = {
-        "action": "query", "titles": "|".join(titles),
-        "prop": "revisions", "rvprop": "ids|content",
-        "rvslots": "main", "format": "json", "formatversion": "1",
+        "action": "query",
+        "titles": "|".join(titles),
+        "prop": "extracts|revisions",
+        "explaintext": "1",        # clean plain text, no HTML or wikitext markup
+        "exintro": "1",            # introductory section — template-rendered, rich content
+        "exlimit": "max",          # up to 20 per request with exintro
+        "rvprop": "ids",           # need revids for incremental state tracking
+        "format": "json",
+        "formatversion": "1",
     }
     resp = await client.get(WIKI_API, params=params)
     resp.raise_for_status()
-    return parse_content_response(resp.json())
+    return parse_extracts_response(resp.json())
 
 
 async def crawl_all(needs_fetch: list[PageMeta], *, on_progress=None) -> AsyncGenerator[PageContent, None]:

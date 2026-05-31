@@ -10,7 +10,7 @@ RAW_DIR.mkdir(exist_ok=True)
 WIKI_API      = "https://wiki.warframe.com/api.php"
 WIKI_BASE     = "https://wiki.warframe.com/w"
 RATE_LIMIT_S  = 1.0
-BATCH_SIZE    = 50
+BATCH_SIZE    = 20           # TextExtracts exintro allows max 20 per request
 MIN_PAGE_SIZE = 500
 
 CHUNK_TOKENS  = 500
