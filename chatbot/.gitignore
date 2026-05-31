@@ -1,0 +1,6 @@
+raw/
+chroma/
+state.json
+__pycache__/
+*.pyc
+.venv/
