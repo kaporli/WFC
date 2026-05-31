@@ -31,4 +31,4 @@ COLLECTION    = "warframe_wiki"
 #   huggingface/Qwen/Qwen2.5-7B-Instruct       (HuggingFace Inference API — needs HF_TOKEN)
 import os
 CHAT_MODEL    = os.environ.get("WF_MODEL", "ollama/qwen3.5:9b")
-RETRIEVAL_K   = 6
+RETRIEVAL_K   = 15

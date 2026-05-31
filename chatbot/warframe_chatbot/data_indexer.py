@@ -84,6 +84,10 @@ def _mod_chunk(m: dict, idx: int) -> Chunk:
         lines.append(f"Set: {m['modSet'].split('/')[-1].replace('SetMod', '')}")
     if effect_lines:
         lines.append("Effects: " + "; ".join(effect_lines))
+    # rawDescription has the original in-game text — critical for semantic matching
+    raw = m.get("rawDescription", "").strip()
+    if raw and len(raw) > 10:
+        lines.append(f"Description: {raw}")
     passives = m.get("passives", [])
     for p in passives[:2]:
         lines.append(f"Passive: {p}")
@@ -145,6 +149,10 @@ def _arcane_chunk(a: dict, idx: int) -> Chunk:
     ]
     if effect_lines:
         lines.append("Effects: " + "; ".join(effect_lines))
+    # rawDescription has the original in-game text — critical for semantic matching
+    raw = a.get("rawDescription", "").strip()
+    if raw and len(raw) > 10:
+        lines.append(f"Description: {raw}")
     return Chunk(
         page_title=a["name"],
         section="Arcane",
