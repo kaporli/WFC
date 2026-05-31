@@ -24,19 +24,62 @@ function resolveStatName(raw: string): string {
 
 function parseWikiTextEffects(wikitext: string): ArcaneHelmetEffect[] {
   const effects: ArcaneHelmetEffect[] = [];
-  // Match: [[Stat Name]] (<span style="...">±X%</span>)
-  const pattern = /\[\[([^\]]+)\]\][^\(]*\(<span[^>]+>([+-]?\d+(?:\.\d+)?)%<\/span>\)/g;
+
+  // Match percent values: [[Stat Name]] (<span ...>±X%</span>)
+  const pctPattern = /\[\[([^\]]+)\]\][^\(]*\(<span[^>]+>([+-]?\d+(?:\.\d+)?)%<\/span>\)/g;
   let m: RegExpExecArray | null;
-  while ((m = pattern.exec(wikitext)) !== null) {
-    const rawStat = m[1];
+  while ((m = pctPattern.exec(wikitext)) !== null) {
     const value = parseFloat(m[2]) / 100;
-    effects.push({
-      stat: resolveStatName(rawStat),
-      value,
-      isFlat: false,
-    });
+    effects.push({ stat: resolveStatName(m[1]), value, isFlat: false });
   }
+
+  // Match flat values: [[Stat Name]] (<span ...>±X</span>)  (no % sign)
+  const flatPattern = /\[\[([^\]]+)\]\][^\(]*\(<span[^>]+>([+-]?\d+(?:\.\d+)?)<\/span>\)/g;
+  while ((m = flatPattern.exec(wikitext)) !== null) {
+    const raw = m[0];
+    if (raw.includes('%')) continue; // already captured above
+    const value = parseFloat(m[2]);
+    effects.push({ stat: resolveStatName(m[1]), value, isFlat: true });
+  }
+
   return effects;
+}
+
+// Build a map from sort-value → wikitext block from the page
+function extractBlocks(wikitext: string): Map<string, string> {
+  const blocks = new Map<string, string>();
+  const splitPattern = /data-sort-value="([^"]+)"/g;
+  let m: RegExpExecArray | null;
+  const positions: Array<{ key: string; start: number }> = [];
+
+  while ((m = splitPattern.exec(wikitext)) !== null) {
+    positions.push({ key: m[1], start: m.index });
+  }
+
+  for (let i = 0; i < positions.length; i++) {
+    const { key, start } = positions[i];
+    const end = i + 1 < positions.length ? positions[i + 1].start : wikitext.length;
+    blocks.set(key, wikitext.slice(start, end));
+  }
+
+  return blocks;
+}
+
+// Find the best matching sort-value block for a helmet name.
+// The wiki sometimes omits words (e.g. "Arcane Gauss Helmet" for "Arcane Mag Gauss Helmet").
+// Match by checking that every word in the sort-value is present in the helmet name.
+function findBlock(blocks: Map<string, string>, helmetName: string): string | null {
+  // Exact match first
+  if (blocks.has(helmetName)) return blocks.get(helmetName)!;
+
+  const nameLower = helmetName.toLowerCase();
+  for (const [key, block] of blocks) {
+    const keyWords = key.toLowerCase().split(/\s+/);
+    if (keyWords.every(w => nameLower.includes(w))) {
+      return block;
+    }
+  }
+  return null;
 }
 
 function extractWarframeName(description: string): string {
@@ -55,18 +98,15 @@ export function normalizeHelmets(
   arcaneHelmetWikitext: string,
 ): ArcaneHelmetEntry[] {
   const arcaneHelmets = (exportCustoms as RawCustom[]).filter(
-    c => c.uniqueName?.includes('AltHelmet') && c.name?.startsWith('Arcane'),
+    c => (c.uniqueName?.includes('AltHelmet') || c.uniqueName?.includes('HelmetAlt'))
+      && c.name?.startsWith('Arcane'),
   );
 
+  const blocks = extractBlocks(arcaneHelmetWikitext);
+
   return arcaneHelmets.map(h => {
-    // Find the relevant wikitext block for this helmet by its sort key
-    const escapedName = h.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const blockPattern = new RegExp(
-      `data-sort-value="${escapedName}".*?(?=data-sort-value=|$)`,
-      's',
-    );
-    const blockMatch = arcaneHelmetWikitext.match(blockPattern);
-    const effects = blockMatch ? parseWikiTextEffects(blockMatch[0]) : [];
+    const block = findBlock(blocks, h.name);
+    const effects = block ? parseWikiTextEffects(block) : [];
 
     return {
       uniqueName: h.uniqueName,
