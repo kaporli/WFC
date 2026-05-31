@@ -1,10 +1,12 @@
 from __future__ import annotations
-import os
-import anthropic
+import litellm
 
-from warframe_chatbot.config import CLAUDE_MODEL, RETRIEVAL_K
+from warframe_chatbot.config import CHAT_MODEL, RETRIEVAL_K
 from warframe_chatbot.store import WikiStore, SearchResult
 from warframe_chatbot.search import search
+
+# Suppress litellm's verbose success/debug logging
+litellm.suppress_debug_info = True
 
 SYSTEM_PROMPT = """You are a Warframe game expert and wiki assistant.
 Answer questions using ONLY the provided wiki excerpts below.
@@ -37,26 +39,36 @@ def ask(
     *,
     store: WikiStore | None = None,
     k: int = RETRIEVAL_K,
+    model: str = CHAT_MODEL,
 ) -> str:
     results = search(question, store=store, k=k)
     if not results:
         return "The wiki index is empty. Run `wf-ingest` first to index the Warframe wiki."
+
     prompt = build_prompt(question, results)
-    client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
-    response = client.messages.create(
-        model=CLAUDE_MODEL,
+    response = litellm.completion(
+        model=model,
         max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": prompt}],
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user",   "content": prompt},
+        ],
     )
-    return response.content[0].text
+    return response.choices[0].message.content
 
 
 def main() -> None:
-    import sys
-    print("Warframe Wiki Chatbot (type 'quit' to exit)")
+    import argparse
+    p = argparse.ArgumentParser(description="Warframe Wiki Chatbot")
+    p.add_argument("--model", default=CHAT_MODEL,
+                   help=f"LiteLLM model string (default: {CHAT_MODEL}). "
+                        "Use 'ollama/qwen2.5:7b' for local, 'gpt-4o' for OpenAI, etc.")
+    args = p.parse_args()
+
     store = WikiStore()
-    print(f"Index: {store.count()} chunks loaded.\n")
+    print(f"Warframe Wiki Chatbot  |  model: {args.model}  |  {store.count()} chunks indexed")
+    print("Type 'quit' to exit.\n")
+
     while True:
         try:
             question = input("You: ").strip()
@@ -64,8 +76,4 @@ def main() -> None:
             break
         if not question or question.lower() in ("quit", "exit"):
             break
-        print(f"\nBot: {ask(question, store=store)}\n")
-
-
-if __name__ == "__main__":
-    main()
+        print(f"\nBot: {ask(question, store=store, model=args.model)}\n")

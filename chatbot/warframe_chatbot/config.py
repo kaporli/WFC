@@ -21,5 +21,14 @@ EMBED_DIM     = 384
 
 COLLECTION    = "warframe_wiki"
 
-CLAUDE_MODEL  = "claude-sonnet-4-6"
+# Chat model — override with WF_MODEL environment variable.
+# Examples:
+#   claude-sonnet-4-6                           (Anthropic — needs ANTHROPIC_API_KEY)
+#   gpt-4o                                      (OpenAI — needs OPENAI_API_KEY)
+#   gemini/gemini-2.0-flash                     (Google — needs GEMINI_API_KEY)
+#   ollama/qwen2.5:7b                           (local via Ollama, no API key)
+#   ollama/llama3.2                             (local via Ollama, no API key)
+#   huggingface/Qwen/Qwen2.5-7B-Instruct       (HuggingFace Inference API — needs HF_TOKEN)
+import os
+CHAT_MODEL    = os.environ.get("WF_MODEL", "claude-sonnet-4-6")
 RETRIEVAL_K   = 6

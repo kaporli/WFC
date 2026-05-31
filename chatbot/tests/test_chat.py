@@ -32,7 +32,7 @@ def test_format_sources():
     assert "Shieldgate" in formatted and "wiki.warframe.com" in formatted
 
 
-def test_ask_calls_claude(tmp_path):
+def test_ask_calls_llm(tmp_path):
     from warframe_chatbot.chunker import Chunk
     from warframe_chatbot.store import WikiStore
     store = WikiStore(persist_dir=str(tmp_path / "chroma"))
@@ -40,13 +40,13 @@ def test_ask_calls_claude(tmp_path):
                         text="Shieldgate grants 1.3s invulnerability on shield depletion.",
                         url="https://wiki.warframe.com/w/Shieldgate", revid=1, chunk_index=0)])
 
+    # Mock litellm.completion — works regardless of which provider is configured
+    mock_choice = MagicMock()
+    mock_choice.message.content = "Shieldgate works by granting invulnerability."
     mock_response = MagicMock()
-    mock_response.content = [MagicMock(text="Shieldgate works by granting invulnerability.")]
+    mock_response.choices = [mock_choice]
 
-    with patch("warframe_chatbot.chat.anthropic.Anthropic") as mock_cls:
-        mock_client = MagicMock()
-        mock_cls.return_value = mock_client
-        mock_client.messages.create.return_value = mock_response
+    with patch("warframe_chatbot.chat.litellm.completion", return_value=mock_response):
         from warframe_chatbot.chat import ask
         result = ask("How does shieldgate work?", store=store)
 
