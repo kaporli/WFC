@@ -99,8 +99,9 @@ class ModEntry:
     tradable: bool
     is_augment: bool
     compat_name: str | None
-    set_multipliers: list[float]   # [bonus_at_2_pieces, bonus_at_3_pieces, ...]
+    set_multipliers: list[float]
     effects: list[ModEffect]
+    passives: list[str]      # non-numeric passive descriptions for UI display
     raw_description: str
 
 
@@ -127,6 +128,7 @@ def load_mods() -> list[ModEntry]:
                 )
                 for e in m["effects"]
             ],
+            passives=m.get("passives", []),
             raw_description=m["rawDescription"],
         )
         for m in _load_json("mods.json")

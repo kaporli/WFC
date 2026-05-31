@@ -83,6 +83,35 @@ function parseEffects(levelStats: WfcdLevelStat[] | undefined): ModEffect[] {
   return results;
 }
 
+function parsePassives(levelStats: WfcdLevelStat[] | undefined): string[] {
+  if (!levelStats?.length) return [];
+  // Use max rank stats — split each stat block by newlines/LINE_SEPARATOR
+  const maxStats = levelStats[levelStats.length - 1].stats ?? [];
+  const passives: string[] = [];
+
+  for (const block of maxStats) {
+    const lines = block
+      .replace(/<LINE_SEPARATOR>/gi, '\n')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\\n/g, '\n')
+      .split('\n')
+      .map(l => l.trim())
+      .filter(l => l.length > 4);
+
+    for (const line of lines) {
+      // Skip lines that are numeric stat changes (%, or leading +/- number)
+      if (/[+-]?\d+(?:\.\d+)?\s*%/.test(line)) continue;
+      if (/^[+-]\d/.test(line)) continue;
+      // Skip multiplier lines like "x0.20 Max Shield Capacity"
+      if (/^x\d/.test(line)) continue;
+      passives.push(line);
+    }
+  }
+
+  // Deduplicate and strip remaining noise
+  return [...new Set(passives)];
+}
+
 function resolveModType(m: WfcdMod): string {
   const t = (m.type ?? '').toLowerCase();
   if (t.includes('stance')) return 'stance';
@@ -113,6 +142,7 @@ export function normalizeMods(wfcdMods: WfcdMod[]): ModEntry[] {
       compatName: m.compatName ?? null,
       setMultipliers: m.modSetValues ?? [],
       effects: parseEffects(m.levelStats),
+      passives: parsePassives(m.levelStats),
       rawDescription: m.description ?? '',
     }));
 }
