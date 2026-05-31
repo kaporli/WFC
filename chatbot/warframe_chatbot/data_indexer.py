@@ -16,6 +16,14 @@ DATA_DIR = Path(__file__).parent.parent.parent / "data"
 _WIKI_BASE = "https://wiki.warframe.com/w"
 
 
+def _stat_to_text(stat: str) -> str:
+    """Convert snake_case stat name to readable English.
+    Long descriptive stats (e.g. from arcane effects) are essentially
+    the full description encoded as a key — converting them makes them
+    semantically searchable."""
+    return stat.replace('_', ' ').strip()
+
+
 def _url(name: str) -> str:
     return f"{_WIKI_BASE}/{name.replace(' ', '_')}"
 
@@ -60,18 +68,16 @@ def _mod_chunk(m: dict, idx: int) -> Chunk:
     effects = m.get("effects", [])
     effect_lines = []
     for e in effects:
-        if e.get("target", "self") not in ("self", "warframe"):
-            target = f" → {e['target']}"
-        else:
-            target = ""
+        target = "" if e.get("target", "self") in ("self", "warframe") else f" → {e['target']}"
+        stat_text = _stat_to_text(e["stat"])
         lvls = e.get("levelValues", [])
         if lvls:
             lo, hi = lvls[0], lvls[-1]
             pct = "%" if abs(hi) <= 10 else ""
             effect_lines.append(
-                f"{e['stat']}{target}: {lo*100:.0f}{pct} to {hi*100:.0f}{pct} (rank 0-{len(lvls)-1})"
+                f"{stat_text}{target}: {lo*100:.0f}{pct} to {hi*100:.0f}{pct} (rank 0-{len(lvls)-1})"
                 if pct else
-                f"{e['stat']}{target}: {lo:.0f} to {hi:.0f} (rank 0-{len(lvls)-1})"
+                f"{stat_text}{target}: {lo:.0f} to {hi:.0f} (rank 0-{len(lvls)-1})"
             )
     lines = [
         f"{m['name']} (Mod — {m.get('type','?')})",
@@ -139,9 +145,15 @@ def _arcane_chunk(a: dict, idx: int) -> Chunk:
     effects = a.get("effects", [])
     effect_lines = []
     for e in effects:
+        stat_text = _stat_to_text(e["stat"])
         lvls = e.get("levelValues", [])
         if lvls:
-            effect_lines.append(f"{e['stat']}: {lvls[0]:.0f} to {lvls[-1]:.0f} (rank 0-{len(lvls)-1})")
+            # For long descriptive stat names (arcane descriptions encoded as keys),
+            # show the full text — it IS the description
+            if len(e["stat"]) > 30:
+                effect_lines.append(f"{stat_text} (rank 0-{len(lvls)-1}: {lvls[0]:.0f}-{lvls[-1]:.0f}x)")
+            else:
+                effect_lines.append(f"{stat_text}: {lvls[0]:.0f} to {lvls[-1]:.0f} (rank 0-{len(lvls)-1})")
     lines = [
         f"{a['name']} (Arcane)",
         f"Trigger: {a.get('trigger','?')} | Max rank: {a.get('maxRank',0)} | "
