@@ -44,6 +44,7 @@ export interface WfcdMod {
   tradable: boolean;
   isAugment?: boolean;
   compatName?: string;
+  modSetValues?: number[];   // per-tier multipliers when N set pieces equipped (index 0 = 2 pieces)
 }
 
 export interface WfcdArcane {

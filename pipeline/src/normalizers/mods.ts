@@ -111,6 +111,7 @@ export function normalizeMods(wfcdMods: WfcdMod[]): ModEntry[] {
       tradable: m.tradable ?? false,
       isAugment: m.isAugment ?? false,
       compatName: m.compatName ?? null,
+      setMultipliers: m.modSetValues ?? [],
       effects: parseEffects(m.levelStats),
       rawDescription: m.description ?? '',
     }));

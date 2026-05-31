@@ -99,6 +99,7 @@ class ModEntry:
     tradable: bool
     is_augment: bool
     compat_name: str | None
+    set_multipliers: list[float]   # [bonus_at_2_pieces, bonus_at_3_pieces, ...]
     effects: list[ModEffect]
     raw_description: str
 
@@ -116,6 +117,7 @@ def load_mods() -> list[ModEntry]:
             tradable=m["tradable"],
             is_augment=m.get("isAugment", False),
             compat_name=m.get("compatName"),
+            set_multipliers=m.get("setMultipliers", []),
             effects=[
                 ModEffect(
                     stat=e["stat"],

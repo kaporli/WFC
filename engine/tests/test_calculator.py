@@ -123,3 +123,51 @@ def test_azure_flat_health_shard(cache):
     stats = compute_warframe_stats(build, cache)
     # Azure flat +150 BEFORE mod scaling → (270+150)*1.0 = 420
     assert stats.health == pytest.approx(420, rel=0.02)
+
+
+# ── Umbra set multipliers ──────────────────────────────────────────────────────
+
+def test_umbral_intensify_1_mod_no_bonus(cache):
+    """1 Umbra mod: no set bonus, normal values."""
+    build = Build(
+        warframe_name='Frost',
+        mods=[EquippedMod(find_mod(cache, 'Umbral Intensify'), rank=10)],
+    )
+    stats = compute_warframe_stats(build, cache)
+    # Umbral Intensify R10 = +44% strength, no set bonus at 1 piece
+    assert stats.ability_strength == pytest.approx(1.44, rel=0.02)
+
+
+def test_umbral_intensify_2_mods_1_25x(cache):
+    """2 Umbra mods: Umbral Intensify gets ×1.25 on its effects."""
+    build = Build(
+        warframe_name='Frost',
+        mods=[
+            EquippedMod(find_mod(cache, 'Umbral Intensify'), rank=10),
+            EquippedMod(find_mod(cache, 'Umbral Vitality'), rank=10),
+        ],
+    )
+    stats = compute_warframe_stats(build, cache)
+    # Umbral Intensify R10 × 1.25 = +55% strength → ability_strength = 1.55
+    assert stats.ability_strength == pytest.approx(1.0 + 0.44 * 1.25, rel=0.02)
+    # Umbral Vitality R10 × 1.30 = +130% health → health = 270 × 2.30 = 621
+    assert stats.health == pytest.approx(270 * (1 + 1.0 * 1.30), rel=0.02)
+
+
+def test_umbral_intensify_3_mods_full_bonus(cache):
+    """3 Umbra mods: Umbral Intensify ×1.75, Fiber and Vitality ×1.80."""
+    build = Build(
+        warframe_name='Frost',
+        mods=[
+            EquippedMod(find_mod(cache, 'Umbral Intensify'), rank=10),
+            EquippedMod(find_mod(cache, 'Umbral Vitality'), rank=10),
+            EquippedMod(find_mod(cache, 'Umbral Fiber'), rank=10),
+        ],
+    )
+    stats = compute_warframe_stats(build, cache)
+    # Umbral Intensify R10 × 1.75 = +77% strength
+    assert stats.ability_strength == pytest.approx(1.0 + 0.44 * 1.75, rel=0.02)
+    # Umbral Vitality R10 × 1.80 = +180% health → 270 × 2.80 = 756
+    assert stats.health == pytest.approx(270 * (1 + 1.0 * 1.80), rel=0.02)
+    # Umbral Fiber R10 × 1.80 = +180% armor → 315 × 2.80 = 882
+    assert stats.armor == pytest.approx(315 * (1 + 1.0 * 1.80), rel=0.02)

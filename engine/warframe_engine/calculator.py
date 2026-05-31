@@ -73,16 +73,34 @@ def compute_warframe_stats(
 
     # ── Mods (regular + exilus + all auras) ───────────────────────────────────
     all_mods: list[EquippedMod | None] = [*build.mods, build.exilus, *build.auras]
+
+    # Count set pieces per mod_set so we can apply per-mod set multipliers (e.g. Umbra)
+    set_piece_counts: dict[str, int] = defaultdict(int)
+    for em in filter(None, all_mods):
+        mod = cache.mod_by_unique_name.get(em.unique_name)
+        if mod and mod.mod_set:
+            set_piece_counts[mod.mod_set] += 1
+
     for em in filter(None, all_mods):
         mod = cache.mod_by_unique_name.get(em.unique_name)
         if not mod:
             continue
+
+        # Per-mod set multiplier: index 0 = bonus at 2 pieces, 1 = bonus at 3 pieces, etc.
+        # Only applies to mods that carry their own modSetValues (e.g. Umbra mods)
+        set_mult = 1.0
+        if mod.set_multipliers and mod.mod_set:
+            pieces = set_piece_counts.get(mod.mod_set, 0)
+            tier_idx = pieces - 2  # 0 for 2 pieces, 1 for 3 pieces, ...
+            if 0 <= tier_idx < len(mod.set_multipliers):
+                set_mult = 1.0 + mod.set_multipliers[tier_idx]
+
         for eff in mod.effects:
-            # Only apply effects targeting warframe or self (weapon effects are handled by weapon_calculator)
+            # Only apply effects targeting warframe or self (weapon effects handled by weapon_calculator)
             if eff.target not in ('self', 'warframe'):
                 continue
             if em.rank < len(eff.level_values):
-                additive[eff.stat] += eff.level_values[em.rank]
+                additive[eff.stat] += eff.level_values[em.rank] * set_mult
 
     # ── Arcanes ────────────────────────────────────────────────────────────────
     for ea in build.arcanes:

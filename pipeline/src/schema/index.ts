@@ -50,6 +50,7 @@ export interface ModEntry {
   tradable: boolean;
   isAugment: boolean;
   compatName: string | null;
+  setMultipliers: number[];   // [bonus_at_2_pieces, bonus_at_3_pieces, ...] e.g. [0.30, 0.80]
   effects: ModEffect[];
   rawDescription: string;
 }
