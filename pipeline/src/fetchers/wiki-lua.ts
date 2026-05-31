@@ -1,4 +1,4 @@
-import { evalLua, type LuaObj } from '../lua/eval.js';
+import { evalLuaWithFallback, type LuaObj } from '../lua/eval.js';
 
 const WIKI_API = 'https://wiki.warframe.com/api.php';
 
@@ -85,7 +85,7 @@ export async function fetchWikiLua(): Promise<WikiLuaRaw> {
         process.stdout.write(` (empty)\n`);
         continue;
       }
-      const evaluated = evalLua(content);
+      const evaluated = evalLuaWithFallback(content);
       modules[mod] = (evaluated as LuaObj) ?? {};
       revIds[mod] = revId;
       process.stdout.write(` done (${(content.length / 1024).toFixed(0)}KB)\n`);
