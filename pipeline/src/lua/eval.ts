@@ -138,7 +138,11 @@ local function __json(v, d)
 end
 `;
 
-export function evalLuaRuntime(src: string): LuaVal {
+/**
+ * @param src        Lua source of the module to evaluate
+ * @param submodules Optional map of moduleName → Lua source for modules it requires via mw.loadData
+ */
+export function evalLuaRuntime(src: string, submodules?: Map<string, string>): LuaVal {
   try {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const fengari = _require('fengari') as any;
@@ -146,6 +150,37 @@ export function evalLuaRuntime(src: string): LuaVal {
 
     const L = lauxlib.luaL_newstate();
     lualib.luaL_openlibs(L);
+
+    // Pre-register sub-modules so mw.loadData (→ require) can find them
+    if (submodules?.size) {
+      for (const [modName, modSrc] of submodules) {
+        // Load the sub-module source and stash result as a global, then register via preload
+        const subSrc = to_luastring(modSrc);
+        if (lauxlib.luaL_loadbuffer(L, subSrc, subSrc.length, to_luastring(modName)) === lua.LUA_OK) {
+          if (lua.lua_pcall(L, 0, 1, 0) === lua.LUA_OK) {
+            // Stack: sub-module result. Wrap it in a preload function.
+            // We use upvalues: store the table as an upvalue of the preload closure.
+            lua.lua_pushcclosure(L, (Lx: unknown) => {
+              // Push the upvalue (the pre-evaluated sub-module table)
+              (lua as any).lua_pushvalue(Lx, (lua as any).lua_upvalueindex(1));
+              return 1;
+            }, 1);  // 1 upvalue (the module result on stack)
+            const nameBytes = to_luastring('__sub_' + modName.replace(/[^a-zA-Z0-9]/g, '_'));
+            lua.lua_setglobal(L, nameBytes);
+            // Register in package.preload
+            const escapedName = modName.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+            const globalRef = '__sub_' + modName.replace(/[^a-zA-Z0-9]/g, '_');
+            lauxlib.luaL_dostring(L, to_luastring(
+              `package.preload['${escapedName}'] = function() return ${globalRef} end`
+            ));
+          } else {
+            lua.lua_pop(L, 1); // pop error
+          }
+        } else {
+          lua.lua_pop(L, 1); // pop error
+        }
+      }
+    }
 
     // Register stubs for common wiki utility modules used by data modules
     const registerStubs = `
@@ -183,6 +218,13 @@ export function evalLuaRuntime(src: string): LuaVal {
       for _, m in ipairs({'Module:LuaSerializer','Module:String','Module:Math','Module:Shared'}) do
         package.preload[m] = function() return {} end
       end
+      -- Stub the MediaWiki mw global used by some data modules
+      mw = {
+        site = { namespaces = { [828] = { name = "Module" } } },
+        loadData = function(path) return require(path) end,
+        text = { trim = function(s) return s and s:match("^%s*(.-)%s*$") or "" end },
+        ustring = { lower = string.lower, upper = string.upper, len = string.len },
+      }
       -- Catch-all require: any unregistered module returns empty table
       local _orig_require = require
       require = function(mod)
@@ -227,7 +269,7 @@ export function evalLuaRuntime(src: string): LuaVal {
 }
 
 /** Returns true if a LuaVal is empty or contains only empty nested objects. */
-function isSubstantiallyEmpty(val: LuaVal): boolean {
+export function isSubstantiallyEmpty(val: LuaVal): boolean {
   if (val === null || val === undefined) return true;
   if (typeof val !== 'object') return false;
   if (Array.isArray(val)) return (val as LuaVal[]).length === 0;
@@ -238,10 +280,10 @@ function isSubstantiallyEmpty(val: LuaVal): boolean {
 }
 
 /** Evaluate Lua source, falling back to the Fengari runtime for complex modules. */
-export function evalLuaWithFallback(src: string): LuaVal {
+export function evalLuaWithFallback(src: string, submodules?: Map<string, string>): LuaVal {
   const fast = evalLua(src);
   if (fast === null || isSubstantiallyEmpty(fast)) {
-    return evalLuaRuntime(src);
+    return evalLuaRuntime(src, submodules);
   }
   return fast;
 }

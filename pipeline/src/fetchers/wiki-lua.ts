@@ -1,4 +1,4 @@
-import { evalLuaWithFallback, type LuaObj } from '../lua/eval.js';
+import { evalLuaWithFallback, isSubstantiallyEmpty, type LuaObj, type LuaVal } from '../lua/eval.js';
 
 const WIKI_API = 'https://wiki.warframe.com/api.php';
 
@@ -71,6 +71,41 @@ export interface WikiLuaRaw {
   revIds: Partial<Record<ModuleName, number>>;
 }
 
+/**
+ * When a module uses mw.loadData, it loads sub-pages dynamically.
+ * This fetches all sub-pages (e.g. Module:Enemies/data/grineer) so they
+ * can be registered as package.preload entries before running fengari.
+ */
+async function fetchSubmodulesIfNeeded(
+  title: string,
+  content: string,
+  headers: Record<string, string>,
+): Promise<Map<string, string>> {
+  if (!content.includes('mw.loadData')) return new Map();
+
+  const prefix = title.slice('Module:'.length) + '/';
+  const params = new URLSearchParams({
+    action: 'query', list: 'allpages',
+    apprefix: prefix, apnamespace: '828', aplimit: '50', format: 'json',
+  });
+  const res = await fetch(`${WIKI_API}?${params}`, { headers });
+  if (!res.ok) return new Map();
+  const data = await res.json() as { query: { allpages: Array<{ title: string }> } };
+
+  const submodules = new Map<string, string>();
+  const relevant = data.query.allpages
+    .map(p => p.title)
+    .filter(t => !t.includes('/doc') && !t.includes('/dev') && !t.includes('/pre-U'));
+
+  process.stdout.write(`\n    loading ${relevant.length} sub-modules...`);
+  for (const sub of relevant) {
+    const result = await fetchModuleSource(sub);
+    if (result?.content) submodules.set(sub, result.content);
+    await new Promise<void>(r => setTimeout(r, 500));
+  }
+  return submodules;
+}
+
 export async function fetchWikiLua(): Promise<WikiLuaRaw> {
   const modules: Partial<Record<ModuleName, LuaObj>> = {};
   const revIds: Partial<Record<ModuleName, number>> = {};
@@ -85,7 +120,28 @@ export async function fetchWikiLua(): Promise<WikiLuaRaw> {
         process.stdout.write(` (empty)\n`);
         continue;
       }
-      const evaluated = evalLuaWithFallback(content);
+      // For modules using mw.loadData, pre-fetch sub-pages
+      const submodules = await fetchSubmodulesIfNeeded(
+        mod, content,
+        { 'User-Agent': 'warframe-planner/0.1 (github.com/warframe-planner)' },
+      );
+
+      let evaluated = evalLuaWithFallback(content, submodules.size > 0 ? submodules : undefined);
+
+      // If the module is a metatable proxy (returns empty but has sub-modules with real data),
+      // combine the sub-modules directly — e.g. Module:Enemies/data
+      if (submodules.size > 0 && (evaluated === null || isSubstantiallyEmpty(evaluated as LuaVal))) {
+        const combined: LuaObj = {};
+        for (const [subTitle, subSrc] of submodules) {
+          const factionName = subTitle.split('/').pop() ?? '';
+          const factionData = evalLuaWithFallback(subSrc);
+          if (factionData && !isSubstantiallyEmpty(factionData)) {
+            combined[factionName] = factionData as LuaVal;
+          }
+        }
+        if (Object.keys(combined).length > 0) evaluated = combined;
+      }
+
       modules[mod] = (evaluated as LuaObj) ?? {};
       revIds[mod] = revId;
       process.stdout.write(` done (${(content.length / 1024).toFixed(0)}KB)\n`);
