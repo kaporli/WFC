@@ -49,15 +49,26 @@ def ask(
         return "The wiki index is empty. Run `wf-ingest` first to index the Warframe wiki."
 
     prompt = build_prompt(question, results)
-    response = litellm.completion(
-        model=model,
-        max_tokens=1024,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": prompt},
-        ],
-    )
-    return response.choices[0].message.content
+    try:
+        response = litellm.completion(
+            model=model,
+            max_tokens=1024,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user",   "content": prompt},
+            ],
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        err = str(e)
+        if "not found" in err.lower() and "ollama" in model.lower():
+            model_tag = model.replace("ollama/", "")
+            return (
+                f"Model '{model_tag}' not found in Ollama.\n"
+                f"Run:  ollama pull {model_tag}\n"
+                f"Or use a different model:  WF_MODEL=ollama/qwen2.5:7b uv run wf-chat"
+            )
+        return f"Error calling {model}: {err}"
 
 
 def main() -> None:
