@@ -30,7 +30,7 @@ def test_notables_returns_list(cache):
         assert isinstance(n, Notable)
         assert n.source
         assert n.description
-        assert n.kind in ('cross_equip_stat', 'passive', 'set_passive', 'set_stat', 'signature_weapon')
+        assert n.kind in ('cross_equip_stat', 'passive', 'set_passive', 'set_stat', 'signature_weapon', 'weapon_passive')
 
 
 def test_amalgam_furax_passive_surfaced(cache):
@@ -162,3 +162,48 @@ def test_no_signature_notable_wrong_warframe(cache):
     notables = get_notables(loadout, cache)
     sig = [n for n in notables if n.kind == 'signature_weapon']
     assert len(sig) == 0, f'Expected no signature notable for Frost + Epitaph, got: {sig}'
+
+
+def test_weapon_passive_surfaced(cache):
+    """Equipping a weapon with known passives should surface them as weapon_passive notables."""
+    if not cache.weapon_passives:
+        pytest.skip('weapon-passives.json empty (run full pipeline first)')
+    # Find any weapon that has passives
+    weapon = next(
+        (w for w in cache.weapon_by_unique_name.values()
+         if w.name.lower() in cache.weapon_passives),
+        None,
+    )
+    if weapon is None:
+        pytest.skip('No weapon with passives found in data')
+    slot = 0 if weapon.slot == 0 else (1 if weapon.slot == 1 else 2)
+    slot_name = {0: 'primary', 1: 'secondary', 2: 'melee'}.get(slot, 'primary')
+    loadout = Loadout(
+        warframe=Build(warframe_name='Frost'),
+        **{slot_name: WeaponSlot(weapon_unique_name=weapon.unique_name)},
+    )
+    notables = get_notables(loadout, cache)
+    wp = [n for n in notables if n.kind == 'weapon_passive' and n.source == weapon.name]
+    assert len(wp) >= 1, f'Expected weapon_passive for {weapon.name}'
+    assert all(n.description for n in wp)
+    assert all(n.source_slot == slot_name for n in wp)
+
+
+def test_epitaph_passives_no_synergy_duplication(cache):
+    """Epitaph passives should appear as weapon_passive; [Warframe Synergy] filtered out."""
+    if not cache.weapon_passives:
+        pytest.skip('weapon-passives.json empty')
+    epitaph = next(
+        (w for w in cache.weapon_by_unique_name.values() if w.name == 'Epitaph'), None
+    )
+    if epitaph is None:
+        pytest.skip('Epitaph not in data')
+    loadout = Loadout(
+        warframe=Build(warframe_name='Frost'),
+        secondary=WeaponSlot(weapon_unique_name=epitaph.unique_name),
+    )
+    notables = get_notables(loadout, cache)
+    wp = [n for n in notables if n.kind == 'weapon_passive' and n.source == 'Epitaph']
+    # Should have passives but NOT the [Warframe Synergy] line (that's signature_weapon)
+    assert len(wp) >= 1
+    assert not any('warframe synergy' in n.description.lower() for n in wp)

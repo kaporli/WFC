@@ -17,6 +17,7 @@ export interface WikiPagesRaw {
   arcaneHelmet: string;
   archonShard: string;
   signatureWeapon: string;
+  weaponPassives: string;
 }
 
 export async function fetchWikiPages(): Promise<WikiPagesRaw> {
@@ -32,5 +33,9 @@ export async function fetchWikiPages(): Promise<WikiPagesRaw> {
   const signatureWeapon = await fetchPageWikitext('Signature Weapon');
   process.stdout.write(` ${(signatureWeapon.length / 1024).toFixed(0)}KB\n`);
 
-  return { arcaneHelmet, archonShard, signatureWeapon };
+  process.stdout.write('  fetching Weapons/Passives page...');
+  const weaponPassives = await fetchPageWikitext('Weapons/Passives');
+  process.stdout.write(` ${(weaponPassives.length / 1024).toFixed(0)}KB\n`);
+
+  return { arcaneHelmet, archonShard, signatureWeapon, weaponPassives };
 }

@@ -154,6 +154,11 @@ export interface SignatureWeaponEntry {
   bonus: string;
 }
 
+export interface WeaponPassiveEntry {
+  weaponName: string;
+  passives: string[];
+}
+
 export interface Manifest {
   lastUpdated: string;
   sourceVersions: {

@@ -22,6 +22,7 @@ import { normalizeAbilityStats } from './normalizers/ability-stats.js';
 import { normalizeShards } from './normalizers/shards.js';
 import { buildAbilitiesData } from './normalizers/abilities.js';
 import { normalizeSignatureWeapons } from './normalizers/signature-weapons.js';
+import { normalizeWeaponPassives } from './normalizers/weapon-passives.js';
 import type { Manifest } from './schema/index.js';
 import type { LuaObj } from './lua/eval.js';
 
@@ -102,7 +103,7 @@ async function run(fresh: boolean, skipWiki: boolean) {
   }
 
   // ── Wiki article pages (Arcane Helmet + Archon Shard) ─────────────────────
-  let wikiPages: WikiPagesRaw = { arcaneHelmet: '', archonShard: '', signatureWeapon: '' };
+  let wikiPages: WikiPagesRaw = { arcaneHelmet: '', archonShard: '', signatureWeapon: '', weaponPassives: '' };
   if (!skipWiki) {
     console.log('Fetching Wiki pages...');
     const cachedPages = fresh ? null : readCache<WikiPagesRaw>('wiki-pages-raw.json');
@@ -137,6 +138,7 @@ async function run(fresh: boolean, skipWiki: boolean) {
   );
   writeData('shard-bonuses.json', normalizeShards(wikiPages.archonShard));
   writeData('signature-weapons.json', normalizeSignatureWeapons(wikiPages.signatureWeapon));
+  writeData('weapon-passives.json', normalizeWeaponPassives(wikiPages.weaponPassives));
 
   const abilitiesData = buildAbilitiesData(
     (wikiLua.modules['Module:Ability/data'] ?? {}) as LuaObj,

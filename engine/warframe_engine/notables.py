@@ -199,6 +199,28 @@ def get_notables(loadout: Loadout, cache: DataCache) -> list[Notable]:
                 description=bonus.raw_text,
             ))
 
+    # ── Weapon built-in passives ───────────────────────────────────────────────
+    for slot_name, slot in weapon_slots:
+        if slot is None:
+            continue
+        weapon = cache.weapon_by_unique_name.get(slot.weapon_unique_name)
+        if not weapon:
+            continue
+        weapon_passives = cache.weapon_passives.get(weapon.name.lower(), [])
+        for passive in weapon_passives:
+            # Skip [Warframe Synergy] lines — those are surfaced via signature_weapon
+            if 'warframe synergy' in passive.lower():
+                continue
+            notables.append(Notable(
+                source=weapon.name,
+                source_slot=slot_name,
+                kind='weapon_passive',
+                stat=None,
+                target=None,
+                value=None,
+                description=passive,
+            ))
+
     # ── Signature weapon interactions ──────────────────────────────────────────
     wf_name_lower = wf.warframe_name.lower()
 

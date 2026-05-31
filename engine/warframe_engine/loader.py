@@ -363,6 +363,23 @@ class ShardBonus:
 
 
 @dataclass
+class WeaponPassiveEntry:
+    weapon_name: str
+    passives: list[str]
+
+
+def load_weapon_passives() -> dict[str, list[str]]:
+    """Returns dict of weapon_name_lower → list of passive description strings."""
+    data = _load_json("weapon-passives.json")
+    if not isinstance(data, list):
+        return {}
+    return {
+        e["weaponName"].lower(): e["passives"]
+        for e in data
+    }
+
+
+@dataclass
 class SignatureWeaponEntry:
     warframe_name: str
     weapon_name: str

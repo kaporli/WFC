@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from warframe_engine.loader import (
     load_warframes, load_mods, load_arcanes, load_weapons,
     load_helmets, load_mod_sets, load_ability_stats, load_abilities_data, load_shard_bonuses,
-    load_signature_weapons,
+    load_signature_weapons, load_weapon_passives,
     WarframeEntry, ModEntry, ArcaneEntry, WeaponEntry,
     ArcaneHelmetEntry, SetBonusEntry, AbilityStatsEntry, AbilitiesData, ShardBonus,
     SignatureWeaponEntry,
@@ -64,6 +64,8 @@ class DataCache:
             (e.warframe_name.lower(), e.weapon_name.lower()): e.bonus
             for e in sig_weapons
         }
+        # weapon_name_lower → list of passive descriptions
+        self.weapon_passives: dict[str, list[str]] = load_weapon_passives()
 
         # Convenience refs for tests
         self.mods = mods
