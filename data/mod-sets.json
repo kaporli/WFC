@@ -1,23 +1,47 @@
 [
   {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Amar/AmarSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "heavyAttackTeleportRange",
+        "value": 10,
+        "isFlat": true
+      },
+      {
+        "pieces": 2,
+        "stat": "heavyAttackTeleportRange",
+        "value": 20,
+        "isFlat": true
+      },
+      {
+        "pieces": 3,
+        "stat": "heavyAttackTeleportRange",
+        "value": 30,
+        "isFlat": true
+      }
+    ]
+  },
+  {
     "uniqueName": "/Lotus/Upgrades/Mods/Sets/Ashen/AshenSetMod",
     "numPiecesInSet": 3,
     "bonusByPieceCount": [
       {
         "pieces": 1,
-        "stat": "heavyKillArmorStrip",
+        "stat": "enemyAccuracyReduction",
         "value": 0.1,
         "isFlat": false
       },
       {
         "pieces": 2,
-        "stat": "heavyKillArmorStrip",
+        "stat": "enemyAccuracyReduction",
         "value": 0.2,
         "isFlat": false
       },
       {
         "pieces": 3,
-        "stat": "heavyKillArmorStrip",
+        "stat": "enemyAccuracyReduction",
         "value": 0.3,
         "isFlat": false
       }
@@ -66,43 +90,277 @@
     ]
   },
   {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Boneblade/BonebladeSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "slamDamage",
+        "value": 3,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "slamDamage",
+        "value": 6,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "slamDamage",
+        "value": 10,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Boreal/BorealSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "airborneReducedDamageTaken",
+        "value": 0.2,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "airborneReducedDamageTaken",
+        "value": 0.4,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "airborneReducedDamageTaken",
+        "value": 0.6,
+        "isFlat": false
+      }
+    ]
+  },
+  {
     "uniqueName": "/Lotus/Upgrades/Mods/Sets/Gladiator/GladiatorSetMod",
     "numPiecesInSet": 6,
     "bonusByPieceCount": [
       {
         "pieces": 1,
-        "stat": "critChance",
+        "stat": "meleeCritPerComboMult",
         "value": 0.1,
         "isFlat": false
       },
       {
         "pieces": 2,
-        "stat": "critChance",
+        "stat": "meleeCritPerComboMult",
         "value": 0.2,
         "isFlat": false
       },
       {
         "pieces": 3,
-        "stat": "critChance",
+        "stat": "meleeCritPerComboMult",
         "value": 0.3,
         "isFlat": false
       },
       {
         "pieces": 4,
-        "stat": "critChance",
+        "stat": "meleeCritPerComboMult",
         "value": 0.4,
         "isFlat": false
       },
       {
         "pieces": 5,
-        "stat": "critChance",
+        "stat": "meleeCritPerComboMult",
         "value": 0.5,
         "isFlat": false
       },
       {
         "pieces": 6,
-        "stat": "critChance",
+        "stat": "meleeCritPerComboMult",
         "value": 0.6,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Hunter/HunterSetMod",
+    "numPiecesInSet": 6,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "companionSlashDamage",
+        "value": 0.25,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "companionSlashDamage",
+        "value": 0.5,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "companionSlashDamage",
+        "value": 0.75,
+        "isFlat": false
+      },
+      {
+        "pieces": 4,
+        "stat": "companionSlashDamage",
+        "value": 1,
+        "isFlat": false
+      },
+      {
+        "pieces": 5,
+        "stat": "companionSlashDamage",
+        "value": 1.25,
+        "isFlat": false
+      },
+      {
+        "pieces": 6,
+        "stat": "companionSlashDamage",
+        "value": 1.5,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Nira/NiraSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "slamDamage",
+        "value": 1,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "slamDamage",
+        "value": 2,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "slamDamage",
+        "value": 3,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Raptor/RaptorSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "airborneKnockdownImmunity",
+        "value": 0.33,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "airborneKnockdownImmunity",
+        "value": 0.67,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "airborneKnockdownImmunity",
+        "value": 1,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Spider/SpiderSetMod",
+    "numPiecesInSet": 3,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "wallLatchDamageReduction",
+        "value": 0.17,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "wallLatchDamageReduction",
+        "value": 0.33,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "wallLatchDamageReduction",
+        "value": 0.5,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Synth/SynthSetMod",
+    "numPiecesInSet": 4,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "holsterReloadRate",
+        "value": 0.05,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "holsterReloadRate",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "holsterReloadRate",
+        "value": 0.15,
+        "isFlat": false
+      },
+      {
+        "pieces": 4,
+        "stat": "holsterReloadRate",
+        "value": 0.2,
+        "isFlat": false
+      }
+    ]
+  },
+  {
+    "uniqueName": "/Lotus/Upgrades/Mods/Sets/Vigilante/VigilanteSetMod",
+    "numPiecesInSet": 6,
+    "bonusByPieceCount": [
+      {
+        "pieces": 1,
+        "stat": "primaryCritEnhanceChance",
+        "value": 0.05,
+        "isFlat": false
+      },
+      {
+        "pieces": 2,
+        "stat": "primaryCritEnhanceChance",
+        "value": 0.1,
+        "isFlat": false
+      },
+      {
+        "pieces": 3,
+        "stat": "primaryCritEnhanceChance",
+        "value": 0.15,
+        "isFlat": false
+      },
+      {
+        "pieces": 4,
+        "stat": "primaryCritEnhanceChance",
+        "value": 0.2,
+        "isFlat": false
+      },
+      {
+        "pieces": 5,
+        "stat": "primaryCritEnhanceChance",
+        "value": 0.25,
+        "isFlat": false
+      },
+      {
+        "pieces": 6,
+        "stat": "primaryCritEnhanceChance",
+        "value": 0.3,
         "isFlat": false
       }
     ]
