@@ -5,5 +5,8 @@
   "scripts": {
     "pipeline": "npm run -w pipeline",
     "ingest": "npm run -w pipeline run"
+  },
+  "dependencies": {
+    "luaparse": "^0.3.1"
   }
 }

@@ -4,7 +4,9 @@ import { fileURLToPath } from 'node:url';
 import Items from 'warframe-items';
 import { createRequire } from 'node:module';
 const _require = createRequire(import.meta.url);
-const WFCD_VERSION: string = (_require('warframe-items/package.json') as { version: string }).version;
+// Resolve warframe-items location then read its package.json directly (avoids exports map restriction)
+const _wfcdPkgPath = resolve(dirname(_require.resolve('warframe-items')), 'package.json');
+const WFCD_VERSION: string = (JSON.parse(readFileSync(_wfcdPkgPath, 'utf8')) as { version: string }).version;
 
 import { fetchWfcd } from './fetchers/wfcd.js';
 import { fetchPublicExport } from './fetchers/public-export.js';
