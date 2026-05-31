@@ -96,20 +96,20 @@ async def run_pipeline(store: WikiStore, *, force: bool = False, skip_data: bool
         for content in from_cache:
             chunks = chunk_page(content)
             if chunks:
-                store.delete_page(content.page_title)
+                store.delete_page(content.title)
                 store.upsert(chunks)
                 total_wiki_chunks += len(chunks)
-            state[content.page_title] = content.revid
+            state[content.title] = content.revid
 
         # Fetch remaining from API
         if still_needs_fetch:
             async for content in crawl_all(still_needs_fetch, on_progress=progress):
                 chunks = chunk_page(content)
                 if chunks:
-                    store.delete_page(content.page_title)
+                    store.delete_page(content.title)
                     store.upsert(chunks)
                     total_wiki_chunks += len(chunks)
-                state[content.page_title] = content.revid
+                state[content.title] = content.revid
 
     save_state(state)
     print(f"\n  Wiki: {total_wiki_chunks} chunks indexed.")
