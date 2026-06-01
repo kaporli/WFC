@@ -22,11 +22,12 @@ def _get_store() -> WikiStore:
 _EXPANSIONS: list[tuple[re.Pattern, list[str]]] = [
     # companion / summon
     (re.compile(r'companion|summon|pet|sentinel|kavat|kubrow|moa', re.I), [
+        "arcane enhancement companion summoned allies damage",
         "companion damage mod",
-        "summon damage arcane",
         "increases damage of companions summoned allies",
-        "companion healing recovery",
+        "summon damage arcane",
         "Hunter set companion",
+        "companion healing recovery",
         "arcane companion damage",
         "companion buff warframe ability",
     ]),
@@ -69,7 +70,7 @@ def _expand_queries(query: str) -> list[str]:
     for pattern, expansions in _EXPANSIONS:
         if pattern.search(query):
             extras.extend(expansions)
-    return extras[:6]  # cap to avoid too many API calls
+    return extras[:8]  # cap to avoid too many API calls
 
 
 def search(query: str, *, store: WikiStore | None = None, k: int = RETRIEVAL_K) -> list[SearchResult]:
@@ -85,10 +86,28 @@ def search(query: str, *, store: WikiStore | None = None, k: int = RETRIEVAL_K) 
             if r.page_title not in seen or r.score > seen[r.page_title].score:
                 seen[r.page_title] = r
 
-    # Filter low-relevance noise, then sort and cap
-    MIN_SCORE = 0.55
+    # Filter low-relevance noise
+    # 0.45 works well for all-mpnet-base-v2 (768-dim scores lower than MiniLM)
+    MIN_SCORE = 0.45
     relevant = [r for r in seen.values() if r.score >= MIN_SCORE]
     if not relevant:
-        # Fallback: return top results even if below threshold
         relevant = sorted(seen.values(), key=lambda r: r.score, reverse=True)[:k]
-    return sorted(relevant, key=lambda r: r.score, reverse=True)[: k * 2]
+
+    # Deduplicate: wiki article and data chunk for the same item both end up in
+    # `seen` under different keys ("[data:mod] X" vs "X"). Keep higher-scoring one.
+    _DATA_PREFIXES = (
+        "[data:mod] ", "[data:arcane] ", "[data:warframe] ", "[data:weapon] ",
+        "[data:mod_set] ", "[data:helmet] ", "[data:signature] ",
+        "[data:weapon_passive] ", "[data:ability_stat] ",
+    )
+    canonical: dict[str, SearchResult] = {}
+    for r in relevant:
+        base = r.page_title
+        for prefix in _DATA_PREFIXES:
+            if base.startswith(prefix):
+                base = base[len(prefix):]
+                break
+        if base not in canonical or r.score > canonical[base].score:
+            canonical[base] = r
+
+    return sorted(canonical.values(), key=lambda r: r.score, reverse=True)
