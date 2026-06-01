@@ -18,8 +18,8 @@ MIN_PAGE_SIZE = 500
 CHUNK_TOKENS  = 500
 CHUNK_OVERLAP = 50
 
-EMBED_MODEL   = "all-MiniLM-L6-v2"
-EMBED_DIM     = 384
+EMBED_MODEL   = "all-mpnet-base-v2"   # 768-dim, better semantic understanding than MiniLM
+EMBED_DIM     = 768
 
 COLLECTION    = "warframe_wiki"
 

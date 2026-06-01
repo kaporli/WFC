@@ -5,7 +5,7 @@ import chromadb
 from chromadb.config import Settings
 
 from warframe_chatbot.chunker import Chunk
-from warframe_chatbot.config import COLLECTION, CHROMA_DIR
+from warframe_chatbot.config import COLLECTION, CHROMA_DIR, EMBED_DIM
 from warframe_chatbot.embedder import embed
 
 
@@ -29,9 +29,30 @@ class WikiStore:
             path=persist_dir,
             settings=Settings(anonymized_telemetry=False),
         )
-        self._col = self._client.get_or_create_collection(
-            name=COLLECTION, metadata={"hnsw:space": "cosine"},
-        )
+        self._col = self._get_or_reset_collection()
+
+    def _get_or_reset_collection(self):
+        """Get the collection, resetting it if the embedding dimension changed."""
+        try:
+            col = self._client.get_or_create_collection(
+                name=COLLECTION, metadata={"hnsw:space": "cosine"},
+            )
+            # Validate dimension matches current config by probing with a dummy vector
+            if col.count() > 0:
+                probe = col.get(limit=1, include=["embeddings"])
+                embs = probe.get("embeddings")
+                stored_dim = len(embs[0]) if embs is not None and len(embs) > 0 else EMBED_DIM
+                if stored_dim != EMBED_DIM:
+                    print(f"Embedding dimension changed ({len(probe['embeddings'][0])} → {EMBED_DIM}). Resetting collection.")
+                    self._client.delete_collection(COLLECTION)
+                    col = self._client.create_collection(
+                        name=COLLECTION, metadata={"hnsw:space": "cosine"},
+                    )
+            return col
+        except Exception:
+            return self._client.get_or_create_collection(
+                name=COLLECTION, metadata={"hnsw:space": "cosine"},
+            )
 
     def upsert(self, chunks: list[Chunk]) -> None:
         if not chunks:

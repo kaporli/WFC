@@ -24,9 +24,11 @@ _EXPANSIONS: list[tuple[re.Pattern, list[str]]] = [
     (re.compile(r'companion|summon|pet|sentinel|kavat|kubrow|moa', re.I), [
         "companion damage mod",
         "summon damage arcane",
-        "companion buff ability",
+        "increases damage of companions summoned allies",
         "companion healing recovery",
         "Hunter set companion",
+        "arcane companion damage",
+        "companion buff warframe ability",
     ]),
     # shieldgate / shield
     (re.compile(r'shield.?gate|shield.?gat|energy.*shield|augur', re.I), [
