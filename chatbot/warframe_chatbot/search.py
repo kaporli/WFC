@@ -83,5 +83,10 @@ def search(query: str, *, store: WikiStore | None = None, k: int = RETRIEVAL_K) 
             if r.page_title not in seen or r.score > seen[r.page_title].score:
                 seen[r.page_title] = r
 
-    # Return sorted by score, capped at k * 2 so Claude has more signal
-    return sorted(seen.values(), key=lambda r: r.score, reverse=True)[: k * 2]
+    # Filter low-relevance noise, then sort and cap
+    MIN_SCORE = 0.55
+    relevant = [r for r in seen.values() if r.score >= MIN_SCORE]
+    if not relevant:
+        # Fallback: return top results even if below threshold
+        relevant = sorted(seen.values(), key=lambda r: r.score, reverse=True)[:k]
+    return sorted(relevant, key=lambda r: r.score, reverse=True)[: k * 2]

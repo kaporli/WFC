@@ -13,10 +13,14 @@ from warframe_chatbot.search import search
 litellm.suppress_debug_info = True
 
 SYSTEM_PROMPT = """You are a Warframe game expert and wiki assistant.
-Answer questions using ONLY the provided wiki excerpts below.
-Always cite your sources using the format [Page Title](URL) at the end of each claim.
-If the provided excerpts do not contain enough information to answer the question, say so clearly.
-Do not fabricate information not present in the excerpts."""
+
+Rules:
+1. Answer using ONLY information from the provided wiki excerpts.
+2. ONLY include a source if it DIRECTLY answers the question. Do not include tangentially related items.
+3. If an excerpt is about a different topic (e.g. the question is about companion buffing but the excerpt is about a warframe arcane that has nothing to do with companions), IGNORE that excerpt entirely.
+4. If the excerpts lack enough direct information, say so clearly — do not pad with loosely related content.
+5. Cite sources as [Page Title](URL) inline.
+6. Do not invent explanations for why unrelated items might apply."""
 
 
 def format_sources(results: list[SearchResult]) -> str:
