@@ -4,8 +4,9 @@ const { LZMA } = _require('lzma/src/lzma_worker.js') as {
   LZMA: { decompress: (data: number[], cb: (result: number[] | string, err: string | null) => void) => void };
 };
 
-const INDEX_URL = 'https://origin.warframe.com/PublicExport/index_en.txt.lzma';
+const INDEX_URL = 'https://content.warframe.com/PublicExport/index_en.txt.lzma';
 const CONTENT_BASE = 'https://content.warframe.com/PublicExport/Manifest/';
+const HEADERS = { 'User-Agent': 'warframe-planner/0.1 (educational; github.com/warframe-planner)' };
 
 const EXPORT_KEYS = [
   'ExportWarframes_en.json',
@@ -48,7 +49,7 @@ export interface PublicExportRaw {
 
 export async function fetchPublicExport(): Promise<PublicExportRaw> {
   // Index is LZMA-compressed
-  const indexRes = await fetch(INDEX_URL);
+  const indexRes = await fetch(INDEX_URL, { headers: HEADERS });
   if (!indexRes.ok) throw new Error(`HTTP ${indexRes.status}: ${INDEX_URL}`);
   const indexBytes = new Uint8Array(await indexRes.arrayBuffer());
   const indexText = await lzmaDecompress(indexBytes);
@@ -64,7 +65,7 @@ export async function fetchPublicExport(): Promise<PublicExportRaw> {
     if (!hash) throw new Error(`Export key not found in index: ${key}`);
     // Content is served as plain JSON; hash is a cache-busting suffix
     const url = `${CONTENT_BASE}${key}!${hash}`;
-    const res = await fetch(url);
+    const res = await fetch(url, { headers: HEADERS });
     if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
     exports[key] = (await res.json()) as unknown;
   }
