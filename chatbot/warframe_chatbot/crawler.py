@@ -27,7 +27,7 @@ class PageContent:
         return f"{WIKI_BASE}/{self.title.replace(' ', '_')}"
 
     def save(self) -> None:
-        slug = self.title.replace("/", "_").replace(" ", "_")[:80]
+        slug = self.title.translate(str.maketrans('/:*?"<>|\r\n', "__________")).replace(" ", "_")[:80]
         (RAW_DIR / f"{slug}.json").write_text(
             json.dumps({"title": self.title, "revid": self.revid, "wikitext": self.wikitext}),
             encoding="utf-8",
