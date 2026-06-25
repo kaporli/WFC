@@ -1,12 +1,44 @@
 {
-  "lastUpdated": "2026-06-25T13:01:13.192Z",
+  "lastUpdated": "2026-06-25T14:12:22.909Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_gcFd1mrLBcr6TBBc47Vf3A",
-    "wiki": {},
+    "wiki": {
+      "Module:Mods/data": 2788443,
+      "Module:Warframes/data": 2787958,
+      "Module:Ability/data": 2788464,
+      "Module:Ability/data/stats": 2281902,
+      "Module:Weapons/data/primary": 2788353,
+      "Module:Weapons/data/secondary": 2788352,
+      "Module:Weapons/data/melee": 2788349,
+      "Module:Weapons/data/archwing": 2788350,
+      "Module:Weapons/data/companion": 2788351,
+      "Module:Weapons/data/railjack": 2788355,
+      "Module:Weapons/data/modular": 2788357,
+      "Module:Weapons/data/misc": 2749765,
+      "Module:Companions/data": 2730571,
+      "Module:Stances/data": 2788398,
+      "Module:ScientiaStances/data": 2047331,
+      "Module:Arcane/data": 2787628,
+      "Module:Upgrades/data": 2238990,
+      "Module:DamageTypes/data": 2785026,
+      "Module:Resources/data": 2787516,
+      "Module:Void/data": 2788223,
+      "Module:Acquisition/data": 2714600,
+      "Module:Blueprints/data": 2787061,
+      "Module:Enemies/data": 2760100,
+      "Module:Syndicates/data": 1741160,
+      "Module:Research/data": 2707762,
+      "Module:Vendors/data": 2785743,
+      "Module:Decrees/data": 2774719,
+      "Module:Conservation/data": 2697330,
+      "Module:Avionics/data": 2190683,
+      "Module:Codex/data": 2785382,
+      "Module:Decorations/data": 2694518
+    },
     "wikiPages": {
-      "arcaneHelmet": "0",
-      "archonShard": "0"
+      "arcaneHelmet": "18277",
+      "archonShard": "43672"
     }
   }
 }

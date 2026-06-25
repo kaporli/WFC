@@ -19,39 +19,39 @@
       {
         "name": "Shuriken",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Smoke Screen",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Teleport",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blade Storm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "<DT_SLASH_COLOR>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -75,39 +75,39 @@
       {
         "name": "Shuriken",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Smoke Screen",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Teleport",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blade Storm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "<DT_SLASH>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -131,39 +131,39 @@
       {
         "name": "Landslide",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tectonics",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Petrify",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Rumblers",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -188,39 +188,39 @@
       {
         "name": "Landslide",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tectonics",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Petrify",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Rumblers",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -243,39 +243,39 @@
       {
         "name": "Sonic Boom",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sonar",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Silence",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sound Quake",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Weapon noises are hushed so that enemies cannot hear them.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -299,39 +299,39 @@
       {
         "name": "Sonic Boom",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sonar",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Silence",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sound Quake",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Weapon noises are hushed so that enemies cannot hear them.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -356,38 +356,38 @@
         "slot": 1,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Lull",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Desolate Hands",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Serene Storm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to |PERCENT|% more resistant to damage.",
     "masteryRank": 0,
-    "initialEnergy": 50,
-    "exilusPolarity": null
+    "initialEnergy": 150,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pacifist/BaruukPrime",
@@ -412,38 +412,38 @@
         "slot": 1,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Lull",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Desolate Hands",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Serene Storm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to |PERCENT|% more resistant to damage.",
     "masteryRank": 0,
-    "initialEnergy": 50,
-    "exilusPolarity": null
+    "initialEnergy": 150,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/EntratiMech/ThanoTech",
@@ -462,34 +462,34 @@
       {
         "name": "Meathook",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Shield Maiden",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Firing Line",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Exalted Ironbride",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "",
@@ -548,7 +548,7 @@
     ],
     "passiveDescription": "Allies within Affinity range gain up to |PCT|% resistance to the types of damage they are currently taking.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -571,39 +571,39 @@
       {
         "name": "Spectral Scream",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Elemental Ward",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Vex Armor",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Effigy",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Wings sprout for an additional jump and bullet jump.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -628,39 +628,39 @@
       {
         "name": "Spectral Scream",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Elemental Ward",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Vex Armor",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Effigy",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Wings sprout for an additional jump and bullet jump.",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -715,7 +715,7 @@
     ],
     "passiveDescription": "Citrine grants nearby allies |BASE| health regeneration per second. Pick up a Health Orb to increase regeneration by |HPS|, up to a maximum of |MAX|.",
     "masteryRank": 0,
-    "initialEnergy": 32,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -770,7 +770,7 @@
     ],
     "passiveDescription": "Weak Point Kills increase Cyte-09's Weak Point Critical Chance by |INCREASE|% up to |CAP|% for the duration of the current mission.",
     "masteryRank": 0,
-    "initialEnergy": 45,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -822,7 +822,7 @@
     ],
     "passiveDescription": "There is a |PERCENT|% chance that Energy and Health Orbs will be |ENERGY|% more effective on Dagath.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -897,39 +897,39 @@
       {
         "name": "Fireball",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Immolation",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Fire Blast",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Inferno",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within <AFFINITY_SHARE>Affinity Range affected by <DT_FIRE_COLOR>Heat.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -952,39 +952,39 @@
       {
         "name": "Fireball",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Immolation",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Fire Blast",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Inferno",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within <AFFINITY_SHARE>Affinity Range affected by <DT_FIRE_COLOR>Heat.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -1007,39 +1007,39 @@
       {
         "name": "Metamorphosis",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Rest & Rage",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Pacify & Provoke",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Mend & Maim",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "|PERCENT|% of Health Orbs are converted into Energy, and |PERCENT|% of Energy Orbs are converted into Health.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -1064,39 +1064,39 @@
       {
         "name": "Metamorphosis",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Rest & Rage",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Pacify & Provoke",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Mend & Maim",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "|PERCENT|% of Health Orbs are converted into Energy, and |PERCENT|% of Energy Orbs are converted into Health.",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 115,
     "exilusPolarity": null
   },
   {
@@ -1119,39 +1119,39 @@
       {
         "name": "Slash Dash",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Blind",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Javelin",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Exalted Blade",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Excalibur deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -1175,39 +1175,39 @@
       {
         "name": "Slash Dash",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Blind",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Javelin",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Exalted Blade",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Excalibur Prime deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -1232,39 +1232,39 @@
       {
         "name": "Slash Dash",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Howl",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Javelin",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Exalted Blade",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Umbra exhibits sentience in combat without Transference control. Attacks |SPEED|% faster and deals |DAMAGE|% more damage while wielding swords.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -1287,39 +1287,39 @@
       {
         "name": "Freeze",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Ice Wave",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Snow Globe",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Avalanche",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Cold Status Effects from Frost's Abilities last |DURATION|% longer. Frost gains |ARMOR| Armor for each enemy afflicted with <DT_FREEZE_COLOR>Cold within <AFFINITY_SHARE>Affinity Range.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -1343,39 +1343,39 @@
       {
         "name": "Freeze",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Ice Wave",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Snow Globe",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Avalanche",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Cold Status Effects from Frost's Abilities last |DURATION|% longer. Frost gains |ARMOR| Armor for each enemy afflicted with <DT_FREEZE_COLOR>Cold within <AFFINITY_SHARE>Affinity Range.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -1398,39 +1398,39 @@
       {
         "name": "Shattered Lash",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Splinter Storm",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Spectrorage",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Mass Vitrify",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -1454,39 +1454,39 @@
       {
         "name": "Shattered Lash",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Splinter Storm",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Spectrorage",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Mass Vitrify",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -1509,18 +1509,18 @@
       {
         "name": "Dread Mirror",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blood Altar",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Bloodletting",
@@ -1528,20 +1528,20 @@
         "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Seeking Talons",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. \nSlashes with her talons if no melee weapon is equipped.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -1565,18 +1565,18 @@
       {
         "name": "Dread Mirror",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blood Altar",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Bloodletting",
@@ -1584,20 +1584,20 @@
         "strengthScaling": false,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Seeking Talons",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. \nSlashes with her talons if no melee weapon is equipped.",
     "masteryRank": 0,
-    "initialEnergy": 55,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -1620,40 +1620,40 @@
       {
         "name": "Mach Rush",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Kinetic Plating",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Thermal Sunder",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Redline",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
     "masteryRank": 0,
-    "initialEnergy": 43,
-    "exilusPolarity": null
+    "initialEnergy": 100,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
@@ -1676,40 +1676,40 @@
       {
         "name": "Mach Rush",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Kinetic Plating",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Thermal Sunder",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Redline",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
     "masteryRank": 0,
-    "initialEnergy": 43,
-    "exilusPolarity": null
+    "initialEnergy": 100,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Devourer/Devourer",
@@ -1732,39 +1732,39 @@
       {
         "name": "Feast",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Nourish",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Pulverize",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Regurgitate",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Each enemy consumed grants |ARMOUR| bonus armor.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -1789,39 +1789,39 @@
       {
         "name": "Feast",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Nourish",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Pulverize",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Regurgitate",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Each enemy consumed grants |ARMOUR| bonus armor.",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 115,
     "exilusPolarity": null
   },
   {
@@ -1876,7 +1876,7 @@
     ],
     "passiveDescription": "Gyre's abilities have a 10% chance to deal critical damage for each Electrical status that affects the enemy.",
     "masteryRank": 0,
-    "initialEnergy": 47,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -1899,39 +1899,39 @@
       {
         "name": "Condemn",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Penance",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Thurible",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Covenant",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Overshield capacity doubled.\nStart missions at maximum energy.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -1951,39 +1951,39 @@
       {
         "name": "Condemn",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Penance",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Thurible",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Covenant",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Overshield capacity doubled.\nStart missions at maximum energy.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -2130,40 +2130,40 @@
       {
         "name": "Balefire",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Pillage",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Haven",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Aegis Storm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Hildryn's full Shield Gate is high. After her Shields are depleted, she is invulnerable to damage up to 3.5s.",
     "masteryRank": 0,
     "initialEnergy": 0,
-    "exilusPolarity": null
+    "exilusPolarity": "Vazarin"
   },
   {
     "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
@@ -2182,40 +2182,40 @@
       {
         "name": "Balefire",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Pillage",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Haven",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Aegis Storm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Hildryn's full Shield Gate is high. After her Shields are depleted, she is invulnerable to damage up to 3.5s.",
     "masteryRank": 0,
     "initialEnergy": 0,
-    "exilusPolarity": null
+    "exilusPolarity": "Vazarin"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Pirate/Pirate",
@@ -2237,18 +2237,18 @@
       {
         "name": "Tempest Barrage",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tidal Surge",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Plunder",
@@ -2261,15 +2261,15 @@
       {
         "name": "Tentacle Swarm",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE_COLOR>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -2294,18 +2294,18 @@
       {
         "name": "Tempest Barrage",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tidal Surge",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Plunder",
@@ -2318,15 +2318,15 @@
       {
         "name": "Tentacle Swarm",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE_COLOR>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -2349,18 +2349,18 @@
       {
         "name": "Desiccation",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sandstorm",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Scarab Shell",
@@ -2373,16 +2373,16 @@
       {
         "name": "Scarab Swarm",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
     "masteryRank": 0,
-    "initialEnergy": 25,
-    "exilusPolarity": null
+    "initialEnergy": 50,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Sandman/InarosPrime",
@@ -2405,18 +2405,18 @@
       {
         "name": "Desiccation",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sandstorm",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Scarab Shell",
@@ -2429,16 +2429,16 @@
       {
         "name": "Scarab Swarm",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
     "masteryRank": 0,
-    "initialEnergy": 35,
-    "exilusPolarity": null
+    "initialEnergy": 75,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Ranger/Ranger",
@@ -2461,38 +2461,38 @@
         "name": "Quiver",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Navigator",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Prowl",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Artemis Bow",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Senses nearby enemies within |RADIUS|m.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -2517,38 +2517,38 @@
         "name": "Quiver",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Navigator",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Prowl",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Artemis Bow",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Senses nearby enemies within |RADIUS|m.",
     "masteryRank": 0,
-    "initialEnergy": 62,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -2565,7 +2565,7 @@
       "naramon"
     ],
     "aura": "aura",
-    "auraSlots": 1,
+    "auraSlots": 2,
     "abilities": [
       {
         "name": "Light's Judgment",
@@ -2602,7 +2602,7 @@
     ],
     "passiveDescription": "Jade's profound understanding of the relationship between life and death grants her two Aura Mod Slots. Some of her Abilities apply Judgments, increasing enemy damage vulnerability by |CHANCE|% for |DURATION|s.",
     "masteryRank": 0,
-    "initialEnergy": 37,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -2625,40 +2625,40 @@
       {
         "name": "Whipclaw",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Ensnare",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Venari",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Strangledome",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
     "masteryRank": 0,
-    "initialEnergy": 35,
-    "exilusPolarity": null
+    "initialEnergy": 75,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Khora/KhoraPrime",
@@ -2681,40 +2681,40 @@
       {
         "name": "Whipclaw",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Ensnare",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Venari",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Strangledome",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
     "masteryRank": 0,
-    "initialEnergy": 43,
-    "exilusPolarity": null
+    "initialEnergy": 100,
+    "exilusPolarity": "Naramon"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Koumei/Koumei",
@@ -2768,8 +2768,8 @@
     ],
     "passiveDescription": "Every |DURATION| seconds, one of Koumei's weapons will inflict random Status Effects for |DURATION| seconds.",
     "masteryRank": 0,
-    "initialEnergy": 30,
-    "exilusPolarity": null
+    "initialEnergy": 50,
+    "exilusPolarity": "None"
   },
   {
     "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
@@ -2823,8 +2823,8 @@
     ],
     "passiveDescription": "Kullervo boasts +|EFFICIENCY|% Heavy Attack Efficiency and +|WINDUP|% Heavy Attack Wind Up Speed on all melee weapons.",
     "masteryRank": 0,
-    "initialEnergy": 43,
-    "exilusPolarity": null
+    "initialEnergy": 150,
+    "exilusPolarity": "None"
   },
   {
     "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
@@ -2846,33 +2846,33 @@
       {
         "name": "Ophidian Bite",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
+        "rangeScaling": true,
         "efficiencyScaling": false
       },
       {
         "name": "Vial Rush",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
         "efficiencyScaling": false
       },
       {
         "name": "Transmutation Probe",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Catalyze",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
+        "rangeScaling": true,
         "efficiencyScaling": false
       }
     ],
@@ -2902,33 +2902,33 @@
       {
         "name": "Ophidian Bite",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
+        "rangeScaling": true,
         "efficiencyScaling": false
       },
       {
         "name": "Vial Rush",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
         "efficiencyScaling": false
       },
       {
         "name": "Transmutation Probe",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Catalyze",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
+        "rangeScaling": true,
         "efficiencyScaling": false
       }
     ],
@@ -2957,39 +2957,39 @@
       {
         "name": "Banish",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Stasis",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Rift Surge",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Cataclysm",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -3014,39 +3014,39 @@
       {
         "name": "Banish",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Stasis",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Rift Surge",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Cataclysm",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -3070,38 +3070,38 @@
         "name": "Decoy",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Invisibility",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Switch Teleport",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Disarm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Able to hang from walls |MULT|x longer than normal.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -3127,38 +3127,38 @@
         "name": "Decoy",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Invisibility",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Switch Teleport",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Radial Disarm",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Able to hang from walls |MULT|x longer than normal.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -3181,39 +3181,39 @@
       {
         "name": "Pull",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Magnetize",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Polarize",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Crush",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Nearby items gravitate toward Mag for easy collection.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -3237,39 +3237,39 @@
       {
         "name": "Pull",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Magnetize",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Polarize",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Crush",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Nearby items gravitate toward Mag for easy collection.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -3292,39 +3292,39 @@
       {
         "name": "Ballistic Battery",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Shooting Gallery",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Shatter Shield",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Peacemaker",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Shoot dual-wielded sidearms |SPEED|% faster and reload single-handed sidearms |RELOAD|% more rapidly. Gain |HEALTH| Bonus Health when not using Melee Weapons.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -3349,39 +3349,39 @@
       {
         "name": "Ballistic Battery",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Shooting Gallery",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Shatter Shield",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Peacemaker",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Shoot dual-wielded sidearms |SPEED|% faster and reload single-handed sidearms |RELOAD|% more rapidly. Gain |HEALTH| Bonus Health when not using Melee Weapons.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 65,
     "exilusPolarity": null
   },
   {
@@ -3404,39 +3404,39 @@
       {
         "name": "Hall Of Mirrors",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Sleight Of Hand",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Eclipse",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Prism",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Sliding lasts |DURATION|% longer and acrobatic maneuvers are |SPEED|% faster.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -3461,39 +3461,39 @@
       {
         "name": "Hall Of Mirrors",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Sleight Of Hand",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Eclipse",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Prism",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Sliding lasts |DURATION|% longer and acrobatic maneuvers are |SPEED|% faster.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -3516,39 +3516,39 @@
       {
         "name": "Soul Punch",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Terrify",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Desecrate",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Shadows Of The Dead",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Restore |HEALTH| Health with every enemy death within |RADIUS|m.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -3572,39 +3572,39 @@
       {
         "name": "Soul Punch",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Terrify",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Desecrate",
         "slot": 3,
         "strengthScaling": false,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Shadows Of The Dead",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Restore |HEALTH| Health with every enemy death within |RADIUS|m.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -3627,39 +3627,39 @@
       {
         "name": "Fire Walker",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blazing Chakram",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Warding Halo",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Divine Spears",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Slide |SPEED|% faster and go |RANGE|% farther.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -3683,39 +3683,39 @@
       {
         "name": "Fire Walker",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blazing Chakram",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Warding Halo",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Divine Spears",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Slide |SPEED|% faster and go |RANGE|% farther.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -3738,39 +3738,39 @@
       {
         "name": "Virulence",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Larva",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Parasitic Link",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Ravenous",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -3794,39 +3794,39 @@
       {
         "name": "Virulence",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Larva",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Parasitic Link",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Ravenous",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -3849,39 +3849,39 @@
       {
         "name": "Null Star",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Antimatter Drop",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Wormhole",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Molecular Prime",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Enemies killed while slowed down have |CHANCE|% to drop health orbs. Enemies killed while sped up have |CHANCE|% to drop energy orbs.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -3905,39 +3905,39 @@
       {
         "name": "Null Star",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Antimatter Drop",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Wormhole",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Molecular Prime",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Enemies killed while slowed down have |CHANCE|% to drop health orbs. Enemies killed while sped up have |CHANCE|% to drop energy orbs.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 150,
     "exilusPolarity": null
   },
   {
@@ -3961,38 +3961,38 @@
         "name": "Mind Control",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Psychic Bolts",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Chaos",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Absorb",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Nyx gains +|CRITICAL|% Critical Chance on Primary and Secondary weapons per Confused enemy within <AFFINITY_SHARE>Affinity Range, up to +|MAX|%.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4017,38 +4017,38 @@
         "name": "Mind Control",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Psychic Bolts",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Chaos",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Absorb",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Nyx gains +|CRITICAL|% Critical Chance on Primary and Secondary weapons per Confused enemy within <AFFINITY_SHARE>Affinity Range, up to +|MAX|%.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 150,
     "exilusPolarity": null
   },
   {
@@ -4071,39 +4071,39 @@
       {
         "name": "Smite",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Hallowed Ground",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Renewal",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Reckoning",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -4128,39 +4128,39 @@
       {
         "name": "Smite",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Hallowed Ground",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Renewal",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Reckoning",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4183,39 +4183,39 @@
       {
         "name": "Mallet",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Resonator",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Metronome",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Amp",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4239,39 +4239,39 @@
       {
         "name": "Mallet",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Resonator",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Metronome",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Amp",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4294,39 +4294,39 @@
       {
         "name": "Grenade Fan",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blaze Artillery",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Dispensary",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Temporal Anchor",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4350,39 +4350,39 @@
       {
         "name": "Grenade Fan",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blaze Artillery",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Dispensary",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Temporal Anchor",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -4434,7 +4434,7 @@
     ],
     "passiveDescription": "Weapons wielded by Qorvex have an additional +|PUNCH_THROUGH| Punch Through.",
     "masteryRank": 0,
-    "initialEnergy": 37,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4457,39 +4457,39 @@
       {
         "name": "Enthrall",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Mesmer Skin",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Reave",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Danse Macabre",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4513,39 +4513,39 @@
       {
         "name": "Enthrall",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Mesmer Skin",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Reave",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Danse Macabre",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4568,39 +4568,39 @@
       {
         "name": "Rhino Charge",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Iron Skin",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Roar",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Rhino Stomp",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Emit a shockwave dealing |DAMAGE| damage after landing from a great height.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4624,39 +4624,39 @@
       {
         "name": "Rhino Charge",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Iron Skin",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Roar",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Rhino Stomp",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Emit a shockwave dealing |DAMAGE| damage after landing from a great height.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4679,39 +4679,39 @@
       {
         "name": "Spores",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Molt",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Toxic Lash",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Miasma",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Status Effects inflicted upon enemies last |DURATION|% longer.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4735,39 +4735,39 @@
       {
         "name": "Spores",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Molt",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Toxic Lash",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Miasma",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Status Effects inflicted upon enemies last |DURATION|% longer.",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4790,31 +4790,31 @@
       {
         "name": "Reap",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sow",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Gloom",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Exalted Shadow",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -4822,7 +4822,7 @@
     ],
     "passiveDescription": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone. ",
     "masteryRank": 0,
-    "initialEnergy": 35,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -4846,31 +4846,31 @@
       {
         "name": "Reap",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sow",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Gloom",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Exalted Shadow",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
         "efficiencyScaling": false
@@ -4878,7 +4878,7 @@
     ],
     "passiveDescription": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone. ",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -4933,7 +4933,7 @@
     ],
     "passiveDescription": "Styanax's critical chance increases with his shields and doubles for spearguns.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -4985,7 +4985,7 @@
     ],
     "passiveDescription": "Play abilities in sync with the Backbeat metronome to invigorate ability effects while increasing Ability Efficiency by |COST|%.",
     "masteryRank": 0,
-    "initialEnergy": 41,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -5009,38 +5009,38 @@
         "name": "Spellbind",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tribute",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Lantern",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Razorwing",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -5066,38 +5066,38 @@
         "name": "Spellbind",
         "slot": 1,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tribute",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Lantern",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Razorwing",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
     "masteryRank": 0,
-    "initialEnergy": 53,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -5120,39 +5120,39 @@
       {
         "name": "Well Of Life",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Energy Vampire",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Link",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blessing",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Allies in <AFFINITY_SHARE>Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -5177,39 +5177,39 @@
       {
         "name": "Well Of Life",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Energy Vampire",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Link",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Blessing",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Allies in <AFFINITY_SHARE>Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -5232,39 +5232,39 @@
       {
         "name": "Rip Line",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Warcry",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Paralysis",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Hysteria",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Recover |PERCENT|% faster from being knocked down.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -5288,39 +5288,39 @@
       {
         "name": "Rip Line",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Warcry",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Paralysis",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Hysteria",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Recover |PERCENT|% faster from being knocked down.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -5343,39 +5343,39 @@
       {
         "name": "Tesla Nervos",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Minelayer",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Photon Strike",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Bastille",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Deal |DAMAGE|% Extra Damage to incapacitated enemies.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   },
   {
@@ -5399,39 +5399,39 @@
       {
         "name": "Tesla Nervos",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Minelayer",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Photon Strike",
         "slot": 3,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Bastille",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Deal |DAMAGE|% Extra Damage to incapacitated enemies.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 100,
     "exilusPolarity": null
   },
   {
@@ -5451,34 +5451,34 @@
       {
         "name": "Necraweb",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Storm Shroud",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Gravemines",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Guard Mode",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "",
@@ -5506,39 +5506,39 @@
       {
         "name": "Shock",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Speed",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Electric Shield",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Discharge",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -5562,39 +5562,39 @@
       {
         "name": "Shock",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Speed",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Electric Shield",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Discharge",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 125,
     "exilusPolarity": null
   },
   {
@@ -5646,7 +5646,7 @@
     ],
     "passiveDescription": "Voruna never fights alone. In mission, hold Abilities to call upon each wolf’s unique Passive power.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -5669,39 +5669,39 @@
       {
         "name": "Reservoirs",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Wil-O-Wisp",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Breach Surge",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sol Gate",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Flowing between dimensions, Wisp becomes invisible to enemies while in the air. ",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 150,
     "exilusPolarity": null
   },
   {
@@ -5725,39 +5725,39 @@
       {
         "name": "Reservoirs",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Wil-O-Wisp",
         "slot": 2,
         "strengthScaling": false,
-        "durationScaling": false,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Breach Surge",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Sol Gate",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Flowing between dimensions, Wisp becomes invisible to enemies while in the air. ",
     "masteryRank": 0,
-    "initialEnergy": 50,
+    "initialEnergy": 150,
     "exilusPolarity": null
   },
   {
@@ -5780,39 +5780,39 @@
       {
         "name": "Celestial Twin",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Cloud Walker",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Defy",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Primal Fury",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
     "masteryRank": 0,
-    "initialEnergy": 32,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -5836,39 +5836,39 @@
       {
         "name": "Celestial Twin",
         "slot": 1,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Cloud Walker",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Defy",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Primal Fury",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
     "masteryRank": 0,
-    "initialEnergy": 36,
+    "initialEnergy": 65,
     "exilusPolarity": null
   },
   {
@@ -5891,39 +5891,39 @@
       {
         "name": "Xata's Whisper",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Grasp Of Lohk",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "The Lost",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "The Vast Untime",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "|CHANCE|% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
     "masteryRank": 0,
-    "initialEnergy": 40,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -5947,39 +5947,39 @@
       {
         "name": "Xata's Whisper",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Grasp Of Lohk",
         "slot": 2,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "The Lost",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "The Vast Untime",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "|CHANCE|% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
     "masteryRank": 0,
-    "initialEnergy": 45,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -6002,34 +6002,34 @@
       {
         "name": "Sea Snares",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Merulina",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Aquablades",
         "slot": 3,
-        "strengthScaling": false,
-        "durationScaling": false,
+        "strengthScaling": true,
+        "durationScaling": true,
         "rangeScaling": false,
-        "efficiencyScaling": false
+        "efficiencyScaling": true
       },
       {
         "name": "Riptide",
         "slot": 4,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Yareli gains +|CHANCE|% Critical Chance for Secondary weapons when she has been moving for at least |TIME|s.",
@@ -6057,39 +6057,39 @@
       {
         "name": "Tail Wind",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Airburst",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Turbulence",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tornado",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Zephyr moves faster and falls slower while airborne. Also gain |CRIT|% Critical Hit chance with weapons while airborne.",
     "masteryRank": 0,
-    "initialEnergy": 25,
+    "initialEnergy": 50,
     "exilusPolarity": null
   },
   {
@@ -6114,39 +6114,39 @@
       {
         "name": "Tail Wind",
         "slot": 1,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Airburst",
         "slot": 2,
-        "strengthScaling": false,
+        "strengthScaling": true,
         "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Turbulence",
         "slot": 3,
         "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       },
       {
         "name": "Tornado",
         "slot": 4,
-        "strengthScaling": false,
-        "durationScaling": false,
-        "rangeScaling": false,
-        "efficiencyScaling": false
+        "strengthScaling": true,
+        "durationScaling": true,
+        "rangeScaling": true,
+        "efficiencyScaling": true
       }
     ],
     "passiveDescription": "Zephyr moves faster and falls slower while airborne. Also gain |CRIT|% Critical Hit chance with weapons while airborne.",
     "masteryRank": 0,
-    "initialEnergy": 43,
+    "initialEnergy": 75,
     "exilusPolarity": null
   }
 ]

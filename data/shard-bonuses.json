@@ -1,8 +1,109 @@
 {
-  "crimson": [],
-  "amber": [],
-  "azure": [],
-  "topaz": [],
-  "violet": [],
+  "crimson": [
+    {
+      "stat": "meleeCritDamage",
+      "value": 0.25,
+      "isFlat": false,
+      "conditional": false
+    },
+    {
+      "stat": "primaryStatusChance",
+      "value": 0.25,
+      "isFlat": false,
+      "conditional": true
+    },
+    {
+      "stat": "secondaryCritChance",
+      "value": 0.25,
+      "isFlat": false,
+      "conditional": false
+    },
+    {
+      "stat": "abilityStrength",
+      "value": 0.1,
+      "isFlat": false,
+      "conditional": false
+    },
+    {
+      "stat": "abilityDuration",
+      "value": 0.1,
+      "isFlat": false,
+      "conditional": false
+    }
+  ],
+  "amber": [
+    {
+      "stat": "energy",
+      "value": 0.3,
+      "isFlat": false,
+      "conditional": false
+    },
+    {
+      "stat": "health",
+      "value": 1,
+      "isFlat": false,
+      "conditional": false
+    },
+    {
+      "stat": "energyOrbEffectiveness",
+      "value": 0.5,
+      "isFlat": false,
+      "conditional": false
+    },
+    {
+      "stat": "castSpeed",
+      "value": 0.25,
+      "isFlat": false,
+      "conditional": false
+    }
+  ],
+  "azure": [
+    {
+      "stat": "health",
+      "value": 150,
+      "isFlat": true,
+      "conditional": false
+    },
+    {
+      "stat": "shield",
+      "value": 150,
+      "isFlat": true,
+      "conditional": false
+    },
+    {
+      "stat": "energy",
+      "value": 50,
+      "isFlat": true,
+      "conditional": false
+    },
+    {
+      "stat": "armor",
+      "value": 150,
+      "isFlat": true,
+      "conditional": false
+    },
+    {
+      "stat": "healthRegen",
+      "value": 5,
+      "isFlat": true,
+      "conditional": false
+    }
+  ],
+  "topaz": [
+    {
+      "stat": "shield",
+      "value": 5,
+      "isFlat": true,
+      "conditional": true
+    }
+  ],
+  "violet": [
+    {
+      "stat": "meleeCritDamage",
+      "value": 0.25,
+      "isFlat": false,
+      "conditional": false
+    }
+  ],
   "emerald": []
 }

@@ -1,1 +1,532 @@
-[]
+[
+  {
+    "warframeName": "Atlas",
+    "weaponName": "Tekko",
+    "bonus": "Atlas Atlas Prime Tekko +6% Status Chance (16% total, 60% increase)"
+  },
+  {
+    "warframeName": "Atlas",
+    "weaponName": "Tekko Prime",
+    "bonus": "Tekko Prime +6% Status Chance (32% total, 23% increase)"
+  },
+  {
+    "warframeName": "Banshee Prime",
+    "weaponName": "Euphona Prime",
+    "bonus": "Banshee Prime Euphona Prime"
+  },
+  {
+    "warframeName": "Baruuk",
+    "weaponName": "Cobra & Crane",
+    "bonus": "Baruuk Baruuk Prime Cobra & Crane Cobra & Crane Prime First strike of a combo puts enemy to sleep for 2 seconds."
+  },
+  {
+    "warframeName": "Baruuk",
+    "weaponName": "Cobra & Crane Prime",
+    "bonus": "Baruuk Baruuk Prime Cobra & Crane Cobra & Crane Prime First strike of a combo puts enemy to sleep for 2 seconds."
+  },
+  {
+    "warframeName": "Caliban",
+    "weaponName": "Venato",
+    "bonus": "Caliban Venato Venato Prime +50% Melee Combo Counter Chance."
+  },
+  {
+    "warframeName": "Caliban",
+    "weaponName": "Venato Prime",
+    "bonus": "Caliban Venato Venato Prime +50% Melee Combo Counter Chance."
+  },
+  {
+    "warframeName": "Caliban Prime",
+    "weaponName": "Vadarya Prime",
+    "bonus": "Vadarya Prime"
+  },
+  {
+    "warframeName": "Citrine",
+    "weaponName": "Steflos",
+    "bonus": "Citrine Steflos +40% Projectile Speed."
+  },
+  {
+    "warframeName": "Citrine",
+    "weaponName": "Corufell",
+    "bonus": "Corufell +20% Heavy Attack Wind Up Speed."
+  },
+  {
+    "warframeName": "Cyte-09",
+    "weaponName": "Reconifex",
+    "bonus": "Cyte-09 Reconifex"
+  },
+  {
+    "warframeName": "Dagath",
+    "weaponName": "Dorrclave",
+    "bonus": "Dagath Dorrclave Striking an enemy heals 6 health per active Status Effect."
+  },
+  {
+    "warframeName": "Dante",
+    "weaponName": "Ruvox",
+    "bonus": "Dante Ruvox"
+  },
+  {
+    "warframeName": "Djinn",
+    "weaponName": "Gazal Machete",
+    "bonus": "Gazal Machete Melee kill grants increased damage on the next Fatal Attraction cast. Fatal Attraction grants increased damage for a short period of time."
+  },
+  {
+    "warframeName": "Excalibur Umbra",
+    "weaponName": "Skiajati",
+    "bonus": "Excalibur Umbra Skiajati"
+  },
+  {
+    "warframeName": "Follie",
+    "weaponName": "Enkaus",
+    "bonus": "Follie Enkaus Alternate fire applies Inkblot, Follie's Passive."
+  },
+  {
+    "warframeName": "Gara",
+    "weaponName": "Astilla",
+    "bonus": "Astilla +80 Ammo Maximum (192 total, 71% increase)"
+  },
+  {
+    "warframeName": "Gara",
+    "weaponName": "Astilla Prime",
+    "bonus": "Astilla Prime +80 Ammo Maximum (200 total, 67% increase)"
+  },
+  {
+    "warframeName": "Gara",
+    "weaponName": "Fusilai",
+    "bonus": "Fusilai +50% Projectile Speed."
+  },
+  {
+    "warframeName": "Gara",
+    "weaponName": "Volnus",
+    "bonus": "Volnus Volnus Prime +100% radial Slam Attack damage."
+  },
+  {
+    "warframeName": "Gara",
+    "weaponName": "Volnus Prime",
+    "bonus": "Volnus Volnus Prime +100% radial Slam Attack damage."
+  },
+  {
+    "warframeName": "Garuda",
+    "weaponName": "Nagantaka",
+    "bonus": "Garuda Garuda Prime Nagantaka Nagantaka Prime +1 meter Punch Through."
+  },
+  {
+    "warframeName": "Garuda",
+    "weaponName": "Nagantaka Prime",
+    "bonus": "Garuda Garuda Prime Nagantaka Nagantaka Prime +1 meter Punch Through."
+  },
+  {
+    "warframeName": "Gauss",
+    "weaponName": "Acceltra",
+    "bonus": "Gauss Gauss Prime Acceltra Acceltra Prime Reload speed buff while sprinting is increased to +50%."
+  },
+  {
+    "warframeName": "Gauss",
+    "weaponName": "Acceltra Prime",
+    "bonus": "Gauss Gauss Prime Acceltra Acceltra Prime Reload speed buff while sprinting is increased to +50%."
+  },
+  {
+    "warframeName": "Gauss",
+    "weaponName": "Akarius",
+    "bonus": "Akarius Akarius Prime Reload speed buff while sprinting increased to +100%."
+  },
+  {
+    "warframeName": "Gauss",
+    "weaponName": "Akarius Prime",
+    "bonus": "Akarius Akarius Prime Reload speed buff while sprinting increased to +100%."
+  },
+  {
+    "warframeName": "Grendel",
+    "weaponName": "Masseter",
+    "bonus": "Grendel Grendel Prime Masseter Masseter Prime Immunity from crowd-control procs during Heavy Attacks."
+  },
+  {
+    "warframeName": "Grendel",
+    "weaponName": "Masseter Prime",
+    "bonus": "Grendel Grendel Prime Masseter Masseter Prime Immunity from crowd-control procs during Heavy Attacks."
+  },
+  {
+    "warframeName": "Gyre",
+    "weaponName": "Alternox",
+    "bonus": "Gyre Gyre Prime Alternox Alternox Prime +20% Multishot."
+  },
+  {
+    "warframeName": "Gyre",
+    "weaponName": "Alternox Prime",
+    "bonus": "Gyre Gyre Prime Alternox Alternox Prime +20% Multishot."
+  },
+  {
+    "warframeName": "Harrow",
+    "weaponName": "Knell",
+    "bonus": "Harrow Harrow Prime Knell Knell Prime +1 Magazine Size (2 total, 100% increase)"
+  },
+  {
+    "warframeName": "Harrow",
+    "weaponName": "Knell Prime",
+    "bonus": "Harrow Harrow Prime Knell Knell Prime +1 Magazine Size (2 total, 100% increase)"
+  },
+  {
+    "warframeName": "Harrow",
+    "weaponName": "Scourge",
+    "bonus": "Scourge Scourge Prime"
+  },
+  {
+    "warframeName": "Harrow",
+    "weaponName": "Scourge Prime",
+    "bonus": "Scourge Scourge Prime"
+  },
+  {
+    "warframeName": "Hildryn",
+    "weaponName": "Larkspur",
+    "bonus": "Hildryn Hildryn Prime Larkspur Larkspur Prime +300 Ammo Maximum in Atmosphere (700 total, 75% increase)"
+  },
+  {
+    "warframeName": "Hildryn",
+    "weaponName": "Larkspur Prime",
+    "bonus": "Hildryn Hildryn Prime Larkspur Larkspur Prime +300 Ammo Maximum in Atmosphere (700 total, 75% increase)"
+  },
+  {
+    "warframeName": "Jade",
+    "weaponName": "Evensong",
+    "bonus": "Evensong"
+  },
+  {
+    "warframeName": "Jade",
+    "weaponName": "Cantare",
+    "bonus": "Cantare"
+  },
+  {
+    "warframeName": "Jade",
+    "weaponName": "Harmony",
+    "bonus": "Harmony"
+  },
+  {
+    "warframeName": "Khora",
+    "weaponName": "Hystrix",
+    "bonus": "Khora Khora Prime Hystrix Hystrix Prime 8% chance to instantly reload after landing headshot."
+  },
+  {
+    "warframeName": "Khora",
+    "weaponName": "Hystrix Prime",
+    "bonus": "Khora Khora Prime Hystrix Hystrix Prime 8% chance to instantly reload after landing headshot."
+  },
+  {
+    "warframeName": "Khora",
+    "weaponName": "Dual Keres",
+    "bonus": "Dual Keres Dual Keres Prime 20% Heavy Attack Efficiency."
+  },
+  {
+    "warframeName": "Khora",
+    "weaponName": "Dual Keres Prime",
+    "bonus": "Dual Keres Dual Keres Prime 20% Heavy Attack Efficiency."
+  },
+  {
+    "warframeName": "Koumei",
+    "weaponName": "Higasa",
+    "bonus": "Koumei Higasa"
+  },
+  {
+    "warframeName": "Koumei",
+    "weaponName": "Amanata",
+    "bonus": "Amanata"
+  },
+  {
+    "warframeName": "Kullervo",
+    "weaponName": "Rauta",
+    "bonus": "Kullervo Rauta +7 second Melee Combo duration."
+  },
+  {
+    "warframeName": "Lavos",
+    "weaponName": "Cedo",
+    "bonus": "Lavos Lavos Prime Cedo Cedo Prime Shotgun Ammo Mutation effect."
+  },
+  {
+    "warframeName": "Lavos",
+    "weaponName": "Cedo Prime",
+    "bonus": "Lavos Lavos Prime Cedo Cedo Prime Shotgun Ammo Mutation effect."
+  },
+  {
+    "warframeName": "Mirage",
+    "weaponName": "Akzani",
+    "bonus": "Mirage Akzani"
+  },
+  {
+    "warframeName": "Nokko",
+    "weaponName": "Arbucep",
+    "bonus": "Nokko Arbucep Shooting at Stinkbrain and Brightbonnet triggers their pulse effects."
+  },
+  {
+    "warframeName": "Octavia",
+    "weaponName": "Pandero",
+    "bonus": "Octavia Octavia Prime Pandero Pandero Prime Headshot kills with the Alternate Fire increase Reload Speed by 20%."
+  },
+  {
+    "warframeName": "Octavia",
+    "weaponName": "Pandero Prime",
+    "bonus": "Octavia Octavia Prime Pandero Pandero Prime Headshot kills with the Alternate Fire increase Reload Speed by 20%."
+  },
+  {
+    "warframeName": "Octavia",
+    "weaponName": "Tenora",
+    "bonus": "Tenora Tenora Prime Headshot kills with the Alternate Fire have a 20% chance to instantly refill the magazine."
+  },
+  {
+    "warframeName": "Octavia",
+    "weaponName": "Tenora Prime",
+    "bonus": "Tenora Tenora Prime Headshot kills with the Alternate Fire have a 20% chance to instantly refill the magazine."
+  },
+  {
+    "warframeName": "Oraxia",
+    "weaponName": "Scyotid",
+    "bonus": "Oraxia Scyotid"
+  },
+  {
+    "warframeName": "Oraxia",
+    "weaponName": "Spinnerex",
+    "bonus": "Spinnerex"
+  },
+  {
+    "warframeName": "Orion",
+    "weaponName": "Wrath",
+    "bonus": "Orion Wrath"
+  },
+  {
+    "warframeName": "Protea",
+    "weaponName": "Velox",
+    "bonus": "Protea Protea Prime Velox Velox Prime Ammo Efficiency increased to 40%."
+  },
+  {
+    "warframeName": "Protea",
+    "weaponName": "Velox Prime",
+    "bonus": "Protea Protea Prime Velox Velox Prime Ammo Efficiency increased to 40%."
+  },
+  {
+    "warframeName": "Qorvex",
+    "weaponName": "Mandonel",
+    "bonus": "Qorvex Mandonel Fully charged beams can empower Chyrinka Pillar."
+  },
+  {
+    "warframeName": "Revenant",
+    "weaponName": "Phantasma",
+    "bonus": "Revenant Revenant Prime Phantasma Phantasma Prime +4 Magazine Size (15 total, 36% increase)"
+  },
+  {
+    "warframeName": "Revenant",
+    "weaponName": "Phantasma Prime",
+    "bonus": "Revenant Revenant Prime Phantasma Phantasma Prime +4 Magazine Size (15 total, 36% increase)"
+  },
+  {
+    "warframeName": "Revenant",
+    "weaponName": "Tatsu",
+    "bonus": "Tatsu Tatsu Prime +4 maximum Soul Swarm charges (9 total, 80% increase)"
+  },
+  {
+    "warframeName": "Revenant",
+    "weaponName": "Tatsu Prime",
+    "bonus": "Tatsu Tatsu Prime +4 maximum Soul Swarm charges (9 total, 80% increase)"
+  },
+  {
+    "warframeName": "Sevagoth",
+    "weaponName": "Epitaph",
+    "bonus": "Sevagoth Sevagoth Prime Epitaph Epitaph Prime +20% headshot damage."
+  },
+  {
+    "warframeName": "Sevagoth",
+    "weaponName": "Epitaph Prime",
+    "bonus": "Sevagoth Sevagoth Prime Epitaph Epitaph Prime +20% headshot damage."
+  },
+  {
+    "warframeName": "Sirius",
+    "weaponName": "Pride",
+    "bonus": "Sirius Pride"
+  },
+  {
+    "warframeName": "Styanax",
+    "weaponName": "Afentis",
+    "bonus": "Styanax Styanax Prime Afentis Afentis Prime +4 Ammo Maximum (16 total, 33% increase)"
+  },
+  {
+    "warframeName": "Styanax",
+    "weaponName": "Afentis Prime",
+    "bonus": "Styanax Styanax Prime Afentis Afentis Prime +4 Ammo Maximum (16 total, 33% increase)"
+  },
+  {
+    "warframeName": "Temple",
+    "weaponName": "Riot-848",
+    "bonus": "Temple Riot-848"
+  },
+  {
+    "warframeName": "Voruna",
+    "weaponName": "Perigale",
+    "bonus": "Voruna Voruna Prime Perigale +24 Ammo Maximum (48 total, 100% increase)"
+  },
+  {
+    "warframeName": "Voruna",
+    "weaponName": "Perigale Prime",
+    "bonus": "Perigale Prime +24 Ammo Maximum (56 total, 75% increase)"
+  },
+  {
+    "warframeName": "Voruna",
+    "weaponName": "Sarofang",
+    "bonus": "Sarofang/Sarofang Prime Heavy Attack Slam vortex requirement reduced to 5x Combo Multiplier."
+  },
+  {
+    "warframeName": "Voruna",
+    "weaponName": "Sarofang Prime",
+    "bonus": "Sarofang/Sarofang Prime Heavy Attack Slam vortex requirement reduced to 5x Combo Multiplier."
+  },
+  {
+    "warframeName": "Uriel",
+    "weaponName": "Vinquibus (Primary)",
+    "bonus": "Uriel Vinquibus (Primary) Vinquibus (Melee)"
+  },
+  {
+    "warframeName": "Uriel",
+    "weaponName": "Vinquibus (Melee)",
+    "bonus": "Uriel Vinquibus (Primary) Vinquibus (Melee)"
+  },
+  {
+    "warframeName": "Wisp",
+    "weaponName": "Fulmin",
+    "bonus": "Wisp Wisp Prime Fulmin Fulmin Prime Switch time between automatic and semi-automatic modes decreased from 1 second to 0.5 seconds."
+  },
+  {
+    "warframeName": "Wisp",
+    "weaponName": "Fulmin Prime",
+    "bonus": "Wisp Wisp Prime Fulmin Fulmin Prime Switch time between automatic and semi-automatic modes decreased from 1 second to 0.5 seconds."
+  },
+  {
+    "warframeName": "Xaku",
+    "weaponName": "Quassus",
+    "bonus": "Xaku Xaku Prime Quassus Quassus Prime Heavy Attack Daggers have increased Accuracy."
+  },
+  {
+    "warframeName": "Xaku",
+    "weaponName": "Quassus Prime",
+    "bonus": "Xaku Xaku Prime Quassus Quassus Prime Heavy Attack Daggers have increased Accuracy."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Kompressa",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Kompressa Prime",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Euphona Prime",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Tekko Prime",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Gazal Machete",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Seer",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Cronus",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Ack & Brunt",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Knux",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Paracyst",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Twin Grakatas",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Dread",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Despair",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Hate",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "War",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Broken Scepter",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Orvius",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Sun & Moon",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Paracesis",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Wolf Sledge",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Pathocyst",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Vitrica",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Korumm",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Nepheri",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  },
+  {
+    "warframeName": "Yareli",
+    "weaponName": "Verdilac",
+    "bonus": "Yareli Yareli Prime Kompressa Kompressa Prime +30% Projectile Speed."
+  }
+]
