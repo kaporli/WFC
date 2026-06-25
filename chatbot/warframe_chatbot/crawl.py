@@ -64,7 +64,7 @@ async def run_crawl(*, force: bool = False) -> int:
             result = await fetch_content_batch(client, [p.title for p in batch])
             for content in result.values():
                 content.save()
-                crawl_state[content.page_title] = content.revid
+                crawl_state[content.title] = content.revid
                 fetched += 1
             pct = min(i + BATCH_SIZE, len(needs_fetch)) / len(needs_fetch) * 100
             print(f"  [{pct:4.0f}%] Fetched {min(i+BATCH_SIZE, len(needs_fetch))}/{len(needs_fetch)}", end="\r", flush=True)
