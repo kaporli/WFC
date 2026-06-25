@@ -10,6 +10,7 @@ const WFCD_VERSION: string = (JSON.parse(readFileSync(_wfcdPkgPath, 'utf8')) as 
 
 import { fetchWfcd } from './fetchers/wfcd.js';
 import { fetchPublicExport } from './fetchers/public-export.js';
+import { fetchWikiImages } from './fetchers/wiki-images.js';
 import { fetchWikiLua, type WikiLuaRaw } from './fetchers/wiki-lua.js';
 import { fetchWikiPages, type WikiPagesRaw } from './fetchers/wiki-pages.js';
 import { normalizeWarframes } from './normalizers/warframes.js';
@@ -71,6 +72,27 @@ async function run(fresh: boolean, skipWiki: boolean) {
   const wfcd = fetchWfcd();
   // Load ALL items for mod-sets (needs Mod Set Mod items)
   const allItems = new Items({ category: ['All'] }) as unknown[];
+
+  // ── Images ────────────────────────────────────────────────────────────────
+  console.log('Resolving images...');
+  type ImagesCache = { _wfcdVersion?: string } & Record<string, Record<string, string>>;
+  let imagesCache = fresh ? null : readCache<ImagesCache>('images-raw.json');
+  if (!imagesCache || Object.keys(imagesCache).length === 0 || imagesCache._wfcdVersion !== WFCD_VERSION) {
+    const allItemRefs = [
+      ...wfcd.warframes.map(i => ({ uniqueName: i.uniqueName, name: i.name, wikiaThumbnail: i.wikiaThumbnail })),
+      ...wfcd.mods.map(i => ({ uniqueName: i.uniqueName, name: i.name, wikiaThumbnail: i.wikiaThumbnail })),
+      ...wfcd.arcanes.map(i => ({ uniqueName: i.uniqueName, name: i.name, wikiaThumbnail: i.wikiaThumbnail })),
+      ...wfcd.guns.map(i => ({ uniqueName: i.uniqueName, name: i.name, wikiaThumbnail: i.wikiaThumbnail })),
+      ...wfcd.melee.map(i => ({ uniqueName: i.uniqueName, name: i.name, wikiaThumbnail: i.wikiaThumbnail })),
+    ];
+    const imageMap = await fetchWikiImages(allItemRefs);
+    imagesCache = { _wfcdVersion: WFCD_VERSION, ...imageMap };
+    writeCache('images-raw.json', imagesCache);
+  }
+  const { _wfcdVersion: _v, ...images } = imagesCache;
+  writeData('images.json', images);
+  const totalFiles = Object.values(images).reduce((n, m) => n + Object.keys(m).length, 0);
+  console.log(`  resolved ${Object.keys(images).length} items, ${totalFiles} total image files`);
 
   // ── Public Export ─────────────────────────────────────────────────────────
   console.log('Fetching Public Export...');

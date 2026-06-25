@@ -6,13 +6,14 @@ export interface SignatureWeaponEntry {
 
 function cleanText(raw: string): string {
   return raw
-    .replace(/\[\[([^\]|]+\|)?([^\]]+)\]\]/g, '$2')  // [[Link|Text]] → Text
-    .replace(/'''/g, '')                               // bold markers
-    .replace(/<br\s*\/?>/gi, ' ')                      // <br> → space
-    .replace(/rowspan="?\d+"?\s*\|/g, '')              // rowspan="N" |
+    .replace(/\[\[([^\]|]+\|)?([^\]]+)\]\]/g, '$2')           // [[Link|Text]] → Text
+    .replace(/\{\{(?:M|A|W|Weapon|WF|Mod)\|([^|}]+)[^}]*\}\}/gi, '$1') // {{M|Name|...}} → Name
+    .replace(/'''/g, '')                                        // bold markers
+    .replace(/<br\s*\/?>/gi, ' ')                               // <br> → space
+    .replace(/rowspan="?\d+"?\s*\|/g, '')                       // rowspan="N" |
     .replace(/colspan="?\d+"?\s*\|/g, '')
     .replace(/style="[^"]*"\s*\|/g, '')
-    .replace(/\{\{[^}]+\}\}/g, '')                    // remaining templates
+    .replace(/\{\{[^}]+\}\}/g, '')                             // remaining templates
     .replace(/\s+/g, ' ')
     .trim();
 }

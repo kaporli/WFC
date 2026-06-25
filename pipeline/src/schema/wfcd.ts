@@ -16,6 +16,7 @@ export interface WfcdWarframe {
   uniqueName: string;
   name: string;
   category: string;
+  wikiaThumbnail?: string;
   health: number;
   shield: number;
   armor: number;
@@ -34,6 +35,7 @@ export interface WfcdMod {
   uniqueName: string;
   name: string;
   category: string;
+  wikiaThumbnail?: string;
   polarity?: string;
   rarity?: string;
   fusionLimit?: number;
@@ -51,6 +53,7 @@ export interface WfcdArcane {
   uniqueName: string;
   name: string;
   category: string;
+  wikiaThumbnail?: string;
   levelStats?: WfcdLevelStat[];
   description?: string;
   tradable: boolean;
@@ -60,6 +63,7 @@ export interface WfcdWeapon {
   uniqueName: string;
   name: string;
   category: string;
+  wikiaThumbnail?: string;
   totalDamage?: number;
   damageTypes?: Record<string, number>;
   criticalChance?: number;

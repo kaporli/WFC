@@ -3,459 +3,162 @@
     "uniqueName": "/Lotus/Upgrades/Skins/AntiMatter/AntiAltHelmet",
     "name": "Arcane Flux Helmet",
     "warframeName": "Nova",
-    "effects": [
-      {
-        "stat": "aimGlideDuration",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmet",
     "name": "Arcane Hemlock Helmet",
     "warframeName": "Saryn",
-    "effects": [
-      {
-        "stat": "sprint",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmetB",
     "name": "Arcane Chlora Helmet",
     "warframeName": "Saryn",
-    "effects": [
-      {
-        "stat": "parkourVelocity",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "abilityDuration",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmet",
     "name": "Arcane Reverb Helmet",
     "warframeName": "Banshee",
-    "effects": [
-      {
-        "stat": "energy",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmetB",
     "name": "Arcane Chorus Helmet",
     "warframeName": "Banshee",
-    "effects": [
-      {
-        "stat": "abilityEfficiency",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "aimGlideDuration",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Ember/EmberHelmetAlt",
     "name": "Arcane Phoenix Helmet",
     "warframeName": "Ember",
-    "effects": [
-      {
-        "stat": "energy",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "shields",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Ember/EmberHelmetAltB",
     "name": "Arcane Backdraft Helmet",
     "warframeName": "Ember",
-    "effects": [
-      {
-        "stat": "health",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "sprint",
-        "value": -0.03,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburHelmetAlt",
     "name": "Arcane Avalon Helmet",
     "warframeName": "Excalibur",
-    "effects": [
-      {
-        "stat": "shields",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburHelmetAltB",
     "name": "Arcane Pendragon Helmet",
     "warframeName": "Excalibur",
-    "effects": [
-      {
-        "stat": "abilityStrength",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "armor",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Frost/FrostHelmetAlt",
     "name": "Arcane Aurora Helmet",
     "warframeName": "Frost",
-    "effects": [
-      {
-        "stat": "armor",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Frost/FrostHelmetAltB",
     "name": "Arcane Squall Helmet",
     "warframeName": "Frost",
-    "effects": [
-      {
-        "stat": "abilityStrength",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "shields",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Jade/JadeHelmetAlt",
     "name": "Arcane Menticide Helmet",
     "warframeName": "Nyx",
-    "effects": [
-      {
-        "stat": "parkourVelocity",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "shields",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Jade/JadeHelmetAltB",
     "name": "Arcane Vespa Helmet",
     "warframeName": "Nyx",
-    "effects": [
-      {
-        "stat": "abilityEfficiency",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "armor",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Loki/LokiHelmetAlt",
     "name": "Arcane Essence Helmet",
     "warframeName": "Loki",
-    "effects": [
-      {
-        "stat": "abilityEfficiency",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "armor",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Loki/LokiHelmetAltB",
     "name": "Arcane Swindle Helmet",
     "warframeName": "Loki",
-    "effects": [
-      {
-        "stat": "abilityRange",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Mag/MagHelmetAlt",
     "name": "Arcane Coil Helmet",
     "warframeName": "Mag",
-    "effects": [
-      {
-        "stat": "abilityRange",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "shields",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Mag/MagHelmetAltB",
     "name": "Arcane Mag Gauss Helmet",
     "warframeName": "Mag",
-    "effects": [
-      {
-        "stat": "energy",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "sprint",
-        "value": -0.03,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Ninja/NinjaHelmetAlt",
     "name": "Arcane Scorpion Helmet",
     "warframeName": "Ash",
-    "effects": [
-      {
-        "stat": "aimGlideDuration",
-        "value": 0.5,
-        "isFlat": false
-      },
-      {
-        "stat": "abilityEfficiency",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Ninja/NinjaHelmetAltB",
     "name": "Arcane Locust Helmet",
     "warframeName": "Ash",
-    "effects": [
-      {
-        "stat": "energy",
-        "value": 0.2,
-        "isFlat": false
-      },
-      {
-        "stat": "sprint",
-        "value": -0.03,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Rhino/RhinoHelmetAlt",
     "name": "Arcane Thrak Helmet",
     "warframeName": "Rhino",
-    "effects": [
-      {
-        "stat": "sprint",
-        "value": -0.05,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": 25,
-        "isFlat": true
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Rhino/RhinoHelmetAltB",
     "name": "Arcane Vanguard Helmet",
     "warframeName": "Rhino",
-    "effects": [
-      {
-        "stat": "sprint",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "abilityStrength",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Trapper/TrapperHelmetAlt",
     "name": "Arcane Esprit Helmet",
     "warframeName": "Vauban",
-    "effects": [
-      {
-        "stat": "energy",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "shields",
-        "value": -0.1,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Trapper/TrapperHelmetAltB",
     "name": "Arcane Gambit Helmet",
     "warframeName": "Vauban",
-    "effects": [
-      {
-        "stat": "parkourVelocity",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "abilityDuration",
-        "value": -0.1,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Trinity/TrinityHelmetAlt",
     "name": "Arcane Aura Helmet",
     "warframeName": "Trinity",
-    "effects": [
-      {
-        "stat": "abilityDuration",
-        "value": 0.25,
-        "isFlat": false
-      },
-      {
-        "stat": "health",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Trinity/TrinityHelmetAltB",
     "name": "Arcane Meridian Helmet",
     "warframeName": "Trinity",
-    "effects": [
-      {
-        "stat": "shields",
-        "value": 0.15,
-        "isFlat": false
-      },
-      {
-        "stat": "abilityEfficiency",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Volt/VoltHelmetAlt",
     "name": "Arcane Storm Helmet",
     "warframeName": "Volt",
-    "effects": [
-      {
-        "stat": "abilityStrength",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "aimGlideDuration",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   },
   {
     "uniqueName": "/Lotus/Upgrades/Skins/Volt/VoltHelmetAltB",
     "name": "Arcane Pulse Helmet",
     "warframeName": "Volt",
-    "effects": [
-      {
-        "stat": "abilityDuration",
-        "value": 0.1,
-        "isFlat": false
-      },
-      {
-        "stat": "shields",
-        "value": -0.05,
-        "isFlat": false
-      }
-    ]
+    "effects": []
   }
 ]
