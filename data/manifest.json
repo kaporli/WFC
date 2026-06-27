@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-06-26T02:55:19.283Z",
+  "lastUpdated": "2026-06-27T02:48:41.755Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_gcFd1mrLBcr6TBBc47Vf3A",
     "wiki": {
-      "Module:Mods/data": 2788443,
+      "Module:Mods/data": 2789396,
       "Module:Warframes/data": 2787958,
       "Module:Ability/data": 2788464,
       "Module:Ability/data/stats": 2281902,
-      "Module:Weapons/data/primary": 2788353,
+      "Module:Weapons/data/primary": 2789455,
       "Module:Weapons/data/secondary": 2788352,
-      "Module:Weapons/data/melee": 2788349,
-      "Module:Weapons/data/archwing": 2789260,
+      "Module:Weapons/data/melee": 2789347,
+      "Module:Weapons/data/archwing": 2789419,
       "Module:Weapons/data/companion": 2788351,
-      "Module:Weapons/data/railjack": 2788355,
+      "Module:Weapons/data/railjack": 2789445,
       "Module:Weapons/data/modular": 2788357,
       "Module:Weapons/data/misc": 2749765,
       "Module:Companions/data": 2730571,
@@ -38,7 +38,7 @@
     },
     "wikiPages": {
       "arcaneHelmet": "18277",
-      "archonShard": "43672"
+      "archonShard": "43684"
     }
   }
 }
