@@ -2769,7 +2769,7 @@
     "passiveDescription": "Every |DURATION| seconds, one of Koumei's weapons will inflict random Status Effects for |DURATION| seconds.",
     "masteryRank": 0,
     "initialEnergy": 50,
-    "exilusPolarity": "None"
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
@@ -2824,7 +2824,7 @@
     "passiveDescription": "Kullervo boasts +|EFFICIENCY|% Heavy Attack Efficiency and +|WINDUP|% Heavy Attack Wind Up Speed on all melee weapons.",
     "masteryRank": 0,
     "initialEnergy": 150,
-    "exilusPolarity": "None"
+    "exilusPolarity": null
   },
   {
     "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
