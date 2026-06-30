@@ -8003,6 +8003,7 @@
     "AcceltraCaduceusSkin.png": "https://wiki.warframe.com/images/AcceltraCaduceusSkin.png?00108",
     "AcceltraDayOfTheDeadSkin.png": "https://wiki.warframe.com/images/AcceltraDayOfTheDeadSkin.png?9378b",
     "AcceltraLunaeusSkin.png": "https://wiki.warframe.com/images/AcceltraLunaeusSkin.png?dd08a",
+    "AcceltraNitrosSkin.png": "https://wiki.warframe.com/images/AcceltraNitrosSkin.png?e7190",
     "AcceltraPrime.png": "https://wiki.warframe.com/images/AcceltraPrime.png?0686c",
     "AcceltraSolsticeSkin.png": "https://wiki.warframe.com/images/AcceltraSolsticeSkin.png?dd324",
     "U25.7 Acceltra.jpg": "https://wiki.warframe.com/images/U25.7_Acceltra.jpg?281c1"
@@ -8167,7 +8168,8 @@
     "AlternoxPrime.png": "https://wiki.warframe.com/images/AlternoxPrime.png?707c8",
     "Alternox 1.jpg": "https://wiki.warframe.com/images/Alternox_1.jpg?f221a",
     "Alternox 2.jpg": "https://wiki.warframe.com/images/Alternox_2.jpg?4d308",
-    "GyreAlternox.png": "https://wiki.warframe.com/images/GyreAlternox.png?59b79"
+    "GyreAlternox.png": "https://wiki.warframe.com/images/GyreAlternox.png?59b79",
+    "ThrambulusAlternoxSkin.png": "https://wiki.warframe.com/images/ThrambulusAlternoxSkin.png?521fa"
   },
   "/Lotus/Weapons/Corpus/LongGuns/CrpArSniper/CrpArSniperRifle": {
     "Ambassador.png": "https://wiki.warframe.com/images/Ambassador.png?d16a5",
@@ -8223,6 +8225,7 @@
   "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun": {
     "Atomos.png": "https://wiki.warframe.com/images/Atomos.png?91d61",
     "AtomosCodex.png": "https://wiki.warframe.com/images/AtomosCodex.png?812d2",
+    "AtomosDayoftheDeadSkin.png": "https://wiki.warframe.com/images/AtomosDayoftheDeadSkin.png?0ae8c",
     "AtomosIncarnon.png": "https://wiki.warframe.com/images/AtomosIncarnon.png?dfa98",
     "AtomosIncarnonGenesis.png": "https://wiki.warframe.com/images/AtomosIncarnonGenesis.png?3fa45",
     "AtomosSolsticeSkin.png": "https://wiki.warframe.com/images/AtomosSolsticeSkin.png?de0ad",
@@ -8394,6 +8397,7 @@
     "BurstonIncarnon.png": "https://wiki.warframe.com/images/BurstonIncarnon.png?7bbc2",
     "BurstonIncarnonGenesis.png": "https://wiki.warframe.com/images/BurstonIncarnonGenesis.png?f2405",
     "BurstonPrime.png": "https://wiki.warframe.com/images/BurstonPrime.png?8fc05",
+    "BurstonRayaSkin.png": "https://wiki.warframe.com/images/BurstonRayaSkin.png?a4ef1",
     "BurstonSolsticeSkin.png": "https://wiki.warframe.com/images/BurstonSolsticeSkin.png?13ce2",
     "Burston Arsenal .png": "https://wiki.warframe.com/images/Burston_Arsenal_.png?d6ad2",
     "Burston Arsenal 2.png": "https://wiki.warframe.com/images/Burston_Arsenal_2.png?13ffb",
@@ -8661,7 +8665,8 @@
     "EpitaphConcept1.png": "https://wiki.warframe.com/images/EpitaphConcept1.png?357c0",
     "EpitaphConcept2.png": "https://wiki.warframe.com/images/EpitaphConcept2.png?0824c",
     "EpitaphConcept3.png": "https://wiki.warframe.com/images/EpitaphConcept3.png?29c09",
-    "EpitaphPrime.png": "https://wiki.warframe.com/images/EpitaphPrime.png?21ae3"
+    "EpitaphPrime.png": "https://wiki.warframe.com/images/EpitaphPrime.png?21ae3",
+    "EpitaphRayaSkin.png": "https://wiki.warframe.com/images/EpitaphRayaSkin.png?14191"
   },
   "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon": {
     "EpitaphPrime.png": "https://wiki.warframe.com/images/EpitaphPrime.png?21ae3",
@@ -8954,6 +8959,7 @@
   "/Lotus/Weapons/Grineer/LongGuns/GrnSpark/GrnSparkRifle": {
     "Kohm.png": "https://wiki.warframe.com/images/Kohm.png?45fe3",
     "KohmCodex.png": "https://wiki.warframe.com/images/KohmCodex.png?c9ce2",
+    "KohmHarkonarSkin.png": "https://wiki.warframe.com/images/KohmHarkonarSkin.png?eeb95",
     "KohmSplashArt.jpg": "https://wiki.warframe.com/images/KohmSplashArt.jpg?37e6a",
     "Kohm 1.png": "https://wiki.warframe.com/images/Kohm_1.png?58a38",
     "Kohm 2.png": "https://wiki.warframe.com/images/Kohm_2.png?399a4",
@@ -9643,6 +9649,7 @@
   },
   "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon": {
     "Shedu.png": "https://wiki.warframe.com/images/Shedu.png?173ce",
+    "SheduDayoftheDeadSkin.png": "https://wiki.warframe.com/images/SheduDayoftheDeadSkin.png?89651",
     "Shedu 1.png": "https://wiki.warframe.com/images/Shedu_1.png?447c0"
   },
   "/Lotus/Weapons/Tenno/Pistol/BurstPistol": {
@@ -10316,7 +10323,8 @@
   },
   "/Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeapon": {
     "ArcaTitron.png": "https://wiki.warframe.com/images/ArcaTitron.png?125c4",
-    "ArcaTitronCodex.png": "https://wiki.warframe.com/images/ArcaTitronCodex.png?79f3f"
+    "ArcaTitronCodex.png": "https://wiki.warframe.com/images/ArcaTitronCodex.png?79f3f",
+    "ArcaTitronRayaSkin.png": "https://wiki.warframe.com/images/ArcaTitronRayaSkin.png?cd791"
   },
   "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon": {
     "Argo&Vel.png": "https://wiki.warframe.com/images/Argo%26Vel.png?5fc6d"
@@ -10731,7 +10739,8 @@
     "GlaiveObsidianSkin.png": "https://wiki.warframe.com/images/GlaiveObsidianSkin.png?6a65f",
     "GlaivePrime.png": "https://wiki.warframe.com/images/GlaivePrime.png?fd8a2",
     "GlaiveTekeluSkin.png": "https://wiki.warframe.com/images/GlaiveTekeluSkin.png?d1cb5",
-    "ProtoGlaiveSkin.png": "https://wiki.warframe.com/images/ProtoGlaiveSkin.png?713e2"
+    "ProtoGlaiveSkin.png": "https://wiki.warframe.com/images/ProtoGlaiveSkin.png?713e2",
+    "TraciensGlaiveSkin.png": "https://wiki.warframe.com/images/TraciensGlaiveSkin.png?36b21"
   },
   "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon": {
     "GlaivePrime.png": "https://wiki.warframe.com/images/GlaivePrime.png?fd8a2",
@@ -10877,6 +10886,7 @@
     "KamaJadeSkin.png": "https://wiki.warframe.com/images/KamaJadeSkin.png?878dd"
   },
   "/Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger": {
+    "BladeswarmKarystSkin.png": "https://wiki.warframe.com/images/BladeswarmKarystSkin.png?a39ff",
     "Karyst.png": "https://wiki.warframe.com/images/Karyst.png?02c04",
     "KarystCodex.png": "https://wiki.warframe.com/images/KarystCodex.png?d1896",
     "KarystPrime.png": "https://wiki.warframe.com/images/KarystPrime.png?ba1c9"
@@ -11073,7 +11083,8 @@
     "Nikana Screenshot2.png": "https://wiki.warframe.com/images/Nikana_Screenshot2.png?cf46e",
     "OkuNikanaSkin.png": "https://wiki.warframe.com/images/OkuNikanaSkin.png?43c45",
     "SWNikanaKhatuunSkin.png": "https://wiki.warframe.com/images/SWNikanaKhatuunSkin.png?e0954",
-    "SWNikanaMithraSkin.png": "https://wiki.warframe.com/images/SWNikanaMithraSkin.png?0e3f0"
+    "SWNikanaMithraSkin.png": "https://wiki.warframe.com/images/SWNikanaMithraSkin.png?0e3f0",
+    "TauDaxNikanaSkin.png": "https://wiki.warframe.com/images/TauDaxNikanaSkin.png?3cd5b"
   },
   "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana": {
     "NikanaPrime.png": "https://wiki.warframe.com/images/NikanaPrime.png?5dadf"
@@ -11092,7 +11103,7 @@
   "/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon": {
     "Obex.png": "https://wiki.warframe.com/images/Obex.png?78ef5",
     "ObexIncarnon.png": "https://wiki.warframe.com/images/ObexIncarnon.png?b5739",
-    "ObexIncarnonGenesis.png": "https://wiki.warframe.com/images/ObexIncarnonGenesis.png?3907f",
+    "ObexIncarnonGenesis.png": "https://wiki.warframe.com/images/ObexIncarnonGenesis.png?e6ce2",
     "ObexShock-CamoSkin.png": "https://wiki.warframe.com/images/ObexShock-CamoSkin.png?199d0",
     "PrismaObex.png": "https://wiki.warframe.com/images/PrismaObex.png?ff26a",
     "Tenno Reinforcements Obex.jpg": "https://wiki.warframe.com/images/Tenno_Reinforcements_Obex.jpg?00bfc"
@@ -11107,6 +11118,7 @@
   "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais": {
     "Joel-wood-ps5okinaskin.jpg": "https://wiki.warframe.com/images/Joel-wood-ps5okinaskin.jpg?59167",
     "Okina.png": "https://wiki.warframe.com/images/Okina.png?6bf0d",
+    "OkinaDayoftheDeadSkin.png": "https://wiki.warframe.com/images/OkinaDayoftheDeadSkin.png?a1105",
     "OkinaGhosts(xWhite).png": "https://wiki.warframe.com/images/OkinaGhosts%28xWhite%29.png?0112f",
     "OkinaIncarnon.png": "https://wiki.warframe.com/images/OkinaIncarnon.png?1888f",
     "OkinaIncarnonGenesis.png": "https://wiki.warframe.com/images/OkinaIncarnonGenesis.png?1a7cf",
@@ -11243,7 +11255,8 @@
   },
   "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon": {
     "Quassus.png": "https://wiki.warframe.com/images/Quassus.png?c5024",
-    "QuassusPrime.png": "https://wiki.warframe.com/images/QuassusPrime.png?a9584"
+    "QuassusPrime.png": "https://wiki.warframe.com/images/QuassusPrime.png?a9584",
+    "QuassusSolsticeSkin.png": "https://wiki.warframe.com/images/QuassusSolsticeSkin.png?3f1fb"
   },
   "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon": {
     "QuassusPrime.png": "https://wiki.warframe.com/images/QuassusPrime.png?a9584",
@@ -11441,7 +11454,8 @@
     "StrophaImage.png": "https://wiki.warframe.com/images/StrophaImage.png?fe80d"
   },
   "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon": {
-    "Sun&Moon.png": "https://wiki.warframe.com/images/Sun%26Moon.png?58a53"
+    "Sun&Moon.png": "https://wiki.warframe.com/images/Sun%26Moon.png?58a53",
+    "TiandiSun&MoonSkin.png": "https://wiki.warframe.com/images/TiandiSun%26MoonSkin.png?de646"
   },
   "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon": {
     "Syam.png": "https://wiki.warframe.com/images/Syam.png?3e7f0"
@@ -11539,6 +11553,7 @@
     "VenatoPrime.png": "https://wiki.warframe.com/images/VenatoPrime.png?eb0e1"
   },
   "/Lotus/Weapons/Tenno/Melee/Claws/TennoClaws": {
+    "BloodfrenzyVenkaSkin.png": "https://wiki.warframe.com/images/BloodfrenzyVenkaSkin.png?bb061",
     "Darthmufinvenka.png": "https://wiki.warframe.com/images/Darthmufinvenka.png?cf117",
     "Venka.png": "https://wiki.warframe.com/images/Venka.png?03dd1",
     "VenkaCodex.png": "https://wiki.warframe.com/images/VenkaCodex.png?87009",
