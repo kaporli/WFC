@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T02:25:51.419Z",
+  "lastUpdated": "2026-07-05T02:35:08.502Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_gcFd1mrLBcr6TBBc47Vf3A",
@@ -21,7 +21,7 @@
       "Module:ScientiaStances/data": 2047331,
       "Module:Arcane/data": 2790053,
       "Module:Upgrades/data": 2238990,
-      "Module:DamageTypes/data": 2790057,
+      "Module:DamageTypes/data": 2791008,
       "Module:Resources/data": 2789781,
       "Module:Void/data": 2788223,
       "Module:Acquisition/data": 2714600,
@@ -33,7 +33,7 @@
       "Module:Decrees/data": 2774719,
       "Module:Conservation/data": 2697330,
       "Module:Avionics/data": 2190683,
-      "Module:Codex/data": 2785382,
+      "Module:Codex/data": 2791032,
       "Module:Decorations/data": 2694518
     },
     "wikiPages": {
