@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T02:35:08.502Z",
+  "lastUpdated": "2026-07-06T02:39:57.766Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_gcFd1mrLBcr6TBBc47Vf3A",
@@ -10,10 +10,10 @@
       "Module:Ability/data/stats": 2281902,
       "Module:Weapons/data/primary": 2790981,
       "Module:Weapons/data/secondary": 2790271,
-      "Module:Weapons/data/melee": 2789347,
+      "Module:Weapons/data/melee": 2791523,
       "Module:Weapons/data/archwing": 2790971,
       "Module:Weapons/data/companion": 2788351,
-      "Module:Weapons/data/railjack": 2790068,
+      "Module:Weapons/data/railjack": 2791303,
       "Module:Weapons/data/modular": 2788357,
       "Module:Weapons/data/misc": 2749765,
       "Module:Companions/data": 2730571,
