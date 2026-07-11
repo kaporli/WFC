@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T02:23:51.687Z",
+  "lastUpdated": "2026-07-11T02:13:01.899Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_gcFd1mrLBcr6TBBc47Vf3A",
@@ -29,7 +29,7 @@
       "Module:Enemies/data": 2760100,
       "Module:Syndicates/data": 1741160,
       "Module:Research/data": 2707762,
-      "Module:Vendors/data": 2785743,
+      "Module:Vendors/data": 2792403,
       "Module:Decrees/data": 2774719,
       "Module:Conservation/data": 2697330,
       "Module:Avionics/data": 2190683,
