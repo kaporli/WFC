@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-11T02:13:01.899Z",
+  "lastUpdated": "2026-07-12T02:14:59.376Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
-    "publicExport": "00_gcFd1mrLBcr6TBBc47Vf3A",
+    "publicExport": "00_ZJIc6+RSf2aEMuBg6sLAzw",
     "wiki": {
       "Module:Mods/data": 2789396,
       "Module:Warframes/data": 2789724,
       "Module:Ability/data": 2790342,
       "Module:Ability/data/stats": 2281902,
-      "Module:Weapons/data/primary": 2792304,
+      "Module:Weapons/data/primary": 2792739,
       "Module:Weapons/data/secondary": 2792305,
       "Module:Weapons/data/melee": 2792250,
       "Module:Weapons/data/archwing": 2790971,
