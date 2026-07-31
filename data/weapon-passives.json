@@ -38,7 +38,7 @@
   {
     "weaponName": "Cinta",
     "passives": [
-      "Perfect Shot: Releasing the shot at 70–90% charge deals pure Heat damage, guarantees Knockdown, has infinite body punch through, and a larger projectile.",
+      "[Charged Shot] Releasing the shot at 70–90% charge deals pure Heat damage, guarantees Knockdown, has infinite body punch through, and a larger projectile.",
       "[Charged Shot] Releasing at full charge deals heavy Puncture damage with higher critical chance and critical multiplier."
     ]
   },
@@ -82,7 +82,7 @@
   {
     "weaponName": "Nataruk",
     "passives": [
-      "Perfect Shot: Releasing after 70% charge grants higher critical chance and multiplier than a full charge. Charged and Perfect Shots have a larger projectile and infinite body punch through. Quick shots have a forced Impact proc."
+      "[Charged Shot] Releasing after 70% charge grants higher critical chance and multiplier than a full charge. Charged and Perfect Shots have a larger projectile and infinite body punch through. Quick shots have a forced Impact proc."
     ]
   },
   {
@@ -144,14 +144,14 @@
     "weaponName": "Tonkor",
     "passives": [
       "[Always Active] Grenades explode in a 7m radius upon impact (penetrates walls). Direct hits cause knockdown regardless of explosion.",
-      "Base Specific: Grenades require a 7.5m minimum arming distance."
+      "[Base Specific] Grenades require a 7.5m minimum arming distance."
     ]
   },
   {
     "weaponName": "Zarr",
     "passives": [
-      "Cannon Mode: Explodes on impact and splits into bomblets. Base explodes in 4.9m (6 bomblets); Kuva explodes in 7m (3 bomblets).",
-      "Barrage Mode: Fires flak with innate 1.6m punch through and multishot of 10 pellets.",
+      "[Alternate Fire] Cannon mode explodes on impact and splits into bomblets. Base explodes in 4.9m (6 bomblets); Kuva explodes in 7m (3 bomblets).",
+      "[Alternate Fire] Barrage mode fires flak with innate 1.6m punch through and multishot of 10 pellets.",
       "[Reload] Reloads one cannonball at a time and can be interrupted at any point."
     ]
   },
@@ -204,7 +204,7 @@
   {
     "weaponName": "AX-52",
     "passives": [
-      "Hip-fire: Grants +60% ammo efficiency.",
+      "[Hip-fire] Grants +60% ammo efficiency.",
       "[Aiming] Headshots have +400% critical chance (additive)."
     ]
   },
@@ -234,7 +234,7 @@
     "weaponName": "Boltor",
     "passives": [
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
-      "Telos Specific: Innate Truth effect."
+      "[Telos Specific] Innate Truth effect."
     ]
   },
   {
@@ -275,7 +275,7 @@
     "weaponName": "Glaxion",
     "passives": [
       "[Always Active] Deals Cold damage.",
-      "Vandal Specific: Impact zone produces a damaging cold blotch in a 2m spherical radius.",
+      "[Vandal Specific] Impact zone produces a damaging cold blotch in a 2m spherical radius.",
       "[Adversary] Tenet beam chains up to 3 nearby enemies within 8m."
     ]
   },
@@ -288,7 +288,7 @@
   {
     "weaponName": "Gotva Prime",
     "passives": [
-      "[Status Effect] Status effects have a 15% chance to set the next shot's Critical Chance to 300%."
+      "[Status Proc] Status effects have a 15% chance to set the next shot's Critical Chance to 300%."
     ]
   },
   {
@@ -309,7 +309,7 @@
     "weaponName": "Higasa",
     "passives": [
       "[Aiming] Projects a field blocking frontal projectiles.",
-      "Alternate Fire Gauge: Primary fire kills fill 10%; blocking an attack fills 10% per second for 2 seconds.",
+      "[Alternate Fire Gauge] Primary fire kills fill 10%; blocking an attack fills 10% per second for 2 seconds.",
       "[Alternate Fire] Charges a powerful laser requiring a full gauge."
     ]
   },
@@ -368,7 +368,7 @@
     "weaponName": "Panthera",
     "passives": [
       "[Alternate Fire] Deploys a levitating sawblade dealing continuous damage and staggering. Base deploys 6m away; Prime deploys 8m away.",
-      "Prime Specific: Primary fire bounces and explodes in a 1.6m radius."
+      "[Prime Specific] Primary fire bounces and explodes in a 1.6m radius."
     ]
   },
   {
@@ -410,7 +410,7 @@
     "passives": [
       "[Always Active] Primary fire shoots bouncing orbs that merge; merging increases explosion damage (4 orbs create a singularity). Shots through orbs deal increased Electricity damage and critical stats.",
       "[Alternate Fire] Detonates orbs.",
-      "Synoid Specific: Innate Entropy effect."
+      "[Synoid Specific] Innate Entropy effect."
     ]
   },
   {
@@ -481,7 +481,6 @@
   {
     "weaponName": "Vinquibus",
     "passives": [
-      "[Always Active] Equipping occupies both primary and melee slots; counts as a single weapon for modding and Affinity.",
       "[Primary Form (Headshot)] Headshots grant 2 stacks (max 16) of Vinquibus Precision, increasing melee damage by 250% (expended on connect).",
       "[Melee Form (On Kill)] Kills grant 4 stacks (max 16) of Vinquibus Ferocity, increasing primary Ammo Efficiency by 100% (expended on shot)."
     ]
@@ -498,7 +497,7 @@
     "passives": [
       "[Always Active] Shots have a guaranteed Impact proc to enemies up to 14m (Base) or 29m (Tenet). Distance is affected by Projectile Speed.",
       "[Always Active] Innate Infinite Body Punch Through.",
-      "Base Specific: Projectiles have a thickness of 3m.",
+      "[Base Specific] Projectiles have a thickness of 3m.",
       "[Adversary] Tenet projectiles have a thickness of 4.4m and bounce on surfaces up to 4 times."
     ]
   },
@@ -536,7 +535,7 @@
     "passives": [
       "[Always Active] This weapon primarily deals Blast damage.",
       "[Always Active] Primary fire has innate Infinite Body Punch Through.",
-      "[Mercy Kill] Performing a Mercy Kill grants +100% damage and Multishot for 20 seconds. Buff duration is refreshed on Mercy kills.",
+      "[Finisher] Performing a Mercy Kill grants +100% damage and Multishot for 20 seconds. Buff duration is refreshed on Mercy kills.",
       "[Alternate Fire] Launches a mite that latches up to 6 enemies, highlighting their heads for 5 seconds while dealing Impact and Magnetic damage and status effects per second for 10 seconds. Consumes 4 ammo per shot. Does not benefit from Multishot. If the target is opened to a Mercy, the user will teleport and automatically perform a Mercy Finisher."
     ]
   },
@@ -573,7 +572,7 @@
     "weaponName": "Hek",
     "passives": [
       "[Always Active] Innate multishot of 7 pellets.",
-      "Vaykor Specific: Innate Justice effect.",
+      "[Vaykor Specific] Innate Justice effect.",
       "[Adversary] Kuva [Alternate Fire] Shoots four shots simultaneously, consuming 4 rounds of ammunition."
     ]
   },
@@ -614,7 +613,7 @@
     "weaponName": "Mk1-Strun",
     "passives": [
       "[Always Active] Innate multishot of 10 (Mk1/Wraith), 12 (Strun), or deals primarily Impact and Slash (Prime) pellets. Prime has innate 0.8m punch through.",
-      "Wraith Specific: Shots have a forced enemy stagger.",
+      "[Wraith Specific] Shots have a forced enemy stagger.",
       "[Reload] Reloads one shell at a time and can be interrupted at any point. Mk1/Strun reload at 0.5 seconds per shell with 0.5 second start delay and 0.25 second end delay. Wraith reloads at 0.45 seconds per shell with 0.25 second start delay. Prime reloads at 0.4 seconds per shell with 0.6 second total start/end delay."
     ]
   },
@@ -622,9 +621,9 @@
     "weaponName": "Tigris",
     "passives": [
       "[Always Active] Unique trigger type allows for two rapid shots: first on button press, second on button release.",
-      "Base Specific: Innate multishot of 5 pellets.",
-      "Sancti Specific: Innate multishot of 6 pellets. Innate Purity effect.",
-      "Prime Specific: Innate multishot of 8 pellets."
+      "[Base Specific] Innate multishot of 5 pellets.",
+      "[Sancti Specific] Innate multishot of 6 pellets. Innate Purity effect.",
+      "[Prime Specific] Innate multishot of 8 pellets."
     ]
   },
   {
@@ -725,8 +724,8 @@
     "passives": [
       "[Always Active] Uncharged shots fire a 4-round burst; charged shots fire a single round.",
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
-      "Rakta Specific: Innate Blight effect.",
-      "Prime Specific: Charged shots have 1m punch through. [Charged Kill] Charged shot kills within 50m create an allied ghost for 7 seconds."
+      "[Rakta Specific] Innate Blight effect.",
+      "[Prime Specific] Charged shots have 1m punch through. [Charged Kill] Charged shot kills within 50m create an allied ghost for 7 seconds."
     ]
   },
   {
@@ -740,7 +739,7 @@
     "weaponName": "Akbolto",
     "passives": [
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
-      "Telos Specific: Innate Truth effect."
+      "[Telos Specific] Innate Truth effect."
     ]
   },
   {
@@ -764,7 +763,7 @@
   {
     "weaponName": "Dual Coda Torxica",
     "passives": [
-      "[On Hit then Kill] Enemies hit and then killed spread spores to 3 enemies within 20m, inflicting guaranteed Cold status and 50% Damage Vulnerability for 20 seconds."
+      "[On Hit] Enemies hit and then killed from any source spread spores to 3 enemies within 20m, prioritizing the closest targets and inflicting guaranteed Cold status per second and 50% Damage Vulnerability for 20 seconds."
     ]
   },
   {
@@ -900,7 +899,7 @@
     "weaponName": "Gammacor",
     "passives": [
       "[Always Active] Consumes 0.5 ammo per tick.",
-      "Synoid Specific: Innate Entropy effect."
+      "[Synoid Specific] Innate Entropy effect."
     ]
   },
   {
@@ -1102,7 +1101,7 @@
     "weaponName": "Pyrana",
     "passives": [
       "[Always Active] Base has innate multishot of 12 pellets; Prime has innate multishot of 10 pellets.",
-      "Prime Specific: [On Kill] Getting 3 kills within 3 seconds summons an ethereal copy for 6 seconds, doubling magazine size and increasing fire rate by 40%."
+      "[Prime Specific] [On Kill] Getting 3 kills within 3 seconds summons an ethereal copy for 6 seconds, doubling magazine size and increasing fire rate by 40%."
     ]
   },
   {
@@ -1124,7 +1123,7 @@
     "weaponName": "Castanas",
     "passives": [
       "[Always Active] Mines stick to surfaces (max 6) with a guaranteed Electricity proc. Silent, even if the projectile hits an enemy.",
-      "Sancti Specific: Innate Purity effect.",
+      "[Sancti Specific] Innate Purity effect.",
       "[Alternate Fire] Detonates mines in a 3.6m radius (penetrates walls, inflicts self-stagger)."
     ]
   },
@@ -1252,13 +1251,13 @@
   {
     "weaponName": "Orvius",
     "passives": [
-      "[Thrown + Block] Throwing at an enemy while blocking suspends them for 5 seconds before exploding (deals damage with 100% status chance)."
+      "[Thrown] Throwing at an enemy while blocking suspends them for 5 seconds before exploding (deals damage with 100% status chance)."
     ]
   },
   {
     "weaponName": "Pathocyst",
     "passives": [
-      "Attack/Throw: Attacking or throwing releases Maggots that damage nearby enemies."
+      "[Thrown] Attacking or throwing releases Maggots that damage nearby enemies."
     ]
   },
   {
@@ -1340,7 +1339,7 @@
   {
     "weaponName": "Gazal Machete",
     "passives": [
-      "[Djinn Synergy] Gains bonus Corrosive damage after consecutive casts of Djinn's Fatal Attraction."
+      "[Companion Synergy] Gains bonus Corrosive damage after consecutive casts of Djinn's Fatal Attraction."
     ]
   },
   {
@@ -1414,13 +1413,14 @@
   {
     "weaponName": "Tenet Grigori",
     "passives": [
-      "[Heavy Slide] Releases a spinning energy disk traveling up to 10m based on combo multiplier with infinite body punch through."
+      "[Slide] Heavy slide attacks release a spinning energy disk that travels up to 10m based on combo multiplier, has infinite body punch through, and ricochets off surfaces.",
+      "[Heavy Attack] The second attack in a Heavy Attack combo releases the same energy disk."
     ]
   },
   {
     "weaponName": "Venato Prime",
     "passives": [
-      "[Status Effect] Applying a Status Effect has a 100% chance to proc a Tau status."
+      "[Status Proc] Applying a Status Effect has a 100% chance to proc a Tau status."
     ]
   },
   {
@@ -1439,7 +1439,7 @@
   {
     "weaponName": "Broken Scepter",
     "passives": [
-      "[Corpse Drain] Can drain corpses for Orbs (Health for organic, Energy for mechanical)."
+      "[Held] Can drain corpses for Orbs (Health for organic, Energy for mechanical)."
     ]
   },
   {
@@ -1548,7 +1548,7 @@
   {
     "weaponName": "Spinnerex",
     "passives": [
-      "[On Hit then Kill] Enemies hit and then killed have a 10% chance to explode for each stack of Toxin status."
+      "[On Hit] Enemies hit and then killed from any source have a 10% chance to explode for each stack of Toxin status."
     ]
   },
   {
