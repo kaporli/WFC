@@ -288,7 +288,7 @@
   {
     "weaponName": "Gotva Prime",
     "passives": [
-      "[Status Proc] Status effects have a 15% chance to set the next shot's Critical Chance to 300%."
+      "[Status Proc] Applying a status effect has a 15% chance to set the next hit's Critical Chance to 300%."
     ]
   },
   {
@@ -481,6 +481,7 @@
   {
     "weaponName": "Vinquibus",
     "passives": [
+      "[Always Active] Equipping occupies both primary and melee slots; counts as a single weapon for modding and Affinity.",
       "[Primary Form (Headshot)] Headshots grant 2 stacks (max 16) of Vinquibus Precision, increasing melee damage by 250% (expended on connect).",
       "[Melee Form (On Kill)] Kills grant 4 stacks (max 16) of Vinquibus Ferocity, increasing primary Ammo Efficiency by 100% (expended on shot)."
     ]
@@ -535,7 +536,7 @@
     "passives": [
       "[Always Active] This weapon primarily deals Blast damage.",
       "[Always Active] Primary fire has innate Infinite Body Punch Through.",
-      "[Finisher] Performing a Mercy Kill grants +100% damage and Multishot for 20 seconds. Buff duration is refreshed on Mercy kills.",
+      "[Mercy Kill] Performing a Mercy Kill (Parazon) grants +100% damage and Multishot for 20 seconds. Buff duration is refreshed on subsequent Mercy kills.",
       "[Alternate Fire] Launches a mite that latches up to 6 enemies, highlighting their heads for 5 seconds while dealing Impact and Magnetic damage and status effects per second for 10 seconds. Consumes 4 ammo per shot. Does not benefit from Multishot. If the target is opened to a Mercy, the user will teleport and automatically perform a Mercy Finisher."
     ]
   },
@@ -1251,7 +1252,8 @@
   {
     "weaponName": "Orvius",
     "passives": [
-      "[Thrown] Throwing at an enemy while blocking suspends them for 5 seconds before exploding (deals damage with 100% status chance)."
+      "[Thrown] Holding the melee button briefly performs a normal throw that flies above the first enemy in its path, suspending them in midair for 3 seconds before inflicting 3 ticks of damage and exploding in a 4m radius, damaging all enemies around it; the disc then returns to the user. Can travel up to 30m before returning.",
+      "[Thrown] Holding the melee button longer performs a charged throw that can bounce up to 3 times or travel up to 30m before returning, damaging anyone in its path. Meleeing while the glaive is mid-flight recalls it early."
     ]
   },
   {
@@ -1413,14 +1415,13 @@
   {
     "weaponName": "Tenet Grigori",
     "passives": [
-      "[Slide] Heavy slide attacks release a spinning energy disk that travels up to 10m based on combo multiplier, has infinite body punch through, and ricochets off surfaces.",
-      "[Heavy Attack] The second attack in a Heavy Attack combo releases the same energy disk."
+      "[Heavy Slide] Releases a spinning energy disk traveling up to 10m based on combo multiplier with infinite body punch through."
     ]
   },
   {
     "weaponName": "Venato Prime",
     "passives": [
-      "[Status Proc] Applying a Status Effect has a 100% chance to proc a Tau status."
+      "[Status Proc] Applying a status effect has a 100% chance to proc a Tau status."
     ]
   },
   {
@@ -1439,7 +1440,7 @@
   {
     "weaponName": "Broken Scepter",
     "passives": [
-      "[Held] Can drain corpses for Orbs (Health for organic, Energy for mechanical)."
+      "[Corpse Drain] Can drain corpses for Orbs (Health for organic, Energy for mechanical)."
     ]
   },
   {
@@ -1548,7 +1549,7 @@
   {
     "weaponName": "Spinnerex",
     "passives": [
-      "[On Hit] Enemies hit and then killed from any source have a 10% chance to explode for each stack of Toxin status."
+      "[On Hit then Kill] Enemies hit and then killed have a 10% chance to explode for each stack of Toxin status."
     ]
   },
   {
