@@ -10,9 +10,8 @@
     "weaponName": "Cernos Prime",
     "passives": [
       "[Headshot] Deals +50% bonus damage on headshots.",
-      "[Always Active] Charged shots have innate 1m punch through and innate multishot of 3 arrows.",
-      "[Alternate Fire] Toggles between horizontal and vertical spread shot.",
-      "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls."
+      "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
+      "[Alternate Fire] Toggles between horizontal and vertical spread shot."
     ]
   },
   {
@@ -25,7 +24,7 @@
   {
     "weaponName": "Proboscis Cernos",
     "passives": [
-      "[On Hit] Impact releases appendages that stun and pull all enemies within 9m. Appendages tick twice before exploding in a 7m radius after 1.7 seconds. Appendages cannot crit, are unaffected by status chance mods, and penetrate walls alongside explosions.",
+      "[On Hit] Impact releases appendages that stun and pull all enemies within 9m. Appendages tick 2 times before exploding in a 7m radius after 1.7 seconds. Appendages cannot crit, are unaffected by status chance mods, and penetrate walls alongside explosions.",
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls."
     ]
   },
@@ -45,7 +44,6 @@
   {
     "weaponName": "Daikyu",
     "passives": [
-      "[Always Active] Charged shots have innate 3m punch through.",
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls."
     ]
   },
@@ -53,7 +51,6 @@
     "weaponName": "Daikyu Prime",
     "passives": [
       "[Charged Shot] Can be fired after charging 25% of maximum charge with reduced damage. Weak point hits have +250% Critical Chance (additive) and forced Impact status on both charge levels.",
-      "[Always Active] Innate 3m punch through.",
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls."
     ]
   },
@@ -86,12 +83,6 @@
     ]
   },
   {
-    "weaponName": "Paris Prime",
-    "passives": [
-      "[Always Active] Charged shots have innate 3m punch through, pinpoint accuracy when aiming, and are silent."
-    ]
-  },
-  {
     "weaponName": "Attica",
     "passives": [
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls."
@@ -115,16 +106,19 @@
     "weaponName": "Nagantaka",
     "passives": [
       "[Always Active] Guaranteed Impact proc.",
-      "[Alternate Fire] Rapidly fires all remaining ammunition in a burst at approximately 2.3× fire rate; abilities can be cast during burst.",
       "[Headshot Kill] Headshot kills from direct bolt damage boost reload speed by 50%.",
       "[Warframe Synergy] Innate 1m punch through when wielded by Garuda or Garuda Prime.",
-      "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls."
+      "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
+      "[Alternate Fire] Rapidly fires all remaining ammunition in a burst at approximately 2.3× fire rate; abilities can be cast during burst."
     ]
   },
   {
     "weaponName": "Penta",
     "passives": [
-      "[Always Active] Can only have five grenades active at once; multishot counts toward this limit. Base and Carmine grenades explode in a 4m radius upon impact (penetrates walls). Secura grenades explode in a 6m radius upon impact, feature innate Sequence effect, and penetrate walls."
+      "[Always Active] Can only have 5 grenades active at once; multishot counts toward this limit. Grenades explode on impact and penetrate walls.",
+      "[Base Specific] Grenades explode in a 4m radius.",
+      "[Carmine Specific] Grenades explode in a 4m radius.",
+      "[Secura Specific] Grenades explode in a 6m radius and have an innate Sequence effect."
     ]
   },
   {
@@ -136,8 +130,9 @@
   {
     "weaponName": "Ogris",
     "passives": [
-      "[Always Active] Rockets explode in a 7.1m radius upon impact (7.9m on Kuva) and penetrate walls. Enemies can destroy rockets with gunfire or area explosions. Can be fired while sprinting.",
-      "[Adversary] Kuva direct hits have a guaranteed Impact proc."
+      "[Always Active] Rockets explode on impact and penetrate walls. Enemies can destroy rockets with gunfire or area explosions. Can be fired while sprinting.",
+      "[Base Specific] Rockets explode in a 7.1m radius.",
+      "[Adversary] Kuva rockets explode in a 7.9m radius, and direct hits have a guaranteed Impact proc."
     ]
   },
   {
@@ -150,9 +145,11 @@
   {
     "weaponName": "Zarr",
     "passives": [
-      "[Alternate Fire] Cannon mode explodes on impact and splits into bomblets. Base explodes in 4.9m (6 bomblets); Kuva explodes in 7m (3 bomblets).",
-      "[Alternate Fire] Barrage mode fires flak with innate 1.6m punch through and multishot of 10 pellets.",
-      "[Reload] Reloads one cannonball at a time and can be interrupted at any point."
+      "[Reload] Reloads 1 cannonball at a time and can be interrupted at any point.",
+      "[Alternate Fire] Cannon mode explodes on impact and splits into bomblets.",
+      "[Alternate Fire] Barrage mode fires a spread of flak.",
+      "[Base Specific] [Alternate Fire] Cannon mode explodes in a 4.9m radius and releases 6 bomblets.",
+      "[Adversary] [Alternate Fire] Cannon mode explodes in a 7m radius and releases 3 bomblets."
     ]
   },
   {
@@ -164,14 +161,15 @@
   {
     "weaponName": "Acceltra",
     "passives": [
+      "[Always Active] Rockets have a 7m minimum arming distance and explode on impact (penetrates walls). Direct impacts have a guaranteed Impact proc.",
       "[Sprint Reload] Reloads 25% faster while sprinting (50% faster if wielded by Gauss / Gauss Prime).",
-      "[Always Active] Rockets have a 7m minimum arming distance and explode in a 4m (Base) or 5m (Prime) radius (penetrates walls). Direct impacts have a guaranteed Impact proc."
+      "[Base Specific] Rockets explode in a 4m radius.",
+      "[Prime Specific] Rockets explode in a 5m radius."
     ]
   },
   {
     "weaponName": "Aeolak",
     "passives": [
-      "[Always Active] Primary fire deals primarily Puncture; Alternate Fire deals Blast.",
       "[Alternate Fire] Automatically charges a powerful round that explodes in a 7m radius (penetrates walls)."
     ]
   },
@@ -179,8 +177,8 @@
     "weaponName": "Alternox",
     "passives": [
       "[Always Active] Primary fire shoots slow but wide projectiles.",
-      "[Alternate Fire] Shoots a sphere that sticks to surfaces/enemies, pulsing every second for 10 seconds before exploding (6m range, penetrates walls). Pressing Alternate Fire again detonates it early.",
-      "[Warframe Synergy] Gains a +20% additive multishot increase when wielded by Gyre."
+      "[Warframe Synergy] Gains a +20% additive multishot increase when wielded by Gyre.",
+      "[Alternate Fire] Shoots a sphere that sticks to surfaces/enemies, pulsing every second for 10 seconds before exploding (6m range, penetrates walls). Pressing Alternate Fire again detonates it early."
     ]
   },
   {
@@ -212,22 +210,16 @@
     "weaponName": "Basmu",
     "passives": [
       "[Always Active] Primary fire explodes in a 1.7m radius (penetrates walls). Does not use ammo pickups; regenerates ammo over time.",
-      "[Magazine Empty] Depleting the magazine produces three 10m pulses dealing up to 10 True damage and healing health by 10× the damage done per pulse.",
-      "[Alternate Fire] Shoots two continuous 9m beams locking onto enemies within 30° and chaining up to 5 nearby enemies."
+      "[Magazine Empty] Depleting the magazine produces 3 10m pulses dealing up to 10 True damage and healing health by 10× the damage done per pulse.",
+      "[Alternate Fire] Shoots 2 continuous 9m beams locking onto enemies within 30° and chaining up to 5 nearby enemies."
     ]
   },
   {
     "weaponName": "Battacor",
     "passives": [
-      "[Always Active] Primary fire is a 2-round burst dealing primarily Magnetic.",
+      "[Always Active] Primary fire is a 2-round burst.",
       "[On Kill] Kills with primary fire stack charges up to 3 times.",
       "[Alternate Fire] Fires a powerful beam utilizing charges that explodes in a 3.4m radius (penetrates walls)."
-    ]
-  },
-  {
-    "weaponName": "Baza",
-    "passives": [
-      "[Always Active] Silent, low zoom when aiming, and shorter damage falloff distance for a hit-scan weapon."
     ]
   },
   {
@@ -240,41 +232,40 @@
   {
     "weaponName": "Buzlok",
     "passives": [
-      "[Alternate Fire] Shoots a tracer round causing primary fire to shoot homing rounds for 20 seconds or until target death.",
-      "[On Hit] Landing a tracer round grants a 20-second buff adding 50% absolute critical chance."
+      "[On Hit] Landing a tracer round grants a 20-second buff adding 50% absolute critical chance.",
+      "[Alternate Fire] Shoots a tracer round causing primary fire to shoot homing rounds for 20 seconds or until target death."
     ]
   },
   {
     "weaponName": "EFV-5 Jupiter",
     "passives": [
-      "[Alternate Fire] Charges for 1 second to release close-ranged buckshot with innate multishot of 11 pellets and a guaranteed Corrosive proc."
+      "[Alternate Fire] Charges for 1 second to release close-ranged buckshot with a guaranteed Corrosive proc."
     ]
   },
   {
     "weaponName": "Enkaus",
     "passives": [
-      "[Alternate Fire] Launches an ink projectile that explodes in an 8m radius, staining enemies and leaving a puddle.",
       "[On Hit] Primary fire hitting stained enemies replenishes 0.83 ammo per hit. Stained enemies below 35% health are instantly dissolved and killed.",
-      "[Warframe Synergy] Alternate Fire applies Inkblot when wielded by Follie; instakill damage changes to Slash if wielded by Garuda with ."
+      "[Warframe Synergy] Alternate Fire applies Inkblot when wielded by Follie; instakill damage changes to Slash if wielded by Garuda with .",
+      "[Alternate Fire] Launches an ink projectile that explodes in an 8m radius, staining enemies and leaving a puddle."
     ]
   },
   {
     "weaponName": "Flux Rifle",
     "passives": [
-      "[Always Active] Innate 0.5m punch through. Does not use ammo pickups; regenerates 40 ammo per second after a 1-second delay."
+      "[Always Active] Does not use ammo pickups; regenerates 40 ammo per second after a 1-second delay."
     ]
   },
   {
     "weaponName": "Fulmin",
     "passives": [
-      "[Always Active] Does not use ammo pickups; regenerates ammo over time. Semi-auto mode is silent, has innate 3m punch through against bodies, and guarantees an Impact proc up to 9m.",
+      "[Always Active] Does not use ammo pickups; regenerates ammo over time. Semi-auto mode guarantees an Impact proc up to 9m.",
       "[Warframe Synergy] Alternate Fire mode-switching animation is halved to 0.5 seconds when wielded by Wisp / Wisp Prime."
     ]
   },
   {
     "weaponName": "Glaxion",
     "passives": [
-      "[Always Active] Deals Cold damage.",
       "[Vandal Specific] Impact zone produces a damaging cold blotch in a 2m spherical radius.",
       "[Adversary] Tenet beam chains up to 3 nearby enemies within 8m."
     ]
@@ -282,7 +273,10 @@
   {
     "weaponName": "Gorgon",
     "passives": [
-      "[Always Active] Requires a spool-up before optimal fire rate: Base (9 shots), Wraith (6 shots), Prisma (7 shots)."
+      "[Always Active] Requires a spool-up before reaching optimal fire rate.",
+      "[Base Specific] Reaches optimal fire rate after 9 shots.",
+      "[Wraith Specific] Reaches optimal fire rate after 6 shots.",
+      "[Prisma Specific] Reaches optimal fire rate after 7 shots."
     ]
   },
   {
@@ -301,8 +295,10 @@
   {
     "weaponName": "Hema",
     "passives": [
-      "[Headshot] Headshots grant Life Steal (10% for Base, 5% for Coda).",
-      "[Reload] Reloading drains health (up to 5% max) instead of using ammo reserves."
+      "[Headshot] Headshots grant Life Steal.",
+      "[Reload] Reloading drains health (up to 5% max) instead of using ammo reserves.",
+      "[Base Specific] [Headshot] Life Steal restores 10% of damage dealt.",
+      "[Coda Specific] [Headshot] Life Steal restores 5% of damage dealt."
     ]
   },
   {
@@ -316,14 +312,14 @@
   {
     "weaponName": "Ignis",
     "passives": [
-      "[Always Active] Deals Heat damage with a spherical blast radius of 3m at impact zone or max range, and innate infinite body punch through."
+      "[Always Active] Produces a spherical blast radius of 3m at the impact zone or maximum range."
     ]
   },
   {
     "weaponName": "Kuva Chakkhurr",
     "passives": [
-      "[Headshot] Deals +50% bonus damage on headshots.",
-      "[Always Active] Shots explode in a 2.9m radius (penetrates walls). Direct shots and explosions have a guaranteed Impact proc."
+      "[Always Active] Shots explode in a 2.9m radius (penetrates walls). Direct shots and explosions have a guaranteed Impact proc.",
+      "[Headshot] Deals +50% bonus damage on headshots."
     ]
   },
   {
@@ -333,23 +329,16 @@
     ]
   },
   {
-    "weaponName": "Kuva Karak",
-    "passives": [
-      "[Always Active] Innate 0.2m punch through."
-    ]
-  },
-  {
     "weaponName": "Quartakk",
     "passives": [
-      "[Always Active] Innate 0.5m punch through and deals primarily Impact. Uniquely fires all four shots simultaneously.",
-      "[Adversary] Kuva hip-fire shoots fully-automatic; aimed fire shoots the simultaneous four-round burst."
+      "[Always Active] Uniquely fires all 4 shots simultaneously.",
+      "[Adversary] Kuva hip-fire shoots fully automatic; aimed fire shoots the simultaneous 4-round burst."
     ]
   },
   {
     "weaponName": "Miter",
     "passives": [
-      "[Always Active] Deals primarily Slash and shots ricochet up to five times.",
-      "[Charged Shot] Charged shots have innate 2.5m punch through."
+      "[Always Active] Shots ricochet up to 5 times."
     ]
   },
   {
@@ -361,42 +350,42 @@
   {
     "weaponName": "Opticor",
     "passives": [
-      "[Always Active] Shots explode upon impact (penetrates walls), staggering enemies and vaporizing corpses. Can be fired at 40% maximum charge and has innate 1m punch through. Base explodes in a 6m radius; Vandal explodes in a 4.6m radius."
+      "[Always Active] Shots explode upon impact (penetrates walls), staggering enemies and vaporizing corpses. Can be fired at 40% maximum charge.",
+      "[Base Specific] Shots explode in a 6m radius.",
+      "[Vandal Specific] Shots explode in a 4.6m radius."
     ]
   },
   {
     "weaponName": "Panthera",
     "passives": [
-      "[Alternate Fire] Deploys a levitating sawblade dealing continuous damage and staggering. Base deploys 6m away; Prime deploys 8m away.",
-      "[Prime Specific] Primary fire bounces and explodes in a 1.6m radius."
+      "[Alternate Fire] Deploys a levitating sawblade dealing continuous damage and staggering enemies.",
+      "[Base Specific] [Alternate Fire] Deploys the sawblade 6m away.",
+      "[Prime Specific] Primary fire bounces and explodes in a 1.6m radius.",
+      "[Prime Specific] [Alternate Fire] Deploys the sawblade 8m away."
     ]
   },
   {
     "weaponName": "Paracyst",
     "passives": [
-      "[Always Active] Deals Toxin damage.",
-      "[Alternate Fire] Shoots a single tether to pull in enemies."
+      "[Alternate Fire] Shoots 1 tether to pull in enemies."
     ]
   },
   {
     "weaponName": "Purgator 1",
     "passives": [
-      "[Always Active] Innate 1.1m punch through, infinite body punch through, and deals primarily Puncture.",
       "[On Kill] Enemies directly killed leave a Gas status effect behind."
     ]
   },
   {
     "weaponName": "Quanta",
     "passives": [
-      "[Always Active] Primary fire shoots two concentrated continuous beams.",
       "[Alternate Fire] Lobs a cube that explodes in a 6m radius on contact, being shot, or after 8 seconds (penetrates walls)."
     ]
   },
   {
     "weaponName": "Quellor",
     "passives": [
-      "[Always Active] Primary fire has innate 0.5m punch through and deals primarily Puncture.",
-      "[Alternate Fire] Charges a powerful shot traveling up to 26m, guaranteeing an Impact proc within 18m with infinite body punch through."
+      "[Alternate Fire] Charges a powerful shot traveling up to 26m and guaranteeing an Impact proc within 18m."
     ]
   },
   {
@@ -416,7 +405,9 @@
   {
     "weaponName": "Soma",
     "passives": [
-      "[Always Active] Requires a spool-up before optimal fire rate: Base (6 shots); Prime (4 shots)."
+      "[Always Active] Requires a spool-up before reaching optimal fire rate.",
+      "[Base Specific] Reaches optimal fire rate after 6 shots.",
+      "[Prime Specific] Reaches optimal fire rate after 4 shots."
     ]
   },
   {
@@ -435,27 +426,28 @@
   {
     "weaponName": "Supra",
     "passives": [
-      "[Always Active] Requires a spool-up before optimal fire rate: Base (5 shots); Vandal (4 shots)."
+      "[Always Active] Requires a spool-up before reaching optimal fire rate.",
+      "[Base Specific] Reaches optimal fire rate after 5 shots.",
+      "[Vandal Specific] Reaches optimal fire rate after 4 shots."
     ]
   },
   {
     "weaponName": "Synapse",
     "passives": [
-      "[Headshot] Deals +20% bonus damage on headshots.",
-      "[Always Active] Deals Corrosive damage."
+      "[Headshot] Deals +20% bonus damage on headshots."
     ]
   },
   {
     "weaponName": "Tenet Tetra",
     "passives": [
-      "[Alternate Fire] Launches a single grenade exploding in an 8m radius dealing Blast damage, consuming all remaining ammunition (damage scales with remaining magazine)."
+      "[Alternate Fire] Launches 1 grenade exploding in an 8m radius dealing Blast damage, consuming all remaining ammunition (damage scales with remaining magazine)."
     ]
   },
   {
     "weaponName": "Tenora",
     "passives": [
       "[Always Active] Requires a spool-up of 9 shots before optimal fire rate.",
-      "[Alternate Fire] Charges a single powerful shot with perfect accuracy and innate 1m punch through."
+      "[Alternate Fire] Charges 1 powerful shot."
     ]
   },
   {
@@ -468,8 +460,8 @@
     "weaponName": "Trumna",
     "passives": [
       "[Always Active] Primary fire explodes in a 1.6m radius.",
-      "[Alternate Fire] Launches a grenade exploding in a 6m radius and bouncing up to 7 times (penetrates walls).",
-      "[Equipped] Innate -50% Holster Speed."
+      "[Equipped] Innate -50% Holster Speed.",
+      "[Alternate Fire] Launches a grenade exploding in a 6m radius and bouncing up to 7 times (penetrates walls)."
     ]
   },
   {
@@ -481,7 +473,7 @@
   {
     "weaponName": "Vinquibus",
     "passives": [
-      "[Always Active] Equipping occupies both primary and melee slots; counts as a single weapon for modding and Affinity.",
+      "[Always Active] Equipping occupies both primary and melee slots; counts as 1 weapon for modding and Affinity.",
       "[Primary Form (Headshot)] Headshots grant 2 stacks (max 16) of Vinquibus Precision, increasing melee damage by 250% (expended on connect).",
       "[Melee Form (On Kill)] Kills grant 4 stacks (max 16) of Vinquibus Ferocity, increasing primary Ammo Efficiency by 100% (expended on shot)."
     ]
@@ -489,53 +481,37 @@
   {
     "weaponName": "Zenith",
     "passives": [
-      "[Always Active] Primary fire deals Slash. Alternate fire deals Puncture.",
-      "[Alternate Fire] Deploys a disc highlighting enemy heads within 20m through walls, changes fire type to semi-auto, and grants innate infinite punch through."
+      "[Alternate Fire] Deploys a disc highlighting enemy heads within 20m through walls and changes fire type to semi-auto."
     ]
   },
   {
     "weaponName": "Arca Plasmor",
     "passives": [
-      "[Always Active] Shots have a guaranteed Impact proc to enemies up to 14m (Base) or 29m (Tenet). Distance is affected by Projectile Speed.",
-      "[Always Active] Innate Infinite Body Punch Through.",
-      "[Base Specific] Projectiles have a thickness of 3m.",
-      "[Adversary] Tenet projectiles have a thickness of 4.4m and bounce on surfaces up to 4 times."
+      "[Always Active] Shots have a guaranteed Impact proc. The proc distance is affected by Projectile Speed.",
+      "[Base Specific] The guaranteed proc applies up to 14m, and projectiles have a thickness of 3m.",
+      "[Adversary] The guaranteed proc applies up to 29m. Tenet projectiles have a thickness of 4.4m and bounce on surfaces up to 4 times."
     ]
   },
   {
     "weaponName": "Astilla",
     "passives": [
-      "[Always Active] Fires a single slug every shot instead of individual pellets. Slugs have a guaranteed Impact proc.",
+      "[Always Active] Fires 1 slug per shot instead of individual pellets. Slugs have a guaranteed Impact proc.",
       "[Always Active] Slugs explode in a 2.4m radius after impacting a surface or enemy. Initial hit and explosion apply status separately.",
       "[Always Active] Explosion does not need direct line of sight to deal damage (penetrates walls)."
-    ]
-  },
-  {
-    "weaponName": "Boar",
-    "passives": [
-      "[Always Active] Innate multishot of 8 pellets."
-    ]
-  },
-  {
-    "weaponName": "Sobek",
-    "passives": [
-      "[Always Active] Innate multishot of 5 pellets."
     ]
   },
   {
     "weaponName": "Cedo",
     "passives": [
       "[Always Active] Deals an additive +60% bonus damage for each unique status effect on target.",
-      "[Always Active] Primary fire shoots wide-spread, close-ranged buckshot in a fully automatic fashion. Innate 0.8m punch through. Innate multishot of 6 (Base) or 7 (Prime) pellets.",
-      "[Alternate Fire] Launches a glaive that explodes in a 6m radius on impact with a surface or enemy and bounces up to 11 times. Consumes no ammo.",
-      "[Always Active] Direct hit and explosion apply status separately. Direct hit deals Slash damage. Explosion deals Blast damage and applies two separate guaranteed procs; the second proc has an even chance to be Heat, Cold, Electricity, or Toxin (penetrates walls)."
+      "[Always Active] Primary fire shoots wide-spread, close-ranged buckshot in a fully automatic fashion.",
+      "[Always Active] Direct hit and explosion apply status separately. Direct hit deals Slash damage. Explosion deals Blast damage and applies 2 separate guaranteed procs; the 2nd proc has an even chance to be Heat, Cold, Electricity, or Toxin (penetrates walls).",
+      "[Alternate Fire] Launches a glaive that explodes in a 6m radius on impact with a surface or enemy and bounces up to 11 times. Consumes no ammo."
     ]
   },
   {
     "weaponName": "Coda Bassocyst",
     "passives": [
-      "[Always Active] This weapon primarily deals Blast damage.",
-      "[Always Active] Primary fire has innate Infinite Body Punch Through.",
       "[Mercy Kill] Performing a Mercy Kill (Parazon) grants +100% damage and Multishot for 20 seconds. Buff duration is refreshed on subsequent Mercy kills.",
       "[Alternate Fire] Launches a mite that latches up to 6 enemies, highlighting their heads for 5 seconds while dealing Impact and Magnetic damage and status effects per second for 10 seconds. Consumes 4 ammo per shot. Does not benefit from Multishot. If the target is opened to a Mercy, the user will teleport and automatically perform a Mercy Finisher."
     ]
@@ -543,38 +519,30 @@
   {
     "weaponName": "Convectrix",
     "passives": [
-      "[Always Active] Innate multishot of 2 beams.",
       "[Alternate Fire] Spreads the beams outward and continuously sweeps back and forth."
     ]
   },
   {
     "weaponName": "Corinth",
     "passives": [
-      "[Always Active] Primary fire shoots wide-spread, close-ranged buckshot with innate multishot of 6 pellets.",
-      "[Alternate Fire] Launches a grenade. Base requires 20m minimum arming distance before exploding in a 9.4m radius; Prime is remotely detonated and explodes in a 9.8m radius. Physical contact has a guaranteed Impact proc (penetrates walls).",
-      "[Reload] Reloads one shell at a time and can be interrupted at any point. Base reloads at 0.22 seconds per shell; Prime consumes 4 ammunition per alt-fire shot."
+      "[Reload] Reloads 1 shell at a time and can be interrupted at any point.",
+      "[Base Specific] [Reload] Reloads at 0.22 seconds per shell.",
+      "[Base Specific] [Alternate Fire] Launches a grenade requiring a 20m minimum arming distance before exploding in a 9.4m radius. Physical contact has a guaranteed Impact proc (penetrates walls).",
+      "[Prime Specific] [Alternate Fire] Launches a remotely detonated grenade that explodes in a 9.8m radius and consumes 4 ammunition. Physical contact has a guaranteed Impact proc (penetrates walls)."
     ]
   },
   {
     "weaponName": "Drakgoon",
     "passives": [
-      "[Always Active] Shots ricochet once. Innate multishot of 10 pellets.",
-      "[Charged Shot] Charged shots have innate 2m (Base) or 1.5m (Kuva) punch through.",
+      "[Always Active] Shots ricochet once.",
       "[Adversary] Kuva shrapnel does not slow down after bouncing."
-    ]
-  },
-  {
-    "weaponName": "Exergis",
-    "passives": [
-      "[Always Active] Innate multishot of 3 pellets. Innate Infinite Body Punch Through and 0.5m punch through for surfaces."
     ]
   },
   {
     "weaponName": "Hek",
     "passives": [
-      "[Always Active] Innate multishot of 7 pellets.",
       "[Vaykor Specific] Innate Justice effect.",
-      "[Adversary] Kuva [Alternate Fire] Shoots four shots simultaneously, consuming 4 rounds of ammunition."
+      "[Adversary] [Alternate Fire] Shoots 4 shots simultaneously, consuming 4 rounds of ammunition."
     ]
   },
   {
@@ -586,13 +554,14 @@
   {
     "weaponName": "Phage",
     "passives": [
-      "[Always Active] Deals Viral damage. Innate multishot of 7 beams. Firing from hip shoots beams in a spread; firing while aiming focuses beams on the crosshairs."
+      "[Hip-fire] Fires beams in a spread.",
+      "[Aiming] Focuses beams on the crosshairs."
     ]
   },
   {
     "weaponName": "Phantasma",
     "passives": [
-      "[Always Active] Deals primarily Radiation damage. Primary fire shoots six continuous beams with pinpoint accuracy. Innate multishot of 6 beams. Consumes 0.5 ammo per tick of damage. Innate Infinite Body Punch Through.",
+      "[Always Active] Consumes 0.5 ammo per tick of damage.",
       "[Alternate Fire] Charges to fire a large plasma bomb that explodes in a 4.8m radius, releasing 5 seeking projectiles. Plasma bomb and seeking projectiles have a guaranteed Impact proc. Initial hit and explosion apply status separately (penetrates walls)."
     ]
   },
@@ -606,64 +575,48 @@
   {
     "weaponName": "Steflos",
     "passives": [
-      "[Always Active] Deals primarily Heat damage. Projectiles have a lifespan of 0.6 seconds and a base thickness of ~2 meters. Innate Infinite Body Punch Through.",
+      "[Always Active] Projectiles have a lifespan of 0.6 seconds and a base thickness of approximately 2m.",
       "[Always Active] Each enemy hit increases projectile lifespan by 50%, up to a maximum of 10 seconds. Projectiles grow in size as they hit enemies."
     ]
   },
   {
     "weaponName": "Mk1-Strun",
     "passives": [
-      "[Always Active] Innate multishot of 10 (Mk1/Wraith), 12 (Strun), or deals primarily Impact and Slash (Prime) pellets. Prime has innate 0.8m punch through.",
-      "[Wraith Specific] Shots have a forced enemy stagger.",
-      "[Reload] Reloads one shell at a time and can be interrupted at any point. Mk1/Strun reload at 0.5 seconds per shell with 0.5 second start delay and 0.25 second end delay. Wraith reloads at 0.45 seconds per shell with 0.25 second start delay. Prime reloads at 0.4 seconds per shell with 0.6 second total start/end delay."
+      "[Reload] Reloads 1 shell at a time and can be interrupted at any point.",
+      "[Mk1 Specific] [Reload] Reloads at 0.5 seconds per shell with a 0.5-second start delay and a 0.25-second end delay.",
+      "[Base Specific] [Reload] Reloads at 0.5 seconds per shell with a 0.5-second start delay and a 0.25-second end delay.",
+      "[Wraith Specific] [Always Active] Shots have a forced enemy stagger.",
+      "[Wraith Specific] [Reload] Reloads at 0.45 seconds per shell with a 0.25-second start delay.",
+      "[Prime Specific] [Reload] Reloads at 0.4 seconds per shell with a 0.6-second total start/end delay."
     ]
   },
   {
     "weaponName": "Tigris",
     "passives": [
-      "[Always Active] Unique trigger type allows for two rapid shots: first on button press, second on button release.",
-      "[Base Specific] Innate multishot of 5 pellets.",
-      "[Sancti Specific] Innate multishot of 6 pellets. Innate Purity effect.",
-      "[Prime Specific] Innate multishot of 8 pellets."
+      "[Always Active] Unique trigger type allows for 2 rapid shots: the 1st on button press and the 2nd on button release.",
+      "[Sancti Specific] Innate Purity effect."
     ]
   },
   {
     "weaponName": "Komorex",
     "passives": [
       "[Always Active] Innate 100% Ammo Mutation.",
-      "[Aiming] Second zoom mode adds a 3.5m explosion dealing Viral damage (penetrates walls) and reduces fire rate by 75%."
-    ]
-  },
-  {
-    "weaponName": "Lanka",
-    "passives": [
-      "[Always Active] Innate infinite body punch through.",
-      "[Charged Shot] Fully charged shots have innate 5m punch through for surfaces."
+      "[Aiming] 2nd zoom mode adds a 3.5m explosion dealing Viral damage (penetrates walls) and reduces fire rate by 75%."
     ]
   },
   {
     "weaponName": "Perigale",
     "passives": [
-      "[Always Active] Hip-fire shots spread horizontally with pinpoint accuracy.",
+      "[Hip-fire] Shots spread horizontally.",
       "[Headshot] Landing 4 headshots in a burst or a headshot kill grants \"Gale Force\", increasing Ammo Efficiency by 100% for 4 seconds (refreshable)."
-    ]
-  },
-  {
-    "weaponName": "Rubico",
-    "passives": [
-      "[Always Active] Innate 1m punch through."
-    ]
-  },
-  {
-    "weaponName": "Snipetron",
-    "passives": [
-      "[Always Active] Base has innate 2.5m punch through; Vandal has innate 3m punch through."
     ]
   },
   {
     "weaponName": "Sporothrix",
     "passives": [
-      "[Always Active] Shots explode after 0.9 seconds on impact (penetrates walls). Base explodes in a 1.7m radius; Coda explodes in a 2m radius. Explosion deals innate Viral damage."
+      "[Always Active] Shots explode after 0.9 seconds on impact and penetrate walls.",
+      "[Base Specific] Shots explode in a 1.7m radius.",
+      "[Coda Specific] Shots explode in a 2m radius."
     ]
   },
   {
@@ -671,69 +624,73 @@
     "passives": [
       "[Always Active] Charge-up is automatic and fires automatically unless the trigger is held. Lightning strikes only target enemies in the same plane (e.g., Rift).",
       "[Reload] Reloading does not break zoom.",
-      "[On Hit] Damaging an enemy has a chance to spawn up to 3 lightning strikes targeting enemies within 10m. Failing to trigger a strike for 3 hits guarantees the next hit spawns one."
+      "[On Hit] Damaging an enemy has a chance to spawn up to 3 lightning strikes targeting enemies within 10m. Failing to trigger a strike for 3 hits guarantees the next hit spawns 1 strike."
     ]
   },
   {
     "weaponName": "Vectis",
     "passives": [
-      "[Always Active] Innate 1m punch through.",
       "[Reload] Zoom is not cancelled during reload."
     ]
   },
   {
     "weaponName": "Vulkar",
     "passives": [
-      "[Always Active] Shots stagger most enemies with every hit. Innate 1m punch through."
+      "[Always Active] Shots stagger most enemies with every hit."
     ]
   },
   {
     "weaponName": "Afentis",
     "passives": [
       "[Always Active] Primary fire explodes in a 3m radius after 0.8 seconds (penetrates walls).",
-      "[Alternate Fire] Throws a duplicate weapon. Hitting an enemy impales them for 20 seconds. Missing creates a 5m Ballistarii Might field for 10 seconds.",
-      "[Equipped] Reloads 33% of the magazine per second while holstered."
+      "[Equipped] Reloads 33% of the magazine per second while holstered.",
+      "[Alternate Fire] Throws a duplicate weapon. Hitting an enemy impales them for 20 seconds. Missing creates a 5m Ballistarii Might field for 10 seconds."
     ]
   },
   {
     "weaponName": "Ferrox",
     "passives": [
-      "[Always Active] Base primary fire has innate 1.5m punch through. Shots explode at max punch through distance (penetrates walls). Base explodes in 3.6m; Tenet explodes in 4m.",
+      "[Always Active] Shots explode at maximum penetration distance and penetrate walls.",
       "[On Kill] Vaporizes enemies on kill.",
-      "[Alternate Fire] Throws the weapon, creating a field that pulls enemies within 10m and deals Electricity damage. Base pulls every 2 seconds. Field lasts 30 seconds.",
-      "[Equipped] Reloads 33% of the magazine per second while deployed or holstered."
+      "[Equipped] Reloads 33% of the magazine per second while deployed or holstered.",
+      "[Alternate Fire] Throws the weapon, creating a field that pulls enemies within 10m and deals Electricity damage. Field lasts 30 seconds.",
+      "[Base Specific] Shots explode in a 3.6m radius.",
+      "[Base Specific] [Alternate Fire] The field pulls every 2 seconds.",
+      "[Adversary] Shots explode in a 4m radius."
     ]
   },
   {
     "weaponName": "Javlok",
     "passives": [
       "[Always Active] Primary fire explodes in a 2.4m radius.",
-      "[Alternate Fire] Throws the weapon, creating a 6m explosion with a guaranteed Impact proc (penetrates walls). Damage increases by 20% per round in the magazine.",
-      "[Equipped] Reloads 33% of the magazine per second while deployed or holstered."
+      "[Equipped] Reloads 33% of the magazine per second while deployed or holstered.",
+      "[Alternate Fire] Throws the weapon, creating a 6m explosion with a guaranteed Impact proc (penetrates walls). Damage increases by 20% per round in the magazine."
     ]
   },
   {
     "weaponName": "Scourge",
     "passives": [
       "[Always Active] Primary fire explodes in a 1.7m radius on impact (penetrates walls).",
-      "[Alternate Fire] Throws the weapon, creating a 2m Bullet Attractor field on the heads of enemies within 14m. Field lasts 20 seconds and pulses every 5 seconds.",
-      "[Equipped] Reloads 33% of the magazine per second while deployed or holstered."
+      "[Equipped] Reloads 33% of the magazine per second while deployed or holstered.",
+      "[Alternate Fire] Throws the weapon, creating a 2m Bullet Attractor field on the heads of enemies within 14m. Field lasts 20 seconds and pulses every 5 seconds."
     ]
   },
   {
     "weaponName": "Ballistica",
     "passives": [
-      "[Always Active] Uncharged shots fire a 4-round burst; charged shots fire a single round.",
+      "[Always Active] Uncharged shots fire a 4-round burst; charged shots fire 1 round.",
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
       "[Rakta Specific] Innate Blight effect.",
-      "[Prime Specific] Charged shots have 1m punch through. [Charged Kill] Charged shot kills within 50m create an allied ghost for 7 seconds."
+      "[Prime Specific] [Charged Kill] Charged shot kills within 50m create an allied ghost for 7 seconds."
     ]
   },
   {
     "weaponName": "Akarius",
     "passives": [
-      "[Always Active] Rockets home in on enemies within 15° and explode on impact (penetrates walls). Base explodes in 7.2m; Prime explodes in 7.8m.",
-      "[Sprint Reload] Reloads 50% faster while sprinting (100% for Gauss / Gauss Prime)."
+      "[Always Active] Rockets home in on enemies within 15° and explode on impact (penetrates walls).",
+      "[Sprint Reload] Reloads 50% faster while sprinting (100% for Gauss / Gauss Prime).",
+      "[Base Specific] Rockets explode in a 7.2m radius.",
+      "[Prime Specific] Rockets explode in a 7.8m radius."
     ]
   },
   {
@@ -741,12 +698,6 @@
     "passives": [
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
       "[Telos Specific] Innate Truth effect."
-    ]
-  },
-  {
-    "weaponName": "Akjagara Prime",
-    "passives": [
-      "[Always Active] Innate 0.2m punch through."
     ]
   },
   {
@@ -783,14 +734,7 @@
     "weaponName": "Tenet Diplos",
     "passives": [
       "[Aiming] Activates lock-on mode targeting up to 8 enemies within 60m. Firing shoots 2 seeking projectiles per target.",
-      "[Always Active] Innate 1m punch through.",
       "[Equipped] Reloads 10% (8 rounds) of magazine per second while holstered."
-    ]
-  },
-  {
-    "weaponName": "Twin Grakatas",
-    "passives": [
-      "[Always Active] Innate multishot of 2 bullets, consuming 2 ammo per shot."
     ]
   },
   {
@@ -800,21 +744,9 @@
     ]
   },
   {
-    "weaponName": "Akbronco",
-    "passives": [
-      "[Always Active] Innate multishot of 7 pellets."
-    ]
-  },
-  {
     "weaponName": "Twin Kohmak",
     "passives": [
-      "[Always Active] Innate 1.5m punch through. Innate multishot increases with auto-spool, adding 1 additional pellet per consecutive shot up to a maximum of 5 pellets."
-    ]
-  },
-  {
-    "weaponName": "Twin Rogga",
-    "passives": [
-      "[Always Active] Innate multishot of 15 pellets."
+      "[Always Active] Innate multishot increases with auto-spool, adding 1 additional pellet per consecutive shot up to a maximum of 5 pellets."
     ]
   },
   {
@@ -840,7 +772,7 @@
     "weaponName": "Athodai",
     "passives": [
       "[Headshot Kill] Headshot kills with primary fire trigger Overdrive, increasing fire rate by 100%, ammo efficiency by 100%, and decreasing recoil by -100% for 8 seconds.",
-      "[Alternate Fire] Shoots a cone of energy, ejecting all remaining ammunition in a quick burst. Innate 2m punch through. Prevents zoom."
+      "[Alternate Fire] Shoots a cone of energy, ejecting all remaining ammunition in a quick burst and preventing zoom."
     ]
   },
   {
@@ -852,28 +784,31 @@
   {
     "weaponName": "Azima",
     "passives": [
-      "[Alternate Fire] Ejects the entire magazine into a single shot that spawns an automated turret. Turret impact deals Blast damage."
+      "[Alternate Fire] Ejects the entire magazine into 1 shot that spawns an automated turret. Turret impact deals Blast damage."
     ]
   },
   {
     "weaponName": "Catabolyst",
     "passives": [
       "[Always Active] Consumes 0.5 ammo per tick. Maximum beam range produces a spherical blast radius of 0.7m.",
-      "[Empty Reload] Reloading from empty applies an innate -20% reload speed penalty and throws grenade(s) exploding in a 5-7m (Base) or 3-5m (Coda) radius (penetrates walls)."
+      "[Empty Reload] Reloading from empty applies an innate -20% reload speed penalty and throws a grenade that penetrates walls.",
+      "[Base Specific] [Empty Reload] The grenade explodes in a 5–7m radius.",
+      "[Coda Specific] [Empty Reload] The grenade explodes in a 3–5m radius."
     ]
   },
   {
     "weaponName": "Cyanex",
     "passives": [
       "[Always Active] Primary fire homes in on enemies within 15°, ricochets once, and explodes in a 0.7m radius (penetrates walls).",
-      "[Alternate Fire] Unleashes all remaining rounds in a single fully automatic burst with increased fire rate. Innate 0.5m punch through and infinite body punch through."
+      "[Alternate Fire] Unleashes all remaining rounds in 1 fully automatic burst with increased fire rate."
     ]
   },
   {
     "weaponName": "Cycron",
     "passives": [
-      "[Always Active] Consumes 0.5 ammo per tick. Does not use ammo pickups; regenerates 40 ammo per second after a 1-second (Base) or 0.5-second (Tenet) delay.",
-      "[Adversary] Tenet beam chains up to 2 nearby enemies within 7m, dealing 60% of the main beam's damage."
+      "[Always Active] Consumes 0.5 ammo per tick. Does not use ammo pickups; regenerates 40 ammo per second.",
+      "[Base Specific] Ammo regeneration begins after a 1-second delay.",
+      "[Adversary] Ammo regeneration begins after a 0.5-second delay. Tenet beam chains up to 2 nearby enemies within 7m, dealing 60% of the main beam's damage."
     ]
   },
   {
@@ -892,7 +827,7 @@
     "weaponName": "Epitaph",
     "passives": [
       "[Always Active] Guaranteed Impact proc. Uncharged shots explode in a 10m radius with a guaranteed Cold proc (penetrates walls).",
-      "[Charged Shot] Deals primarily Slash damage with innate 2m punch through and a guaranteed Cold proc.",
+      "[Charged Shot] Guarantees a Cold proc.",
       "[Warframe Synergy] Deals +20% headshot damage when wielded by Sevagoth / Sevagoth Prime."
     ]
   },
@@ -906,9 +841,9 @@
   {
     "weaponName": "Hystrix",
     "passives": [
-      "[Alternate Fire] Cycles between Toxin, Heat, Electricity, or Cold elemental quills that apply a guaranteed proc.",
       "[On Kill] Ragdolls targets; bodies follow the projectile, damaging enemies in their path and pinning corpses to walls.",
-      "[Warframe Synergy] Grants an 8% chance to instantly reload on headshots when wielded by Khora / Khora Prime."
+      "[Warframe Synergy] Grants an 8% chance to instantly reload on headshots when wielded by Khora / Khora Prime.",
+      "[Alternate Fire] Cycles between Toxin, Heat, Electricity, or Cold elemental quills that apply a guaranteed proc."
     ]
   },
   {
@@ -920,7 +855,9 @@
   {
     "weaponName": "Kompressa",
     "passives": [
-      "[Always Active] Innate multishot of 4 bubbles. Bubbles explode after 0.6–0.8 seconds (penetrates walls). Base explodes in a 2.4m radius; Prime explodes in a 2.8m radius."
+      "[Always Active] Bubbles explode after 0.6–0.8 seconds and penetrate walls.",
+      "[Base Specific] Bubbles explode in a 2.4m radius.",
+      "[Prime Specific] Bubbles explode in a 2.8m radius."
     ]
   },
   {
@@ -964,7 +901,7 @@
     "weaponName": "Plinx",
     "passives": [
       "[Always Active] Does not use ammo pickups; regenerates 20 ammo per second after a 0.8-second delay.",
-      "[Adversary] Tenet [Alternate Fire] Consumes full magazine to embed an explosive pulling enemies within 6m before detonating after 0.8 seconds (penetrates walls). Requires a 2-second reload delay."
+      "[Adversary] [Alternate Fire] Consumes the full magazine to embed an explosive that pulls enemies within 6m before detonating after 0.8 seconds (penetrates walls). Requires a 2-second reload delay."
     ]
   },
   {
@@ -1003,21 +940,21 @@
   {
     "weaponName": "Spectra",
     "passives": [
-      "[Always Active] Innate 0.5m punch through. Consumes 0.5 ammo per tick."
+      "[Always Active] Consumes 0.5 ammo per tick."
     ]
   },
   {
     "weaponName": "Stug",
     "passives": [
-      "[Always Active] Blobs stick to surfaces and deal two ticks of damage in a 2m radius before exploding in a 0.3–2.8m radius. Firing consecutively into one spot combines blobs, increasing damage by 100% (up to 10 stacks) and scaling explosion range.",
-      "[Alternate Fire] Charges a single large blob for 6 ammo (penetrates walls)."
+      "[Always Active] Blobs stick to surfaces and deal 2 ticks of damage in a 2m radius before exploding in a 0.3–2.8m radius. Firing consecutively into 1 spot combines blobs, increasing damage by 100% (up to 10 stacks) and scaling explosion range.",
+      "[Alternate Fire] Charges 1 large blob for 6 ammo (penetrates walls)."
     ]
   },
   {
     "weaponName": "Tenet Spirex",
     "passives": [
-      "[Adversary] [Always Active] Shots explode in a 2m radius with a guaranteed Impact proc (penetrates walls).",
-      "[Headshot] Landing headshots grants Bullseye Reload, increasing reload speed by 25% for 4 seconds (stacks 2 times, refreshable)."
+      "[Headshot] Landing headshots grants Bullseye Reload, increasing reload speed by 25% for 4 seconds (stacks 2 times, refreshable).",
+      "[Adversary] [Always Active] Shots explode in a 2m radius with a guaranteed Impact proc (penetrates walls)."
     ]
   },
   {
@@ -1035,7 +972,7 @@
   {
     "weaponName": "Velox",
     "passives": [
-      "[Always Active] Innate 20% Ammo Efficiency. Does not consume ammo on the first shot of a 5-shot series.",
+      "[Always Active] Innate 20% Ammo Efficiency. Does not consume ammo on the 1st shot of a 5-shot series.",
       "[Empty Reload] Reloads 50% faster from a fully depleted magazine.",
       "[Warframe Synergy] Ammo Efficiency increases to 40% when wielded by Protea / Protea Prime."
     ]
@@ -1049,13 +986,15 @@
   {
     "weaponName": "Zakti",
     "passives": [
-      "[Always Active] Darts have a guaranteed Impact proc on direct hits. Darts explode after 1 second (penetrates walls, no falloff), staggering enemies. Base explodes in 3.5m; Prime explodes in 3.8m."
+      "[Always Active] Darts have a guaranteed Impact proc on direct hits. Darts explode after 1 second (penetrates walls, no falloff), staggering enemies.",
+      "[Base Specific] Darts explode in a 3.5m radius.",
+      "[Prime Specific] Darts explode in a 3.8m radius."
     ]
   },
   {
     "weaponName": "Zylok",
     "passives": [
-      "[Always Active] Unique trigger type allows for two rapid shots: first on button press, second on button release."
+      "[Always Active] Unique trigger type allows for 2 rapid shots: the 1st on button press and the 2nd on button release."
     ]
   },
   {
@@ -1066,42 +1005,27 @@
     ]
   },
   {
-    "weaponName": "Brakk",
-    "passives": [
-      "[Always Active] Innate multishot of 10 pellets.",
-      "[Adversary] Kuva has innate 0.5m punch through."
-    ]
-  },
-  {
-    "weaponName": "Bronco",
-    "passives": [
-      "[Always Active] Innate multishot of 7 pellets."
-    ]
-  },
-  {
     "weaponName": "Detron",
     "passives": [
-      "[Always Active] Base and Mara have innate multishot of 7 pellets; Tenet has innate multishot of 10 pellets.",
-      "[Adversary] Tenet [Alternate Fire] shoots all remaining ammunition in a quick burst."
+      "[Adversary] [Alternate Fire] Shoots all remaining ammunition in a quick burst."
     ]
   },
   {
     "weaponName": "Euphona Prime",
     "passives": [
       "[Always Active] Primary fire shoots a long-ranged slug with no damage falloff.",
-      "[Alternate Fire] Shoots a wide-spread buckshot with innate multishot of 10 pellets and sharp linear damage falloff from 6m to 12m."
+      "[Alternate Fire] Shoots wide-spread buckshot with sharp linear damage falloff from 6m to 12m."
     ]
   },
   {
     "weaponName": "Kohmak",
     "passives": [
-      "[Always Active] Innate 1.5m punch through. Innate multishot increases with auto-spool, adding 1 additional pellet per consecutive shot up to a maximum of 5 pellets."
+      "[Always Active] Innate multishot increases with auto-spool, adding 1 additional pellet per consecutive shot up to a maximum of 5 pellets."
     ]
   },
   {
     "weaponName": "Pyrana",
     "passives": [
-      "[Always Active] Base has innate multishot of 12 pellets; Prime has innate multishot of 10 pellets.",
       "[Prime Specific] [On Kill] Getting 3 kills within 3 seconds summons an ethereal copy for 6 seconds, doubling magazine size and increasing fire rate by 40%."
     ]
   },
@@ -1124,52 +1048,33 @@
     "weaponName": "Castanas",
     "passives": [
       "[Always Active] Mines stick to surfaces (max 6) with a guaranteed Electricity proc. Silent, even if the projectile hits an enemy.",
-      "[Sancti Specific] Innate Purity effect.",
-      "[Alternate Fire] Detonates mines in a 3.6m radius (penetrates walls, inflicts self-stagger)."
-    ]
-  },
-  {
-    "weaponName": "Despair",
-    "passives": [
-      "[Always Active] Silent."
+      "[Alternate Fire] Detonates mines in a 3.6m radius (penetrates walls, inflicts self-stagger).",
+      "[Sancti Specific] Innate Purity effect."
     ]
   },
   {
     "weaponName": "Fusilai",
     "passives": [
-      "[Always Active] Silent.",
       "[Alternate Fire] Throws 3 knives in a fan shape with a wide spread. Consumes 3 ammo. Changes noise level to Alarming."
-    ]
-  },
-  {
-    "weaponName": "Hikou",
-    "passives": [
-      "[Always Active] Silent."
-    ]
-  },
-  {
-    "weaponName": "Kunai",
-    "passives": [
-      "[Always Active] Silent."
     ]
   },
   {
     "weaponName": "Pox",
     "passives": [
-      "[Always Active] Spores explode upon impact (penetrates walls, no falloff), lingering for 4 seconds as a cloud dealing continuous Toxin damage. Base explodes in 2.5m; Coda explodes in 2.8m."
+      "[Always Active] Spores explode upon impact (penetrates walls, no falloff), lingering for 4 seconds as a cloud dealing continuous Toxin damage.",
+      "[Base Specific] Spores explode in a 2.5m radius.",
+      "[Coda Specific] Spores explode in a 2.8m radius."
     ]
   },
   {
     "weaponName": "Scyotid",
     "passives": [
-      "[Always Active] Primary fire has innate 1.6m punch through.",
       "[Alternate Fire] Throws a snare that damages, paralyzes for ~6 seconds, and groups up to 8 enemies within 15m. Consumes 4 ammo."
     ]
   },
   {
     "weaponName": "Spira",
     "passives": [
-      "[Always Active] Silent.",
       "[On Kill] Ragdolls targets; bodies fly in a straight line, damaging enemies in their path and pinning corpses to walls."
     ]
   },
@@ -1190,7 +1095,7 @@
   {
     "weaponName": "Grimoire",
     "passives": [
-      "[Always Active] Deals pure Electricity damage. Infinite ammo; does not need to reload. Primary fire explodes in a 1m radius (penetrates walls, linear falloff to 20%). Punch-through disabled on primary fire.",
+      "[Always Active] Infinite ammo; does not need to reload. Primary fire explodes in a 1m radius (penetrates walls, linear falloff to 20%). Punch-through is disabled on primary fire.",
       "[Alternate Fire] Throws a slow orb that explodes after 6 seconds. Shocks 1 enemy within 6m every 1 second, chaining to 2 additional enemies. Every strike forces an Electricity proc. Requires a fully filled meter (recharges over 45 seconds; primary fire hits reduce recharge by 1 second)."
     ]
   },
@@ -1252,7 +1157,7 @@
   {
     "weaponName": "Orvius",
     "passives": [
-      "[Thrown] Holding the melee button briefly performs a normal throw that flies above the first enemy in its path, suspending them in midair for 3 seconds before inflicting 3 ticks of damage and exploding in a 4m radius, damaging all enemies around it; the disc then returns to the user. Can travel up to 30m before returning.",
+      "[Thrown] Holding the melee button briefly performs a normal throw that flies above the 1st enemy in its path, suspending them in midair for 3 seconds before inflicting 3 ticks of damage and exploding in a 4m radius, damaging all enemies around it; the disc then returns to the user. Can travel up to 30m before returning.",
       "[Thrown] Holding the melee button longer performs a charged throw that can bounce up to 3 times or travel up to 30m before returning, damaging anyone in its path. Meleeing while the glaive is mid-flight recalls it early."
     ]
   },
@@ -1335,7 +1240,7 @@
   {
     "weaponName": "Corufell",
     "passives": [
-      "[Heavy Attack] Transforms into a Gunblade to fire up to two consecutive energy projectiles."
+      "[Heavy Attack] Transforms into a Gunblade to fire up to 2 consecutive energy projectiles."
     ]
   },
   {
@@ -1365,7 +1270,7 @@
   {
     "weaponName": "Syam",
     "passives": [
-      "[Heavy Attack] Releases shockwaves traveling up to 230m (First is horizontal dealing 500 Heat, Second is vertical dealing 1500 Heat)."
+      "[Heavy Attack] Releases shockwaves traveling up to 230m (the 1st is horizontal, dealing 500 Heat; the 2nd is vertical, dealing 1500 Heat)."
     ]
   },
   {
@@ -1440,7 +1345,7 @@
   {
     "weaponName": "Broken Scepter",
     "passives": [
-      "[Corpse Drain] Can drain corpses for Orbs (Health for organic, Energy for mechanical)."
+      "[Held] Can interact with enemy corpses to drain them, spawning Health Orbs from organic enemies and Energy Orbs from robotic enemies."
     ]
   },
   {
@@ -1470,7 +1375,7 @@
   {
     "weaponName": "Tak & Lug",
     "passives": [
-      "[Heavy Attack] Throws the shield ~15m, exploding three times in a radius dealing Blast damage before returning."
+      "[Heavy Attack] Throws the shield ~15m, exploding 3 times in a radius dealing Blast damage before returning."
     ]
   },
   {
@@ -1495,7 +1400,7 @@
     "weaponName": "Telos Boltace",
     "passives": [
       "[Equipped] Grants 20% boost to Bullet Jump, Wall Latch, and Aim Glide duration.",
-      "[Slide] Slide attacks create a 14m vortex staggering enemies; a second slide disperses it and ragdolls enemies."
+      "[Slide] Slide attacks create a 14m vortex staggering enemies; a 2nd slide disperses it and ragdolls enemies."
     ]
   },
   {
@@ -1549,89 +1454,88 @@
   {
     "weaponName": "Spinnerex",
     "passives": [
-      "[On Hit then Kill] Enemies hit and then killed have a 10% chance to explode for each stack of Toxin status."
+      "[On Hit] Enemies hit and then killed from any source have a 10% chance to explode for each stack of Toxin status, spreading Toxin damage."
     ]
   },
   {
     "weaponName": "Verdilac",
     "passives": [
-      "[Block Combo] Performs up to three strikes, hurling 2m wide Toxin energy projectiles with 30% Crit Chance and 2.5 Crit Multiplier."
+      "[Block Combo] Performs up to 3 strikes, hurling 2m wide Toxin energy projectiles with 30% Crit Chance and 2.5 Crit Multiplier."
     ]
   },
   {
     "weaponName": "Artemis Bow",
     "passives": [
-      "[Always Active] Innate 1m punch through; does not drain energy continuously while active. Charge only increases projectile speed."
+      "[Always Active] Does not drain energy continuously while active. Charge only increases projectile speed."
     ]
   },
   {
     "weaponName": "Lizzie",
     "passives": [
-      "[Always Active] Primary emits a Heat stream with a 4m blast radius; aiming fires elemental sonic projectiles with innate 1.4m punch through."
+      "[Always Active] Primary emits a stream with a 4m blast radius; aiming fires elemental sonic projectiles."
     ]
   },
   {
     "weaponName": "Neutralizer",
     "passives": [
-      "[Always Active] Sniper rounds ricochet on weak point hits up to 4 times; innate 2.5m punch through.",
+      "[Always Active] Sniper rounds ricochet on weak point hits up to 4 times.",
       "[Alternate Fire] Launches a grenade exploding in a 10m radius, inflicting 10 Cold stacks."
     ]
   },
   {
     "weaponName": "Balefire Charger",
     "passives": [
-      "[Always Active] Deals primarily Electricity damage. Shots explode in a 1–3m radius (scales with charge level). Explosions do not inflict self-stagger and have no damage falloff."
+      "[Always Active] Shots explode in a 1–3m radius (scales with charge level). Explosions do not inflict self-stagger and have no damage falloff."
     ]
   },
   {
     "weaponName": "Glory",
     "passives": [
-      "[Always Active] Deals pure Heat damage. Primary fire explodes in a 2m radius (requires line of sight, affected by punch through). Shots have a 10% chance to apply Judgment, granting 50% Damage Vulnerability for 10 seconds.",
+      "[Always Active] Primary fire explodes in a 2m radius (requires line of sight, affected by punch through). Shots have a 10% chance to apply Judgment, granting 50% Damage Vulnerability for 10 seconds.",
       "[Alternate Fire] Detonates Judgment debuffs, causing affected enemies to explode in a 4m radius."
     ]
   },
   {
     "weaponName": "Noctua",
     "passives": [
-      "[Always Active] Deals pure Slash damage. Shots split into 4 fragments on impact that seek enemies within 20m. Innate infinite body punch through and 1.4m punch through against surfaces.",
-      "[Alternate Fire] Deals primarily Radiation damage. Hurls a wide projectile requiring a full meter (recharges over 60 seconds; primary fire hits reduce recharge by 1 second).",
-      "[On Kill] Passively scans enemies. Grants +50% additive Status Chance against fully scanned enemies."
+      "[Always Active] Shots split into 4 fragments on impact that seek enemies within 20m.",
+      "[On Kill] Passively scans enemies. Grants +50% additive Status Chance against fully scanned enemies.",
+      "[Alternate Fire] Hurls a wide projectile requiring a full meter (recharges over 60 seconds; primary fire hits reduce recharge by 1 second)."
     ]
   },
   {
     "weaponName": "Regulators",
     "passives": [
-      "[Always Active] Deals primarily Impact damage. Damage and fire rate scale up with consecutive shots fired. Possesses pinpoint accuracy."
+      "[Always Active] Damage and fire rate scale up with consecutive shots fired."
     ]
   },
   {
     "weaponName": "Felarx",
     "passives": [
-      "[Reload] Reloads one shell at a time, which can be interrupted at any point.",
-      "[Always Active] Shotgun and Incarnon forms have innate Infinite Body Punch Through.",
-      "[Incarnon] Landing 30 weakpoint hits fully charges the Transmutation gauge.",
-      "[Alternate Fire] Transforms into dual semi-auto pistols dealing pure Impact and Radiation damage. Features a unique magazine from 2 to 60 rounds."
+      "[Reload] Reloads 1 shell at a time, which can be interrupted at any point.",
+      "[Alternate Fire Gauge] Landing 30 weakpoint hits fully charges the Transmutation gauge.",
+      "[Alternate Fire] Transforms into dual semi-auto pistols."
     ]
   },
   {
     "weaponName": "Phenmor",
     "passives": [
-      "[Incarnon] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
-      "[Alternate Fire] Transforms into an automatic weapon with increased fire rate, 3m punch through, reduced recoil, and pure Slash and Radiation damage."
+      "[Alternate Fire Gauge] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
+      "[Alternate Fire] Transforms into an automatic weapon with increased fire rate and reduced recoil."
     ]
   },
   {
     "weaponName": "Laetum",
     "passives": [
-      "[Incarnon] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
-      "[Alternate Fire] Transforms into an automatic weapon. Direct hits deal pure Impact damage. Shots explode in a 2m radius dealing Radiation damage (penetrates walls). Features a unique magazine up to 216 rounds."
+      "[Alternate Fire Gauge] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
+      "[Alternate Fire] Transforms into an automatic weapon whose shots explode in a 2m radius (penetrates walls)."
     ]
   },
   {
     "weaponName": "Onos",
     "passives": [
-      "[Incarnon] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
-      "[Alternate Fire] Transforms into an Arm Cannon firing a wide Radiation beam that narrows. Fully charging the shot releases a Heat beam with 5m punch through that explodes in a 3m radius (penetrates walls). Features a unique magazine up to 350 rounds."
+      "[Alternate Fire Gauge] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
+      "[Alternate Fire] Transforms into an Arm Cannon firing a wide beam that narrows. Fully charging the shot releases a beam that explodes in a 3m radius (penetrates walls)."
     ]
   }
 ]
