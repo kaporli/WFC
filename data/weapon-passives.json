@@ -1100,9 +1100,28 @@
     ]
   },
   {
+    "weaponName": "Ghoulsaw",
+    "passives": [
+      "[Always Active] Perfect Follow Through prevents attacks from losing damage when they strike multiple targets."
+    ]
+  },
+  {
     "weaponName": "Dorrclave",
     "passives": [
-      "[Kill/Assist] 10 kills or assists grant Rising Vendetta, granting +0.5 Follow Through and a flat +100% Status Chance for the next 10 attacks."
+      "[Kill/Assist] 10 kills or assists grant Rising Vendetta, granting +0.5 Follow Through and a flat +100% Status Chance for the next 10 attacks.",
+      "[Warframe Synergy] When wielded by Dagath, striking an enemy restores 6 Health for each active Status Effect on that enemy."
+    ]
+  },
+  {
+    "weaponName": "Jat Kusar",
+    "passives": [
+      "[Heavy Attack] Heavy Attacks create an explosion dealing 218 Blast damage. The explosion is treated as Slam Radial Damage and is only modified by Seismic Wave."
+    ]
+  },
+  {
+    "weaponName": "Keratinos",
+    "passives": [
+      "[Heavy Attack] Performing a Heavy Attack at 12.0× Melee Combo grants +2.8m Melee Range for 180 seconds."
     ]
   },
   {
@@ -1118,15 +1137,30 @@
     ]
   },
   {
+    "weaponName": "Heat Dagger",
+    "passives": [
+      "[Held] Grants 10% Movement Speed bonus when held.",
+      "[Slam] Normal Slam Attacks have a forced Heat proc."
+    ]
+  },
+  {
     "weaponName": "Rakta Dark Dagger",
     "passives": [
-      "[Held] Reduces the range enemies can spot the user by 33%.",
-      "[Radiation Proc] Damaging enemies suffering from a Radiation proc restores 5% shields and can provide overshields."
+      "[Held] Grants 10% Movement Speed bonus when held.",
+      "[Equipped] Grants Mind Haze, reducing the range at which enemies can spot the user by 33%.",
+      "[Radiation Proc] Damaging an enemy suffering from a Radiation proc restores Shields equal to 5% of damage dealt and can provide Overshields, provided the user has at least 1 Shield."
     ]
   },
   {
     "weaponName": "Ether Daggers",
     "passives": [
+      "[Held] Grants 5% Movement Speed bonus when held."
+    ]
+  },
+  {
+    "weaponName": "Nepheri",
+    "passives": [
+      "[Always Active] The neutral combo performs 2 forward slashes, then launches 4 consecutive fireballs.",
       "[Held] Grants 5% Movement Speed bonus when held."
     ]
   },
@@ -1510,6 +1544,12 @@
     ]
   },
   {
+    "weaponName": "Garuda Talons",
+    "passives": [
+      "[Warframe Synergy] Automatically becomes the equipped Melee weapon when Garuda or Garuda Prime has no other Melee weapon equipped."
+    ]
+  },
+  {
     "weaponName": "Felarx",
     "passives": [
       "[Reload] Reloads 1 shell at a time, which can be interrupted at any point.",
@@ -1536,6 +1576,16 @@
     "passives": [
       "[Alternate Fire Gauge] Landing 12 weakpoint hits fully charges the Transmutation gauge.",
       "[Alternate Fire] Transforms into an Arm Cannon firing a wide beam that narrows. Fully charging the shot releases a beam that explodes in a 3m radius (penetrates walls)."
+    ]
+  },
+  {
+    "weaponName": "Innodem",
+    "passives": [
+      "[Held] Grants 10% Movement Speed bonus when held.",
+      "[Alternate Fire Gauge] Increasing Melee Combo Count fills the Transmutation gauge. Reaching 5.0× Melee Combo fully charges it (3.0× with the Incarnon Imago evolution).",
+      "[Heavy Attack] Performing a Heavy Attack while the Transmutation gauge is full activates Incarnon Form for 90 seconds. Incarnon Form grants +3 Range and +40% Attack Speed, persists through holstering, Bleedout, and disarm, and ends on death.",
+      "[Aerial Attack] During Incarnon Form, aim-glide melee attacks launch projectiles that deal 360 Radiation damage, travel up to 21m, and have infinite Punch Through. Projectiles benefit from Melee Combo but do not add to it.",
+      "[Finisher] During Incarnon Form, Finishers grant 1 stack of Incarnon Resilience, providing 10% Damage Reduction per stack up to 4 multiplicative stacks for the rest of the form. Mercy Finishers do not grant stacks."
     ]
   }
 ]
