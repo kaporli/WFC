@@ -1165,6 +1165,30 @@
     ]
   },
   {
+    "weaponName": "Sun & Moon",
+    "passives": [
+      "[Block Combo] In Duviri, performing a Power Strike sends out 2 explosive energy arcs that deal Electricity damage with guaranteed Electricity procs."
+    ]
+  },
+  {
+    "weaponName": "Dark Split-Sword",
+    "passives": [
+      "[Always Active] Changes weapon type according to the equipped Stance: Heavy Blade with a Heavy Blade Stance, or Dual Swords with a Dual Swords Stance."
+    ]
+  },
+  {
+    "weaponName": "Dual Heat Swords",
+    "passives": [
+      "[Slam] Normal Slam Attacks have a forced Heat proc."
+    ]
+  },
+  {
+    "weaponName": "Dual Keres",
+    "passives": [
+      "[Warframe Synergy] Grants 20% Heavy Attack Efficiency when wielded by Khora or Khora Prime."
+    ]
+  },
+  {
     "weaponName": "Dual Viciss",
     "passives": [
       "[Gas Proc] Inflicting Gas status grants +8% Movement Speed and +7% Attack Speed for 10 seconds (stacks 5 times)."
@@ -1183,28 +1207,98 @@
     ]
   },
   {
+    "weaponName": "Tekko",
+    "passives": [
+      "[Warframe Synergy] Gains an additional 6% base Status Chance when wielded by Atlas or Atlas Prime."
+    ]
+  },
+  {
+    "weaponName": "Cerata",
+    "passives": [
+      "[Heavy Attack] Detonating the glaive in mid-flight creates a 4.8m explosion with guaranteed Toxin and Impact procs. The explosion penetrates walls, has no damage falloff, and inflicts self-stagger."
+    ]
+  },
+  {
+    "weaponName": "Falcor",
+    "passives": [
+      "[Thrown] Uncharged throws have a forced Impact proc. Charged throws have a forced Electricity proc and home toward enemies within a 30° cone and 24m.",
+      "[Heavy Attack] Detonating the glaive in mid-flight creates a 6m explosion with a forced Electricity proc. The explosion penetrates walls, has no damage falloff, and inflicts self-stagger."
+    ]
+  },
+  {
+    "weaponName": "Glaive",
+    "passives": [
+      "[Heavy Attack] Detonating the glaive in mid-flight creates a 4.8m explosion with a guaranteed Impact proc. The explosion penetrates walls, has no damage falloff, and inflicts self-stagger.",
+      "[Prime Specific] [Thrown] Thrown attacks additionally guarantee a Slash proc.",
+      "[Prime Specific] [Heavy Attack] The detonation additionally guarantees a Slash proc."
+    ]
+  },
+  {
     "weaponName": "Halikar",
     "passives": [
-      "[Thrown Hit] Enemies hit by a thrown attack have a chance to be disarmed."
+      "[Thrown Hit] Thrown attacks have a 50% chance to disarm enemies.",
+      "[Heavy Attack] Detonating the glaive in mid-flight guarantees an Impact proc. The explosion penetrates walls, has no damage falloff, and inflicts self-stagger.",
+      "[Base Specific] [Heavy Attack] The explosion has a 4.9m radius.",
+      "[Wraith Specific] [Heavy Attack] The explosion has a 5.1m radius."
+    ]
+  },
+  {
+    "weaponName": "Kestrel",
+    "passives": [
+      "[Heavy Attack] Detonating the glaive in mid-flight creates a 3.6m explosion with a guaranteed Impact proc. The explosion penetrates walls, has linear damage falloff from 100% to 60%, and inflicts self-stagger.",
+      "[Base Specific] [Thrown Hit] Thrown attacks knock down enemies.",
+      "[Prime Specific] [Thrown] Can bounce up to 8 times while airborne.",
+      "Knockdown needs check on prime version"
     ]
   },
   {
     "weaponName": "Orvius",
     "passives": [
-      "[Thrown] Holding the melee button briefly performs a normal throw that flies above the 1st enemy in its path, suspending them in midair for 3 seconds before inflicting 3 ticks of damage and exploding in a 4m radius, damaging all enemies around it; the disc then returns to the user. Can travel up to 30m before returning.",
-      "[Thrown] Holding the melee button longer performs a charged throw that can bounce up to 3 times or travel up to 30m before returning, damaging anyone in its path. Meleeing while the glaive is mid-flight recalls it early."
+      "[Thrown] Holding the melee button briefly performs a normal throw that flies above the 1st enemy in its path, suspending them for 3 seconds before inflicting 3 ticks of damage and exploding in a 4m radius with a guaranteed Cold proc; the disc then returns. Can travel up to 30m before returning.",
+      "[Thrown] Holding the melee button longer performs a charged throw that can bounce up to 3 times or travel up to 30m before returning, damaging anyone in its path. Meleeing while the glaive is mid-flight recalls it early.",
+      "[Heavy Attack] While the Orvius is suspending a target, performing a Heavy Attack detonates it early."
     ]
   },
   {
     "weaponName": "Pathocyst",
     "passives": [
-      "[Thrown] Attacking or throwing releases Maggots that damage nearby enemies."
+      "[Thrown] Attacking or throwing releases Maggots that last 7 seconds, can latch onto enemies and stagger them, and then explode.",
+      "[Heavy Attack] Detonating the glaive in mid-flight creates a 4.9m explosion with a guaranteed Viral proc. The explosion penetrates walls, has no damage falloff, and inflicts self-stagger."
     ]
   },
   {
     "weaponName": "Xoris",
     "passives": [
-      "[Always Active] Possesses infinite combo duration."
+      "[Always Active] Possesses infinite combo duration.",
+      "[Slam] Slam Radial Damage has an 18% chance to inflict a Electricity proc, unaffected by mods.",
+      "[Heavy Attack] Detonating the glaive in mid-flight creates an 8m explosion with guaranteed Impact and Electricity procs, no damage falloff, and self-stagger.",
+      "[Heavy Attack] In the Granum Void, charged-throw explosions convert Errant Specters into Specter Particles that can be absorbed up to 3 times. A fully charged detonation expands to approximately 25m, frees captured Solaris in the area, and adds 20 seconds to the Void timer."
+    ]
+  },
+  {
+    "weaponName": "Redeemer",
+    "passives": [
+      "[Heavy Attack] Charged gunblade shots can stagger or knock down enemies and ragdoll targets within 4m. Targets hit also contribute to Melee Combo Count.",
+      "[Base Specific] [Heavy Attack] Each target hit grants 1 combo hit.",
+      "[Prime Specific] [Heavy Attack] Each target hit grants 5 combo hits. Heavy Attack shots fired beyond 4m also guarantee an Impact proc per pellet."
+    ]
+  },
+  {
+    "weaponName": "Sarpa",
+    "passives": [
+      "[Always Active] Gunblade ranged attacks fire in a burst, with each bullet contributing separately to Melee Combo Count. Shots receive +25% bonus physical damage, including Heavy Attacks."
+    ]
+  },
+  {
+    "weaponName": "Stropha",
+    "passives": [
+      "[Always Active] Gunblade ranged attacks fire a single wide shockwave with no bonus headshot damage. Enemies hit within 1m are ragdolled."
+    ]
+  },
+  {
+    "weaponName": "Vastilok",
+    "passives": [
+      "[Always Active] Each pellet from gunblade ranged attacks contributes separately to Melee Combo Count. Shots receive +25% bonus physical damage, including Heavy Attacks, and stagger enemies within 4m."
     ]
   },
   {
@@ -1544,9 +1638,80 @@
     ]
   },
   {
+    "weaponName": "Desert Wind",
+    "passives": [
+      "[Always Active] Melee attacks release waves that travel up to 20m with unlimited punch through. Waves require line of sight, build Melee Combo, can trigger Tennokai, and scale their damage with Melee Combo.",
+      "[Always Active] Waves ragdoll enemies and reflect projectiles. Direct fist attacks disarm enemies unless they are protected by Overguard or resistant to disarm."
+    ]
+  },
+  {
+    "weaponName": "Diwata",
+    "passives": [
+      "[Always Active] Cannot perform Heavy Attacks."
+    ]
+  },
+  {
+    "weaponName": "Exalted Blade",
+    "passives": [
+      "[Always Active] Melee attacks release waves that travel up to 40m with unlimited punch through. Waves build Melee Combo and can trigger Tennokai.",
+      "[Slide] Slide Attacks trigger , stunning enemies within 5m for 6 seconds without opening them to Finishers."
+    ]
+  },
+  {
+    "weaponName": "Iron Staff",
+    "passives": [
+      "[Combo] Each Melee Combo multiplier tier grants +0.5m Range, up to +5.5m at 12.0× Melee Combo."
+    ]
+  },
+  {
+    "weaponName": "Shadow Claws",
+    "passives": [
+      "[Always Active] Base damage scales with the casting Warframe's Ability Strength when Exalted Shadow is activated; Ability Strength on the Shadow itself does not affect it."
+    ]
+  },
+  {
+    "weaponName": "Valkyr Talons",
+    "passives": [
+      "[On Hit] Hits restore Health through innate Lifesteal."
+    ]
+  },
+  {
     "weaponName": "Garuda Talons",
     "passives": [
       "[Warframe Synergy] Automatically becomes the equipped Melee weapon when Garuda or Garuda Prime has no other Melee weapon equipped."
+    ]
+  },
+  {
+    "weaponName": "Landslide Fists",
+    "passives": [
+      "[Always Active] Uses the ability Melee Combo system with a base duration of 5 seconds. Initial Combo applies, and Melee Combo increases damage up to 12.0× at 220 Combo Count.",
+      "[On Hit] Hitting at least 1 enemy with a cast grants 20 Combo Count; enemy corpses also count for combo generation.",
+      "[Always Active] Cannot block, perform Heavy Attacks, or perform Finishers, and does not benefit from Attack Speed.",
+      "[On Hit] The 3rd strike knocks enemies down."
+    ]
+  },
+  {
+    "weaponName": "Shadow Clones",
+    "passives": [
+      "[Always Active] Hits guarantee a Slash proc. Each enemy can be targeted only once per cast, and the clones attack in pairs at up to 2 attacks per second.",
+      "[On Hit] Each enemy hit grants 3 Combo Count, up to 220 Combo Count and a 12.0× damage multiplier. Paired attacks can generate 6 Combo Count per second; the base Combo Duration is 5 seconds and Initial Combo applies.",
+      "[Always Active] Cannot block or perform Heavy Attacks. Attack Speed affects animation speed but does not increase the 2-attack-per-second limit."
+    ]
+  },
+  {
+    "weaponName": "Shattered Lash",
+    "passives": [
+      "[Always Active] Tap casts deal Puncture damage, while hold casts deal Slash damage; both cast types knock enemies down.",
+      "[On Hit] Hitting at least 1 enemy with a cast grants 20 Combo Count, up to 220 Combo Count and a 12.0× damage multiplier. The base Combo Duration is 5 seconds and Initial Combo applies.",
+      "[Always Active] Cannot block, perform Heavy Attacks, or perform Finishers, and does not benefit from Attack Speed."
+    ]
+  },
+  {
+    "weaponName": "Whipclaw",
+    "passives": [
+      "[Always Active] Uses the ability Melee Combo system with a base duration of 5 seconds. Initial Combo applies, and Melee Combo increases damage up to 12.0× at 220 Combo Count.",
+      "[On Hit] Hitting at least 1 enemy with a cast grants 20 Combo Count; enemy corpses also count for combo generation.",
+      "[Always Active] Cannot block, perform Heavy Attacks, or perform Finishers, and does not benefit from Attack Speed."
     ]
   },
   {
@@ -1586,6 +1751,14 @@
       "[Heavy Attack] Performing a Heavy Attack while the Transmutation gauge is full activates Incarnon Form for 90 seconds. Incarnon Form grants +3 Range and +40% Attack Speed, persists through holstering, Bleedout, and disarm, and ends on death.",
       "[Aerial Attack] During Incarnon Form, aim-glide melee attacks launch projectiles that deal 360 Radiation damage, travel up to 21m, and have infinite Punch Through. Projectiles benefit from Melee Combo but do not add to it.",
       "[Finisher] During Incarnon Form, Finishers grant 1 stack of Incarnon Resilience, providing 10% Damage Reduction per stack up to 4 multiplicative stacks for the rest of the form. Mercy Finishers do not grant stacks."
+    ]
+  },
+  {
+    "weaponName": "Ruvox",
+    "passives": [
+      "[Alternate Fire Gauge] Increasing Melee Combo Count readies the transformation. Reaching 6.0× Melee Combo makes Incarnon Form available.",
+      "[Heavy Attack] Performing a Heavy Attack while the transformation is ready activates Incarnon Form for 90 seconds. Incarnon Form grants +3 Range, reduces Attack Speed by 35%, and converts 100% of Impact damage to Puncture damage.",
+      "[Heavy Slam] During Incarnon Form, Heavy Slam attacks raise spikes from the ground that impale enemies."
     ]
   }
 ]
