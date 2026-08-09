@@ -1173,7 +1173,8 @@
   {
     "weaponName": "Dark Split-Sword",
     "passives": [
-      "[Always Active] Changes weapon type according to the equipped Stance: Heavy Blade with a Heavy Blade Stance, or Dual Swords with a Dual Swords Stance."
+      "[Always Active] Changes weapon type according to the equipped Stance: Heavy Blade with a Heavy Blade Stance, or Dual Swords with a Dual Swords Stance. Without a Stance equipped, it defaults to Heavy Blade form.",
+      "[Held] Dual Sword form grants 5% Movement Speed while held."
     ]
   },
   {
@@ -1246,9 +1247,8 @@
     "weaponName": "Kestrel",
     "passives": [
       "[Heavy Attack] Detonating the glaive in mid-flight creates a 3.6m explosion with a guaranteed Impact proc. The explosion penetrates walls, has linear damage falloff from 100% to 60%, and inflicts self-stagger.",
-      "[Base Specific] [Thrown Hit] Thrown attacks knock down enemies.",
-      "[Prime Specific] [Thrown] Can bounce up to 8 times while airborne.",
-      "Knockdown needs check on prime version"
+      "[Thrown Hit] Thrown attacks knock down enemies.",
+      "[Prime Specific] [Thrown] Can bounce up to 8 times while airborne."
     ]
   },
   {
@@ -1304,13 +1304,15 @@
   {
     "weaponName": "Arca Titron",
     "passives": [
-      "[On Kill] Collects a charge (up to 5), increasing slam attack damage by 200%."
+      "[Slam] All Slam Attacks and stance-combo slams inflict a forced Electricity proc.",
+      "[On Kill] Kills with the weapon, including damage-over-time kills, grant 1 Slam Capacitor charge up to 5. Charges have infinite duration.",
+      "[Slam] Each Slam Capacitor charge increases Slam Attack damage by 250% and range by 2m, up to +1250% damage and +10m range at 5 charges. A normal Slam Attack consumes the stored charges; stance-combo slams benefit from them without consuming them."
     ]
   },
   {
     "weaponName": "Coda Motovore",
     "passives": [
-      "[Always Active] Impact, Puncture, and Slash mods have their potency increased by 6 times. Gains a bonus based on the highest physical damage mod: Impact (+40% Attack Speed); Puncture (+1.5m Range); Slash (+100% Status Chance)."
+      "[Always Active] Impact, Puncture, and Slash mods have their potency increased by 6 times. Gains a bonus based on the highest physical damage mod: Impact (+40% Attack Speed); Puncture (+1.5m Range); Slash (+100% Status Chance). Additional Impact damage from its Adversary bonus is not amplified by this passive."
     ]
   },
   {
@@ -1320,55 +1322,148 @@
     ]
   },
   {
-    "weaponName": "Fragor Prime",
+    "weaponName": "Fragor",
     "passives": [
-      "[Always Active] Innate 30 starting combo (2.0× heavy attack multiplier)."
+      "[Prime Specific] [Always Active] Innate 30 starting combo (2.0× heavy attack multiplier)."
     ]
   },
   {
     "weaponName": "Heliocor",
     "passives": [
-      "[On Kill] Enemies killed are scanned as long as players have a Codex Scanner."
+      "[On Kill] Enemies killed are scanned into the Codex while an equipped Codex or Synthesis Scanner has available charges. These scans do not award Cephalon Simaris Standing and can award Kavat Genetic Code from eligible Feral Kavats."
+    ]
+  },
+  {
+    "weaponName": "Jat Kittag",
+    "passives": [
+      "[Slam] Slam Attacks have 100% Status Chance and innate Blast damage."
+    ]
+  },
+  {
+    "weaponName": "Magistar",
+    "passives": [
+      "[Sancti Specific] [Heavy Attack] Performing a Heavy Attack activates innate Life Steal for subsequent Sancti Magistar attacks for the rest of the mission. Life Steal scales with Melee Combo from 5% up to 60%, and healing is shared with allies within 15m. Defense Objects can receive up to 500 Health over 5 seconds from this effect.",
+      "[Sancti Specific] [Held] Grants a 20% chance to resist most Status Effects while held."
     ]
   },
   {
     "weaponName": "Sampotes",
     "passives": [
       "[Slam] Unleashes a line of 8 explosions every 5m dealing damage in a 5m radius.",
-      "[Heavy Slam] Unleashes 3 lines of 4 explosions in a fan, dealing damage in a 7m radius."
-    ]
-  },
-  {
-    "weaponName": "Sancti Magistar",
-    "passives": [
-      "[Heavy Attack] Emits a healing pulse restoring user/ally health in a 15m radius.",
-      "[Held] User receives 20% chance to resist a Status Effect."
+      "[Heavy Slam] Unleashes 3 lines of 4 explosions in a fan, dealing damage in a 7m radius.",
+      "[Block Combo] In Duviri, performing a Power Strike releases a forward shockwave dealing Heat damage with guaranteed Heat procs."
     ]
   },
   {
     "weaponName": "Sibear",
     "passives": [
-      "[Heavy Attack] Grants 50% status chance bonus for 4 seconds."
+      "[Heavy Attack] Heavy Attacks grant a flat +50% Status Chance for 4 seconds after other Status Chance bonuses. Heavy Slams do not trigger the buff."
     ]
   },
   {
     "weaponName": "Synoid Heliocor",
     "passives": [
       "[Always Active] Innate 20 starting combo (2.0× heavy attack multiplier).",
-      "[Heavy Kill] Creates a specter of the slain enemy lasting 30 seconds (requires full Codex scans).",
-      "[On Kill] Enemies killed are scanned."
+      "[On Kill] Enemies killed are scanned into the Codex while a scanner has available charges. These scans do not award Cephalon Simaris Standing and can award Kavat Genetic Code from eligible Feral Kavats.",
+      "[Heavy Kill] Heavy Attack kills create a Specter of the slain enemy for 30 seconds if its Codex entry is complete. Only 1 such Specter can be active at a time."
+    ]
+  },
+  {
+    "weaponName": "Volnus",
+    "passives": [
+      "[Warframe Synergy] Gains +100% radial Slam Attack damage when wielded by Gara or Gara Prime."
     ]
   },
   {
     "weaponName": "Wolf Sledge",
     "passives": [
-      "[Thrown] Holding melee on the ground throws the weapon up to 40m, bouncing between enemies."
+      "[Thrown] Holding melee while grounded throws the weapon up to 40m. After hitting an enemy, it can seek 1 additional target up to 20m behind the first. Thrown hits contribute to Melee Combo, and the weapon cannot be thrown while airborne.",
+      "[Thrown] Outgoing impacts produce a 5m Blast explosion. Terrain impacts trigger the explosion and force the weapon to return; return-path hits do not produce explosions.",
+      "[Heavy Attack] Pressing Heavy Attack while the weapon is in flight detonates a 5m Blast explosion that penetrates walls, has no damage falloff, ragdolls enemies, and inflicts self-stagger. The detonation benefits from Heavy Attack bonuses, consumes Melee Combo, and forces the weapon to return; return strikes caused this way are treated as Heavy hits."
+    ]
+  },
+  {
+    "weaponName": "Gram",
+    "passives": [
+      "[Prime Specific] [Slam] Stance slams without the full slam visual can critically hit and have their damage multiplied by Melee Combo. Full-visual stance slams can critically hit but do not receive the Melee Combo damage multiplier."
+    ]
+  },
+  {
+    "weaponName": "Masseter",
+    "passives": [
+      "[Slam] Stance slams without the full slam visual can critically hit and have their damage multiplied by Melee Combo. Full-visual stance slams can critically hit but do not receive the Melee Combo damage multiplier.",
+      "[Warframe Synergy] Grendel or Grendel Prime is immune to crowd-control procs while performing Heavy Attacks.",
+      "[Prime Specific] [Slam] Slam Attacks ragdoll enemies."
+    ]
+  },
+  {
+    "weaponName": "Paracesis",
+    "passives": [
+      "[Always Active] Has the Overleveling trait: each Forma increases maximum Rank by 2, up to Rank 40 after 5 polarizations. Ranks above 30 grant increasing bonus damage against Sentients, reaching +60%. At Rank 40, attacks gain Void damage properties that reset Sentient and Shadow Stalker resistances and can change the Profit-Taker Orb's shield weakness.",
+      "[Always Active] When no Stance is equipped, uses the full Tempo Royale moveset instead of the normal stanceless Heavy Blade moveset.",
+      "[Slam] Stance slams without the full slam visual can critically hit and have their damage multiplied by Melee Combo."
+    ]
+  },
+  {
+    "weaponName": "Sarofang",
+    "passives": [
+      "[Heavy Slam] Performing a Heavy Attack Slam at 8.0× Melee Combo briefly pulls enemies within 9m toward the center of the slam.",
+      "[Warframe Synergy] When wielded by Voruna or Voruna Prime, the Heavy Slam pull requirement is reduced to 5.0× Melee Combo."
+    ]
+  },
+  {
+    "weaponName": "Scindo",
+    "passives": [
+      "[Always Active] During the active swing of a normal melee attack, the wielder is immune to knockback."
+    ]
+  },
+  {
+    "weaponName": "Tenet Exec",
+    "passives": [
+      "[Slam] Slam Attacks release a ground-traveling line of up to 3 shockwave explosions, triggering every 5m and ragdolling enemies. Regular shockwave hits contribute to Melee Combo, and Heavy Blade stance slams can trigger the effect.",
+      "[Heavy Slam] Heavy Slam Attacks release 3 sets of 3 shockwaves in a fan. Their damage benefits from Melee Combo and Heavy Attack modifiers."
+    ]
+  },
+  {
+    "weaponName": "Vitrica",
+    "passives": [
+      "[Always Active] Has a base Melee Combo Duration of 10 seconds instead of 5 seconds.",
+      "[Aerial Attack] While Aim Gliding, the first melee swing launches a glass projectile that freezes glassed enemies for 7 seconds. Any damage removes the glass effect.",
+      "[Slam] Slam, Heavy Slam, and stance-slam attacks shatter glassed enemies, causing an explosion that deals 999 damage. Normal and stance Slam waves travel up to 40m; each enemy hit grants 1 Melee Combo Count, or 2 if the enemy is glassed.",
+      "[Heavy Slam] Heavy Slam waves travel up to 80m, are wider, force an Impact proc, and count as Heavy Attacks."
+    ]
+  },
+  {
+    "weaponName": "War",
+    "passives": [
+      "[On Hit] Hits against enemies that are not ragdolled inflict a forced Impact proc."
+    ]
+  },
+  {
+    "weaponName": "Zenistar",
+    "passives": [
+      "[Heavy Attack] Launches a disc approximately 9m toward the reticle. The disc explodes and projects a damaging Heat aura in a 4m radius for a base duration of 10 seconds that scales with Melee Combo. Performing another Heavy Attack recalls the disc early; moving approximately 100m away also retrieves it.",
+      "[Heavy Attack] The deployed disc does not add to Melee Combo and its damage does not benefit from the Melee Combo damage multiplier."
     ]
   },
   {
     "weaponName": "Corufell",
     "passives": [
-      "[Heavy Attack] Transforms into a Gunblade to fire up to 2 consecutive energy projectiles."
+      "[Heavy Attack] Transforms into a Gunblade to fire up to 2 consecutive energy projectiles. The projectiles consume no ammo, have infinite body Punch Through, and have linear damage falloff from 100% to 50% between 15m and 30m.",
+      "[Heavy Slide] Performing a Heavy Attack while sliding uses a traditional Heavy Scythe attack instead of firing the Gunblade projectile.",
+      "[Warframe Synergy] Gains +20% Heavy Attack Wind-Up Speed when wielded by Citrine."
+    ]
+  },
+  {
+    "weaponName": "Pride",
+    "passives": [
+      "[Slam] Each enemy hit by a Slam Attack grants +15% additive Status Chance for 10 seconds, stacking up to 10 times for +150%. The duration refreshes on subsequent Slam hits."
+    ]
+  },
+  {
+    "weaponName": "Wrath",
+    "passives": [
+      "[Slam] Each enemy hit by a Slam Attack grants +15% additive Critical Chance for 10 seconds, stacking up to 10 times for +150%. The duration refreshes on subsequent Slam hits."
     ]
   },
   {
@@ -1759,6 +1854,14 @@
       "[Alternate Fire Gauge] Increasing Melee Combo Count readies the transformation. Reaching 6.0× Melee Combo makes Incarnon Form available.",
       "[Heavy Attack] Performing a Heavy Attack while the transformation is ready activates Incarnon Form for 90 seconds. Incarnon Form grants +3 Range, reduces Attack Speed by 35%, and converts 100% of Impact damage to Puncture damage.",
       "[Heavy Slam] During Incarnon Form, Heavy Slam attacks raise spikes from the ground that impale enemies."
+    ]
+  },
+  {
+    "weaponName": "Thalys",
+    "passives": [
+      "[Alternate Fire Gauge] Increasing Melee Combo Count readies the transformation. Reaching 6.0× Melee Combo makes Incarnon Form available.",
+      "[Heavy Attack] Performing a Heavy Attack while the transformation is ready activates Incarnon Form for 90 seconds. Incarnon Form grants +3 Range and +40% Attack Speed, persists through holstering, Bleedout, and disarm, and ends on death.",
+      "[On Hit] During Incarnon Form, attacks embed a damaging Void shard in enemies; applying a new shard causes existing shards to inflict damage on their hosts."
     ]
   }
 ]

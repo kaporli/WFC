@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-08T01:19:25.276Z",
+  "lastUpdated": "2026-08-09T01:22:27.120Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_ZJIc6+RSf2aEMuBg6sLAzw",
     "wiki": {
-      "Module:Mods/data": 2797075,
+      "Module:Mods/data": 2797567,
       "Module:Warframes/data": 2797379,
       "Module:Ability/data": 2795959,
       "Module:Ability/data/stats": 2281902,
@@ -22,7 +22,7 @@
       "Module:Arcane/data": 2790053,
       "Module:Upgrades/data": 2238990,
       "Module:DamageTypes/data": 2791008,
-      "Module:Resources/data": 2797160,
+      "Module:Resources/data": 2797543,
       "Module:Void/data": 2788223,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2794912,
