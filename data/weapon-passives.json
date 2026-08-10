@@ -1,12 +1,5 @@
 [
   {
-    "weaponName": "Shedu",
-    "passives": [
-      "[Magazine Empty] Emptying the magazine produces a 20m pulse that deals 100 Impact damage with a guaranteed Impact proc. The pulse staggers nearby enemies and removes Sentient and Shadow Stalker damage adaptation.",
-      "[Aiming] Grants +30% Movement Speed while aiming."
-    ]
-  },
-  {
     "weaponName": "Cernos Prime",
     "passives": [
       "[Headshot] Deals +50% bonus damage on headshots.",
@@ -392,6 +385,13 @@
     "weaponName": "Reconifex",
     "passives": [
       "[Reload] Pressing reload between 22% and 38% of the way through decreases reload time to 1 second and grants the magazine Heat rounds inflicting +25% damage with guaranteed status."
+    ]
+  },
+  {
+    "weaponName": "Shedu",
+    "passives": [
+      "[Magazine Empty] Emptying the magazine produces a 20m pulse that deals 100 Impact damage with a guaranteed Impact proc. The pulse staggers nearby enemies and removes Sentient and Shadow Stalker damage adaptation.",
+      "[Aiming] Grants +30% Movement Speed while aiming."
     ]
   },
   {

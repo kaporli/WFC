@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T01:22:27.120Z",
+  "lastUpdated": "2026-08-10T01:29:29.657Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_ZJIc6+RSf2aEMuBg6sLAzw",
@@ -15,7 +15,7 @@
       "Module:Weapons/data/companion": 2795006,
       "Module:Weapons/data/railjack": 2791303,
       "Module:Weapons/data/modular": 2788357,
-      "Module:Weapons/data/misc": 2797357,
+      "Module:Weapons/data/misc": 2797735,
       "Module:Companions/data": 2730571,
       "Module:Stances/data": 2788398,
       "Module:ScientiaStances/data": 2047331,
@@ -38,7 +38,7 @@
     },
     "wikiPages": {
       "arcaneHelmet": "18277",
-      "archonShard": "43680"
+      "archonShard": "43527"
     }
   }
 }
