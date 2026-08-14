@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-13T01:34:42.760Z",
+  "lastUpdated": "2026-08-14T01:34:06.175Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
     "wiki": {
-      "Module:Mods/data": 2797567,
-      "Module:Warframes/data": 2797379,
+      "Module:Mods/data": 2798924,
+      "Module:Warframes/data": 2798836,
       "Module:Ability/data": 2795959,
       "Module:Ability/data/stats": 2281902,
       "Module:Weapons/data/primary": 2797288,
@@ -17,12 +17,12 @@
       "Module:Weapons/data/modular": 2788357,
       "Module:Weapons/data/misc": 2797735,
       "Module:Companions/data": 2730571,
-      "Module:Stances/data": 2788398,
+      "Module:Stances/data": 2798838,
       "Module:ScientiaStances/data": 2047331,
       "Module:Arcane/data": 2790053,
       "Module:Upgrades/data": 2238990,
       "Module:DamageTypes/data": 2791008,
-      "Module:Resources/data": 2797543,
+      "Module:Resources/data": 2798830,
       "Module:Void/data": 2788223,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2794912,
@@ -38,7 +38,7 @@
     },
     "wikiPages": {
       "arcaneHelmet": "18277",
-      "archonShard": "43527"
+      "archonShard": "43614"
     }
   }
 }
