@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-23T01:07:14.237Z",
+  "lastUpdated": "2026-08-24T01:10:51.260Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
     "wiki": {
       "Module:Mods/data": 2801499,
-      "Module:Warframes/data": 2798836,
+      "Module:Warframes/data": 2801875,
       "Module:Ability/data": 2795959,
       "Module:Ability/data/stats": 2281902,
       "Module:Weapons/data/primary": 2799803,
@@ -17,7 +17,7 @@
       "Module:Weapons/data/modular": 2788357,
       "Module:Weapons/data/misc": 2797735,
       "Module:Companions/data": 2730571,
-      "Module:Stances/data": 2798838,
+      "Module:Stances/data": 2801775,
       "Module:ScientiaStances/data": 2047331,
       "Module:Arcane/data": 2790053,
       "Module:Upgrades/data": 2238990,
