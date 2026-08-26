@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-25T01:07:07.995Z",
+  "lastUpdated": "2026-08-26T01:09:05.131Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
     "wiki": {
       "Module:Mods/data": 2801499,
-      "Module:Warframes/data": 2801875,
+      "Module:Warframes/data": 2803357,
       "Module:Ability/data": 2795959,
       "Module:Ability/data/stats": 2281902,
       "Module:Weapons/data/primary": 2802012,
       "Module:Weapons/data/secondary": 2802013,
-      "Module:Weapons/data/melee": 2802011,
+      "Module:Weapons/data/melee": 2802629,
       "Module:Weapons/data/archwing": 2795005,
       "Module:Weapons/data/companion": 2795006,
       "Module:Weapons/data/railjack": 2791303,
@@ -25,7 +25,7 @@
       "Module:Resources/data": 2798830,
       "Module:Void/data": 2788223,
       "Module:Acquisition/data": 2714600,
-      "Module:Blueprints/data": 2801668,
+      "Module:Blueprints/data": 2802611,
       "Module:Enemies/data": 2760100,
       "Module:Syndicates/data": 1741160,
       "Module:Research/data": 2707762,
