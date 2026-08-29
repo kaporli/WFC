@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T08:30:32.486Z",
+  "lastUpdated": "2026-08-29T05:15:59.860Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
@@ -14,7 +14,7 @@
       "Module:Weapons/data/archwing": 2795005,
       "Module:Weapons/data/companion": 2795006,
       "Module:Weapons/data/railjack": 2791303,
-      "Module:Weapons/data/modular": 2803872,
+      "Module:Weapons/data/modular": 2804178,
       "Module:Weapons/data/misc": 2797735,
       "Module:Companions/data": 2730571,
       "Module:Stances/data": 2801775,
@@ -25,7 +25,7 @@
       "Module:Resources/data": 2798830,
       "Module:Void/data": 2788223,
       "Module:Acquisition/data": 2714600,
-      "Module:Blueprints/data": 2802611,
+      "Module:Blueprints/data": 2804163,
       "Module:Enemies/data": 2760100,
       "Module:Syndicates/data": 1741160,
       "Module:Research/data": 2707762,
