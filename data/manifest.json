@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-04T02:37:51.400Z",
+  "lastUpdated": "2026-09-05T02:30:38.025Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
     "wiki": {
       "Module:Mods/data": 2801499,
-      "Module:Warframes/data": 2804081,
+      "Module:Warframes/data": 2805536,
       "Module:Ability/data": 2795959,
       "Module:Ability/data/stats": 2281902,
       "Module:Weapons/data/primary": 2804654,
@@ -29,7 +29,7 @@
       "Module:Enemies/data": 2760100,
       "Module:Syndicates/data": 1741160,
       "Module:Research/data": 2707762,
-      "Module:Vendors/data": 2799865,
+      "Module:Vendors/data": 2805357,
       "Module:Decrees/data": 2774719,
       "Module:Conservation/data": 2697330,
       "Module:Avionics/data": 2190683,
