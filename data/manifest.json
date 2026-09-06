@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-05T02:30:38.025Z",
+  "lastUpdated": "2026-09-06T02:28:22.474Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
     "wiki": {
       "Module:Mods/data": 2801499,
-      "Module:Warframes/data": 2805536,
+      "Module:Warframes/data": 2805631,
       "Module:Ability/data": 2795959,
       "Module:Ability/data/stats": 2281902,
       "Module:Weapons/data/primary": 2804654,
