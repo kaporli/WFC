@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T02:28:22.474Z",
+  "lastUpdated": "2026-09-07T02:24:46.265Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_z6+DxmOuJPrnkKv+auytSQ",
@@ -21,8 +21,8 @@
       "Module:ScientiaStances/data": 2047331,
       "Module:Arcane/data": 2790053,
       "Module:Upgrades/data": 2238990,
-      "Module:DamageTypes/data": 2791008,
-      "Module:Resources/data": 2798830,
+      "Module:DamageTypes/data": 2805839,
+      "Module:Resources/data": 2805823,
       "Module:Void/data": 2788223,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2804835,
