@@ -38,6 +38,7 @@
     "/Lotus/Powersuits/PowersuitAbilities/HelminthCompanionAbility",
     "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
     "/Lotus/Powersuits/Saryn/Abilities/ShedAbility",
+    "/Lotus/Powersuits/Duelist/Abilities/DuelistThrustAbility",
     "/Lotus/Powersuits/Devourer/Abilities/DevourerConsumeAbility",
     "/Lotus/Powersuits/AntiMatter/Abilities/NullStarAbility",
     "/Lotus/Powersuits/Koumei/Abilities/KoumeiBlockAbility",
@@ -149,6 +150,7 @@
     "Hysterical Assault": "/Lotus/Powersuits/Berserker/Abilities/LastStandAbility",
     "Ice Wave Impedance": "/Lotus/Powersuits/Frost/Abilities/IceSpikeAbility",
     "Immolated Radiance": "/Lotus/Powersuits/Ember/Abilities/EmberImmolationAbility",
+    "Infernum": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameFireBallAbility",
     "Exothermic": "/Lotus/Powersuits/Ember/Abilities/EmberInfernoAbility",
     "Hushed Invisibility": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
     "Iron Shrapnel": "/Lotus/Powersuits/Rhino/Abilities/IronSkinAbility",
@@ -239,11 +241,12 @@
     "Smite Infusion": "/Lotus/Powersuits/Paladin/Abilities/SmiteAbility",
     "Smoke Shadow": "/Lotus/Powersuits/Ninja/Abilities/SmokeScreenAbility",
     "Chilling Globe": "/Lotus/Powersuits/Frost/Abilities/IceShieldAbility",
+    "Cold Front": "/Lotus/Powersuits/Frost/Abilities/IceShieldAbility",
     "Cataclysmic Gate": "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
     "Resonance": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
-    "Sonic Fracture": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
+    "Sonic Siphon": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
     "Soul Survivor": "/Lotus/Powersuits/Necro/Abilities/SoulPunchAbility",
-    "Resonating Quake": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
+    "Gaseous Quake": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
     "Dark Propagation": "/Lotus/Powersuits/Wraith/Abilities/WraithSowAbility",
     "Afterburn": "/Lotus/Powersuits/Dragon/Abilities/DragonBreathAbility",
     "Spectrosiphon": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
@@ -282,6 +285,7 @@
     "Safeguard": "/Lotus/Powersuits/Nezha/Abilities/NezhaSashAbility",
     "Pool of Life": "/Lotus/Powersuits/Trinity/Abilities/WellOfLifeAbility",
     "Accumulating Whipclaw": "/Lotus/Powersuits/Khora/Abilities/KhoraCrackAbility",
+    "Brood's Oversurge": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaSpidersAbility",
     "Escape Velocity": "/Lotus/Powersuits/AntiMatter/Abilities/WormHoleAbility"
   }
 }
