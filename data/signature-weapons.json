@@ -250,6 +250,16 @@
     "bonus": "Mirage Akzani"
   },
   {
+    "warframeName": "Narin",
+    "weaponName": "Nunchasa",
+    "bonus": "Narin Nunchasa"
+  },
+  {
+    "warframeName": "Narin",
+    "weaponName": "Aksondol",
+    "bonus": "Aksondol"
+  },
+  {
     "warframeName": "Nokko",
     "weaponName": "Arbucep",
     "bonus": "Nokko Arbucep Shooting at Stinkbrain and Brightbonnet triggers their pulse effects."
@@ -367,12 +377,12 @@
   {
     "warframeName": "Voruna",
     "weaponName": "Sarofang",
-    "bonus": "Sarofang/Sarofang Prime Heavy Attack Slam vortex requirement reduced to 5x Combo Multiplier."
+    "bonus": "Sarofang Sarofang Prime Heavy Attack Slam vortex requirement reduced to 5x Combo Multiplier."
   },
   {
     "warframeName": "Voruna",
     "weaponName": "Sarofang Prime",
-    "bonus": "Sarofang/Sarofang Prime Heavy Attack Slam vortex requirement reduced to 5x Combo Multiplier."
+    "bonus": "Sarofang Sarofang Prime Heavy Attack Slam vortex requirement reduced to 5x Combo Multiplier."
   },
   {
     "warframeName": "Uriel",
