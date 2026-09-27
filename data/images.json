@@ -6201,14 +6201,14 @@
     "FocusSonicDash(xBlack).png": "https://wiki.warframe.com/images/FocusSonicDash%28xBlack%29.png?38853",
     "FocusSonicDash.png": "https://wiki.warframe.com/images/FocusSonicDash%28xBlack%29.png?38853"
   },
-  "/Lotus/Powersuits/Banshee/PushAugmentCard": {
-    "SonicFracture.png": "https://wiki.warframe.com/images/SonicFracture.png?48bbc"
-  },
   "/Lotus/Upgrades/Mods/Randomized/LotusShotgunRandomModRare": {
     "ShotgunRivenMod.png": "https://wiki.warframe.com/images/ShotgunRivenMod.png?c488c"
   },
   "/Lotus/Upgrades/Mods/Pistol/Beginner/WeaponClipMaxModBeginner": {
     "FlawedSlipMagazineMod.png": "https://wiki.warframe.com/images/FlawedSlipMagazineMod.png?d5ecd"
+  },
+  "/Lotus/Powersuits/Banshee/PushAugmentCard": {
+    "SonicFractureMod.png": "https://wiki.warframe.com/images/SonicFractureMod.png?e74f0"
   },
   "/Lotus/Powersuits/Necro/SoulPunchAugmentCard": {
     "SoulSurvivor.png": "https://wiki.warframe.com/images/SoulSurvivor.png?48bbc",
@@ -9691,7 +9691,8 @@
     "StaticorCodexDiorama.png": "https://wiki.warframe.com/images/StaticorCodexDiorama.png?6d509"
   },
   "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun": {
-    "Steflos.png": "https://wiki.warframe.com/images/Steflos.png?4a335"
+    "Steflos.png": "https://wiki.warframe.com/images/Steflos.png?4a335",
+    "SteflosPrime.png": "https://wiki.warframe.com/images/SteflosPrime.png?02487"
   },
   "/Lotus/Weapons/Tenno/LongGuns/TennoTommyGun/TennoTommyGunRifle": {
     "Stradavar.png": "https://wiki.warframe.com/images/Stradavar.png?bb33b",
@@ -10374,6 +10375,7 @@
   "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon": {
     "Corufell.png": "https://wiki.warframe.com/images/Corufell.png?5fe41",
     "CorufellBlock.png": "https://wiki.warframe.com/images/CorufellBlock.png?945ff",
+    "CorufellPrime.png": "https://wiki.warframe.com/images/CorufellPrime.png?4bbbc",
     "CorufellTransformed.png": "https://wiki.warframe.com/images/CorufellTransformed.png?fac9f"
   },
   "/Lotus/Weapons/Tenno/Melee/CronusSword/CronusLongSword": {
