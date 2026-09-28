@@ -102,7 +102,7 @@
     "Chroma Prime.jpg": "https://wiki.warframe.com/images/Chroma_Prime.jpg?38ccf"
   },
   "/Lotus/Powersuits/Geode/Geode": {
-    "Citrine.png": "https://wiki.warframe.com/images/Citrine.png?771c3",
+    "Citrine.png": "https://wiki.warframe.com/images/Citrine.png?972fa",
     "CitrineHelmet.png": "https://wiki.warframe.com/images/CitrineHelmet.png?2ac22",
     "CitrineLargePortrait.png": "https://wiki.warframe.com/images/CitrineLargePortrait.png?13ebc",
     "CitrinePrime Thumb.png": "https://wiki.warframe.com/images/CitrinePrime_Thumb.png?bd6e5",
@@ -1312,7 +1312,7 @@
   },
   "/Lotus/Upgrades/Mods/Rifle/Event/CritChanceWhileAimingRifleMod": {
     "ArgonScope.png": "https://wiki.warframe.com/images/ArgonScope.png?200af",
-    "ArgonScopeMod.png": "https://wiki.warframe.com/images/ArgonScopeMod.png?ae31e"
+    "ArgonScopeMod.png": "https://wiki.warframe.com/images/ArgonScopeMod.png?cb33e"
   },
   "/Lotus/Upgrades/Mods/PvPMods/Warframe/DamageResistanceLessMobility": {
     "ArmoredAcrobatics.png": "https://wiki.warframe.com/images/ArmoredAcrobatics.png?90093",
@@ -3088,7 +3088,7 @@
   },
   "/Lotus/Upgrades/Mods/Pistol/Event/CritChanceWhileAimingPistolSPMod": {
     "GalvanizedCrosshairs.png": "https://wiki.warframe.com/images/GalvanizedCrosshairs.png?44b03",
-    "GalvanizedCrosshairsMod.png": "https://wiki.warframe.com/images/GalvanizedCrosshairsMod.png?388f1"
+    "GalvanizedCrosshairsMod.png": "https://wiki.warframe.com/images/GalvanizedCrosshairsMod.png?9b80b"
   },
   "/Lotus/Upgrades/Mods/Pistol/WeaponFireIterationsSPMod": {
     "GalvanizedDiffusion.png": "https://wiki.warframe.com/images/GalvanizedDiffusion.png?6a721",
@@ -3112,7 +3112,7 @@
   },
   "/Lotus/Upgrades/Mods/Rifle/Event/CritChanceWhileAimingRifleSPMod": {
     "GalvanizedScope.png": "https://wiki.warframe.com/images/GalvanizedScope.png?4ffef",
-    "GalvanizedScopeMod.png": "https://wiki.warframe.com/images/GalvanizedScopeMod.png?4e09a"
+    "GalvanizedScopeMod.png": "https://wiki.warframe.com/images/GalvanizedScopeMod.png?b4d2c"
   },
   "/Lotus/Upgrades/Mods/Pistol/WeaponStatusChanceSPMod": {
     "GalvanizedShot.png": "https://wiki.warframe.com/images/GalvanizedShot.png?dc268",
@@ -3497,7 +3497,7 @@
   },
   "/Lotus/Upgrades/Mods/Pistol/Event/CritChanceWhileAimingPistolMod": {
     "HydraulicCrosshairs.png": "https://wiki.warframe.com/images/HydraulicCrosshairs.png?1f983",
-    "HydraulicCrosshairsMod.png": "https://wiki.warframe.com/images/HydraulicCrosshairsMod.png?35d1c"
+    "HydraulicCrosshairsMod.png": "https://wiki.warframe.com/images/HydraulicCrosshairsMod.png?3641d"
   },
   "/Lotus/Upgrades/Mods/PvPMods/Rifle/LessRecoilSmallerMagRifleMod": {
     "HydraulicGauge.png": "https://wiki.warframe.com/images/HydraulicGauge.png?aaf70",
@@ -3779,7 +3779,7 @@
   },
   "/Lotus/Upgrades/Mods/Shotgun/Event/CritChanceWhileAimingShotgunMod": {
     "LaserSight.png": "https://wiki.warframe.com/images/LaserSight.png?5f40c",
-    "LaserSightMod.png": "https://wiki.warframe.com/images/LaserSightMod.png?5b89f"
+    "LaserSightMod.png": "https://wiki.warframe.com/images/LaserSightMod.png?2375c"
   },
   "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPWhipStanceOne": {
     "LashingCoil.png": "https://wiki.warframe.com/images/LashingCoil.png?e99e2",
@@ -3810,7 +3810,7 @@
   },
   "/Lotus/Powersuits/Priest/PriestPactAugmentCard": {
     "LastingCovenant.png": "https://wiki.warframe.com/images/LastingCovenant.png?713f0",
-    "LastingCovenantMod.png": "https://wiki.warframe.com/images/LastingCovenantMod.png?78e7d"
+    "LastingCovenantMod.png": "https://wiki.warframe.com/images/LastingCovenantMod.png?c7bd5"
   },
   "/Lotus/Upgrades/Mods/Syndicate/VulkarMod": {
     "LastingPurity.png": "https://wiki.warframe.com/images/LastingPurity.png?79339",
@@ -8679,6 +8679,7 @@
     "GlaxionVandal.png": "https://wiki.warframe.com/images/GlaxionVandal.png?f5763",
     "Glaxion Arsenal.png": "https://wiki.warframe.com/images/Glaxion_Arsenal.png?0eb4b",
     "Glaxion Arsenal 2.png": "https://wiki.warframe.com/images/Glaxion_Arsenal_2.png?6bc6f",
+    "NiveusGlaxionSkin.png": "https://wiki.warframe.com/images/NiveusGlaxionSkin.png?9de93",
     "TenetGlaxion.png": "https://wiki.warframe.com/images/TenetGlaxion.png?d3aaa"
   },
   "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle": {
@@ -10398,6 +10399,7 @@
     "Dark dagger.png": "https://wiki.warframe.com/images/Dark_dagger.png?d6895",
     "Dark dagger redesign.png": "https://wiki.warframe.com/images/Dark_dagger_redesign.png?7ac93",
     "DarkdaggerInGame.PNG": "https://wiki.warframe.com/images/DarkdaggerInGame.PNG?10406",
+    "NiveusDarkDaggerSkin.png": "https://wiki.warframe.com/images/NiveusDarkDaggerSkin.png?3a1de",
     "RaktaDarkDagger.png": "https://wiki.warframe.com/images/RaktaDarkDagger.png?3d82b"
   },
   "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon": {
@@ -10406,7 +10408,8 @@
     "DarkSplitSwordCodex.png": "https://wiki.warframe.com/images/DarkSplitSwordCodex.png?0f624",
     "DarkSplitSwordDual.png": "https://wiki.warframe.com/images/DarkSplitSwordDual.png?a45b4",
     "DarkSplitSwordDualSwords.png": "https://wiki.warframe.com/images/DarkSplitSwordDualSwords.png?60f31",
-    "DarkSplitSwordHeavyBlade.png": "https://wiki.warframe.com/images/DarkSplitSwordHeavyBlade.png?f19ff"
+    "DarkSplitSwordHeavyBlade.png": "https://wiki.warframe.com/images/DarkSplitSwordHeavyBlade.png?f19ff",
+    "NiveusDarkSplit-SwordSkin.png": "https://wiki.warframe.com/images/NiveusDarkSplit-SwordSkin.png?9ffa9"
   },
   "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkLongSword": {
     "DarkSword.jpg": "https://wiki.warframe.com/images/DarkSword.jpg?b90f1",
@@ -10975,7 +10978,8 @@
     "NamiSoloIncarnonGenesis.png": "https://wiki.warframe.com/images/NamiSoloIncarnonGenesis.png?aa080"
   },
   "/Lotus/Weapons/Archon/Melee/DualDaggers/ArchonDualDaggersPlayerWep": {
-    "Nepheri.png": "https://wiki.warframe.com/images/Nepheri.png?24dbb"
+    "Nepheri.png": "https://wiki.warframe.com/images/Nepheri.png?24dbb",
+    "NiveusNepheriSkin.png": "https://wiki.warframe.com/images/NiveusNepheriSkin.png?6d2c3"
   },
   "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Katana": {
     "DexNikana.png": "https://wiki.warframe.com/images/DexNikana.png?3e3b7",
