@@ -42,12 +42,22 @@
   {
     "warframeName": "Citrine",
     "weaponName": "Steflos",
-    "bonus": "Citrine Steflos +40% Projectile Speed."
+    "bonus": "Citrine Citrine Prime Steflos Steflos Prime +40% Projectile Speed."
+  },
+  {
+    "warframeName": "Citrine",
+    "weaponName": "Steflos Prime",
+    "bonus": "Citrine Citrine Prime Steflos Steflos Prime +40% Projectile Speed."
   },
   {
     "warframeName": "Citrine",
     "weaponName": "Corufell",
-    "bonus": "Corufell +20% Heavy Attack Wind Up Speed."
+    "bonus": "Corufell Corufell Prime +20% Heavy Attack Wind Up Speed."
+  },
+  {
+    "warframeName": "Citrine",
+    "weaponName": "Corufell Prime",
+    "bonus": "Corufell Corufell Prime +20% Heavy Attack Wind Up Speed."
   },
   {
     "warframeName": "Cyte-09",

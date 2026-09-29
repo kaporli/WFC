@@ -3112,7 +3112,7 @@
   },
   "/Lotus/Upgrades/Mods/Rifle/Event/CritChanceWhileAimingRifleSPMod": {
     "GalvanizedScope.png": "https://wiki.warframe.com/images/GalvanizedScope.png?4ffef",
-    "GalvanizedScopeMod.png": "https://wiki.warframe.com/images/GalvanizedScopeMod.png?b4d2c"
+    "GalvanizedScopeMod.png": "https://wiki.warframe.com/images/GalvanizedScopeMod.png?c0465"
   },
   "/Lotus/Upgrades/Mods/Pistol/WeaponStatusChanceSPMod": {
     "GalvanizedShot.png": "https://wiki.warframe.com/images/GalvanizedShot.png?dc268",
@@ -5906,8 +5906,9 @@
     "SharpenedClawsMod.png": "https://wiki.warframe.com/images/SharpenedClawsMod.png?f1fc0"
   },
   "/Lotus/Upgrades/Mods/Rifle/EnergyOnHeadshotRifle": {
+    "PHSharpshooterMod.png": "https://wiki.warframe.com/images/PHSharpshooterMod.png?4931b",
     "Sharpshooter.png": "https://wiki.warframe.com/images/Sharpshooter.png?a53b3",
-    "SharpshooterMod.png": "https://wiki.warframe.com/images/SharpshooterMod.png?7b1f2"
+    "SharpshooterMod.png": "https://wiki.warframe.com/images/SharpshooterMod.png?b118a"
   },
   "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard": {
     "ShatterBurst.png": "https://wiki.warframe.com/images/ShatterBurst.png?50309",

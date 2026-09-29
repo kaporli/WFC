@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T03:06:14.808Z",
+  "lastUpdated": "2026-09-29T03:48:25.033Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_AWj3if2ga49ZXjqVO+-5IQ",
@@ -25,7 +25,7 @@
       "Module:Resources/data": 2812746,
       "Module:Void/data": 2812981,
       "Module:Acquisition/data": 2714600,
-      "Module:Blueprints/data": 2812504,
+      "Module:Blueprints/data": 2814104,
       "Module:Enemies/data": 2760100,
       "Module:Syndicates/data": 1741160,
       "Module:Research/data": 2707762,
@@ -38,7 +38,7 @@
     },
     "wikiPages": {
       "arcaneHelmet": "18277",
-      "archonShard": "43627"
+      "archonShard": "43612"
     }
   }
 }
