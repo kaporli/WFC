@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T03:40:00.889Z",
+  "lastUpdated": "2026-10-03T03:28:10.439Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_MF5sDpWD7PosDHldUdWmlA",
@@ -17,7 +17,7 @@
       "Module:Weapons/data/modular": 2812165,
       "Module:Weapons/data/misc": 2797735,
       "Module:Companions/data": 2730571,
-      "Module:Stances/data": 2814301,
+      "Module:Stances/data": 2815256,
       "Module:ScientiaStances/data": 2047331,
       "Module:Arcane/data": 2813627,
       "Module:Upgrades/data": 2238990,
