@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T03:28:10.439Z",
+  "lastUpdated": "2026-10-04T03:53:24.111Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_MF5sDpWD7PosDHldUdWmlA",
@@ -8,7 +8,7 @@
       "Module:Warframes/data": 2813610,
       "Module:Ability/data": 2813507,
       "Module:Ability/data/stats": 2281902,
-      "Module:Weapons/data/primary": 2813617,
+      "Module:Weapons/data/primary": 2815568,
       "Module:Weapons/data/secondary": 2813622,
       "Module:Weapons/data/melee": 2813282,
       "Module:Weapons/data/archwing": 2812152,
@@ -23,7 +23,7 @@
       "Module:Upgrades/data": 2238990,
       "Module:DamageTypes/data": 2814994,
       "Module:Resources/data": 2814376,
-      "Module:Void/data": 2815071,
+      "Module:Void/data": 2815688,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2814104,
       "Module:Enemies/data": 2760100,
