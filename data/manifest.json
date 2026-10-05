@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T03:53:24.111Z",
+  "lastUpdated": "2026-10-05T03:37:28.292Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_MF5sDpWD7PosDHldUdWmlA",
@@ -23,7 +23,7 @@
       "Module:Upgrades/data": 2238990,
       "Module:DamageTypes/data": 2814994,
       "Module:Resources/data": 2814376,
-      "Module:Void/data": 2815688,
+      "Module:Void/data": 2815770,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2814104,
       "Module:Enemies/data": 2760100,
