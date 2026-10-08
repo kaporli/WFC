@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T03:53:17.310Z",
+  "lastUpdated": "2026-10-08T04:05:30.856Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_MF5sDpWD7PosDHldUdWmlA",
@@ -22,7 +22,7 @@
       "Module:Arcane/data": 2813627,
       "Module:Upgrades/data": 2238990,
       "Module:DamageTypes/data": 2814994,
-      "Module:Resources/data": 2816326,
+      "Module:Resources/data": 2816767,
       "Module:Void/data": 2815770,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2814104,
@@ -38,7 +38,7 @@
     },
     "wikiPages": {
       "arcaneHelmet": "18277",
-      "archonShard": "43612"
+      "archonShard": "43651"
     }
   }
 }
