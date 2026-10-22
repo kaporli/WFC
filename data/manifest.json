@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T03:06:37.556Z",
+  "lastUpdated": "2026-10-22T03:09:27.839Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_FtAAUKgb6W6tkcdqlAFUqA",
@@ -22,7 +22,7 @@
       "Module:Arcane/data": 2813627,
       "Module:Upgrades/data": 2238990,
       "Module:DamageTypes/data": 2814994,
-      "Module:Resources/data": 2818765,
+      "Module:Resources/data": 2820444,
       "Module:Void/data": 2819171,
       "Module:Acquisition/data": 2714600,
       "Module:Blueprints/data": 2814104,
