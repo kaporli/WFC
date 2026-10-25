@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T03:01:59.955Z",
+  "lastUpdated": "2026-10-25T02:49:23.478Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_FtAAUKgb6W6tkcdqlAFUqA",
@@ -14,7 +14,7 @@
       "Module:Weapons/data/archwing": 2820920,
       "Module:Weapons/data/companion": 2820921,
       "Module:Weapons/data/railjack": 2817340,
-      "Module:Weapons/data/modular": 2812165,
+      "Module:Weapons/data/modular": 2821326,
       "Module:Weapons/data/misc": 2797735,
       "Module:Companions/data": 2730571,
       "Module:Stances/data": 2815256,
