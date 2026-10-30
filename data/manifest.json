@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T04:01:40.582Z",
+  "lastUpdated": "2026-10-30T04:03:30.824Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_FtAAUKgb6W6tkcdqlAFUqA",
@@ -29,7 +29,7 @@
       "Module:Enemies/data": 2760100,
       "Module:Syndicates/data": 1741160,
       "Module:Research/data": 2707762,
-      "Module:Vendors/data": 2821690,
+      "Module:Vendors/data": 2822301,
       "Module:Decrees/data": 2774719,
       "Module:Conservation/data": 2697330,
       "Module:Avionics/data": 2190683,
@@ -38,7 +38,7 @@
     },
     "wikiPages": {
       "arcaneHelmet": "18277",
-      "archonShard": "44187"
+      "archonShard": "44322"
     }
   }
 }
