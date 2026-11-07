@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T04:48:31.254Z",
+  "lastUpdated": "2026-11-07T04:13:55.884Z",
   "sourceVersions": {
     "wfcd": "1.1269.87",
     "publicExport": "00_FtAAUKgb6W6tkcdqlAFUqA",
@@ -21,7 +21,7 @@
       "Module:ScientiaStances/data": 2047331,
       "Module:Arcane/data": 2821105,
       "Module:Upgrades/data": 2238990,
-      "Module:DamageTypes/data": 2814994,
+      "Module:DamageTypes/data": 2823464,
       "Module:Resources/data": 2820444,
       "Module:Void/data": 2822040,
       "Module:Acquisition/data": 2714600,
